@@ -9,6 +9,13 @@
   top: 0;
   width: 100%;
   padding: 3rem;
+
+  > * {
+    display: inline-block;
+    padding: 0;
+    margin: 0 -4.4vw;
+  }
+
   @include media("screen", "<minWidth") {
     top: 4vh;
     line-height: 10vw;
@@ -17,15 +24,6 @@
   @include media("screen", ">maxWidth") {
     line-height: 10vw;
     font-size: 33vh;
-    > * {
-      margin: 0 -5vw;
-    }
-  }
-
-  > * {
-    display: inline-block;
-    padding: 0;
-    margin: 0 -4vw;
   }
 }
 
@@ -47,6 +45,9 @@
     color: hsla(12, 100%, 50%, .7);
     transition-delay: 0.1s;
     transform: rotateX(0deg);
+    .footer & {
+      color: hsla(0, 0%, 0%, .2);
+    }
   }
 }
 
@@ -69,6 +70,9 @@
     transition-delay: 0.1s;
     transform: rotateX(0deg);
     backface-visibility: visible;
+    .footer & {
+      color: hsla(0, 0%, 0%, .35);
+    }
   }
 }
 

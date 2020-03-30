@@ -1,4 +1,4 @@
-const pluginSass = require("eleventy-plugin-sass");
+const pluginSass = require('eleventy-plugin-sass');
 
 module.exports = function(eleventyConfig) {
   // sass
@@ -7,11 +7,12 @@ module.exports = function(eleventyConfig) {
   });
 
   // pass some assets right through
-  eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy('src/assets');
 
   // Aliases are in relation to the _includes folder
   eleventyConfig.addLayoutAlias('categories', 'layouts/categories.html');
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
+  eleventyConfig.addLayoutAlias('home', 'layouts/home.html');
   eleventyConfig.addLayoutAlias('images_author', 'layouts/images_author.html');
   eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
   eleventyConfig.addLayoutAlias('photographer', 'layouts/photographer.html');
@@ -29,10 +30,10 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      input: "./src/",
-      output: "./_site",
-      includes: "_includes",
-      data: "_data"
+      input: 'src',
+      includes: '_includes',
+      data: '._data',
+      output: '_site'
     }
   };
 }

@@ -29,3 +29,5 @@ fineartprints:
 - 190519-photo-rokma-early-works-10.jpg
 ---
 Early Works is a new black and white series. Focusing ephemerally on the modern living, its physical and mental spaces, the uncertainties of present time life, it loosely rendered life experiences of many of us.
+
+![early works 01](uploads/2019/05/190519-photo-rokma-early-works-01.jpg)

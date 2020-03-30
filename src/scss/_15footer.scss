@@ -25,17 +25,26 @@
   align-items: center;
   margin: 0 auto;
   max-width: 80%;
-  .qr  {
-    margin-top: 0;
-    margin-right: $vertical_rhythm--small/8;
-  }
   @include media("screen", ">bp1Width") {
     max-width: 50%;
-    .qr  {
-      margin-top: $vertical_rhythm--small/2;
+  }
+  .qr  {
+    margin-top: $vertical_rhythm--small/12;
+    margin-right: $vertical_rhythm--small/6;
+    @include media("screen", ">minWidth") {
+      margin-top: $vertical_rhythm--small/4;
+      margin-right: $vertical_rhythm--small/2;
+    }
+    @include media("screen", ">bp1Width") {
+      margin-top: $vertical_rhythm--small/6;
+      margin-right: $vertical_rhythm--small/2;
+    }
+    @include media("screen", ">maxWidth") {
+      margin-top: $vertical_rhythm--small/6;
       margin-right: $vertical_rhythm--small/2;
     }
   }
+
 
   svg:not(.vulcanologo) {
     width: $icon_size/1.5;

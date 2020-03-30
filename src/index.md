@@ -1,5 +1,5 @@
 ---
-layout: layouts/index.html
+layout: layouts/home.html
 role: "home" #necessary to append copyright in footer
 title: inda
 ---
