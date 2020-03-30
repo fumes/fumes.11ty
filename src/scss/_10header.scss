@@ -1,0 +1,51 @@
+//logo block
+.logo {
+  min-height: 56px;
+  padding-top: 1rem;
+  overflow: hidden;
+  .main_wrapper & {
+    border-bottom: 1px solid $grey_color_darkest;
+  }
+  .footer & {
+    border-bottom: 1px solid $twhite50;
+  }
+
+}
+
+.logo__title {
+  font-size: $base_font_size * 4;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: $small_line_height;
+  letter-spacing: -1px;
+  color: $white;
+  display: block;
+  position: relative;
+  left: 0;
+  min-height: 270px;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 0;
+
+  &:visited {
+    color: darken($white, 15%);
+  }
+
+  &:hover,
+  &:visited:hover {
+    color: lighten($grey_color, 15%);
+  }
+}
+
+.logo__subtitle {
+  font-size: $base_font_size*1.2;
+  line-height: $base_line_height;
+  text-align: center;
+  width: 100%;
+  color: white;
+
+  .main_wrapper & {
+    color: red;
+  }
+
+}

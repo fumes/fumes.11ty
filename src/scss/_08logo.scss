@@ -1,0 +1,81 @@
+.fumes {
+  background-color: transparent;
+  font-family: Helvetica;
+  text-align: center;
+  line-height: 10vw;
+  font-size: 43vh;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 3rem;
+  @include media("screen", "<minWidth") {
+    top: 4vh;
+    line-height: 10vw;
+    font-size: 33vh;
+  }
+  @include media("screen", ">maxWidth") {
+    line-height: 10vw;
+    font-size: 33vh;
+    > * {
+      margin: 0 -5vw;
+    }
+  }
+
+  > * {
+    display: inline-block;
+    padding: 0;
+    margin: 0 -4vw;
+  }
+}
+
+.f {
+  color: hsla(0, 100%, 100%, 0.15);
+  &:hover {
+    color: hsla(0, 100%, 100%, 0.3);
+    transition-delay: 0.1s;
+  }
+}
+
+.u {
+  color: hsla(0, 100%, 100%, 0.2);
+  transform: rotateX(180deg);
+  transform-origin: 50% 47%;
+  backface-visibility: visible;
+
+  &:hover {
+    color: hsla(12, 100%, 50%, .7);
+    transition-delay: 0.1s;
+    transform: rotateX(0deg);
+  }
+}
+
+.m {
+  color: hsla(0, 100%, 100%, 0.3);
+  &:hover {
+    color: hsla(0, 100%, 100%, 0.4);
+    transition-delay: 0.1s;
+  }
+}
+
+.e {
+  color: hsla(0, 100%, 100%, 0.1);
+  transform: rotateY(180deg);
+  transform-origin: 50% 50%;
+  backface-visibility: visible;
+
+  &:hover {
+    color: hsla(12, 100%, 50%, .9);
+    transition-delay: 0.1s;
+    transform: rotateX(0deg);
+    backface-visibility: visible;
+  }
+}
+
+.s {
+  color: hsla(0, 100%, 100%, 0.2);
+  &:hover {
+    color: hsla(0, 100%, 100%, 0.3);
+    transition-delay: 0.1s;
+  }
+}

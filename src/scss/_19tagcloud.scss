@@ -1,0 +1,61 @@
+.tagcloud_block {
+  border-top: darken($background_color, 20) 1px solid;
+  text-align: center;
+
+  a:hover {
+    color: $grey_color_darker;
+  }
+
+  .container {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      border: 0 none;
+    }
+  }
+}
+
+
+a[class*=set-] {
+  line-height: 28px;
+  white-space: nowrap;
+  @include media( "screen", ">minWidth") {
+    line-height: 34px;
+  }
+  &:after {
+    content: "\00a0";
+  }
+}
+
+.set-1 {
+  font-size: 95%;
+  @include media( "screen", ">minWidth") {
+    font-size: 100%;
+  }
+}
+.set-2 {
+  font-size: 110%;
+  @include media( "screen", ">minWidth") {
+    font-size: 125%;
+  }
+}
+.set-3 {
+  font-size: 120%;
+  @include media( "screen", ">minWidth") {
+    font-size: 150%;
+  }
+}
+.set-4 {
+  font-size: 130%;
+  @include media( "screen", ">minWidth") {
+    font-size: 175%;
+  }
+}
+.set-5 {
+  font-size: 140%;
+  @include media( "screen", ">minWidth") {
+    font-size: 200%;
+  }
+}

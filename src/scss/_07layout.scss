@@ -1,0 +1,48 @@
+//Wrapper
+.wrapper {
+    background-color: transparent;
+    max-width: -webkit-calc(#{$content_width} - (#{$spacing_unit}));
+    max-width:         calc(#{$content_width} - (#{$spacing_unit}));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing_unit / 2;
+    padding-left: $spacing_unit / 2;
+    @extend %clearfix;
+
+    @include media( "screen", ">bp1Width", "<maxWidth"){
+        max-width: -webkit-calc(#{$content_width} - (#{$spacing_unit} * 2));
+        max-width:         calc(#{$content_width} - (#{$spacing_unit} * 2));
+        padding-right: $spacing_unit;
+        padding-left: $spacing_unit;
+    }
+
+    @include media( "screen", ">maxWidth"){
+        max-width: -webkit-calc(#{$content_width} + (#{$spacing_unit} * 4));
+        max-width:         calc(#{$content_width} + (#{$spacing_unit} * 4));
+        padding-right: $spacing_unit * 3.3;
+        padding-left: $spacing_unit * 3.3;
+    }
+}
+
+//Page content
+.content {
+  background-color: $background_color;
+  padding: $spacing_unit 0;
+}
+
+//Universal components
+.ico {
+  width: $icon_size;
+  height: $icon_size;
+  position: relative;
+  svg {
+    position: absolute;
+    top:0;
+    left:0;
+  }
+}
+
+.author__meta svg.email {
+  width: 40px;
+  left: $spacing_unit/2;
+}

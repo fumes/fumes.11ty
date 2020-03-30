@@ -1,0 +1,15 @@
+<!-- tag-looper -->
+<div class="looper" >
+  <label>categories</label>
+  <div class="looper__ico" title="categories">
+    {% include partials/svg/use.html id="icn--categories" class="categories" %}
+  </div>
+  {% for category in site.categories %}
+
+    <a href="{{base_url}}/{{ category | first}}/">
+        {{ category | first }}
+    </a>
+    {% unless forloop.last %}, {% endunless %}
+
+  {% endfor %}
+</div>

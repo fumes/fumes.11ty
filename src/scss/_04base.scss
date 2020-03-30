@@ -1,0 +1,232 @@
+//Reset some basic elements
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+blockquote,
+body,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+ol,
+p,
+pre,
+ul {
+  margin: 0;
+  padding: 0;
+}
+// Basic styling
+
+html {
+  font-size: $base_font_size;
+  background-color: red;
+}
+
+body {
+  //background-color: $background_color;
+  font-family: $base_font_family;
+  font-size: $base_font_size;
+  line-height: $base_line_height;
+  font-weight: 300;
+  color: $text_color;
+  -webkit-text-size-adjust: 100%;
+}
+
+::-moz-selection {
+  color: red;
+}
+
+::selection {
+  color: red;
+}
+
+a::-moz-selection {
+  color: orange;
+}
+
+a::selection {
+  color: orange;
+}
+//Set `margin-bottom` to maintain vertical rhythm
+
+%vertical_rhythm,
+blockquote,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+pre,
+ul {
+  margin-bottom: $spacing_unit / 2;
+}
+//Images
+
+img {
+  vertical-align: middle;
+  margin-top:  $spacing_unit / 2;
+  margin-bottom: $spacing_unit / 2;
+  // chrome improved images
+  image-rendering: -webkit-optimize-contrast;
+}
+// Figures
+
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small_font_size;
+}
+//Lists
+
+ol,
+ul {
+  margin-left: $spacing_unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+//Blockquotes
+
+blockquote {
+  border-left: 3px solid $grey_color_dark;
+  padding-left: $spacing_unit / 3;
+  font-size: $base_font_size * 1.2;
+  letter-spacing: -1px;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+svg:not(.vulcanologo) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: $icon_color;
+
+  path {
+    fill: inherit;
+  }
+}
+//Code formatting
+
+code,
+pre {
+  font-size: $base_font_size * 1.1;
+  border: 1px solid $grey_color_light;
+  border-radius: 3px;
+  background-color: $black;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: scroll;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.capitalize,
+.capitalize > * {
+  text-transform: capitalize;
+}
+//hide stuff
+
+.hide {
+  display: none!important;
+}
+
+.hidden_for_itemprop {
+  display: block;
+  position: relative;
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+}
+//future print styles
+
+.qrcode {
+  display: none;
+}
+// when toggled and print
+
+.qrcode_showing .qrcode {
+  display: block;
+}
+@media print {
+  .qrcode {
+    display: block;
+  }
+}
+
+
+.main {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+
+  .fade {
+    -webkit-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    opacity: 0.2;
+  }
+}
+
+
+strong {
+  font-weight: 500;
+  color: white;
+}
+
+
+
+.show_on_phones {
+  @media (min-width: 600px) {
+    display: none!important;
+  }
+}
+
+.hide_on_phones {
+  @media (max-width: 600px) {
+    display: none!important;
+  }
+}
+
+// necessary for sticky footer
+.main_wrapper {
+  background-color: $background_color;
+  position: relative;
+  z-index: 1;
+}

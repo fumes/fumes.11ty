@@ -1,0 +1,35 @@
+//Headings
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  line-height: $small_line_height;
+}
+
+h1 {
+  font-size: $base_font_size * 1.40;
+}
+
+h2 {
+  font-size: $base_font_size * 1.35;
+}
+
+h3 {
+  font-size: $base_font_size * 1.25;
+}
+
+h4 {
+  font-size: $base_font_size * 1.15;
+}
+
+h5 {
+  font-size: $base_font_size * 1.05;
+}
+
+h6 {
+  font-size: $base_font_size;
+}

@@ -1,0 +1,18 @@
+// .button {
+//   margin-top: 1rem;
+//   margin-bottom: 1rem;
+//   border: solid 1px $alert_blue;
+//   a {
+//     width: auto;
+//     min-width: 0;
+//   }
+// }
+
+.button {
+  //a
+  border: solid 3px $alert_blue;
+  border-radius: $border_radius;
+  font-size: 140%;
+  font-weight: 500;
+  color: $alert_blue;
+}

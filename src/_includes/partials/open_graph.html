@@ -1,0 +1,84 @@
+
+<!-- Open Graph -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+
+	{% assign photographer = site.data.authors[page.photographer] %}
+	{% assign text_author = site.data.authors[page.text_author] %}
+	{% assign images_author = site.data.authors[page.images_author] %}
+
+	{% if page.photographer %}
+
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} by {{photographer.name}}{% if page.text_author %}{% if page.text_author != page.photographer %} and {{text_author.name}}{% endif %}{% endif %} {% else %}{{ site.title }}{% endif %}">
+
+	{% else %}
+	{% if page.images_author %}
+
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} by {{images_author.name}}{% if page.text_author %}{% if page.images_author != page.text_author %} and {{text_author.name}}{% endif %}%{% endif %} {% else %}{{ site.title }}{% endif %}">
+
+	{% endif %}
+
+	{% else %}
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} - review{% else %}{{ site.title }}{% endif %}">
+	{% endif %}
+
+	{% if page.thumb %}
+	<meta property="og:image" content="{{ site.url }}/assets/i/t/{{ page.thumb }}">
+	{% else %}
+	<meta property="og:image" content="{{ site.url }}/assets/i/t/fumesyousuck_thumb.jpg">
+	{% endif %}
+
+	{% if page.excerpt %}
+	<meta property="og:description" content="{%if page.excerpt%}{{page.excerpt|strip_html|strip_newlines|truncate:120}}{%else%}{{site.description}}{% endif%}">
+	{% endif %}
+
+	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+	<meta property="og:site_name" content="{{ site.title }}">
+
+
+
+<!-- Twitter Cards -->
+	{% if page.photographer %}
+
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }} by {{photographer.name}}{% if page.text_author %}{% if page.text_author != page.photographer %} and {{text_author.name}}{% endif %}{% endif %} {% else %}{{ site.title }}{% endif %}">
+
+	{% else %}
+	{% if page.images_author %}
+
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }} by {{images_author.name}}{% if page.text_author %}{% if page.images_author != page.text_author %} and {{text_author.name}}{% endif %}%{% endif %} {% else %}{{ site.title }}{% endif %}">
+
+	{% endif %}
+
+	{% else %}
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }} - review{% else %}{{ site.title }}{% endif %}">
+	{% endif %}
+
+
+	{% if page.excerpt %}
+	<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncatewords:30 }}">
+	{% else %}
+	<meta name="twitter:description" content="{{ site.description | strip_html | strip_newlines | truncatewords:15 }}">
+	{% endif %}
+
+	{% if site.owner.twitter %}
+	<meta name="twitter:site" content="@{{ site.owner.twitter }}">
+	{% endif %}
+
+	{% if page.photographer %}
+	{% assign photographer = site.data.authors[page.photographer] %}
+		{% if photographer.twitter %}
+		<meta name="twitter:creator" content="@{{ photographer.twitter }}">
+		{% endif %}
+	{% else %}
+		<meta name="twitter:creator" content="@{{ site.owner.twitter }}">
+	{% endif %}
+
+	{% if page.thumb %}
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image:src" content="{{ site.url }}/assets/i/t/{{ page.thumb }}">
+	{% else %}
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image:src" content="{{ site.url }}/assets/i/t/fumesyousuck_thumb.jpg">
+	{% endif %}
+
+	<meta name="description" content="{%if page.excerpt%}{{page.excerpt|strip_html|strip_newlines|truncate:120}}{%else%}{{site.description}}{% endif%}">

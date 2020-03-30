@@ -1,0 +1,134 @@
+---
+layout: default
+---
+
+{% assign text_author = site.data.authors[page.text_author] %}
+
+<div class="tagpage tagpage__title">
+
+  <span class="tagpage__ico" title="text author">
+    {% include partials/svg/use.html id="icn--speech" %}
+  </span>
+
+  <h1 class="page__title">{{ text_author.name | titlecase }}</h1>
+
+  <div class="author__metas">
+
+    {% if text_author.twitter %}
+    <div class="author__meta">
+      <a href="https://twitter.com/{{ text_author.twitter }}" title="twitter" target="_blank" rel="noopener">
+        <div class="ico author">{% include partials/svg/use.html id="icn--twitter" class="twitter" %}</div>
+        <span class="destination">{{ text_author.twitter }}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if text_author.instagram %}
+    <div class="author__meta">
+      <a href="https://instagram.com/{{ text_author.instagram }}" title="instagram" target="_blank" rel="noopener">
+        <div class="ico author">{% include partials/svg/use.html id="icn--instagram" class="instagram" %}</div>
+        <span class="destination">{{ text_author.instagram }}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if text_author.fbPage %}
+    <div class="author__meta">
+      <a href="https://facebook.com/{{ text_author.fbPage }}" title="facebook page" target="_blank" rel="noopener">
+        <div class="ico author">{% include partials/svg/use.html id="icn--facebook" class="facebook" %}</div>
+        <span class="destination">{{ text_author.fbPage }}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if text_author.fbProfile %}
+    <div class="author__meta">
+      <a href="https://facebook.com/{{ text_author.fbProfile }}" title="facebook profile" target="_blank" rel="noopener">
+        <div class="ico author">{% include partials/svg/use.html id="icn--facebook" class="facebook" %}</div>
+        <span class="destination">{{ text_author.fbProfile}}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if text_author.tumblr %}
+    <div class="author__meta">
+      <a href="http://{{ text_author.tumblr }}.tumblr.com/" title="tumblr" target="_blank" rel="noopener">
+        <div class="ico tumblr">{% include partials/svg/use.html id="icn--tumblr" class="tumblr" %}</div>
+        <span class="destination">{{ text_author.tumblr}}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if text_author.github %}
+    <div class="author__meta">
+      <a href="https://github.com/{{ text_author.github }}" title="github" target="_blank" rel="noopener">
+        <div class="ico github">{% include partials/svg/use.html id="icn--github" class="github" %}</div>
+        <span class="destination">{{ text_author.github }}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if text_author.web %}
+    <div class="author__meta">
+      <a rel="author" href="{{ text_author.web }}" title="{{ text_author.name }}" target="_blank" rel="noopener">
+        <div class="ico link">{% include partials/svg/use.html id="icn--link" class="link" %}</div>
+        <span class="destination">{{ text_author.web }}</span>
+      </a>
+    </div>
+    {% endif %}
+
+
+    {% if text_author.email %}
+    <div class="author__meta">
+      <a rel="author" href="mailto:{{ text_author.email }}" title="{{ text_author.email }}" target="_blank" rel="noopener">
+        <div class="ico link">{% include partials/svg/use.html id="icn--mail" class="email" %}</div>
+        <span class="destination">{{ text_author.email }}</span>
+      </a>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+
+{% if page.text_author == 'rokma' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.text_author == 'rokma' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+{% if page.text_author == 'james' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.text_author == 'james' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+{% if page.text_author == 'andrea' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.text_author == 'andrea' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+{% if page.text_author == 'jean' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.text_author == 'jean' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}

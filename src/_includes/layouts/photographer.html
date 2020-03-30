@@ -1,0 +1,166 @@
+---
+layout: default
+---
+
+{% assign photographer = site.data.authors[page.photographer] %}
+
+<div class="tagpage tagpage__title">
+
+  <span class="tagpage__ico" title="photographer">
+    {% include partials/svg/use.html id="icn--photographer" %}
+  </span>
+
+  <h1 class="page__title">{{ photographer.name | titlecase }}</h1>
+
+  <div class="photographer__metas">
+
+    {% if photographer.twitter %}
+    <div class="photographer__meta">
+      <a href="https://twitter.com/{{ photographer.twitter }}" title="twitter" target="_blank" rel="noopener">
+        <div class="ico photographer">{% include partials/svg/use.html id="icn--twitter" class="twitter" %}</div>
+        <span class="destination">{{ photographer.twitter }}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if photographer.instagram %}
+    <div class="photographer__meta">
+      <a href="https://instagram.com/{{ photographer.instagram }}" title="instagram" target="_blank" rel="noopener">
+        <div class="ico photographer">{% include partials/svg/use.html id="icn--instagram" class="instagram" %}</div>
+        <span class="destination">{{ photographer.instagram }}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if photographer.fbPage %}
+    <div class="photographer__meta">
+      <a href="https://facebook.com/{{ photographer.fbPage }}" title="facebook page" target="_blank" rel="noopener">
+        <div class="ico photographer">{% include partials/svg/use.html id="icn--facebook" class="facebook" %}</div>
+        <span class="destination">{{ photographer.fbPage }}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if photographer.fbProfile %}
+    <div class="photographer__meta">
+      <a href="https://facebook.com/{{ photographer.fbProfile }}" title="facebook profile" target="_blank" rel="noopener">
+        <div class="ico photographer">{% include partials/svg/use.html id="icn--facebook" class="facebook" %}</div>
+        <span class="destination">{{ photographer.fbProfile}}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if photographer.tumblr %}
+    <div class="photographer__meta">
+      <a href="http://{{ photographer.tumblr }}.tumblr.com/" title="tumblr" target="_blank" rel="noopener">
+        <div class="ico tumblr">{% include partials/svg/use.html id="icn--tumblr" class="tumblr" %}</div>
+        <span class="destination">{{ photographer.tumblr}}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if photographer.github %}
+    <div class="photographer__meta">
+      <a href="https://github.com/{{ photographer.github }}" title="github" target="_blank" rel="noopener">
+        <div class="ico github">{% include partials/svg/use.html id="icn--github" class="github" %}</div>
+        <span class="destination">{{ photographer.github }}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if photographer.web %}
+    <div class="photographer__meta">
+      <a rel="author" href="{{ photographer.web }}" title="{{ photographer.name }}" target="_blank" rel="noopener">
+        <div class="ico link">{% include partials/svg/use.html id="icn--link" class="link" %}</div>
+        <span class="destination">{{ photographer.web }}</span>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if photographer.email %}
+    <div class="author__meta">
+      <a rel="author" href="mailto:{{ photographer.email }}" title="{{ photographer.email }}" target="_blank" rel="noopener">
+        <div class="ico link">{% include partials/svg/use.html id="icn--mail" class="email" %}</div>
+        <span class="destination">{{ photographer.email }}</span>
+      </a>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+
+
+
+
+{% if page.photographer == 'rokma' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.photographer == 'rokma' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if page.photographer == 'alejandro' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.photographer == 'alejandro' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if page.photographer == 'luci' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.photographer == 'luci' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if page.photographer == 'lance' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.photographer == 'lance' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+{% if page.photographer == 'francesco' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.photographer == 'francesco' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+{% if page.photographer == 'melinda' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.photographer == 'melinda' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+{% if page.photographer == 'andrea' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if post.photographer == 'andrea' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}

@@ -1,0 +1,14 @@
+<!-- tag-looper -->
+<div class="looper" >
+  <label>tags</label>
+  <div class="looper__ico" title="tags">
+    {% include partials/svg/use.html id="icn--tags" class="tags" %}
+  </div>
+  {% for tag in site.tags %}
+
+    <a class="looper__link" style="font-size: {{tag|last|size|times: 1000|divided_by: site.tags.size|plus: 80}}%" href="/{{tag|first|slugize|downcase}}">
+      {{ tag | first }}
+    </a>
+
+  {% endfor %}
+</div>

@@ -1,0 +1,17 @@
+{% comment %}
+https://eduardoboucas.com/blog/2016/12/21/responsive-video-embeds-jekyll.html
+{% endcomment %}
+
+{% assign width = include.width | times: 1.0 %}
+{% assign height = include.height | times: 1.0 %}
+{% assign paddingBottom = height | divided_by: width | times: 100 %}
+
+<div class="video-holder" style="padding-bottom: {{ paddingBottom }}%">
+  <iframe width="{{ include.width }}"
+          height="{{ include.height }}"
+          src="{{ include.url }}"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen></iframe>
+</div>

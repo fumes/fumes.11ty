@@ -1,0 +1,76 @@
+//footer block
+
+.footer {
+  padding: $spacing_unit 0;
+  color: $black;
+
+  position: sticky;
+  bottom: 0;
+
+}
+
+
+.footer__description {
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-top: $vertical_rhythm;
+  color: $white;
+}
+
+.footer__socialicons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 80%;
+  .qr  {
+    margin-top: 0;
+    margin-right: $vertical_rhythm--small/8;
+  }
+  @include media("screen", ">bp1Width") {
+    max-width: 50%;
+    .qr  {
+      margin-top: $vertical_rhythm--small/2;
+      margin-right: $vertical_rhythm--small/2;
+    }
+  }
+
+  svg:not(.vulcanologo) {
+    width: $icon_size/1.5;
+    height: $icon_size/1.5;
+    fill: $black;
+    @include media("screen", ">minWidth") {
+      width: $icon_size;
+      height: $icon_size;
+    }
+
+
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: auto;
+    @include media("screen", ">minWidth") {
+      flex-basis: 130px;
+    }
+
+    margin: 1rem 0;
+    padding: 0 1vw;
+
+    font-size: $base_font_size/9*7;
+    color:  $black;
+
+    &:hover {
+      color:  $background_color;
+      svg {
+        fill:  $background_color;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,198 @@
+.fineartprint_block_wrap {
+  position: relative;
+  padding-top: 7rem;
+  padding-bottom: 0;
+  @include media("screen", ">minWidth") {
+   padding-bottom: 7rem;
+  }
+  @include media("screen", ">bp1Width") {
+   padding-bottom: 0;
+  }
+}
+.fineartprint_block {
+  margin-top: 7rem;
+  background-color: $offwhite;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  @include media("screen", ">maxWidth") {
+   flex-direction: row;
+   align-items: center;
+
+  }
+
+  .wrapper {
+    text-align: center;
+  }
+}
+
+.fineartprint_block_title {
+  line-height: unset;
+  line-height: 3;
+  font-size: 200%;
+  font-weight: 500;
+}
+
+.fineartprint_image_row {
+
+}
+
+
+$bg_shadow: rgba(135,128,135,1);
+
+.fineartprint_image {//img
+  display: block;
+  position: relative;
+  max-width: 27vw;
+  transform: rotate(45deg);
+  -webkit-box-shadow: -11px 10px 21px 2px $bg_shadow;
+  -moz-box-shadow: -11px 10px 21px 2px $bg_shadow;
+  box-shadow: -11px 10px 21px 2px $bg_shadow;
+}
+
+
+
+.fineartprint_image_block {
+  &:nth-child(1){
+    .fineartprint_image {
+      max-width: 40vw;
+      transform: rotate(-32deg);
+      left: 1rem;
+
+      .top & {top: -2rem;}
+      .bottom & {bottom: -20vw;}
+
+      @include media("screen", ">minWidth") {
+
+        max-width: 35vw;
+        transform: rotate(-28deg);
+      }
+      @include media("screen", ">bp1Width") {
+        left: auto;
+        max-width: 50vw;
+        .bottom & {bottom: 0;}
+      }
+    }
+  }
+  &:nth-child(2){
+    .fineartprint_image {
+      z-index: 1;
+      max-width: 50vw;
+      transform: rotate(-20deg);
+      outline: 10px white solid;
+      -webkit-box-shadow: -21px 20px 21px 2px rgba(135,128,135,1);
+      -moz-box-shadow: -21px 20px 21px 2px rgba(135,128,135,1);
+      box-shadow: -21px 20px 21px 2px rgba(135,128,135,1);
+
+      .top & {top: -2rem;}
+      .bottom & {bottom: -3rem;}
+
+
+      @include media("screen", ">minWidth") {
+        max-width: 45vw;
+        outline: 20px white solid;
+        -webkit-box-shadow: -30px 30px 21px 0px rgba(135,128,135,1);
+        -moz-box-shadow: -30px 30px 21px 0px rgba(135,128,135,1);
+        box-shadow: -30px 30px 21px 0px rgba(135,128,135,1);
+      }
+
+      @include media("screen", ">bp1Width") {
+        max-width: 40vw;
+        outline: 60px white solid;
+        -webkit-box-shadow: -70px 70px 21px 0px rgba(135,128,135,1);
+        -moz-box-shadow: -70px 70px 21px 0px rgba(135,128,135,1);
+        box-shadow: -70px 70px 21px 0px rgba(135,128,135,1);
+
+      }
+      @include media("screen", ">maxWidth") {
+        transform: rotate(-10deg);
+        outline: 80px white solid;
+        -webkit-box-shadow: -90px 90px 21px 0px rgba(135,128,135,1);
+        -moz-box-shadow: -90px 90px 21px 0px rgba(135,128,135,1);
+        box-shadow: -90px 90px 21px 0px rgba(135,128,135,1);
+
+      }
+    }
+  }
+  &:nth-child(3){
+    .fineartprint_image {
+      max-width: 40vw;
+      transform: rotate(35deg);
+      right: 2rem;
+
+      .bottom & {bottom: -5rem;}
+
+      @include media("screen", ">minWidth") {
+        max-width: 35vw;
+        right: 1rem;
+      }
+      @include media("screen", ">bp1Width") {
+        max-width: 40vw;
+        transform: rotate(15deg);
+        right: auto;
+      }
+    }
+  }
+}
+
+
+
+
+
+.fineartprint_images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  &.top {
+    top: -5rem;
+  }
+
+  &.bottom {
+    bottom: 0;
+  }
+
+  @include media("screen", ">minWidth") {
+    &.bottom {
+     bottom: -12rem;
+   }
+  }
+
+  @include media("screen", ">maxWidth") {
+   flex-direction: column;
+
+   &.top {
+     top: 0;
+     left: -5rem;
+   }
+
+   &.bottom {
+     top: 0;
+     right: -5rem;
+   }
+  }
+
+
+}
+
+
+
+
+.fineartprint_block_button {
+  margin-top: $spacing_unit;
+  a {
+    display: block;
+    min-height: 42px;
+    line-height: unset;
+    padding: 1rem;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a[target="_blank"]:before {
+    display: none!important;
+  }
+}

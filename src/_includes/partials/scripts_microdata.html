@@ -1,0 +1,56 @@
+{% if page.title %}
+{% capture post_title %}{{page.title}}{% endcapture %}
+{% else %}
+{% capture post_title %}Fumes: the camera as a microphone.{% endcapture %}
+{% endif %}
+
+{% if page.photographer %}
+{% assign photographer = site.data.photographers[page.photographer] %}
+{% capture post_photog %}{{photographer.name}}{% endcapture %}
+{% else %}
+{% capture post_photog %}{{site.owner.name}}{% endcapture %}
+{% endif %}
+
+{% if page.thumb %}
+{% capture post_image %}{{site.url}}/assets/i/t/{{page.thumb}}{% endcapture %}
+{% else %}
+{% capture post_image %}{{site.url}}/assets/i/t/fumesyousuck_thumb.jpg{% endcapture %}
+{% endif %}
+
+{% if page.layout == 'default-home' %}
+{% capture same_as %}https://plus.google.com/+FumesMagazine/{% endcapture %}
+{% else %}
+{% capture same_as %}http://fumes.junglestar.org/photographer/{{post_photog | downcase | replace: " ", "-"}}/{% endcapture %}
+{% endif %}
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "CreativeWork",
+    "image": "{{post_image}}",
+    "name": "{{post_title}}",
+    "creator": [
+        {
+          "@type": "Person",
+          "name": "{{post_photog}}",
+          "sameAs": "{{same_as}}"
+        }
+      ]
+  }
+</script>
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Fumes",
+    "parentOrganization": "Junglestar",
+    "url": "http://fumes.junglestar.org",
+    "sameAs": [
+      "https://www.facebook.com/fumesmagazine",
+      "https://twitter.com/fumesvoice",
+      "https://plus.google.com/+FumesMagazine/"
+    ]
+  }
+</script>

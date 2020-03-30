@@ -1,0 +1,31 @@
+<div class="home__post">
+
+  <a class="post-link {{ post.categories }}" href="{{ post.url | prepend: site.baseurl }}">
+
+    <h2>{{ post.data.title}}</h2>
+
+    <div class="thumb">
+
+      {% if post.data.thumb %}
+      <img loading="lazy" src="/assets/i/t/{{ post.data.thumb }}" alt="{{ post.data.title }}">
+      {% else %}
+      <img loading="lazy" class="nothumb" src="/assets/i/t/fumesyousuck_thumb.svg" alt="{{ post.data.title }}">
+      {% endif %}
+
+      {% capture time %}{{ post.content | reading_time }}{% endcapture %}
+      <div class="reading_time">
+        <em>Read in {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}</em>
+      </div>
+
+    </div>
+
+
+    {% if post.data.excerpt %}
+    <div class="excerpt">
+      {{ post.data.excerpt | strip_html | truncate: 160 }}
+    </div>
+    {% endif %}
+
+  </a>
+
+</div>
