@@ -15,7 +15,13 @@
   width: 100%;
   display: block;
   padding-top: $vertical_rhythm;
-  color: $white;
+  color: $black;
+  a {
+    color: $black;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .footer__socialicons {
