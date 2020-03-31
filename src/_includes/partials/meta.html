@@ -1,19 +1,19 @@
 <div class="post-metas">
 
   <div class="post-meta title">
-    <div class="ico">{% include partials/svg/use.html id="icn--post" class="posta" title="Fumes title" %}</div>
-    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="ico">{% include partials/svg/use.html id: "icn--post" class: "posta" title="Fumes title" %}</div>
+    <h1 class="post-title">{{ post.data.title }}</h1>
   </div>
 
 
-  {% if page.photographer %}
+  {% if post.data.photographer %}
   <div class="post-meta photographer">
 
-    <div class="ico">{% include partials/svg/use.html id="icn--photographer" class="photographer" title="photographer" %}</div>
+    <div class="ico">{% include partials/svg/use.html id: "icn--photographer" class: "photographer" title: "photographer" %}</div>
 
     <p class="photog">
       <span class="hide">Photography: </span>
-      {% assign photographer = site.data.authors[page.photographer] %}
+      {% assign photographer = site.data.authors[post.data.photographer] %}
 
       <a title="Photography by:" href="{{site.baseurl}}/photographer/{{ photographer.name | downcase | replace: ' ', '-' }}/">{{ photographer.name }}</a>
     </p>
@@ -22,14 +22,14 @@
   {% endif %}
 
 
-  {% if page.images_author %}
+  {% if page.data.images_author %}
   <div class="post-meta author">
 
-    <div class="ico">{% include partials/svg/use.html id="icn--photographer" class="photographer" title="photographer" %}</div>
+    <div class="ico">{% include partials/svg/use.html id: "icn--photographer" class: "photographer" title: "photographer" %}</div>
 
     <p class="photog">
       <span class="hide">Images author: </span>
-      {% assign images_author = site.data.authors[page.images_author] %}
+      {% assign images_author = site.data.authors[page.data.images_author] %}
 
       <a title="Images author:" href="{{site.baseurl}}/author/{{ images_author.name | downcase | replace: ' ', '-' }}/">{{ images_author.name }}</a>
     </p>
@@ -39,14 +39,14 @@
 
 
 
-  {% if page.text_author %}
+  {% if page.data.text_author %}
   <div class="post-meta author">
 
-    <div class="ico">{% include partials/svg/use.html id="icn--speech" class="text author" title="text author" %}</div>
+    <div class="ico">{% include partials/svg/use.html id: "icn--speech" class: "text author" title: "text author" %}</div>
 
     <p class="photog">
       <span class="hide">Text Author: </span>
-      {% assign text_author = site.data.authors[page.text_author] %}
+      {% assign text_author = site.data.authors[page.data.text_author] %}
 
       <a title="text author:" href="{{site.baseurl}}/author/{{ text_author.name | downcase | replace: ' ', '-' }}/">{{ text_author.name }}</a>
     </p>
@@ -57,37 +57,37 @@
 
   <div class="post-meta date">
     <div class="ico">
-      {% include partials/svg/use.html id="icn--date" class="date" title="published" %}
+      {% include partials/svg/use.html id: "icn--date" class: "date" title: "published" %}
     </div>
     <p class="date">
       <meta itemprop="datePublished" content="{{ page.date| date: "%F"}}">
-      <span class="hide">Published: </span>{{ page.date | date: "%B %d, %Y" }}</p>
+      <span class="hide">Published: </span>{{ page.data.date | date: "%B %d, %Y" }}</p>
   </div>
 
   {% if page.categories %}
   <div class="post-meta categories">
-    <div class="ico">{% include partials/svg/use.html id="icn--categories" class="categories"  title="filed in" %}</div>
+    <div class="ico">{% include partials/svg/use.html id: "icn--categories" class: "categories"  title: "filed in" %}</div>
     <p class="categories"><span class="hide">Filed under: </span>{% for cat in page.categories %}
       <a title="Filed under: " href="{{site.baseurl}}/{{cat|downcase|slugize}}/">{{ cat | titlecase }}</a>{% unless forloop.last %}, {% endunless %} {% endfor %}
     </p>
   </div>
   {% endif %}
 
-  {% if page.curator %}
+  {% if page.data.curator %}
   <div class="post-meta curator">
-    <div class="ico">{% include partials/svg/use.html id="icn--curator" class="curator" title="curator"  %}</div>
-    <p class="curator"><span class="hide">Curated by: </span> {{ page.curator | titlecase }}</p>
+    <div class="ico">{% include partials/svg/use.html id: "icn--curator" class: "curator" title: "curator"  %}</div>
+    <p class="curator"><span class="hide">Curated by: </span> {{ page.data.curator | titlecase }}</p>
   </div>
   {% endif %}
 
 
   <div class="post-meta tags">
     <div class="ico">
-      {% include partials/svg/use.html id="icn--tags" class="tag"  title="tags" %}
+      {% include partials/svg/use.html id: "icn--tags" class: "tag"  title: "tags" %}
     </div>
     <p class="tags" title="keywords: ">
       <span class="hide">Keywords: </span>
-      {% for tag in page.tags %}
+      {% for tag in page.data.tags %}
         <a href="{{site.baseurl}}/{{tag|downcase|slugize}}/">{{tag}}</a>
       {% endfor %}
     </p>
