@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home__posts">
-{% for post in site.posts limit:15 %}
+{%- for post in collections.all -%}
   {% include partials/index_post_block--excerpt.html %}
-{% endfor %}
+{%- endfor -%}
 </div>
