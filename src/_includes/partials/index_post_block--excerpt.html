@@ -1,6 +1,6 @@
 <div class="home__post">
 
-  <a class="post-link {{ post.categories }}" href="{{ post.url | prepend: site.baseurl }}">
+  <a class="post-link {{ post.categories }}" href="{{ post.url }}">
 
     <h2>{{ post.data.title}}</h2>
 
@@ -12,10 +12,10 @@
       <img loading="lazy" class="nothumb" src="/assets/i/t/fumesyousuck_thumb.svg" alt="{{ post.data.title }}">
       {% endif %}
 
-      {% capture time %}{{ post.content | reading_time }}{% endcapture %}
+      <!-- {% capture time %}{{ post.content | reading_time }}{% endcapture %}
       <div class="reading_time">
         <em>Read in {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}</em>
-      </div>
+      </div> -->
 
     </div>
 
