@@ -3,7 +3,9 @@ layout: default
 ---
 
 <div class="home__posts">
-{%- for post in collections.all -%}
+{%- assign posts = collections.all | reverse -%}
+
+{%- for post in posts limit:15 -%}
   {% include partials/index_post_block--excerpt.html %}
 {%- endfor -%}
 </div>
