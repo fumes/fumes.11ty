@@ -1,7 +1,7 @@
 ---
 published: true
 title: "Natisa Jones at Tony Raka"
-text_author: rokma
+text_author: #rokma
 photographer: rokma
 curator: rokma
 date: 2019-10-05

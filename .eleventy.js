@@ -4,16 +4,19 @@ const pluginSass = require("eleventy-plugin-sass");
 
 module.exports = function(eleventyConfig) {
 
+  //tags
+  eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
+
   //yaml curentlynot used
   // eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
 
   // sass
   eleventyConfig.addPlugin(pluginSass, {
-    watch: "src/scss/*.scss" // "single quotes" here do NO work ?!
+    watch: "./src/scss/*.scss" // "single quotes" here do NOT work ?!
   });
 
   // pass some assets right through
-  eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("./src/assets");
 
   // Aliases are in relation to the _includes folder
   eleventyConfig.addLayoutAlias("categories", "layouts/categories.html");
@@ -37,9 +40,9 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: "src",
-      includes: "_includes",
-      data: "_data",
-      output: "_site"
+      includes: "_includes", //default
+      data: "_data",//default
+      output: "_site"//default
     }
   };
 }
