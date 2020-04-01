@@ -3,7 +3,7 @@
 
   {% include partials/head.html %}
 
-  <body {% if post.data.role != 'home' %}class="has_default_license"{% endif %}>
+  <body {% if page.data.role != 'home' %}class="has_default_license"{% endif %}>
 
     <div class="main_wrapper">
 
@@ -11,7 +11,7 @@
 
       {% include partials/svg/defs.html %}
 
-      <main class="main {% if post.data.offwhite %}offwhite{% endif %}" role="main" id="main">
+      <main class="main {% if page.data.offwhite %}offwhite{% endif %}" role="main" id="main">
 
         <div class="content {% if page.data.categories %}{{ page.data.categories }}{% else %}index{% endif %} {% if page.data.offwhite %}offwhite_content{% endif %}">
 

@@ -1,8 +1,8 @@
 <div class="post-metas">
 
   <div class="post-meta title">
-    <div class="ico">{% include partials/svg/use.html id: "icn--post" class: "posta" title="Fumes title" %}</div>
-    <h1 class="post-title">{{ post.data.title }}</h1>
+    <div class="ico">{% include partials/svg/use.html id: "icn--post" class: "posta" title: "Fumes title" %}</div>
+    <h1 class="post-title">{{ title }}</h1>
   </div>
 
 
@@ -61,7 +61,7 @@
     </div>
     <p class="date">
       <meta itemprop="datePublished" content="{{ page.date| date: "%F"}}">
-      <span class="hide">Published: </span>{{ page.data.date | date: "%B %d, %Y" }}</p>
+      <span class="hide">Published: </span>{{ page.date | date: "%B %d, %Y" }}</p>
   </div>
 
   {% if page.categories %}
