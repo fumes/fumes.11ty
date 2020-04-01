@@ -30,9 +30,9 @@ layout: default
 
          </div>
 
-         {% if post.excerpt %}
+         {% if excerpt %}
          <div class="excerpt">
-           {{ post.excerpt | strip_html | truncate: 160 }}
+           {{ excerpt | strip_html | truncate: 160 }}
          </div>
          {% endif %}
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign photographer = site.data.authors[page.photographer] %}
+{% assign photographer = site.data.authors[photographer] %}
 
 <div class="tagpage tagpage__title">
 
@@ -92,51 +92,40 @@ layout: default
 
 
 
-{% if page.photographer == 'rokma' %}
+{% if photographer == 'rokma' %}
 <div class="home__posts">
   {% for post in site.posts %}
-    {% if post.photographer == 'rokma' %}
+    {% if photographer == 'rokma' %}
       {% include index_post_block--excerpt.html %}
     {% endif %}
   {% endfor %}
 </div>
 {% endif %}
 
-{% if page.photographer == 'alejandro' %}
+{% if photographer == 'alejandro' %}
 <div class="home__posts">
   {% for post in site.posts %}
-    {% if post.photographer == 'alejandro' %}
+    {% if photographer == 'alejandro' %}
       {% include index_post_block--excerpt.html %}
     {% endif %}
   {% endfor %}
 </div>
 {% endif %}
 
-{% if page.photographer == 'luci' %}
+{% if photographer == 'luci' %}
 <div class="home__posts">
   {% for post in site.posts %}
-    {% if post.photographer == 'luci' %}
+    {% if photographer == 'luci' %}
       {% include index_post_block--excerpt.html %}
     {% endif %}
   {% endfor %}
 </div>
 {% endif %}
 
-{% if page.photographer == 'lance' %}
+{% if photographer == 'lance' %}
 <div class="home__posts">
   {% for post in site.posts %}
-    {% if post.photographer == 'lance' %}
-      {% include index_post_block--excerpt.html %}
-    {% endif %}
-  {% endfor %}
-</div>
-{% endif %}
-
-
-{% if page.photographer == 'francesco' %}
-<div class="home__posts">
-  {% for post in site.posts %}
-    {% if post.photographer == 'francesco' %}
+    {% if photographer == 'lance' %}
       {% include index_post_block--excerpt.html %}
     {% endif %}
   {% endfor %}
@@ -144,10 +133,10 @@ layout: default
 {% endif %}
 
 
-{% if page.photographer == 'melinda' %}
+{% if photographer == 'francesco' %}
 <div class="home__posts">
   {% for post in site.posts %}
-    {% if post.photographer == 'melinda' %}
+    {% if photographer == 'francesco' %}
       {% include index_post_block--excerpt.html %}
     {% endif %}
   {% endfor %}
@@ -155,10 +144,21 @@ layout: default
 {% endif %}
 
 
-{% if page.photographer == 'andrea' %}
+{% if photographer == 'melinda' %}
 <div class="home__posts">
   {% for post in site.posts %}
-    {% if post.photographer == 'andrea' %}
+    {% if photographer == 'melinda' %}
+      {% include index_post_block--excerpt.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+{% if photographer == 'andrea' %}
+<div class="home__posts">
+  {% for post in site.posts %}
+    {% if photographer == 'andrea' %}
       {% include index_post_block--excerpt.html %}
     {% endif %}
   {% endfor %}

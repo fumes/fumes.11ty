@@ -3,12 +3,12 @@ layout: default
 ---
 <div class="tagpage tagpage__title">
   <span class="tagpage__ico" title="tag">{% include partials/svg/use.html id="icn--categories" %}</span>
-  <h1 class="page__title">{{ page.data.category | capitalize }}</h1>
+  <h1 class="page__title">{{ category | capitalize }}</h1>
 </div>
 
 <div class="tagpage home__posts">
-  {% if site.categories[page.data.category] %}
-    {% for post in site.categories[page.data.category] %}
+  {% if site.categories[category] %}
+    {% for post in site.categories[category] %}
      <div class="home__post" >
 
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
