@@ -5,6 +5,7 @@ text_author: rokma
 photographer: rokma
 curator: rokma
 date: 2019-10-05
+category: art
 tags:
 - photo-journalism
 - art   

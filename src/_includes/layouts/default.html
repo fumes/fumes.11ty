@@ -3,41 +3,41 @@
 
   {% include partials/head.html %}
 
-  <body {% if page.data.role != 'home' %}class="has_default_license"{% endif %}>
+  <body {% if post.data.role != 'home' %}class="has_default_license"{% endif %}>
 
     <div class="main_wrapper">
+
       {% include partials/header.html %}
 
+      {% include partials/svg/defs.html %}
 
-    {% include partials/svg/defs.html %}
+      <main class="main {% if post.data.offwhite %}offwhite{% endif %}" role="main" id="main">
 
-    <main class="main {% if page.data.offwhite %}offwhite{% endif %}" role="main" id="main">
+        <div class="content {% if page.data.categories %}{{ page.data.categories }}{% else %}index{% endif %} {% if page.data.offwhite %}offwhite_content{% endif %}">
 
-      <div class="content {% if page.data.categories %}{{ page.data.categories }}{% else %}index{% endif %} {% if page.data.offwhite %}offwhite_content{% endif %}">
-        <div class="wrapper">
-          {{ content | safe }}
+          <div class="wrapper">
+            {{ content | safe }}
+          </div>
+
+          {% if page.data.fineartprints %}
+           {% include partials/fineartprints_block.html %}
+          {% endif %}
+
         </div>
 
-        {% if page.data.fineartprints %}
-         {% include partials/fineartprints_block.html %}
+        {% if page.data.role != 'home' %}
+          {% include partials/nav--posts-all.html %}
+        {% else %}
+          {% include partials/nav--posts.html %}
         {% endif %}
 
-      </div>
+        {% include partials/nav--tags.html %}
 
+      </main>
 
-      {% if page.data.role != 'home' %}
-        {% include partials/nav--posts-all.html %}
-      {% else %}
-        {% include partials/nav--posts.html %}
+      {% if page.data.layout == 'post' %}
+        {% include partials/nav--horizzo-titled.html %}
       {% endif %}
-
-      {% include partials/nav--tags.html %}
-
-    </main>
-
-    {% if page.data.layout == 'post' %}
-      {% include partials/nav--horizzo-titled.html %}
-    {% endif %}
 
     </div>
 

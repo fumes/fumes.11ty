@@ -4,6 +4,7 @@ text_author:
 photographer: rokma
 curator: rokma
 date: 2019-05-19
+category: art
 tags:
   - art
   - beauty

@@ -4,6 +4,7 @@ text_author: jean
 photographer: rokma
 curator: rokma
 date: 2019-09-09
+category: photo-journalism
 tags:
   - photo-journalism
   - art   
