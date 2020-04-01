@@ -5,7 +5,7 @@
 
   {% if page.data.license != null and page.data.photographer != null %}
 
-    <div class="ico {{page.licence}}">{% include partials/svg/use.html id="icn--info" class="info" %}</div>
+    <div class="ico {{page.licence}}">{% include partials/svg/use.html id: "icn--info" class="info" %}</div>
 
     <div class="license_details">
 
@@ -22,7 +22,7 @@
 
   {% elsif page.data.license != null and page.data.images_author != null %}
 
-    <div class="ico {{page.licence}}">{% include partials/svg/use.html id="icn--info" class="info" %}</div>
+    <div class="ico {{page.licence}}">{% include partials/svg/use.html id: "icn--info" class="info" %}</div>
 
     <div class="license_details">
 
@@ -37,7 +37,7 @@
 
   {% elsif page.data.license == null and page.data.photographer != null %}
 
-    <div class="ico {{page.licence}}">{% include partials/svg/use.html id="icn--info" class="info" %}</div>
+    <div class="ico {{page.licence}}">{% include partials/svg/use.html id: "icn--info" class="info" %}</div>
 
     <div class="license_details">
 
@@ -52,7 +52,7 @@
 
   {% elsif page.data.license == null and page.data.images_author != null %}
 
-    <div class="ico {{page.licence}}">{% include partials/svg/use.html id="icn--info" class="info" %}</div>
+    <div class="ico {{page.licence}}">{% include partials/svg/use.html id: "icn--info" class="info" %}</div>
 
     <div class="license_details">
       <h5>All illustrations copyright &#169; {{ page.data.date | date: "%Y" }} - {{ "now" | date: '%Y' }} {{ illustrator.name }}.
@@ -67,7 +67,7 @@
 
   {% elsif page.data.license == null and page.data.photographer == null and page.illustrator == null %}
 
-    <div class="ico {{page.licence}}">{% include partials/svg/use.html id="icn--info" class="info" %}</div>
+    <div class="ico {{page.licence}}">{% include partials/svg/use.html id: "icn--info" class="info" %}</div>
 
     <div class="license_details">
       <h5>This Fumes article is released under {{ site.license }} license.
