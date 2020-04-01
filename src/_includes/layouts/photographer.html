@@ -2,15 +2,13 @@
 layout: default
 ---
 
-{% assign photographer = site.data.authors[photographer] %}
-
 <div class="tagpage tagpage__title">
 
   <span class="tagpage__ico" title="photographer">
-    {% include partials/svg/use.html id="icn--photographer" %}
+    {% include partials/svg/use.html, id: "icn--photographer" %}
   </span>
 
-  <h1 class="page__title">{{ photographer.name | titlecase }}</h1>
+  <h1 class="page__title">{{ page.fileSlug }}</h1>
 
   <div class="photographer__metas">
 

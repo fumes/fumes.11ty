@@ -13,9 +13,8 @@
 
     <p class="photog">
       <span class="hide">Photography: </span>
-      {% assign photographer = site.data.authors[photographer] %}
 
-      <a title="Photography by: {{ photographer.name }}" href="/photographer/{{ photographer.name | toLowerCase | replace: ' ', '-' }}/">{{ photographer.name }}</a>
+      <a title="Photography by: {{ photographer }}" href="/photographer/{{ photographer }}/">{{ photographer | titlecase }}</a>
     </p>
 
   </div>
@@ -31,7 +30,7 @@
       <span class="hide">Images author: </span>
       {% assign images_author = site.data.authors[images_author] %}
 
-      <a title="Images author: {{ images_author.name }}" href="{{site.baseurl}}/author/{{ images_author.name | downcase | replace: ' ', '-' }}/">{{ images_author.name }}</a>
+      <a title="Images author: {{ images_author.name }}" href="/author/{{ images_author.name | titlecase | replace: ' ', '-' }}/">{{ images_author.name }}</a>
     </p>
 
   </div>
@@ -48,7 +47,7 @@
       <span class="hide">Text Author: </span>
       {% assign text_author = site.data.authors[text_author] %}
 
-      <a title="text author:{{ text_author.name }}" href="{{site.baseurl}}/author/{{ text_author.name | downcase | replace: ' ', '-' }}/">{{ text_author.name }}</a>
+      <a title="text author:{{ text_author.name }}" href="/author/{{ text_author.name | titlecase | replace: ' ', '-' }}/">{{ text_author.name | titlecase }}</a>
     </p>
 
   </div>
@@ -68,7 +67,7 @@
   <div class="post-meta categories">
     <div class="ico">{% include partials/svg/use.html, id: "icn--categories" class: "categories" %}</div>
     <p class="categories"><span class="hide">Filed under: </span>
-      <a title="Filed under: {{ category }}" href="/{{ category }}/">{{ category }}</a>
+      <a title="Filed under: {{ category | titlecase }}" href="/{{ category | titlecase }}/">{{ category }}</a>
     </p>
   </div>
   {% endif %}

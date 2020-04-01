@@ -1,0 +1,52 @@
+{
+	"alejandro": {
+		"name": "Alejandro Plesch",
+		"twitter": "alejandroplesch",
+		"tumblr": "alejandroplesch",
+		"instagram": "alejandro_plesch"
+	},
+	"luci": {
+		"name": "Luci Ferrero",
+		"fbProfile": null,
+		"fbPage": "LFFL01",
+		"instagram": "luciferrero105"
+	},
+	"francesco": {
+		"name": "Francesco Mancini",
+		"fbProfile": "francesco.mancini1"
+	},
+	"lance": {
+		"name": "Lance Slabbert",
+		"instagram": "lanceslabbert"
+	},
+	"rokma": {
+		"name": "Rokma",
+		"web": "https://rokma.com",
+		"twitter": "rokmatwit",
+		"fbPage": "rokmaphotography",
+		"github": "toybreaker",
+		"instagram": "rokmaphotography"
+	},
+	"melinda": {
+		"name": "Melinda Hegedus",
+		"web": "https://melindahegedus.com",
+		"tumblr": "memememelinda",
+		"instagram": "memememelinda",
+		"fbProfile": "memememelinda",
+		"twitter": "memememelinda"
+	},
+	"james": {
+		"name": "James Fullwood",
+		"email": "indescrybable@gmail.com",
+		"web": "http://hkumath.hku.hk/~fullwood/"
+	},
+	"andrea": {
+		"name": "Andrea Capello",
+		"email": "andreacapello106@hotmail.com",
+		"instagram": "andrea.capello.27"
+	},
+	"jean": {
+		"name": "Jean Couteau",
+		"email": "jycouteau@gmail.com"
+	}
+}

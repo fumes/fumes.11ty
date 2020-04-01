@@ -1,11 +1,11 @@
 const pluginSass = require("eleventy-plugin-sass");
-const yaml = require("js-yaml");
+// const yaml = require("js-yaml"); //curently not used
 
 
 module.exports = function(eleventyConfig) {
-  
-  //yaml
-  eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+
+  //yaml curentlynot used
+  // eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
 
   // sass
   eleventyConfig.addPlugin(pluginSass, {

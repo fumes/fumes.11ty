@@ -1,8 +1,8 @@
 ---
 title: Nixon Park
 text_author:
-photographer: rokma
-curator: rokma
+photographer: Rokma
+curator: Rokma
 date: 2019-05-26
 category: photo-journalism
 tags:
