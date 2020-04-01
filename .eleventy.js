@@ -1,6 +1,12 @@
 const pluginSass = require("eleventy-plugin-sass");
+const yaml = require("js-yaml");
+
 
 module.exports = function(eleventyConfig) {
+  
+  //yaml
+  eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+
   // sass
   eleventyConfig.addPlugin(pluginSass, {
     watch: "src/scss/*.scss" // "single quotes" here do NO work ?!

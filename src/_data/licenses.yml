@@ -1,0 +1,19 @@
+MIT:
+  name: MIT licence
+  fullname:
+  url: 'http://opensource.org/licenses/MIT'
+
+CC_BY_NC_ND:
+  name: CC BY-NC-ND 3.0
+  fullname: Attribution-NonCommercial-NoDerivs 3.0 Unported
+  url: 'https://creativecommons.org/licenses/by-nc-nd/3.0/'
+
+CC0:
+  name: CC0 1.0
+  fullname: CC0 1.0 Universal - Public Domain Dedication
+  url: 'https://creativecommons.org/publicdomain/zero/1.0/'
+
+CC_BY:
+  name: CC BY
+  fullname: Attribution 4.0 International (CC BY 4.0)
+  url: 'http://opensource.org/licenses/MIT'

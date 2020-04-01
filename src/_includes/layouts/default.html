@@ -13,7 +13,7 @@
 
       <main class="main {% if page.data.offwhite %}offwhite{% endif %}" role="main" id="main">
 
-        <div class="content {% if page.data.categories %}{{ page.data.categories }}{% else %}index{% endif %} {% if page.data.offwhite %}offwhite_content{% endif %}">
+        <div class="content {% if page.data.category %}{{ page.data.category }}{% else %}index{% endif %} {% if page.data.offwhite %}offwhite_content{% endif %}">
 
           <div class="wrapper">
             {{ content | safe }}

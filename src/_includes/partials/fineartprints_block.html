@@ -5,7 +5,7 @@
       {% if page.fineartprints %}
         {% for print in page.fineartprints limit:3 %}
           <div class="fineartprint_image_block">
-            <img class="fineartprint_image" src="{{site.baseurl}}/assets/i/480/{{ print }}" alt="{{ page.title }}">
+            <img class="fineartprint_image" src="/assets/i/480/{{ print }}" alt="{{ page.title }}">
           </div>
         {% endfor %}
       {% endif %}
@@ -38,7 +38,7 @@
       {% if page.fineartprints %}
         {% for print in page.fineartprints offset:3 %}
           <div class="fineartprint_image_block">
-            <img class="fineartprint_image" src="{{site.baseurl}}/assets/i/480/{{ print }}" alt="{{ page.title }}">
+            <img class="fineartprint_image" src="/assets/i/480/{{ print }}" alt="{{ page.title }}">
           </div>
         {% endfor %}
       {% endif %}

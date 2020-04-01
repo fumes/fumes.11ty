@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "eleventy-plugin-sass": "^1.0.0"
+    "eleventy-plugin-sass": "^1.0.0",
+    "js-yaml": "^3.13.1"
   }
 }
