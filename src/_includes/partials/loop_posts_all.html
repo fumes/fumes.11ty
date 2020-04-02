@@ -5,9 +5,8 @@
     {% include partials/svg/use.html id: "icn--posts" class: "posts" %}
   </div>
 
-  {% for page in site.posts %}
-    {% if page.data.title %}
-    <a class="looper__link {{ category }}" href="{{ page.url }}">{{ title }}</a>
-    {% endif %}
-  {% endfor %}
+  {%- assign posts = collections.all | reverse -%}
+  {%- for post in posts -%}
+    <a class="looper__link {{ category }}" href="{{ post.url }}">{{ post.data.title }}</a>
+  {%- endfor -%}
 </div>
