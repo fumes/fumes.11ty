@@ -16,7 +16,18 @@ permalink: /{{ tag }}/
 <h1>Tagged “{{ tag }} ”</h1>
 
 {% set postslist = collections[ tag ] %}
-{% include "partials/index_post_block--excerpt.njk" %}
+
+
+<div class="home__post">
+
+  {% for post in postslist | reverse %}
+
+    {% include "partials/index_post_block--excerpt.njk" %}
+
+  {% endfor %}
+
+</div>
+
 
 
 <p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
