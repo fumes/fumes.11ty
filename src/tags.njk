@@ -13,20 +13,27 @@ renderData:
   title: Tagged “{{ tag }}”
 permalink: /{{ tag }}/
 ---
-<h1>Tagged “{{ tag }} ”</h1>
 
-{% set postslist = collections[ tag ] %}
+<div class="tagpage tagpage__title">
 
-<div class="home__post">
+  {# <span class="tagpage__ico">{% "include partials/svg/use.html", id: "icn--tag" %}</span> #}
 
-  {% for post in postslist | reverse %}
-
-    {% include "partials/index_post_block--excerpt.njk" %}
-
-  {% endfor %}
+  <h1 class="page__title">{{ tag }}</h1>
 
 </div>
 
+<div class="tagpage home__posts">
 
+{% set postslist = collections[ tag ] %}
 
-<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
+  <div class="home__post">
+
+    {% for post in postslist | reverse %}
+
+      {% include "partials/index_post_block--excerpt.njk" %}
+
+    {% endfor %}
+
+  </div>
+
+</div>

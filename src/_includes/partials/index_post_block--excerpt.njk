@@ -1,15 +1,21 @@
-<div class="home__post {{ post.data.category }}">
+<div class="home__post">
 
-  <a class="post-link " href="{{ post.url | url }}">
+  <a class="post-link {{ post.data.category }}" href="{{ post.url | url }}">
 
     <h2>{{ post.data.title }}</h2>
 
-    {% for tag in post.data.tags %}
+    {% if post.data.excerpt %}
+    <div class="excerpt">
+      {{ post.data.excerpt }}
+    </div>
+    {% endif %}
+
+    {# {% for tag in post.data.tags %}
       {%- if collections.tagList.indexOf(tag) != -1 -%}
       {% set tagUrl %}/{{ tag }}/{% endset %}
       <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
       {%- endif -%}
-    {% endfor %}
+    {% endfor %} #}
 
   </a>
 
