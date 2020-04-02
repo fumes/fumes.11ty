@@ -4,6 +4,8 @@
 
     <h2>{{ post.data.title }}</h2>
 
+    <img loading="lazy" src="/assets/i/t/{{ post.data.thumb }}" alt="{{ post.data.title }}">
+
     {% if post.data.excerpt %}
     <div class="excerpt">
       {{ post.data.excerpt }}
