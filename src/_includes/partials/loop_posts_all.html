@@ -2,12 +2,12 @@
 <div class="looper looper_all" >
   <label>posts</label>
   <div class="looper__ico" title="posts">
-    {% include partials/svg/use.html id="icn--posts" class="posts" %}
+    {% include partials/svg/use.html id: "icn--posts" class: "posts" %}
   </div>
 
   {% for page in site.posts %}
     {% if page.data.title %}
-    <a class="looper__link {{ page.data.category }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.data.title }}</a>
+    <a class="looper__link {{ category }}" href="{{ page.url }}">{{ title }}</a>
     {% endif %}
   {% endfor %}
 </div>

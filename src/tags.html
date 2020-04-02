@@ -1,0 +1,20 @@
+---
+layout: default
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /{{ tag }}/
+renderData:
+  title: Tagged “{{ tag }}”
+eleventyExcludeFromCollections: true
+---
+<!-- this not working -->
+<h1>Tagged “{{ tag }}”</h1>
+
+<ol>
+{% assign taglist = collections[page.data.tag ] %}
+{% for item in taglist %}
+  <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+{% endfor %}
+</ol>
