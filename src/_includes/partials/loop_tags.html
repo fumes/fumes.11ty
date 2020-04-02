@@ -4,11 +4,10 @@
   <div class="looper__ico" title="tags">
     {% include partials/svg/use.html id: "icn--tags" class: "tags" %}
   </div>
-  {% for tag in site.tags %}
 
-    <a class="looper__link" style="font-size: {{tag|last|size|times: 1000|divided_by: site.tags.size|plus: 80}}%" href="/{{tag|first|slugize|downcase}}">
-      {{ tag | first }}
-    </a>
-
+  {% for tag in collections.tagList %}
+    {% capture tagUrl %}/{{ tag }}/{% endcapture %}
+    <a class="looper__link" style="font-size: {{tag|size|times: 200|divided_by: collections.tagList.size|plus: 80}}%" href="{{ tagUrl | url }}" >{{ tag }}</a>
   {% endfor %}
+
 </div>

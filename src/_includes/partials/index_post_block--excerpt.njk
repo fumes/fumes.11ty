@@ -1,9 +1,8 @@
-<div class="home__post {{ post.data.category }}{% if post.url == url %} home__post--active{% endif %} ">
+<div class="home__post {{ post.data.category }}">
 
   <a class="post-link " href="{{ post.url | url }}">
 
     <h2>{{ post.data.title }}</h2>
-
 
     {% for tag in post.data.tags %}
       {%- if collections.tagList.indexOf(tag) != -1 -%}
