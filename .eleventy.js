@@ -44,5 +44,8 @@ module.exports = function(eleventyConfig) {
       data: "_data",//default
       output: "_site"//default
     }
+    ,
+    templateFormats : ["njk", "md", "liquid"],
+    htmlTemplateEngine : "liquid"
   };
 }

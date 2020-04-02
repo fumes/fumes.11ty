@@ -13,8 +13,10 @@ eleventyExcludeFromCollections: true
 <h1>Tagged “{{ tag }}”</h1>
 
 <ol>
-{% assign taglist = collections[page.data.tag ] %}
-{% for item in taglist %}
-  <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+{% assign taglist = collection[ tag ] %}
+{% for post in taglist %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ol>
+
+<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

@@ -1,17 +1,23 @@
 {
   "name": "fumes11ty",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "test porting Fumes from Jekyll to 11ty",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "author": {
+    "name": "Zach Leatherman",
+    "email": "zachleatherman@gmail.com",
+    "url": "https://zachleat.com/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "eleventy-plugin-sass": "^1.0.0",
-    "js-yaml": "^3.13.1"
+    "eleventy-plugin-sass": "^1.0.0"
   }
 }
