@@ -2,25 +2,17 @@
 <div class="looper looper_32" >
   <label>posts</label>
   <div class="looper__ico" title="posts">
-    {% include partials/svg/use.html id="icn--posts" class="posts" %}
+    {% include partials/svg/use.html id: "icn--posts" class: "posts" %}
   </div>
-  <div class="looper__links">
-  {% for page in site.posts offset:15 %}
-    {% if page.title %}
-    <a class="looper__link {{ page.categories }}" href="{{ page.url | prepend: site.baseurl }}">
 
-      <div class="small thumb">
+  {%- assign posts = collections.all | reverse -%}
+  {%- for post in posts offset:3 -%}
+    <a class="looper__link {{ category }}" href="{{ post.url }}">
 
-        {% if page.thumb %}
-        <img loading="lazy" src="{{site.baseur}}/assets/i/tt/{{ page.thumb }}" alt="{{ page.title }}">
-        {% else %}
-        <img loading="lazy" class="nothumb" src="{{site.baseur}}/assets/i/t/fumesyousuck_thumb.svg" alt="{{ page.title }}">
-        {% endif %}
+      {{ post.data.title }}
 
-      </div>
-      <div class="small title">{{ page.title }}</div>
     </a>
-    {% endif %}
-  {% endfor %}
+  {%- endfor -%}
+
   </div>
 </div>
