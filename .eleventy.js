@@ -1,14 +1,16 @@
 const pluginSass = require("eleventy-plugin-sass");
-// const yaml = require("js-yaml"); //curently not used
 
 
 module.exports = function(eleventyConfig) {
 
-  //tags
+  //tags as in 11ty base repo
   eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
-  //yaml curentlynot used
-  // eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+  //list of tags with count per tag - candy
+  eleventyConfig.addCollection("tagCount", require("./src/_11ty/tagCounter"));
+
+  //list of posts per tag - candy
+  eleventyConfig.addCollection("tagListPosts", require("./src/_11ty/tagListPosts"));
 
   // sass
   eleventyConfig.addPlugin(pluginSass, {
@@ -45,7 +47,7 @@ module.exports = function(eleventyConfig) {
       output: "_site"//default
     }
     ,
-    templateFormats : ["njk", "md", "liquid"],
+    templateFormats : ["njk", "md", "liquid", "html"],
     htmlTemplateEngine : "liquid"
   };
 }

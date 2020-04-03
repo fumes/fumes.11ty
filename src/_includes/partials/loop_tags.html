@@ -6,8 +6,8 @@
   </div>
 
   {% for tag in collections.tagList %}
-    {% capture tagUrl %}/{{ tag }}/{% endcapture %}
-    <a class="looper__link" style="font-size: {{tag|size|times: 200|divided_by: collections.tagList.size|plus: 80}}%" href="{{ tagUrl | url }}" >{{ tag }}</a>
+  {% capture tagUrl %}/{{ tag }}/{% endcapture %}
+    <a class="looper__link {{tag}} " href="{{ tagUrl | url }}" >{{ tag }}</a>
   {% endfor %}
 
 </div>
