@@ -6,20 +6,17 @@ module.exports = function(collection) {
         if( typeof tags === "string" ) {
           tags = [tags];
         }
-  
+
         tags = tags.filter(function(item) {
           switch(item) {
             case "all":
-            case "nav":
-            case "post":
-            case "photo":
-            case "posts":
+            case "taglist":
               return false;
           }
-  
+
           return true;
         });
-  
+
         for (const tag of tags) {
             if (tagCountMap.has(tag)) {
                 cnt = tagCountMap.get(tag);
@@ -31,7 +28,7 @@ module.exports = function(collection) {
       }
     });
     //val sort desc
-    //return new Map([...tagCountMap.entries()].sort((a, b) => b[1] - a[1])); 
+    //return new Map([...tagCountMap.entries()].sort((a, b) => b[1] - a[1]));
     //key sort asc
-    return new Map([...tagCountMap.entries()].sort()); 
+    return new Map([...tagCountMap.entries()].sort());
   };
