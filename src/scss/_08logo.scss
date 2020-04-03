@@ -3,7 +3,7 @@
   min-height: 56px;
   padding-top: 1rem;
   overflow: hidden;
-  .main_wrapper & {
+  .body_wrapper & {
     border-bottom: 1px solid $grey_color_darkest;
   }
   .footer & {
@@ -55,7 +55,7 @@
   }
 
 
-  .main_wrapper & {
+  .body_wrapper & {
     color: red;
   }
 

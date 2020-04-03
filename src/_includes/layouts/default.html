@@ -5,7 +5,7 @@
 
   <body {% if role != "home" %}class="has_default_license"{% endif %}>
 
-    <div class="main_wrapper">
+    <div class="body_wrapper">
 
       <div class="header">
         {% include partials/logo.html %}
@@ -13,7 +13,7 @@
 
       {% include partials/svg/defs.html %}
 
-      <main class="main {% if offwhite %}offwhite{% endif %}" role="main" id="main">
+      <div class="main {% if offwhite %}offwhite{% endif %}" role="main" id="main">
 
         <div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %}">
 
@@ -35,7 +35,7 @@
 
         {% include partials/nav--tags.html %}
 
-      </main>
+      </div>
 
       {% if layout == 'post' %}
         {% include partials/nav--horizzo-titled.html %}
