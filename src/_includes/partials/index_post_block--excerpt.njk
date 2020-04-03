@@ -4,7 +4,17 @@
 
     <h2>{{ post.data.title }}</h2>
 
-    <img loading="lazy" src="/assets/i/t/{{ post.data.thumb }}" alt="{{ post.data.title }}">
+    <div class="thumb">
+
+      {% if post.data.thumb %}
+      <img loading="lazy" src="/assets/i/t/{{ post.data.thumb }}" alt="{{ post.data.title }}">
+      {% else %}
+      <img loading="lazy" class="nothumb" src="/assets/i/t/fumesyousuck_thumb.svg" alt="{{ post.data.title }}">
+      {% endif %}
+
+    </div>
+
+
 
     {% if post.data.excerpt %}
     <div class="excerpt">

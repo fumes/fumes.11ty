@@ -23,13 +23,13 @@
   float: left;
   margin: 0 0 1.5rem;
   max-width: 100%;
-  @include media("screen", ">minWidth") {
+  @include media("screen", ">bp1Width") {
     -webkit-flex-basis: 47%;
     -ms-flex-preferred-size: 47%;
     flex-basis: 47%;
     margin-right: 1.666%;
   }
-  @include media("screen", ">bp1Width") {
+  @include media("screen", ">maxWidth") {
     -webkit-flex-basis: 32%;
     -ms-flex-preferred-size: 32%;
     flex-basis: 32%;

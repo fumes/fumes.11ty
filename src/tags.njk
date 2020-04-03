@@ -24,16 +24,12 @@ permalink: /{{ tag }}/
 
 <div class="tagpage home__posts">
 
-{% set postslist = collections[ tag ] %}
+  {% set postslist = collections[ tag ] %}
 
-  <div class="home__post">
+  {% for post in postslist | reverse %}
 
-    {% for post in postslist | reverse %}
+    {% include "partials/index_post_block--excerpt.njk" %}
 
-      {% include "partials/index_post_block--excerpt.njk" %}
-
-    {% endfor %}
-
-  </div>
+  {% endfor %}
 
 </div>
