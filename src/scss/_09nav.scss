@@ -76,6 +76,8 @@ nav {
   @extend %no_select;
   background-color: transparent;
   padding: 0.75rem;
+  margin-left: 1px;
+  margin-right: 1px;
   border: 1px solid transparent;
   border-radius: 3px;
   line-height: 48px;
@@ -89,9 +91,19 @@ nav {
   }
 
   &:hover {
+    color: $alert_color;
     border: 1px solid $alert_color;
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
+  }
+  &.active {
+    color: $brand_red;
+    border: 1px solid $brand_red;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    &:hover {
+      color: $brand_red;
+    }
   }
 
   .nav--tags & {

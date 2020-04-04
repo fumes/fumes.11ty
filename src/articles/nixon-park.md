@@ -8,18 +8,15 @@ category: photo-journalism
 tags:
   - article
   - photo-journalism
-  - personal-works
-  - celebration
   - fun
   - life
   - culture
-  - beauty
+  - report
   - lifestyle
   - photography
   - New-Zealand
   - skateboarding
   - street-art
-  - visual
   - fine-art-prints
 license: CC_BY_NC_ND
 thumb: nixon-park.jpg
