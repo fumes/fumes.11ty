@@ -1,6 +1,6 @@
 ---
 title: "Love and Erotic Art"
-text_author: Jean Coteau
+text_author: Jean Couteau
 photographer: rokma #need lowercase
 curator: rokma #need lowercase
 date: 2019-09-09
