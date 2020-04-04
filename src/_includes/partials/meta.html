@@ -86,8 +86,8 @@
     </div>
     <p class="tags">
       <span class="hide">Keywords: </span>
-      {% for tag in page.data.tags %}
-        <a href="/{{tag|downcase|slugize}}/">{{tag}}</a>
+      {% for tag in tags %}
+        <a href="/{{tag}}/">{{tag}}</a>
       {% endfor %}
     </p>
   </div>
