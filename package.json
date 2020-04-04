@@ -8,16 +8,12 @@
     "serve": "eleventy --serve",
     "debug": "DEBUG=* eleventy"
   },
-  "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
-  },
-  "keywords": [],
   "author": "",
+  "keywords": [],
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
+    "eleventy-plugin-reading-time": "0.0.1",
     "eleventy-plugin-sass": "^1.0.0"
   }
 }

@@ -93,9 +93,15 @@
 
 .f {
   color: hsla(0, 100%, 100%, 0.15);
+  .footer & {
+    color: hsla(0, 0%, 0%, .3);
+  }
   &:hover {
     color: hsla(0, 100%, 100%, 0.3);
     transition-delay: 0.1s;
+    .footer & {
+      color: hsla(0, 0%, 0%, .2);
+    }
   }
 }
 
@@ -104,22 +110,31 @@
   transform: rotateX(180deg);
   transform-origin: 50% 47%;
   backface-visibility: visible;
+  .footer & {
+    color: hsla(0, 0%, 0%, .1);
+  }
 
   &:hover {
     color: hsla(12, 100%, 50%, .7);
     transition-delay: 0.1s;
     transform: rotateX(0deg);
     .footer & {
-      color: hsla(0, 0%, 0%, .2);
+      color: hsla(0, 0%, 0%, .5);
     }
   }
 }
 
 .m {
   color: hsla(0, 100%, 100%, 0.3);
+  .footer & {
+    color: hsla(0, 0%, 0%, .25);
+  }
   &:hover {
     color: hsla(0, 100%, 100%, 0.4);
     transition-delay: 0.1s;
+    .footer & {
+      color: hsla(0, 0%, 0%, .15);
+    }
   }
 }
 
@@ -128,6 +143,9 @@
   transform: rotateY(180deg);
   transform-origin: 50% 50%;
   backface-visibility: visible;
+  .footer & {
+    color: hsla(0, 0%, 0%, .2);
+  }
 
   &:hover {
     color: hsla(12, 100%, 50%, .9);
@@ -135,15 +153,21 @@
     transform: rotateX(0deg);
     backface-visibility: visible;
     .footer & {
-      color: hsla(0, 0%, 0%, .35);
+      color: hsla(0, 0%, 0%, .4);
     }
   }
 }
 
 .s {
   color: hsla(0, 100%, 100%, 0.2);
+  .footer & {
+    color: hsla(0, 0%, 0%, .2);
+  }
   &:hover {
     color: hsla(0, 100%, 100%, 0.3);
     transition-delay: 0.1s;
+    .footer & {
+      color: hsla(0, 0%, 0%, .1);
+    }
   }
 }

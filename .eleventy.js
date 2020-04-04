@@ -1,6 +1,5 @@
 const pluginSass = require("eleventy-plugin-sass");
 
-
 module.exports = function(eleventyConfig) {
 
   //tags as in 11ty base repo
