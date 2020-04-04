@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% assign text_author = site.data.authors[text_author] %}
-
 <div class="tagpage tagpage__title">
 
   <span class="tagpage__ico" title="text author">
@@ -16,7 +14,7 @@ layout: default
 
     {% if twitter %}
     <div class="author__meta">
-      <a href="https://twitter.com/{{ twitter }}" title="twitter" target="_blank" rel="noopener">
+      <a href="https://twitter.com/{{ twitter }}" title="{{ page.fileSlug }}'s Twitter" target="_blank" rel="noopener">
         <div class="ico author">{% include partials/svg/use.html id: "icn--twitter" class: "twitter" %}</div>
         <span class="destination">{{ twitter }}</span>
       </a>
@@ -25,7 +23,7 @@ layout: default
 
     {% if instagram %}
     <div class="author__meta">
-      <a href="https://instagram.com/{{ instagram }}" title="instagram" target="_blank" rel="noopener">
+      <a href="https://instagram.com/{{ instagram }}" title="{{ page.fileSlug }}'s Instagram" target="_blank" rel="noopener">
         <div class="ico author">{% include partials/svg/use.html id: "icn--instagram" class: "instagram" %}</div>
         <span class="destination">{{ instagram }}</span>
       </a>
@@ -34,7 +32,7 @@ layout: default
 
     {% if fbPage %}
     <div class="author__meta">
-      <a href="https://facebook.com/{{ fbPage }}" title="facebook page" target="_blank" rel="noopener">
+      <a href="https://facebook.com/{{ fbPage }}" title="{{ page.fileSlug }}'s Facebook page" target="_blank" rel="noopener">
         <div class="ico author">{% include partials/svg/use.html id: "icn--facebook" class: "facebook" %}</div>
         <span class="destination">{{ fbPage }}</span>
       </a>
@@ -43,7 +41,7 @@ layout: default
 
     {% if fbProfile %}
     <div class="author__meta">
-      <a href="https://facebook.com/{{ fbProfile }}" title="facebook profile" target="_blank" rel="noopener">
+      <a href="https://facebook.com/{{ fbProfile }}" title="{{ page.fileSlug }}'s  Facebook profile" target="_blank" rel="noopener">
         <div class="ico author">{% include partials/svg/use.html id: "icn--facebook" class: "facebook" %}</div>
         <span class="destination">{{ fbProfile}}</span>
       </a>
@@ -52,7 +50,7 @@ layout: default
 
     {% if tumblr %}
     <div class="author__meta">
-      <a href="http://{{ tumblr }}.tumblr.com/" title="tumblr" target="_blank" rel="noopener">
+      <a href="http://{{ tumblr }}.tumblr.com/" title="{{ page.fileSlug }}'s Tumblr" target="_blank" rel="noopener">
         <div class="ico tumblr">{% include partials/svg/use.html id: "icn--tumblr" class: "tumblr" %}</div>
         <span class="destination">{{ tumblr}}</span>
       </a>
@@ -61,7 +59,7 @@ layout: default
 
     {% if github %}
     <div class="author__meta">
-      <a href="https://github.com/{{ github }}" title="github" target="_blank" rel="noopener">
+      <a href="https://github.com/{{ github }}" title="{{ page.fileSlug }}'s  Github" target="_blank" rel="noopener">
         <div class="ico github">{% include partials/svg/use.html id: "icn--github" class: "github" %}</div>
         <span class="destination">{{ github }}</span>
       </a>
@@ -70,7 +68,7 @@ layout: default
 
     {% if web %}
     <div class="author__meta">
-      <a rel="author" href="{{ web }}" title="{{ name }}" target="_blank" rel="noopener">
+      <a rel="author" href="{{ web }}" title="{{ page.fileSlug }}'s website" target="_blank" rel="noopener">
         <div class="ico link">{% include partials/svg/use.html id: "icn--link" class: "link" %}</div>
         <span class="destination">{{ web }}</span>
       </a>
@@ -80,7 +78,7 @@ layout: default
 
     {% if email %}
     <div class="author__meta">
-      <a rel="author" href="mailto:{{ email }}" title="e-mail" target="_blank" rel="noopener">
+      <a rel="author" href="mailto:{{ email }}" title="{{ page.fileSlug }}'s e-mail" target="_blank" rel="noopener">
         <div class="ico link">{% include partials/svg/use.html id: "icn--mail" class: "email" %}</div>
         <span class="destination">{{ email }}</span>
       </a>

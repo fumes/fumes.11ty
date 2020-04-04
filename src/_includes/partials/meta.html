@@ -14,7 +14,7 @@
     <p class="photog">
       <span class="hide">Photography: </span>
 
-      <a title="Photography by: {{ photographer }}" href="/photographer/{{ photographer }}/">{{ photographer | titlecase }}</a>
+      <a title="Photography by: {{ photographer }}" href="/photographer/{{ photographer | downcase }}/">{{ photographer | capitalize }}</a>
     </p>
 
   </div>

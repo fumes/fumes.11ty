@@ -1,7 +1,7 @@
 ---
 title: Skin Works
 text_author:
-photographer: rokma
+photographer: rokma #need lowercase
 curator: rokma
 date: 2019-05-19
 category: art

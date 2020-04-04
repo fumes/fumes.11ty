@@ -2,7 +2,7 @@
 published: true
 title: "Natisa Jones at Tony Raka"
 text_author: #rokma
-photographer: rokma
+photographer: rokma #need lowercase
 curator: rokma
 date: 2019-10-05
 category: art #put this one also as first tag
