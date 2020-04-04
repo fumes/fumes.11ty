@@ -45,9 +45,8 @@
 
     <p class="photog">
       <span class="hide">Text Author: </span>
-      {% assign text_author = site.data.authors[text_author] %}
 
-      <a title="text author:{{ text_author.name }}" href="/author/{{ text_author.name | titlecase | replace: ' ', '-' }}/">{{ text_author.name | titlecase }}</a>
+      <a title="text author:{{ text_author.name }}" href="/author/{{ text_author | downcase | replace: ' ', '-' }}/">{{ text_author }}</a>
     </p>
 
   </div>
