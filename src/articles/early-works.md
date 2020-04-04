@@ -4,7 +4,7 @@ text_author:
 photographer: rokma
 curator: rokma
 date: 2019-05-19
-category: art
+category: art #put this one also as first tag
 tags:
   - art
   - artist

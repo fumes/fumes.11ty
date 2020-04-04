@@ -4,7 +4,7 @@ text_author: Jean Coteau
 photographer: Rokma
 curator: Rokma
 date: 2019-09-09
-category: photo-journalism
+category: photo-journalism #put this one also as first tag
 tags:
   - photo-journalism
   - art   
@@ -26,9 +26,9 @@ image: /assets/p/articles/photo-journalism/love-and-erotic-art-in-bali/love-and-
 ---
 {% include partials/image.html, name: "" %}
 
-Jean Couteau presented at Usada in Ubud, Bali, "Balinese love and sexuality" from a philosophical and social point of view, enlightened by reference to stories and erotic illustrations. He challenges all ideas you have had to this day regarding love and sex. Love as a cosmic moment. Peeping, sex to enable the god of the mountain to impregnate your wife, the role of the motorbike in sexual imaginary and more.
+Jean Couteau presented at Usada in Ubud, Bali, "Balinese love and sexuality" from a philosophical and social point of view, enlightened by reference to stories and erotic illustrations.
 
-
+He challenges all ideas you have had to this day regarding love and sex. Love as a cosmic moment. Peeping, sex to enable the god of the mountain to impregnate your wife, the role of the motorbike in sexual imaginary and more.
 
 Jean Couteau is a writer, historian and columnist specialised in Balinese culture, art, myths and history. Living in Indonesia in 1972, Jean got captured by Bali through its complex and enthralling history and culture.
 

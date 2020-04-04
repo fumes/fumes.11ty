@@ -6,12 +6,18 @@ pagination:
   size: 1
   alias: tag
   filter:
-   - tagList
+    - all
+    - author
+    - article
+    - photographer
+    - template
   addAllPagesToCollections: true
 layout: default
 renderData:
   title: Tagged “{{ tag }}”
 permalink: /{{ tag }}/
+tags:
+  - template {# so it can be filtered out of deployment #}
 ---
 
 <div class="tagpage tagpage__title">
@@ -29,7 +35,7 @@ permalink: /{{ tag }}/
   {% for post in postslist | reverse %}
 
     {% include "partials/index_post_block--excerpt.njk" %}
-
+    
   {% endfor %}
 
 </div>

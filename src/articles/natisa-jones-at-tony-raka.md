@@ -5,9 +5,8 @@ text_author: #rokma
 photographer: rokma
 curator: rokma
 date: 2019-10-05
-category: art
+category: art #put this one also as first tag
 tags:
-- photo-journalism
 - art   
 - love
 - Bali

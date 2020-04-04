@@ -1,7 +1,9 @@
 ---
 eleventyExcludeFromCollections: true
-permalink: /tagscloud/
+permalink: /tag-cloud/
 layout: default
+tags:
+  - template {# so it can be filtered out of deployment #}
 ---
 
 <div>
@@ -9,6 +11,7 @@ layout: default
 {% set tagUrl %}/{{ tagKey }}{% endset %}
 
     <a href="{{ tagUrl | url }}" style="display: inline; font-size: {{ tagVal.length * 50}}%">{{ tagKey }}</a>
+
     {# <span class="tag-counter">{{ tagVal.length }}</span> #}
 
 {% endfor %}

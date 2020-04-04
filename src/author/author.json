@@ -1,4 +1,5 @@
 {
   "layout": "layouts/text_author.html",
-  "permalink": "author/{{ page.fileSlug }}/"
+  "permalink": "author/{{ page.fileSlug }}/",
+  "tags": "author"
 }

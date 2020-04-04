@@ -43,8 +43,8 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "src",
       includes: "_includes", //default
-      data: "_data",//default
-      output: "_site"//default
+      data: "_data", //default
+      output: "_site" //default
     }
     ,
     templateFormats : ["njk", "md", "liquid", "html"],

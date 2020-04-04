@@ -4,7 +4,7 @@ text_author:
 photographer: rokma
 curator: rokma
 date: 2019-05-19
-category: photo-journalism
+category: photo-journalism #put this one also as first tag
 tags:
   - photo-journalism
   - personal-works

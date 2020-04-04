@@ -1,4 +1,5 @@
 {
   "layout": "layouts/post.html",
-  "permalink": "{{category}}/{{ title | slug }}/"
+  "permalink": "{{category}}/{{ title | slug }}/",
+  "tags": "article"
 }
