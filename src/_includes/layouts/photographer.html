@@ -85,15 +85,12 @@ layout: default
   </div>
 </div>
 
-
+{%- assign posts = collections.article | reverse -%}
 
 <div class="home__posts {{ page.fileSlug }}">
-  {% capture author %}{{ page.fileSlug }}{% endcapture %}
-
-  {%- assign posts = collections.article | reverse -%}
   {%- for post in posts -%}
-    {% if author == "rokma" %}
+    {%- if post.data.photographer == "rokma" -%}
       {% include partials/index_post_block--excerpt.html %}
-    {% endif %}
+    {%- endif -%}
   {%- endfor -%}
 </div>
