@@ -21,22 +21,6 @@
   {% endif %}
 
 
-  {% if images_author %}
-  <div class="post-meta author">
-
-    <div class="ico">{% include partials/svg/use.html, id: "icn--photographer" class: "photographer" %}</div>
-
-    <p class="photog">
-      <span class="hide">Images author: </span>
-      {% assign images_author = site.data.authors[images_author] %}
-
-      <a title="Images author: {{ images_author.name }}" href="/author/{{ images_author.name | titlecase | replace: ' ', '-' }}/">{{ images_author.name }}</a>
-    </p>
-
-  </div>
-  {% endif %}
-
-
 
   {% if text_author %}
   <div class="post-meta author">

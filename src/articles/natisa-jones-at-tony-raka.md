@@ -7,16 +7,17 @@ curator: rokma
 date: 2019-10-05
 category: art #put this one also as first tag
 tags:
-- art   
-- love
-- Bali
-- culture
-- educational
-- Indonesia
-- contemporary-art
-- lifestyle
-- report
-- review
+  - article
+  - art   
+  - love
+  - Bali
+  - culture
+  - educational
+  - Indonesia
+  - contemporary-art
+  - lifestyle
+  - report
+  - review
 license: CC_BY_NC_ND
 thumb: natisa-jones-at-tony-raka.jpg
 excerpt: "Love Is Never Lonely, an interesting show at Tony Raka Art Gallery, in Ubud, Bali has started today. Showing the latest Natisa Jones works, journey through her work the serenity in turmoil, and in the solitude of feeling alive, as she continues to search for what is true to her."

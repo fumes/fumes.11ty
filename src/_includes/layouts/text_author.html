@@ -10,79 +10,79 @@ layout: default
     {% include partials/svg/use.html id: "icn--speech" %}
   </span>
 
-  <h1 class="page__title">{{ text_author.name | titlecase }}</h1>
+  <h1 class="page__title">{{ page.fileSlug | capitalize }}</h1>
 
   <div class="author__metas">
 
-    {% if text_author.twitter %}
+    {% if twitter %}
     <div class="author__meta">
-      <a href="https://twitter.com/{{ text_author.twitter }}" title="twitter" target="_blank" rel="noopener">
+      <a href="https://twitter.com/{{ twitter }}" title="twitter" target="_blank" rel="noopener">
         <div class="ico author">{% include partials/svg/use.html id: "icn--twitter" class: "twitter" %}</div>
-        <span class="destination">{{ text_author.twitter }}</span>
+        <span class="destination">{{ twitter }}</span>
       </a>
     </div>
     {% endif %}
 
-    {% if text_author.instagram %}
+    {% if instagram %}
     <div class="author__meta">
-      <a href="https://instagram.com/{{ text_author.instagram }}" title="instagram" target="_blank" rel="noopener">
+      <a href="https://instagram.com/{{ instagram }}" title="instagram" target="_blank" rel="noopener">
         <div class="ico author">{% include partials/svg/use.html id: "icn--instagram" class: "instagram" %}</div>
-        <span class="destination">{{ text_author.instagram }}</span>
+        <span class="destination">{{ instagram }}</span>
       </a>
     </div>
     {% endif %}
 
-    {% if text_author.fbPage %}
+    {% if fbPage %}
     <div class="author__meta">
-      <a href="https://facebook.com/{{ text_author.fbPage }}" title="facebook page" target="_blank" rel="noopener">
+      <a href="https://facebook.com/{{ fbPage }}" title="facebook page" target="_blank" rel="noopener">
         <div class="ico author">{% include partials/svg/use.html id: "icn--facebook" class: "facebook" %}</div>
-        <span class="destination">{{ text_author.fbPage }}</span>
+        <span class="destination">{{ fbPage }}</span>
       </a>
     </div>
     {% endif %}
 
-    {% if text_author.fbProfile %}
+    {% if fbProfile %}
     <div class="author__meta">
-      <a href="https://facebook.com/{{ text_author.fbProfile }}" title="facebook profile" target="_blank" rel="noopener">
+      <a href="https://facebook.com/{{ fbProfile }}" title="facebook profile" target="_blank" rel="noopener">
         <div class="ico author">{% include partials/svg/use.html id: "icn--facebook" class: "facebook" %}</div>
-        <span class="destination">{{ text_author.fbProfile}}</span>
+        <span class="destination">{{ fbProfile}}</span>
       </a>
     </div>
     {% endif %}
 
-    {% if text_author.tumblr %}
+    {% if tumblr %}
     <div class="author__meta">
-      <a href="http://{{ text_author.tumblr }}.tumblr.com/" title="tumblr" target="_blank" rel="noopener">
+      <a href="http://{{ tumblr }}.tumblr.com/" title="tumblr" target="_blank" rel="noopener">
         <div class="ico tumblr">{% include partials/svg/use.html id: "icn--tumblr" class: "tumblr" %}</div>
-        <span class="destination">{{ text_author.tumblr}}</span>
+        <span class="destination">{{ tumblr}}</span>
       </a>
     </div>
     {% endif %}
 
-    {% if text_author.github %}
+    {% if github %}
     <div class="author__meta">
-      <a href="https://github.com/{{ text_author.github }}" title="github" target="_blank" rel="noopener">
+      <a href="https://github.com/{{ github }}" title="github" target="_blank" rel="noopener">
         <div class="ico github">{% include partials/svg/use.html id: "icn--github" class: "github" %}</div>
-        <span class="destination">{{ text_author.github }}</span>
+        <span class="destination">{{ github }}</span>
       </a>
     </div>
     {% endif %}
 
-    {% if text_author.web %}
+    {% if web %}
     <div class="author__meta">
-      <a rel="author" href="{{ text_author.web }}" title="{{ text_author.name }}" target="_blank" rel="noopener">
+      <a rel="author" href="{{ web }}" title="{{ name }}" target="_blank" rel="noopener">
         <div class="ico link">{% include partials/svg/use.html id: "icn--link" class: "link" %}</div>
-        <span class="destination">{{ text_author.web }}</span>
+        <span class="destination">{{ web }}</span>
       </a>
     </div>
     {% endif %}
 
 
-    {% if text_author.email %}
+    {% if email %}
     <div class="author__meta">
-      <a rel="author" href="mailto:{{ text_author.email }}" title="{{ text_author.email }}" target="_blank" rel="noopener">
+      <a rel="author" href="mailto:{{ email }}" title="e-mail" target="_blank" rel="noopener">
         <div class="ico link">{% include partials/svg/use.html id: "icn--mail" class: "email" %}</div>
-        <span class="destination">{{ text_author.email }}</span>
+        <span class="destination">{{ email }}</span>
       </a>
     </div>
     {% endif %}

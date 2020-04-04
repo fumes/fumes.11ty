@@ -6,6 +6,7 @@ curator: rokma
 date: 2019-05-19
 category: art
 tags:
+  - article
   - art
   - beauty
   - celebration

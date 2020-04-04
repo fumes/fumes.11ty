@@ -6,6 +6,7 @@ curator: Rokma
 date: 2019-09-09
 category: photo-journalism #put this one also as first tag
 tags:
+  - article
   - photo-journalism
   - art   
   - love

@@ -6,6 +6,7 @@ curator: rokma
 date: 2019-05-19
 category: art #put this one also as first tag
 tags:
+  - article
   - art
   - artist
   - celebration

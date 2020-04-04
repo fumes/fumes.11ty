@@ -6,10 +6,10 @@ module.exports = function(eleventyConfig) {
   //tags as in 11ty base repo
   eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
-  //list of tags with count per tag - candy
+  //TESTING: list of tags with count per tag - candy
   eleventyConfig.addCollection("tagCount", require("./src/_11ty/tagCounter"));
 
-  //list of posts per tag - candy
+  //TESTING: list of posts per tag - candy
   eleventyConfig.addCollection("tagListPosts", require("./src/_11ty/tagListPosts"));
 
   // sass
@@ -48,6 +48,7 @@ module.exports = function(eleventyConfig) {
     }
     ,
     templateFormats : ["njk", "md", "liquid", "html"],
+    markdownTemplateEngine: "liquid",
     htmlTemplateEngine : "liquid"
   };
 }

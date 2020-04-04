@@ -1,3 +1,4 @@
 _site/
 .workinprogress
 node_modules
+.DS_Store

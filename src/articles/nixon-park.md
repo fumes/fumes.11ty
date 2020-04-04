@@ -6,6 +6,7 @@ curator: Rokma
 date: 2019-05-26
 category: photo-journalism
 tags:
+  - article
   - photo-journalism
   - personal-works
   - celebration

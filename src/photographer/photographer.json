@@ -1,5 +1,4 @@
 {
   "layout": "layouts/photographer.html",
-  "permalink": "photographer/{{ page.fileSlug }}/",
-  "tags": "photographer"
+  "permalink": "photographer/{{ page.fileSlug }}/"
 }
