@@ -5,5 +5,5 @@ twitter: rokmatwit
 fbPage: rokmaphotography
 github: toybreaker
 instagram: rokmaphotography
-tags: photographer
+description: "Rokma has lived and worked all over the world and is familiar with a broad selection of cultural views. An entrepreneur involved in publishing, advertising, visual communication and web design since the beginning he has always stayed current. Some of his works led the way, opening paths and setting new norms in their context."
 ---

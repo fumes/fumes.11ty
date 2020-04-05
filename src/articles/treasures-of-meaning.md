@@ -24,7 +24,7 @@ tags:
 - fine-art-prints
 license: CC_BY
 thumb: treasures-of-meaning.jpg
-excerpt: The concept of meaning starts with emptiness. It is like an empty bowl. You may fill an empty bowl with whatever you may wish – whether it be rice, fruit or soup – and yet it is impartial to its contents. And after you fill your bowl you soon empty it again. You ingest its contents, let them nourish you, and then the next day fill your bowl with something else and repeat the process all over again.
+description: "The concept of meaning starts with emptiness. It is like an empty bowl. You may fill an empty bowl with whatever you may wish – whether it be rice, fruit or soup – and yet it is impartial to its contents. And after you fill your bowl you soon empty it again. You ingest its contents, let them nourish you, and then the next day fill your bowl with something else and repeat the process all over again."
 offwhite: true # true or empty
 image: /assets/p/articles/inspiring/treasures-of-meaning/treasures-of-meaning.jpg
 
