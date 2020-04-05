@@ -1,4 +1,4 @@
 ---
-name:      Jean Couteau
-email:     jycouteau@gmail.com
+name: jean couteau
+email: jycouteau@gmail.com
 ---

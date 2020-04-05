@@ -30,7 +30,15 @@
     <p class="photog">
       <span class="hide">Text Author: </span>
 
-      <a title="text author:{{ text_author.name }}" href="/author/{{ text_author | downcase | replace: ' ', '-' }}/">{{ text_author }}</a>
+      <a title="text author:{{ text_author.name }}" href="/author/{{ text_author | downcase | replace: ' ', '-' }}/">
+        {%- capture name -%}
+          {{ text_author }}
+        {%- endcapture -%}
+        {%- assign words = name | split: " " -%}
+        {%- capture namefixed -%}
+          {%- for word in words %}{{ word | capitalize }} {% endfor -%}
+        {%- endcapture -%}
+        {{ namefixed }}</a>
     </p>
 
   </div>

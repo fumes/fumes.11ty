@@ -1,12 +1,12 @@
 ---
 title: "Love and Erotic Art"
-text_author: Jean Couteau
+text_author: jean couteau #need lowercase
 photographer: rokma #need lowercase
 curator: rokma #need lowercase
 date: 2019-09-09
 category: photo-journalism #put this one also as first tag
 tags:
-  - article 
+  - article
   - photo-journalism
   - love
   - Bali

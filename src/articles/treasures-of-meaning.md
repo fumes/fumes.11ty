@@ -1,6 +1,6 @@
 ---
 title: Treasures of Meaning
-text_author: james
+text_author: james fullwood
 photographer: rokma
 curator: rokma
 date: 2017-06-15

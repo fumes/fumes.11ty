@@ -1,5 +1,5 @@
 ---
-name:      Luci Ferrero
-fbPage:    LFFL01
+name: luci ferrero
+fbPage: LFFL01
 instagram: luciferrero105
 ---

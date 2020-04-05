@@ -1,7 +1,7 @@
 ---
-name:      Alejandro Plesch
-twitter:   alejandroplesch
-tumblr:    alejandroplesch
+name: alejandro plesch
+twitter: alejandroplesch
+tumblr: alejandroplesch
 instagram: alejandro_plesch
 fbPage:
 ---

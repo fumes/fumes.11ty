@@ -7,7 +7,16 @@ layout: default
     {% include partials/svg/use.html, id: "icn--photographer" %}
   </span>
 
-  <h1 class="page__title">{{ page.fileSlug | capitalize }}</h1>
+  <h1 class="page__title">
+    {%- capture name -%}
+      {{ name }}
+    {%- endcapture -%}
+    {%- assign words = name | split: " " -%}
+    {%- capture namefixed -%}
+      {%- for word in words %}{{ word | capitalize }} {% endfor -%}
+    {%- endcapture -%}
+    {{ namefixed }}
+  </h1>
 
   <div class="photographer__metas">
 
@@ -77,7 +86,7 @@ layout: default
     {% if email %}
     <div class="author__meta">
       <a rel="author" href="mailto:{{ email }}" title="{{ page.fileSlug }}'s email" target="_blank" rel="noopener">
-        <div class="ico link">{% include partials/svg/use.html id: "icn--mail" class: "email" %}</div>
+        <div class="ico link">{% include partials/svg/use.html id: "icn--email" class: "email" %}</div>
         <span class="destination">{{ email }}</span>
       </a>
     </div>

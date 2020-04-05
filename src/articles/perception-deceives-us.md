@@ -1,6 +1,6 @@
 ---
 title: Perception deceives us
-text_author: james fullwood
+text_author: james fullwood #need lowercase
 photographer: rokma
 curator: rokma
 date: 2017-07-01
