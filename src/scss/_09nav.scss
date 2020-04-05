@@ -74,6 +74,7 @@ nav {
 
 .looper__link {
   @extend %no_select;
+  display: inline-block;
   background-color: transparent;
   padding: 0.75rem;
   margin-left: 1px;
@@ -105,9 +106,17 @@ nav {
       color: $brand_red;
     }
   }
+}
 
-  .nav--tags & {
-    border: 0 none;
+.looper__links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+
+  a {
+    max-width: calc(160px + 1.5rem);
   }
 }
 

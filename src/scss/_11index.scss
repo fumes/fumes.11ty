@@ -204,17 +204,7 @@
   }
 }
 
-.looper__links {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
 
-  a {
-    max-width: calc(160px + 1.5rem);
-  }
-}
 
 .small.thumb img {
   width: 160px;

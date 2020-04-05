@@ -5,15 +5,11 @@
     {% include partials/svg/use.html id: "icn--posts" class: "posts" %}
   </div>
 
-
   {%- assign posts = collections.article | reverse -%}
-  {%- for post in posts offset:3 -%}
-    <a class="looper__link {{ category }}" href="{{ post.url }}">
-
-      {{ post.data.title }}
-
-    </a>
+  {%- for post in posts -%}
+  <a class="looper__link {{ category }}" href="{{ post.url }}">
+    {{ post.data.title }}
+  </a>
   {%- endfor -%}
 
-  </div>
 </div>
