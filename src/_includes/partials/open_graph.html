@@ -29,9 +29,9 @@
 	{% endif %}
 
 	{% if image %}
-	<meta property="og:image" content="{{ site.url }}/{{ image }}">
+	<meta property="og:image" content="{{ site.url }}{{ image }}">
 	{% else %}
-	<meta property="og:image" content="/assets/i/t/fumesyousuck_thumb.jpg">
+	<meta property="og:image" content="{{ site.url }}/assets/i/t/fumesyousuck_thumb.jpg">
 	{% endif %}
 
 	{% if description %}
@@ -40,7 +40,7 @@
 	<meta property="og:description" content="{{ site.description | truncate:160 }}">
 	{% endif %}
 
-	<meta property="og:url" content="{{ site.url }}/{{ page.url}}">
+	<meta property="og:url" content="{{ site.url }}{{ page.url}}">
 	<meta property="og:site_name" content="{{ site.title }}">
 
 
@@ -80,7 +80,7 @@
 
 	{% if image %}
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image:src" content="{{ site.url }}/{{ image }}">
+	<meta name="twitter:image:src" content="{{ site.url }}{{ image }}">
 	{% else %}
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:image:src" content="{{ site.url }}/assets/i/t/fumesyousuck_thumb.jpg">
