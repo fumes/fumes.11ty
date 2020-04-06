@@ -1,6 +1,7 @@
 ---
 name: james fullwood
-email: "indescrybable@gmail.com"
-web: "http://hkumath.hku.hk/~fullwood/"
+email: "syzegetic@gmail.com"
+web: "http://math.sjtu.edu.cn/faculty/fullwood/"
+soundcloud: "user-87604052"
 description:
 ---
