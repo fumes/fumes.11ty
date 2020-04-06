@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+  {% include partials/head.html %}
+
+  <body {% if role != "home" %}class="has_default_license"{% endif %}>
+
+    <div class="body_wrapper">
+
+      <div class="header">
+        {% include partials/logo.html %}
+      </div>
+
+      {% include partials/svg/defs.html %}
+
+      <div class="main {% if offwhite %}offwhite{% endif %}" role="main" id="main">
+
+        <div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %}">
+
+          <div class="wrapper">
+
+            <div class="tagpage tagpage__title">
+
+              <span class="tagpage__ico">{% include partials/svg/use.html, id: "icn--tag" class: "tag" %}</span>
+
+              <h1 class="page__title">{{ tag | capitalize }}</h1>
+
+            </div>
+
+            <div class="tagpage home__posts">
+              {{ content | safe }}
+            </div>
+
+          </div>
+
+        </div>
+
+        {% if role != 'home' %}
+          {% include partials/nav--posts-all.html %}
+        {% else %}
+          {% include partials/nav--posts.html %}
+        {% endif %}
+
+        {% include partials/nav--tags.html %}
+
+      </div>
+
+      {% if layout == 'post' %}
+        {% include partials/nav--horizzo-titled.html %}
+      {% endif %}
+
+    </div>
+
+    {% include partials/footer.html %}
+
+    {% include partials/scripts_microdata.html %}
+
+    {% include partials/script_ext_link.html %}
+
+    {% include partials/script_append_to_copy.html %}
+
+    {% include partials/script_google_analytics.html %}
+
+  </body>
+
+</html>

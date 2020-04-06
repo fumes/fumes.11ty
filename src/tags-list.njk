@@ -7,5 +7,5 @@ layout: default
 
 {% for tag in collections.tagList %}
   {% set tagUrl %}/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+  <a href="{{ tagUrl | url }}" class="tag template_tagslistnjk">{{ tag }}</a>
 {% endfor %}

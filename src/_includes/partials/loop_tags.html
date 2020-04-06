@@ -7,7 +7,7 @@
 
   {% for tag in collections.tagList %}
   {% capture tagUrl %}/{{ tag }}/{% endcapture %}
-    <a class="looper__link {{tag}} {% if page.url contains tag %}active{% endif %}" href="{{ tagUrl | url }}" >{{ tag }}</a>
+    <a class="looper__link {{tag}} {% if layout == "tag_page" %}{% if page.url contains tag %}active{% endif %}{% endif %}" href="{{ tagUrl | url }}" >{{ tag }}</a>
   {% endfor %}
 
 </div>
