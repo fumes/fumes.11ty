@@ -66,6 +66,15 @@ layout: default
     </div>
     {% endif %}
 
+    {% if soundcloud %}
+    <div class="author__meta">
+      <a href="http://soundcloud.com/{{ soundcloud }}" title="{{ page.fileSlug }}'s Soundcloud" target="_blank" rel="noopener">
+        <div class="ico soundcloud">{% include partials/svg/use.html id: "icn--soundcloud" class: "soundcloud" %}</div>
+        <span class="destination">{{ soundcloud }}</span>
+      </a>
+    </div>
+    {% endif %}
+
     {% if github %}
     <div class="author__meta">
       <a href="https://github.com/{{ github }}" title="{{ page.fileSlug }}'s  Github" target="_blank" rel="noopener">
