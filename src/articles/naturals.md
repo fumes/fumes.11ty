@@ -24,7 +24,7 @@ tags:
 license: CC_BY_NC_ND
 thumb: naturals.jpg
 description: "Naturals is a new work By Rokma shot in Thailand some time ago. Some say there is God guiding children. Surely they do express this ice cream moment beautifully..."
-image: /assets/p/articles/photo-journalism/naturals/naturals-photo-by-rokma.jpg
+image: /assets/p/articles/naturals/naturals-photo-by-rokma.jpg
 ---
 Naturals is a new work By Rokma shot in Thailand some time ago. Some say there is God guiding children. Surely they do express this ice cream moment beautifully...
 

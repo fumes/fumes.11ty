@@ -22,7 +22,7 @@ tags:
 license: CC_BY_NC_ND
 thumb: balinese-masters-at-abbc.jpg
 description: "Calling Balinese painting traditional misrepresents the dynamics and highly innovative nature of painting in Bali. Tradition implies lack of change, adherence to set types. While both the old tradition of classical Kamasan painting and the new tradition of modern art that developed in the 1930s work from such set types, they allow for a high degree of change."
-image: /assets/p/articles/art/balinese-masters-at-abbc/balinese-masters-at-abbc.jpg
+image: /assets/p/articles/balinese-masters-at-abbc/balinese-masters-at-abbc.jpg
 ---
 
 {% include partials/image.html, name: "" %}
