@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 // GULP tasks to work images.
-var changeCase   = require('change-case');
-var gulp         = require('gulp');
-var rename       = require('gulp-rename');
-var responsive   = require('gulp-responsive');
+var changeCase   = require("change-case");
+var gulp         = require("gulp");
+var rename       = require("gulp-rename");
+var responsive   = require("gulp-responsive");
 
 // WHAT: adds folder name + index, lowercasing the original file name.
 // starts from 10, to avoid single digit no. to the first 9 jpgs
 var index = 10;
-gulp.task('curatename', function (done) {
+gulp.task("curatename", function (done) {
   // put image folders w/ proper name into _images_to_rename
   return gulp.src("./src/uploads/_images_to_rename/**/*.jpg")
   .pipe(rename(function(fix) {
@@ -25,7 +25,7 @@ gulp.task('curatename', function (done) {
 // WHAT: adds folder name + index, deleting the original file name.
 // start from 10, top avoid single digit no. to the first 9 jpgs
 var index = 10;
-gulp.task('rename', function (done) {
+gulp.task("rename", function (done) {
   // put image folders w/ proper name into _images_to_rename
   return gulp.src("./src/uploads/_images_to_rename/**/*.jpg")
   .pipe(rename(function (path) {
@@ -39,33 +39,33 @@ gulp.task('rename', function (done) {
 // Reponsive sizing w/ gulp4
 // NOTE: Does transfer folder and lowercase the jpgs names
 // OK!
-gulp.task('sizes', function (done) {
-  return gulp.src('./src/uploads/_images_to_size/**/*.jpg')
-    .pipe(rename(function(fix) {
-       fix.basename = changeCase.lowerCase(fix.basename);
-     }))
+gulp.task("sizes", function (done) {
+  return gulp.src("./src/uploads/_images_to_size/**/*.jpg")
+    // .pipe(rename(function(fix) {
+    //    fix.basename = changeCase.lowerCase(fix.basename);
+    //  }))
     .pipe(responsive({
-      '**/*.jpg': [{
+      "**/*.jpg": [{
         width: 640,
         quality: 55,
         progressive: true,
         sharper: true,
         rename: {
-          suffix: '-640',
+          suffix: "-640"
         }
       }, {
         width: 880,
         quality: 44,
         progressive: true,
         rename: {
-          suffix: '-880'
+          suffix: "-880"
         }
       }, {
         width: 1024,
         quality: 44,
         progressive: true,
         rename: {
-          suffix: '-1024'
+          suffix: "-1024"
         }
       }, {
         //fullHD
@@ -73,23 +73,28 @@ gulp.task('sizes', function (done) {
         quality: 33,
         progressive: true,
         rename: {
-          suffix: '-1920'
+          suffix: "-1920"
         }
       }, {
         //named same as original for use with jekyll_seo Open Graph / Twitter Cards
         width: 1024,
         quality: 44,
-        progressive: true,
+        progressive: true
       }],
     }, {
       // global configuration for all images
       errorOnEnlargement: false,
       withMetadata: false,
       withoutEnlargement: false,
-      withoutChromaSubsampling: true
+      //try this, sometimes doesn"t work
+      //withoutChromaSubsampling: true
+    }))
+    // this is needed otherwise it outputs .jpeg, gosh...
+    .pipe(rename(function(fix) {
+      fix.extname = ".jpg";
     }))
     // puy jpgs ready in place for SSG to use
-    .pipe(gulp.dest('./src/assets/p/'));
+    .pipe(gulp.dest("./src/assets/p/"));
   done();
 });
 
@@ -97,9 +102,9 @@ gulp.task('sizes', function (done) {
 // Rename all to lowercase w/ gulp4
 // OK!
 gulp.task(function lower() {
-  return gulp.src( './src/uploads/_images_to_lowercase/**/*.*' )
+  return gulp.src( "./src/uploads/_images_to_lowercase/**/*.*" )
     .pipe(rename(function(fix) {
        fix.basename = changeCase.lowerCase(fix.basename);
      }))
-    .pipe(gulp.dest( './src/uploads/_images_to_size' ));
+    .pipe(gulp.dest( "./src/uploads/_images_to_size" ));
 });

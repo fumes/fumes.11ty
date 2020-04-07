@@ -10,10 +10,7 @@ module.exports = function(collection) {
         tags = tags.filter(function(item) {
           switch(item) {
             case "all":
-            case "nav":
-            case "post":
-            case "photo":
-            case "posts":
+            case "article":
               return false;
           }
 

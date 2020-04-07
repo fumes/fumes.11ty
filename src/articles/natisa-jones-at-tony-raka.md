@@ -1,5 +1,4 @@
 ---
-published: true
 title: "Natisa Jones at Tony Raka"
 text_author: rokma #need lowercase
 photographer: rokma #need lowercase

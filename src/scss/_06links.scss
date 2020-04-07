@@ -55,3 +55,10 @@ svg .tblack {
 
 .content .photographer__meta a[target="_blank"]:before {display: none!important;}
 .content .author__meta a[target="_blank"]:before {display: none!important;}
+
+
+// needed to hide the article tag, which is still coming out despite the filtering
+
+.tags a[href="/article/"] {
+  display: none;
+}

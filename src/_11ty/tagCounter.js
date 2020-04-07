@@ -11,6 +11,7 @@ module.exports = function(collection) {
           switch(item) {
             case "all":
             case "taglist":
+            case "article":
               return false;
           }
 
