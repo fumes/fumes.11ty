@@ -3,7 +3,7 @@ title: A nomadic Life
 text_author:
 photographer: andrea
 curator: rokma
-date: '2018-11-01 01:01:01 +0100'
+date: 2018-11-01
 categories: photo-journalism
 tags:
 - article
@@ -24,7 +24,7 @@ image: "/assets/p/.jpg"
 As an old tradition, Khampas from all over the Tibetan Plateau come to trade, celebrate and ride at The Litang Horse Festival every August. A cultural event held in Litang County, Sichuan province, China.
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-313.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-313" %}
 
 _Kham is referred as the "Ethnic Corridor of Southwest China"_
 
@@ -40,14 +40,14 @@ It also boasts markets, entertainments, and competitions to test bravery and hor
 
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-10.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-10" %}
 
 _Kham is a historical region of Tibet covering a land area largely divided between present-day Tibet Autonomous Region and Sichuan_
 
 
 The town of Litang, home to a high proportion of Tibetans, saw a mass protest during the horse-racing festival of 2007, as the area has a long history of fighting under Chinese rule.
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-11.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-11" %}
 
 _The Khampa living on the mysterious snowy plateau is said to be the offspring of the god of war and the god of beauty_
 
@@ -56,7 +56,7 @@ The standoff began during a festival ceremony Aug. 1, 2007 after police detained
 
 Afterwards the Chinese security forces launched a huge military crackdown in the region, also following the self-immolation protest on March 17 of a monk from Kirti monastery that killed himself.
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-29.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-29" %}
 
 _The Khampa men can be easily recognized in the crowd with gold or silver accessories_
 
@@ -65,7 +65,7 @@ Exile sources say that authorities have detained more than 300 Tibetan monks at 
 Since the protest, monks at Kirti have resisted a forced campaign of “political re-education” following the protest, sparking clashes between police and local people trying to protect the monks.
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-38.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-38" %}
 
 _The Khampa women also like wearing some gold and silver accessories_
 
@@ -78,7 +78,7 @@ Lithang is home to a high proportion of Tibetans, especially nomads. The town sa
 
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-45.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-45" %}
 
 _Khams Tibetan is the Tibetic language used by the majority of the people in Kham_
 
@@ -90,7 +90,7 @@ Nomads issued three specific demands, including the release of Ronggyal Adrak, w
 
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-64.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-64" %}
 
 _Kham has a rugged terrain characterized by mountain ridges and gorges collectively known as the Hengduan Mountains._
 
@@ -101,23 +101,23 @@ The authorities promptly launched a “patriotic re-education” campaign and po
 
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-82.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-82" %}
 
 
 Tenzin Dorjee, a Tibetan monk from Lithang now living in southern India’s Drepung monastery, said the restrictions were being imposed for fear of similar incidents this August. 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-83.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-83" %}
 
 
 >“This year, the Chinese authorities have ordered local people not to organize a horse racing festival,” he said. “Tibetans in Lithang are also now seeing a build-up of Chinese troops.”_Tenzin Dorjee_
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-125.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-125" %}
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-141.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-141" %}
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-160.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-160" %}
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-185.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-185" %}
 
 
 >“They are deployed in different areas in Lithang. A contingent of more than 600 Chinese soldiers is stationed very close to the monastery of Tenzin Delek Rinpoche in Nyakchuka county. The Chinese army camp is only two miles from the monastery,” _Tenzin Dorjee_
@@ -137,13 +137,13 @@ The Chinese authorities have launched a concerted “patriotic education” camp
 Beijing blames the Dalai Lama for violence that erupted in Lhasa, capital of the Tibet Autonomous Region, on March 14 following several days of peaceful protests.
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-198.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-198" %}
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-223.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-223" %}
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-255.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-255" %}
 
 
 Beijing says that 22 people were killed in rioting, which spread rapidly from Lhasa to other Tibetan areas of western China.
@@ -151,15 +151,15 @@ Beijing says that 22 people were killed in rioting, which spread rapidly from Lh
 Tibetan sources say scores of people were killed when Chinese paramilitary and police opened fire on crowds of unarmed demonstrators.
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-272.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-272" %}
 
 
 Chinese authorities have blamed the Dalai Lama for instigating the protests and fomenting a Tibetan independence movement. The Dalai Lama rejects the accusation, saying he wants only autonomy and human rights for Tibetans.
 
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-275.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-275" %}
 
-{% responsive_image path: uploads/2018/11/180903-photo-andrea-capello-nomadic-life-281.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-nomadic-life-281" %}
 
 
 

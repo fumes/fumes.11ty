@@ -39,66 +39,66 @@ Excavators, bulldozers and green trucks dump, move and bury more than 5000 tons 
 As these mountains grown, water gets contaminated and rivers of rubbish and waste eventually reach the sea. While tourist comes and go, remaining clueless as to where their waste ends up, this corner of Bali represents a worldwide problem of our insatiable appetite for consumerism.
 
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-297.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-297" %}
 
 _Suwung area for waste disposal service of Sarbagita (Denpasar, Badung, Gianyar, Tabanan) region is the property of the Provincial Government of Bali, under the Forest Service._
 
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-173.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-173" %}
 
 _The volume of waste in the landfill in 2011 was 1,151,341 m3 (source: Merdeka.com). Bins were accommodated at this location increased by 4% each year, and rated current is over capacity, because the hump reaches 30 meters._
 
 
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-167.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-167" %}
 
 _Garbage receiving capacity of Landfill Suwung by design is 2500 m3/day, but in fact the incoming garbage is 3,000 m3/day, equivalent to 975,000 kg/day = 975 tons/day (source: MetroBali.com). Landfill Suwung is designed to manage waste a maximum of 800 tons /day (source: AntaraNews.com)._
 
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-306.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-306" %}
 
 _In Southern Bali alone, the quantity of solid waste produced exceeds 240 tonnes every day._
 
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-311.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-311" %}
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-315.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-315" %}
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-304.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-304" %}
 
 _Excavators, bulldozers and green trucks dump, move and bury more than 3000 Tons of rubbish every day._
 
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-185.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-185" %}
 
 _The most common human health issues are diseases related to gastro-intestinal, dermatological, respiratory and genetic systems, and several other types of infectious diseases._
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-187.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-187" %}
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-300.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-300" %}
 
 _This Area is also home for 100 plus families who work here by sorting trash by hands._
 
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-182.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-182" %}
 
 _The Waves of plastic flooding into rivers have been causing problems for years, increasing the risk of floods and diseases._
 
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-179.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-179" %}
 
 _Microplastic can contaminate fish which, ones eaten by humans, can cause heath problems including cancer._
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-163.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-163" %}
 
 _Emissions from waste includes methane, benzene, dioxins, and nitrogen dioxide. which contribute to the effects of global warming._
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-155.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-155" %}
 
 _The three most important problems with landfill are toxins, leachate and greenhouse gases._
 
 
-{% responsive_image path: uploads/2018/09/180903-photo-andrea-capello-paradise-garbage-157.jpg %}
+{% include partials/image.html, name: "180903-photo-andrea-capello-paradise-garbage-157" %}
 
 
 Text & captions by Andrea Capello

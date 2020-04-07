@@ -28,50 +28,50 @@ Gili means island. Near Lombok, in East Indonesia, there are 3 small islands on 
 
 Here some scenes, drawn with a finger on a small mobile phone. Its 2017, call it a visual report.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_01.jpg %}
+{% include partials/image.html, name: "rokma_draw_01" %}
 
 Amazing Immersions
 
-{% responsive_image path: uploads/2017/12/rokma_draw_02.jpg %}
+{% include partials/image.html, name: "rokma_draw_02" %}
 
 Many awesome.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_03.jpg %}
+{% include partials/image.html, name: "rokma_draw_03" %}
 
 Guy in the street.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_04.jpg %}
+{% include partials/image.html, name: "rokma_draw_04" %}
 
 Grabby crabs.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_05.jpg %}
+{% include partials/image.html, name: "rokma_draw_05" %}
 
 Smiling woman.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_06.jpg %}
+{% include partials/image.html, name: "rokma_draw_06" %}
 
 Groupies sneaking.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_07.jpg %}
+{% include partials/image.html, name: "rokma_draw_07" %}
 
 Ok, boss.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_08.jpg %}
+{% include partials/image.html, name: "rokma_draw_08" %}
 
 50 million years on the Wallace Line.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_09.jpg %}
+{% include partials/image.html, name: "rokma_draw_09" %}
 
 Dudes puffing in bars.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_10.jpg %}
+{% include partials/image.html, name: "rokma_draw_10" %}
 
 Pondering what to do.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_11.jpg %}
+{% include partials/image.html, name: "rokma_draw_11" %}
 
 Awesome coral shapes.
 
-{% responsive_image path: uploads/2017/12/rokma_draw_12.jpg %}
+{% include partials/image.html, name: "rokma_draw_12" %}
 
 Selfie.

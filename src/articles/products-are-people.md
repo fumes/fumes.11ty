@@ -27,21 +27,21 @@ image: "/assets/p/.jpg"
 
 >They are all happy and smiling and I will be like them soon.
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_161220.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_161220" %}
 
 Anthropomorphism, the innate human tendency to attribute human or human-like characteristics, motives and behaviors to non-human forms, objects, natural phenomena and events, describes human thoughts and actions.
 
 The word anthropomorphism comes from a combination of the Greek words _ánthrōpos_ and _morphē_, meaning “human” and “form”.
 
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_161127.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_161127" %}
 
 YouTube is scarily littered with examples; talking pets, inanimate objects with seemingly personal vendettas (My car is called Beverley and she hates me), chips made to look like real people and of course who can forget the legend that is Grumpy Cat. Obviously it’s all just metaphors, devices that can help us visualize complex ideas or helps us human beings decode and interpret the world around us.
 
 
 We see the world not only as alive but also as humanlike, we see faces in the clouds and anthropomorphize objects of daily life. Anthropomorphism has important implications for marketing theory and practice.
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_162702.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_162702" %}
 
 
 Product anthropomorphism, the personification of design, is widely used in the packaging of grocery brands. Evidence shows that there is an association between anthropomorphism and product-related attributes.
@@ -56,63 +56,63 @@ Furthermore, it was found that anthropomorphized consumer durables show more pos
 
 Customers do engage with the product via the packaging alone, without or before actually buying it, simply by being exposed to the product in a retail environment.
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_162630.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_162630" %}
 
 
 Anthropomorphism allows marketing managers to attribute human characteristics to the brand to stimulate positive attitudinal responses, facilitate the projections of consumers’ personality onto their purchases and connect consumer emotionally to the brand.
 
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_161316.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_161316" %}
 
 Individuals face little difficulty in rendering human characteristics to brands. Brand and products become a living entity, because relationships exist between active and interdependent partners.
 
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_161500.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_161500" %}
 
 Studies show that consumers evaluate anthropomorphized products more positively than the non-anthropomorphized ones.
 
 
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_161720.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_161720" %}
 
 Packaging, being an integral part of the product, serve as an important communication vehicle for marketers, conveying product information and brand values, forming their distinctive personality. It provides visual information to consumers.
 
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_162054.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_162054" %}
 
 
 The majority of the brands, especially among Japanese products, use anthropomorphic elements in packaging or product shape.
 
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_162159.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_162159" %}
 
 
 Brands capitalize on the innate need of humans to create social connections with other humans instead of being lonely.
 
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_162307.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_162307" %}
 
 
 Most packages intended for children use visual anthropomorphism accompanied by cues that stimulate children’s interest, like animals. Indeed, children anthropomorphize more frequently and readily than adults. The desire to explain unknown phenomena or stimuli forces children to assign human qualities to nonhumans in order to reduce uncertainty and increase familiarity and learning.  
 
 
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_162357.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_162357" %}
 
 Children create social connections with humanized objects to increase familiarity with them. However, children anthropomorphism more easily non-human entities, based on their resemblance with human form.
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_162436.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_162436" %}
 
 
 A lifeless object, as a smiling box, might be more difficult for a young consumer to anthropomorphism and therefore initiate a relationship with than a living entity, as an happy monkey, which more resembles human beings.
 
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_162503.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_162503" %}
 
 Anthropomorphism can access consumers’ inner worlds and contribute to the achievement of long-term relationships.
 
 
-{% responsive_image path: uploads/2018/10/180906_photo_rokma_162525.jpg %}
+{% include partials/image.html, name: "180906_photo_rokma_162525" %}
 
 
 

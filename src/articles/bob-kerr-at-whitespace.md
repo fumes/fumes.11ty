@@ -34,31 +34,31 @@ image: "/assets/p/.jpg"
 Whitespace presents a vigorous exhibition programme of New Zealand and Pacific contemporary art, with regular international projects, and are committed to many public and community art projects.
 
 
-{% responsive_image path: uploads/2019/04/190424_photo_rokma_bob_kerr_01.jpg %}
+{% include partials/image.html, name: "190424_photo_rokma_bob_kerr_01" %}
 
 **Bob Kerr** pairs significant historical narratives with illustrative landscapes to give insight into New Zealand's past and people.
 
 Bob Kerr's creative practice combines his two artistic endeavours: painting and writing. Through the eyes and voices of scientists, conscientious objectors, and war veterans, Bob tells the story of New Zealand's history, people, and the landscape.
 
-{% responsive_image path: uploads/2019/04/190424_photo_rokma_bob_kerr_02.jpg %}
+{% include partials/image.html, name: "190424_photo_rokma_bob_kerr_02" %}
 
 His historical landscape paintings are often unidealised and raw, revealing the stories embedded in the land and showcasing a beauty we may otherwise overlook. Although largely inspired by stories of historical figures, Bob's paintings are regularly devoid of people but suggestive of a human presence.
 
-{% responsive_image path: uploads/2019/04/190424_photo_rokma_bob_kerr_03.jpg %}
+{% include partials/image.html, name: "190424_photo_rokma_bob_kerr_03" %}
 
 Bob invites the viewer to put themselves into the landscape and imagine what events have occurred there; his paintings do not offer answers, but present questions.
 
 His paintings have an illustrative and narrative quality, which reflects Bob's position as an artist and author. Through a clear and clever use of colour and texture, he gives an insight into stories that are both personal and historical.
 
-{% responsive_image path: uploads/2019/04/190424_photo_rokma_bob_kerr_04.jpg %}
+{% include partials/image.html, name: "190424_photo_rokma_bob_kerr_04" %}
 
 Bob Kerr was born in Wellington, and has a DipFA (Hons) from The University of Auckland. He has written and illustrated a number of children's books, receiving the Best First Children's Book Award in 1993 for The Optimist (1992).
 
-{% responsive_image path: uploads/2019/04/190424_photo_rokma_bob_kerr_06.jpg %}
+{% include partials/image.html, name: "190424_photo_rokma_bob_kerr_06" %}
 
 His paintings are held in private collections across New Zealand and overseas, with his best-known work appropriately appearing on the cover of Michael King's book The Penguin History of New Zealand (2003).
 
-{% responsive_image path: uploads/2019/04/190424_photo_rokma_bob_kerr_05.jpg %}
+{% include partials/image.html, name: "190424_photo_rokma_bob_kerr_05" %}
 When we visited the gallery we met NZ artist [Davina Stephens](https://davinastephens.com) and she illuminated us about Bob's oil painting technique... Interesting!
 
 

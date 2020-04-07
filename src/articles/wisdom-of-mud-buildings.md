@@ -37,43 +37,43 @@ Heringer uses low-tech materials like mud and bamboo to create structures from C
 
 "When I was an architecture student about 13 years ago, I went to Bangladesh to a remote village called Rudrapur with the aim to design and build a school as my thesis project. I had lived in that village before when I was 19 and a volunteer at Dipshikha, a Bangladeshi NGO for rural development. And what I had learned from them was that the most sustainable strategy for sustainable development is to cherish and to use your very own resources and potential, and not get dependent on external factors. And this is what I tried to do with my architecture as well."
 
-{% responsive_image path: uploads/2017/10/mud-wisdom-01.jpg %}
+{% include partials/image.html, name: "mud-wisdom-01" %}
 
 "In terms of suitable building materials for my school, I didn't have to look far. They were right under my feet: mud, earth, dirt, clay, however you call it ... and bamboo that was growing all around."
 
-{% responsive_image path: uploads/2017/10/mud-wisdom-02.jpg %}
+{% include partials/image.html, name: "mud-wisdom-02" %}
 
 "Except a small team of consultants like my partner for realization, Eike Roswag, and my basket-weaver cousin, Emmanuel, it was all built by craftsmen from the village. And this is the METI school after six months of construction. Load-bearing earth walls that really ground the school, and large bamboo structures that bring the lightness in."
 
-{% responsive_image path: uploads/2017/10/mud-wisdom-03.jpg %}
+{% include partials/image.html, name: "mud-wisdom-03" %}
 
 
 "The children all signed with their names in Bengali the doors, and they did not only sign, they also helped building the school... The children loved it. And can you imagine the feeling of a small boy or a girl or an illiterate day laborer standing in front of that school building and knowing that you built this out of the ordinary bamboo and just the dirt underneath your feet, using nothing but your hands? That gives such an enormous boost of trust and confidence in yourself and the community."
 
 
-{% responsive_image path: uploads/2017/10/mud-wisdom-04.jpg %}
+{% include partials/image.html, name: "mud-wisdom-04" %}
 
 "...the material. Especially mud has a very poor image. When we think of mud, we think of dirt -- it's ugly, it's nondurable -- and this is the image I want to change. In fact, it's the 11th rainy season for this school now, really harsh, horizontal monsoon rains, and the walls are standing strong."
 
-{% responsive_image path: uploads/2017/10/mud-wisdom-05.jpg %}
+{% include partials/image.html, name: "mud-wisdom-05" %}
 
 "So how does it work? First rule, a good foundation that keeps the wall dry from the ground, and second rule, a good roof that protects from the top, and third rule, erosion control. Mud walls need speed breakers so that the rainwater cannot run down the wall fast, and these speed breakers could be lines of bamboo or stones or straw mixed into the mud, just like a hill needs trees or rocks in order to prevent erosion. It works just the same way."
 
-{% responsive_image path: uploads/2017/10/mud-wisdom-06.jpg %}
+{% include partials/image.html, name: "mud-wisdom-06" %}
 
 "And people always ask me if I have to add cement to the mud, and the answer is no. There is no stabilizer, no coating on these walls, only in the foundation."
 
 "Yeah, and the great thing is, if an earth wall is not needed anymore, it can go back to the ground it came from, turn into a garden, or get fully recycled without any loss of quality. There's no other material that can do this, and this is why mud is so excellent in terms of environmental performance."
 
-{% responsive_image path: uploads/2017/10/mud-wisdom-07.jpg %}
+{% include partials/image.html, name: "mud-wisdom-07" %}
 
 "...more and more countries, load-bearing earthen structures are not allowed to be built anymore although they're traditional and have lasted for hundreds of years, and not because the material is weak, but because there are no architects and engineers who know how to deal with that material. So education on all levels, for craftsmen, engineers and architects, is really strongly needed. "
 
-{% responsive_image path: uploads/2017/10/mud-wisdom-08.jpg %}
+{% include partials/image.html, name: "mud-wisdom-08" %}
 
 "Equally important is technological development, like prefabrication developed by my colleague Martin Rauch, who is an Austrian artist and expert in earthen structures. And he has created technologies for rammed earth elements, for prefabrication of rammed earth elements that include insulation, wall heatings and coolings and all sorts of electrical fittings that can be layered to multistoried buildings, and this is important in order to scale up and in order to fasten up the processes, like in the Ricola Herb Center in Switzerland."
 
-{% responsive_image path: uploads/2017/10/mud-wisdom-09.jpg %}
+{% include partials/image.html, name: "mud-wisdom-09" %}
 
 "...we need good built projects that prove you can build with an ancient material in a very modern way. It is not a matter of how old a material is; it's a matter of our creative ability to use it today. These, for example, are three hostels that I did in China in the village Baoxi, about six hours by bus from Shanghai. The outside shape is woven bamboo, and the inside core is stones and rammed earth. And it is a traditional building material. Even large parts of the Great Wall of China have been built with rammed earth, but it's getting replaced by concrete."
 

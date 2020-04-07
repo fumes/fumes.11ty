@@ -32,39 +32,39 @@ image: "/assets/p/.jpg"
 
 
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2634.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2634" %}
 
 Ogoh-ogoh are statues built for the Ngrupuk parade, which takes place on the eve of Nyepi day in Bali, Indonesia.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2928.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2928" %}
 
 Ogoh-ogoh have form of mythological beings, mostly demons.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2655.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2655" %}
 
 As with many creative endeavors based on Balinese Hinduism, the creation of Ogoh-ogoh represents spiritual aims inspired by Hindu philosophy.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2772.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2772" %}
 
 The Ogoh-ogoh is a very recent addition to the Nyepi ceremonies, first appearing in Denpasar in the early 1980s.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2681.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2681" %}
 
 The forms of Ogoh-ogoh represent the Bhuta-Kala. Bhuta: eternal energy, Kala: eternal time, according to Hindu teachings.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2670.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2670" %}
 
 The imperceptible potentials of nature cannot be thoroughly explored by anyone.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_3009.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_3009" %}
 
 Philosophically, civilized men are required to manage the natural resources without damaging the environment itself.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2971.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2971" %}
 
 The name Ogoh Ogoh is taken from Balinese “ogah-ogah” which means something which is shaken. In fact, when ogoh-ogoh is paraded around it is always shaken by the carriers of ogoh ogoh to make it looks like moving or dancing.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2707.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2707" %}
 
 Nyepi is a day of silence, fasting and meditation. In Denpasar, Bali's capital, the airport is shut to all but transit flights.
 
@@ -72,20 +72,20 @@ Motor vehicles are allowed on the streets only for emergencies. Hotel guests are
 
 Balinese security guards, called pecalang, help enforce silence.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2725.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2725" %}
 
 A group of tech-savvy Denpasar locals have bridged tradition with technology by creating a voice-activated ogoh-ogoh for this year’s Ngrupuk Parade.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2737.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2737" %}
 
 Usually, the movement of ogoh-ogoh, which are often several meters high, is controlled manually by a team of men.
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_3065.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_3065" %}
 
-{% responsive_image path: uploads/2019/03/190307_photo_rokma__MG_3168.jpg %}
+{% include partials/image.html, name: "190307_photo_rokma__MG_3168" %}
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_3146.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_3146" %}
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_2666.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_2666" %}
 
-{% responsive_image path: uploads/2019/03/190306_photo_rokma__MG_3082.jpg %}
+{% include partials/image.html, name: "190306_photo_rokma__MG_3082" %}

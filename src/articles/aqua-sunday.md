@@ -31,24 +31,24 @@ fineartprints:
 image: "/assets/p/.jpg"
 ---
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-01.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-01" %}
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-02.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-02" %}
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-03.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-03" %}
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-04.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-04" %}
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-05.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-05" %}
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-06.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-06" %}
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-07.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-07" %}
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-08.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-08" %}
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-09.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-09" %}
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-10.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-10" %}
 
-{% responsive_image path: uploads/2019/02/190205-photographer-rokma-aquasunday-11.jpg %}
+{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-11" %}

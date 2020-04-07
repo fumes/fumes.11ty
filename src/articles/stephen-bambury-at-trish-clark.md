@@ -36,7 +36,7 @@ Trish Clark complements work by gallery artists with curated guest artists/artwo
 Currently on display until MAY 18, 2019 is a Christchurch-born, Auckland-based abstract painter **Stephen Bambury**, born 1951.
 
 
-{% responsive_image path: uploads/2019/04/190414-stephen-bambury-at-trish-clark-01.jpg %}
+{% include partials/image.html, name: "190414-stephen-bambury-at-trish-clark-01" %}
 _“Time Is Out Of Joint”_ (For Colin), 2017/19  
 Acrylic on sheet and honeycomb aluminium  
 300 x 665 mm  
@@ -47,7 +47,7 @@ Stephen Bambury’s productive preoccupation for over forty years with the squar
 The central importance of materiality to Bambury’s practice is underpinned by comprehensive technical investigation; he has mastered the use of copper, aluminium, paper, resin, graphite, precious metal gilding, chemical patinas and rust.
 
 
-{% responsive_image path: uploads/2019/04/190414-stephen-bambury-at-trish-clark-02.jpg %}
+{% include partials/image.html, name: "190414-stephen-bambury-at-trish-clark-02" %}
 _"Being Present"_, 2018/19  
 Acrylic on multi aluminium panels  
 810 x 470 mm
@@ -58,7 +58,7 @@ Sculptural elements comprised of steel, oil and burnt timbers expand the notions
 Now splitting his time between New Zealand and Europe, **Stephen Bambury** presents a solo exhibition of new works that incorporate his thinking and material approaches across his nearly five decades of practice while referencing the centenary of the founding of the Bauhaus.
 
 
-{% responsive_image path: uploads/2019/04/190414-stephen-bambury-at-trish-clark-03.jpg %}
+{% include partials/image.html, name: "190414-stephen-bambury-at-trish-clark-03" %}
 _"Van Doesburg’s Donkey"_, 2017/19  
 Acrylic on sheet and honeycomb aluminium  
 Five part, each approx. 300 x 250 mm  
@@ -69,7 +69,7 @@ Long an admirer of the Bauhaus, this exhibition includes specific reference to t
 Oddly reminiscent of early constructivist paintings from a century earlier, but thoroughly contemporary in their materiality, are Bambury’s remarkably complex and powerful new works, developed since 2016.
 
 
-{% responsive_image path: uploads/2019/04/190414-stephen-bambury-at-trish-clark-04.jpg %}
+{% include partials/image.html, name: "190414-stephen-bambury-at-trish-clark-04" %}
 _"Step Out of Yourself"_, 2017/19  
 Acrylic on multi aluminium panels  
 830 x 900 mm

@@ -36,14 +36,14 @@ They keen to hear from makers and innovators with ideas for events, activities a
 
 When we visited, one of the shows that was on was titled **Ego Morpheus**. A collective featuring several artists among which the work of **_Don Chooi_** was very noticeable for his graphical impact and the subject it dealt with.
 
-{% responsive_image path: uploads/2019/04/190410_photo_rokma_aucklandstudioone_02.jpg %}
+{% include partials/image.html, name: "190410_photo_rokma_aucklandstudioone_02" %}
 
 As a self identified gay bear, _Don_ is intrigued by the gay bear subculture attitude and predilections towards hyper-masculinity.
 
 His work seeks to question the performative aspects of this subculture, and bring to attention the otherness of the gay bear, capable of being empathetic, kind and nurturing.
 
 
-{% responsive_image path: uploads/2019/04/190410_photo_rokma_aucklandstudioone_01.jpg %}
+{% include partials/image.html, name: "190410_photo_rokma_aucklandstudioone_01" %}
 
 
 This is in contrast to the hegemonic conceptions, or stereotypes, that this subculture as being party-filled, sex-oriented and, which only places a premium on seeming butch and 'masc'.
@@ -56,7 +56,7 @@ Don explains his piece.
 
 >"This illustrative piece explores the discourse of belonging and masculine identity of the ethnic-minority gay bear within a euro-centric gay bear subculture. Through the aesthetics of Chinese brush-painting and augmented reality, the work serves as a metaphor that seeks to enrich the discourse around sexual and cultural anxieties of the ethnic-minority." _Don Chooi_
 
-{% responsive_image path: uploads/2019/04/190410_photo_rokma_aucklandstudioone_03.jpg %}
+{% include partials/image.html, name: "190410_photo_rokma_aucklandstudioone_03" %}
 
 
 

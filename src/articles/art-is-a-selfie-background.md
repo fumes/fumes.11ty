@@ -1,14 +1,13 @@
 ---
-
-
-
 title: Art is a selfie background
 text_author:
 photographer: rokma
 curator: rokma
-date: '2018-12-25 01:01:01 +0100'
+date: 2018-12-25
 categories: photo-journalism
 tags:
+- article
+- art
 - awareness
 - Bali
 - educational
@@ -33,46 +32,46 @@ This is a photo report shot during two recent events “Beyond the Myths” and 
 
 
 
-{% responsive_image path: uploads/2018/12/181215_photo_by_rokma_165144.jpg %}
+{% include partials/image.html, name: "181215_photo_by_rokma_165144" %}
 
 >**Look my dear, I was there... pretty cool huh?**
 
 
-{% responsive_image path: uploads/2018/12/181215_photo_by_rokma_161004.jpg %}
+{% include partials/image.html, name: "181215_photo_by_rokma_161004" %}
 
 That's it. We got no time for anything more, lets move on ... but wait, let me shoot and other selfie there, what was the author name... forget it... ok never mind... so much fun... duh!
 
 
-{% responsive_image path: uploads/2018/12/181215_photo_by_rokma_202839.jpg %}
+{% include partials/image.html, name: "181215_photo_by_rokma_202839" %}
 
 
  I was there...
 
-{% responsive_image path: uploads/2018/12/181215_photo_by_rokma_203220.jpg %}
+{% include partials/image.html, name: "181215_photo_by_rokma_203220" %}
 
  I was there...
 
-{% responsive_image path: uploads/2018/12/181215_photo_by_rokma_203457.jpg %}
+{% include partials/image.html, name: "181215_photo_by_rokma_203457" %}
 
  I was there...
 
-{% responsive_image path: uploads/2018/12/181215_photo_by_rokma_203420.jpg %}
+{% include partials/image.html, name: "181215_photo_by_rokma_203420" %}
 
  I was there...
 
-{% responsive_image path: uploads/2018/12/181215_photo_by_rokma_202857.jpg %}
+{% include partials/image.html, name: "181215_photo_by_rokma_202857" %}
 
  I was there...
 
-{% responsive_image path: uploads/2018/12/181215_photo_by_rokma_203449.jpg %}
+{% include partials/image.html, name: "181215_photo_by_rokma_203449" %}
 
  I was there...
 
-{% responsive_image path: uploads/2018/12/181215_photo_by_rokma_204758.jpg %}
+{% include partials/image.html, name: "181215_photo_by_rokma_204758" %}
 
  I was there...
 
-{% responsive_image path: uploads/2018/12/181215_photo_by_rokma_160839.jpg %}
+{% include partials/image.html, name: "181215_photo_by_rokma_160839" %}
 
 Where? There...
 

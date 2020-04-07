@@ -1,7 +1,7 @@
 ---
 title: Understanding emotions
 curator: rokma
-date: '2018-03-11 11:22:33 +1100'
+date: 2018-03-11
 categories: studies
 tags:
 - article
