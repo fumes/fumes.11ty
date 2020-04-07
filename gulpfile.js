@@ -7,18 +7,18 @@ var responsive   = require('gulp-responsive');
 
 
 // Reponsive sizing w/ gulp4
-// NOTE: this does not create the destination dir for the work. Create it manually and move files inside. This task create jpgs in ./assets/p/
+// NOTE: this does not create the destination dir for the work. Create it manually and move files inside.
 // OK!
 gulp.task('jpgs', function (done) {
-  return gulp.src('./_src/upload/_images_to_process/*.jpg')
+  return gulp.src('./src/uploads/_images_to_process/**/*.jpg')
     .pipe(responsive({
-      '*.jpg': [{
+      '**/*.jpg': [{
         width: 640,
         quality: 55,
         progressive: true,
         sharper: true,
         rename: {
-          suffix: '-640'
+          suffix: '-640',
         }
       }, {
         width: 880,
@@ -54,7 +54,7 @@ gulp.task('jpgs', function (done) {
       withMetadata: false,
       withoutEnlargement: false
     }))
-    .pipe(gulp.dest('./_src/assets/p/_images_sized/'));
+    .pipe(gulp.dest('./src/assets/p/_images_sized/'));
   done();
 });
 
@@ -62,9 +62,9 @@ gulp.task('jpgs', function (done) {
 // Rename all to lowercase w/ gulp4
 // OK!
 gulp.task(function lower() {
-  return gulp.src( './_src/uploads/_images_to_lowercase/*.*' )
+  return gulp.src( './src/uploads/_images_to_lowercase/*.*' )
     .pipe(rename(function(fix) {
        fix.basename = changeCase.lowerCase(fix.basename);
      }))
-    .pipe(gulp.dest( './_src/uploads/_images_lowercased' ));
+    .pipe(gulp.dest( './src/uploads/_images_lowercased' ));
 });
