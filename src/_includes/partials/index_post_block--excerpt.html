@@ -19,9 +19,9 @@
 
     </div>
 
-    {% if post.data.excerpt %}
+    {% if post.data.description %}
     <div class="excerpt">
-      {{ post.data.excerpt | strip_html | truncate: 160 }}
+      {{ post.data.description | truncate: 193 }} <small>>>></small>
     </div>
     {% endif %}
 

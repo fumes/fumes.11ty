@@ -28,7 +28,7 @@ license: CC_BY_NC_ND
 thumb: skin-works.jpg
 description: "Skin Works is a series of fine-art black-and-white prints by Rokma. While your summer might look pink, you can feel black and white. Shades of grey smoothly attract. Not surviving alone in the jungle, we are moved to seek contact. See with our hands. Feel the importance. Acknowledge. Culturally gravitating around beauty, skin works exploring the vibe, no light needed."
 offwhite: true # true or empty
-image: /assets/p/articles/skin-works/skin-works-photo-by-rokma.jpg
+image: /assets/p/skin-works/skin-works-photo-by-rokma.jpg
 ---
 
 Skin Works is a series of fine-art black-and-white prints by Rokma.

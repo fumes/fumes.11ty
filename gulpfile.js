@@ -5,12 +5,45 @@ var gulp         = require('gulp');
 var rename       = require('gulp-rename');
 var responsive   = require('gulp-responsive');
 
+// WHAT: adds folder name + index, lowercasing the original file name.
+// starts from 10, to avoid single digit no. to the first 9 jpgs
+var index = 10;
+gulp.task('curatename', function (done) {
+  // put image folders w/ proper name into _images_to_rename
+  return gulp.src("./src/uploads/_images_to_rename/**/*.jpg")
+  .pipe(rename(function(fix) {
+     fix.basename = changeCase.lowerCase(fix.basename);
+   }))
+  .pipe(rename(function (path) {
+    // prefix w/ folder name + suffix w/ index (starting at 10!)
+    path.basename =  (path.dirname + "-" + path.basename + "-" + index++);
+  }))
+  // output to _images_to_process folder for next step
+  .pipe(gulp.dest("./src/uploads/_images_to_size/"));
+});
+
+// WHAT: adds folder name + index, deleting the original file name.
+// start from 10, top avoid single digit no. to the first 9 jpgs
+var index = 10;
+gulp.task('rename', function (done) {
+  // put image folders w/ proper name into _images_to_rename
+  return gulp.src("./src/uploads/_images_to_rename/**/*.jpg")
+  .pipe(rename(function (path) {
+    // prefix w/ folder name + suffix w/ index (starting at 10!)
+    path.basename =  (path.dirname + "-" + index++);
+  }))
+  // output to _images_to_process folder for next step
+  .pipe(gulp.dest("./src/uploads/_images_to_size/"));
+});
 
 // Reponsive sizing w/ gulp4
-// NOTE: this does not create the destination dir for the work. Create it manually and move files inside.
+// NOTE: Does transfer folder and lowercase the jpgs names
 // OK!
-gulp.task('jpgs', function (done) {
-  return gulp.src('./src/uploads/_images_to_process/**/*.jpg')
+gulp.task('sizes', function (done) {
+  return gulp.src('./src/uploads/_images_to_size/**/*.jpg')
+    .pipe(rename(function(fix) {
+       fix.basename = changeCase.lowerCase(fix.basename);
+     }))
     .pipe(responsive({
       '**/*.jpg': [{
         width: 640,
@@ -52,9 +85,11 @@ gulp.task('jpgs', function (done) {
       // global configuration for all images
       errorOnEnlargement: false,
       withMetadata: false,
-      withoutEnlargement: false
+      withoutEnlargement: false,
+      withoutChromaSubsampling: true
     }))
-    .pipe(gulp.dest('./src/assets/p/_images_sized/'));
+    // puy jpgs ready in place for SSG to use
+    .pipe(gulp.dest('./src/assets/p/'));
   done();
 });
 
@@ -62,9 +97,9 @@ gulp.task('jpgs', function (done) {
 // Rename all to lowercase w/ gulp4
 // OK!
 gulp.task(function lower() {
-  return gulp.src( './src/uploads/_images_to_lowercase/*.*' )
+  return gulp.src( './src/uploads/_images_to_lowercase/**/*.*' )
     .pipe(rename(function(fix) {
        fix.basename = changeCase.lowerCase(fix.basename);
      }))
-    .pipe(gulp.dest( './src/uploads/_images_lowercased' ));
+    .pipe(gulp.dest( './src/uploads/_images_to_size' ));
 });
