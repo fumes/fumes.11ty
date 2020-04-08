@@ -8,12 +8,10 @@ tags:
 - article
 - useful
 - review
-- news
-- reflect
 - community
 - clever
 - technology
-- smart
+- studies
 - life
 - educational
 - global-warming

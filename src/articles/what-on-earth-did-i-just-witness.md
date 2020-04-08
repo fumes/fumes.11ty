@@ -14,7 +14,6 @@ tags:
 - clever
 - artist
 - visual
-- China
 - Chinese
 - design
 - animation
@@ -23,7 +22,7 @@ tags:
 - sustainability
 - awareness
 - life
-- global-warming
+- inspiring
 license:
 thumb: big-hands.jpg
 description: "Chinese animation artist Ray Lei, 26-year-old, has already hit International Animation Festival shows few times with his interesting multimedia works."

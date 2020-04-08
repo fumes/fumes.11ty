@@ -7,6 +7,7 @@ date: 2018-09-03
 category: photo-journalism
 tags:
 - article
+- photo-journalism
 - awareness
 - educational
 - life
@@ -18,6 +19,7 @@ tags:
 - Bali
 - Indonesia
 - photography
+- trash
 license: CC_BY
 thumb: paradise-garbage.jpg
 description: ""

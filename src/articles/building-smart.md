@@ -10,7 +10,6 @@ tags:
 - clever
 - community
 - design
-- news
 - review
 - sustainability
 - simplicity
@@ -19,8 +18,7 @@ tags:
 - awareness
 - educational
 - rural
-- smart
-- global-warming
+- inspiring
 license:
 thumb: building-smart.jpg
 descritpion: "Through his firm, Kéré Architecture, Kéré focuses on using local building materials and techniques in a modern way, to redefine and redesign the enviroment. In Burkina Faso, that means working predominantly with clay, and his innovative approach has seen the creation of remarkably beautiful, modern buildings that are entirely appropriate to the setting."

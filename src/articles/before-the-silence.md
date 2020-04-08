@@ -8,6 +8,7 @@ category: photo-journalism
 tags:
 - article
 - artist
+- photo-journalism
 - Bali
 - celebration
 - documentary
@@ -16,14 +17,11 @@ tags:
 - Indonesia
 - lifestyle
 - Lombok
-- Nyepi
 - photography
-- spirits
 - tradition
 - visual
 - ritual
 - report
-- Gods
 license: CC_BY_NC_ND
 thumb: excitement-before-the-silence.jpg
 description: The excitement of the Ogoh-ogoh night is going to stick into your mind for the whole day of silence that follows.

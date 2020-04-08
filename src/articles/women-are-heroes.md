@@ -16,6 +16,7 @@ tags:
 - rural
 - visual
 - people
+- inspiring
 - simplicity
 license:
 thumb: jr.jpg

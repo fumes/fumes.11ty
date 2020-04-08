@@ -7,17 +7,16 @@ category: photo-journalism
 tags:
 - article
 - lifestyle
+- photo-journalism
 - city
 - report
 - photography
 - community
 - religion
 - Africa
-- gospel
 - Christian
 - ritual
 - Italy
-- expat
 - life
 - people
 license: CC_BY

@@ -17,7 +17,6 @@ tags:
 - Thailand
 - technology
 - visual
-- vote
 license: CC_BY
 thumb: thai-elections.jpg
 description: "Fumes is offering a glimpse of the styles and subjects used in campaigns during this general election. Fumes attempts to translate the various campaign slogans that reveal candidates platforms and agendas."

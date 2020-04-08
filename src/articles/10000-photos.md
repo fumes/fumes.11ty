@@ -6,10 +6,10 @@ date: 2010-08-14
 category: studies
 tags:
 - article
+- studies
 - Indonesia
 - Bali
 - documentary
-- time-lapse
 - Washington-DC
 - Lombok
 - San-Francisco

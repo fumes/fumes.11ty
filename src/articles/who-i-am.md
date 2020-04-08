@@ -6,7 +6,6 @@ category: inspiring
 tags:
 - article
 - fun
-- news
 - reflect
 - under-covered
 - community
@@ -14,8 +13,8 @@ tags:
 - educational
 - artist
 - performance
-- Chinese
-- smart
+- people
+- inspiring
 - review
 license:
 thumb: hetain-patel.jpg

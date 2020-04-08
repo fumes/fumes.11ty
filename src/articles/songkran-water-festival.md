@@ -13,6 +13,7 @@ tags:
 - documentary
 - festival
 - fun
+- photo-journalism
 - motorcycles
 - Phuket
 - photography

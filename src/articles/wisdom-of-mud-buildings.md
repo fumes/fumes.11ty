@@ -11,19 +11,15 @@ tags:
 - clever
 - educational
 - design
-- news
 - nature
 - reflect
-- review
 - rural
 - shape
 - simplicity
-- smart
 - sustainability
 - technology
 - under-covered
 - useful
-- video
 license:
 thumb: mud-wisdom.jpg
 description: "There are a lot of resources given by nature for free, all we need is our sensitivity to see them and our creativity to use them. Heringer uses low-tech materials like mud and bamboo to create structures from China to Switzerland, Bangladesh and beyond. Visit an awe-inspiring school, an elegant office and cozy social spaces, all built from natural materials, in this delightful talk."

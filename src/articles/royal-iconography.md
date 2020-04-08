@@ -6,7 +6,7 @@ date: 2011-12-05
 category: photo-journalism
 tags:
 - article
-- news
+- photo-journalism
 - photography
 - Thailand
 - advertising

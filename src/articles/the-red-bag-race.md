@@ -7,6 +7,7 @@ category: balance
 tags:
 - article
 - fun
+- balance
 - Indonesia
 - useful
 - Bali
@@ -17,7 +18,6 @@ tags:
 - clever
 - trash
 - educational
-- smart
 - report
 - non-profit
 - sustainability

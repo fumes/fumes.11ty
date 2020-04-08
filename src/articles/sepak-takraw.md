@@ -7,11 +7,9 @@ category: photo-journalism
 tags:
 - article
 - fun
-- photography
+- photo-journalism
 - Thailand
-- sepak-takraw
 - Malaysia
-- sport
 - tradition
 license:
 thumb: sepak.jpg

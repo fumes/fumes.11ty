@@ -11,7 +11,7 @@ tags:
 - fun
 - illustrations
 - educational
-- news
+- studies
 - reflect
 - review
 - useful
@@ -19,7 +19,6 @@ tags:
 - animation
 - lifestyle
 - awareness
-- smart
 - technology
 license:
 thumb: motivations.jpg

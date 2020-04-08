@@ -14,13 +14,11 @@ tags:
 - ritual-warfare
 - hardcore
 - archipelago
-- warriors
-- sumba
-- Indonesian-heroes
+- Sumba
 - lifestyle
 - ritual
 - people
-- report
+- photo-journalism
 license:
 thumb: sumba.jpg
 description: "For 350 years, the Dutch colonised the vast archipelago of Indonesia but never even managed to set up an administrative post on the island of Sumba."

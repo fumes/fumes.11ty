@@ -6,6 +6,7 @@ date: 2010-05-18
 category: art
 tags:
 - article
+- art
 - black-and-white
 - personal-works
 - H2O

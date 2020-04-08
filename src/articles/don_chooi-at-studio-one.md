@@ -9,7 +9,6 @@ tags:
 - article
 - art
 - artist
-- awareness
 - Auckland
 - beauty
 - city

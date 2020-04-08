@@ -16,17 +16,13 @@ tags:
 - hardcore
 - Indonesia
 - lifestyle
-- movement
 - motorcycles
 - music
-- personal-works
+- photo-journalism
 - photography
-- rasta
 - report
-- scooter
 - Slankers
 - under-covered
-- vespa
 license:
 thumb: vespa.jpg
 description: "The Indonesian Vespa Scooterist Community is a gang of rasta commandos who ride for inter-island brotherhood."

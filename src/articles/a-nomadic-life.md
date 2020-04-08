@@ -12,6 +12,7 @@ tags:
 - life
 - people
 - reflect
+- report
 - under-covered
 - China
 - photography

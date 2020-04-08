@@ -7,14 +7,11 @@ tags:
 - article
 - inspiring
 - clever
-- news
 - reflect
 - review
 - educational
 - useful
 - awareness
-- smart
-- video
 - under-covered
 license:
 thumb: better-conversation.jpg

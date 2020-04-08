@@ -6,8 +6,7 @@ category: inspiring
 tags:
 - article
 - fun
-- review
-- news
+- inspiring
 - reflect
 - clever
 - artist

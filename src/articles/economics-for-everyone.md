@@ -7,14 +7,13 @@ tags:
 - article
 - clever
 - community
-- news
+- inspiring
 - educational
 - culture
 - review
 - sustainability
 - useful
 - awareness
-- smart
 - life
 license:
 thumb: economics.jpg

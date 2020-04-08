@@ -6,12 +6,9 @@ category: studies
 tags:
 - article
 - useful
-- news
-- nerd
+- studies
 - educational
-- geek
 - clever
-- internet-services
 - awareness
 - technology
 license:

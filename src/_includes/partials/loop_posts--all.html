@@ -2,10 +2,10 @@
 <div class="looper looper_all" >
   <label>posts</label>
   <div class="looper__ico" title="posts">
-    {% include partials/svg/use.html id: "icn--posts" class: "posts" %}
+    {% include partials/svg/use.html, id: "icn--posts" class: "posts" %}
   </div>
 
-  {%- assign posts = collections.article | reverse -%}
+  {%- assign posts = collections.article  -%}
   {%- for post in posts -%}
     <a class="looper__link {{ category }} {% if page.url == post.url %}active{% endif %}" href="{{ post.url }}">{{ post.data.title }}</a>
   {%- endfor -%}

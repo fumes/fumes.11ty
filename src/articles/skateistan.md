@@ -10,7 +10,7 @@ tags:
 - skateboarding
 - useful
 - review
-- news
+- inspiring
 - under-covered
 - community
 - Afghanistan

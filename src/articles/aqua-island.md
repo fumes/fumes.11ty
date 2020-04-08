@@ -6,6 +6,7 @@ date: 2010-05-27
 category: art
 tags:
 - article
+- art
 - black-and-white
 - Indonesia
 - personal-works

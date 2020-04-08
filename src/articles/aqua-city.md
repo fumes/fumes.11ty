@@ -6,6 +6,7 @@ date: 2010-05-17
 category: art
 tags:
 - article
+- art
 - black-and-white
 - city
 - personal-works

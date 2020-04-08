@@ -12,7 +12,6 @@ tags:
 - global-warming
 - Indonesia
 - photography
-- legends
 - music
 - people
 - report

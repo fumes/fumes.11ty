@@ -12,10 +12,9 @@ tags:
 - Singapore
 - educational
 - soft-power
-- show
-- news
+- studies
 - culture
-- form
+- shape
 - artist
 - contemporary-art
 - reflect

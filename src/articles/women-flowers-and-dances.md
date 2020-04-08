@@ -20,7 +20,7 @@ tags:
 - life
 - people
 - performance
-- photography
+- photo-journalism
 - ritual
 - rural
 - tradition

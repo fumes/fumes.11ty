@@ -6,20 +6,17 @@ date: 2017-05-20
 category: studies
 tags:
 - article
-- product
 - design
 - packaging
-- report
+- studies
 - Singapore
 - advertising
 - marketing
-- corruption
 - drawings
 - fashion
 - food
-- glamour
 - illustrations
-- smart
+- clever
 - technology
 - visual
 license: CC_BY

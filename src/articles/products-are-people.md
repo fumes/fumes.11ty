@@ -7,14 +7,16 @@ date: 2018-10-01
 category: photo-journalism
 tags:
 - article
+- photo-journalism
 - awareness
 - educational
+- marketing
 - life
 - people
 - reflect
 - under-covered
 - Singapore
-- photography
+- design
 license: CC_BY
 thumb: products-are-people.jpg
 description: Products are people and they're looking at me. – Anthropomorphism, the innate human tendency to attribute human or human-like characteristics, motives and behaviours to non-human forms, objects, natural phenomena and events, describes human thoughts and actions.

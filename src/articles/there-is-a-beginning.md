@@ -6,16 +6,15 @@ category: balance
 tags:
 - article
 - awareness
+- balance
 - clever
 - conceptual
 - educational
-- geek
 - life
 - lifestyle
 - reflect
 - review
 - simplicity
-- smart
 - sustainability
 - useful
 license:

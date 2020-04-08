@@ -8,7 +8,7 @@ tags:
 - article
 - fun
 - Songkran
-- news
+- photo-journalism
 - photography
 - community
 - aqua

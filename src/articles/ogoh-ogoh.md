@@ -6,7 +6,7 @@ date: 2010-09-24
 category: photo-journalism
 tags:
 - article
-- artist
+- photo-journalism
 - Bali
 - celebration
 - documentary
@@ -16,14 +16,11 @@ tags:
 - Indonesia
 - lifestyle
 - Lombok
-- Nyepi
 - photography
-- spirits
 - tradition
 - visual
 - ritual
 - report
-- Gods
 license: CC_BY_NC_ND
 thumb: ogoh.jpg
 description: "The main purpose of the making of Ogoh-ogoh is the purification of the natural environment of any spiritual pollutants emitted from the activities of living beings (especially humans)."

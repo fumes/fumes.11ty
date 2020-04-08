@@ -9,16 +9,13 @@ tags:
 - clever
 - community
 - design
-- Latino-America
-- news
+- inspiring
 - reflect
 - review
 - slum
 - people
 - street-art
-- useful
 - visual
-- awareness
 - culture
 - drawings
 - city

@@ -6,7 +6,7 @@ date: 2012-01-25
 category: photo-journalism
 tags:
 - article
-- news
+- photo-journalism
 - report
 - photography
 - community
@@ -18,11 +18,8 @@ tags:
 - ritual
 - culture
 - Hongkong
-- dragons
-- SAR
 - Chinese
 - fun
-- Gods
 - lifestyle
 - city
 license: CC_BY

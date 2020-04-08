@@ -7,9 +7,7 @@ tags:
 - article
 - clever
 - design
-- news
 - reflect
-- review
 - simplicity
 - educational
 - useful
@@ -20,7 +18,6 @@ tags:
 - city
 - awareness
 - nature
-- smart
 - global-warming
 license:
 thumb: growfreshair.jpg

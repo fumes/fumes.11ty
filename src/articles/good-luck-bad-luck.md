@@ -7,6 +7,7 @@ category: photo-journalism
 tags:
 - article
 - celebration
+- photo-journalism
 - city
 - Chinese
 - culture

@@ -7,26 +7,23 @@ date: 2019-03-30
 category: photo-journalism
 tags:
 - article
-- artist
 - Yogyakarta
 - documentary
 - fun
 - Indonesia
 - lifestyle
 - Java
-- photography
+- photo-journalism
 - under-covered
 - visual
 - report
 - street-art
 - slum
 - people
-- Pancasila
 - art
 - awareness
 - city
 - illustrations
-- patriotism
 - unity
 license: CC_BY_NC_ND
 thumb: yogyakarta-wall-art.jpg

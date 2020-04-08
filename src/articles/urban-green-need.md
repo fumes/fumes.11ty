@@ -16,7 +16,6 @@ tags:
 - community
 - people
 - clever
-- tradition
 - street-art
 - Bangkok
 - Thailand
@@ -25,7 +24,6 @@ tags:
 - sustainability
 - simplicity
 - plants
-- global-warming
 license: CC_BY
 thumb: urban-green.jpg
 description: "The urban need for improved life quality is a driving energy in every big metropolis. Check how good are Bangkok people in painting their everyday life lively green."

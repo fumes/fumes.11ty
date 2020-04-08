@@ -6,16 +6,13 @@ date: 2010-08-17
 category: photo-journalism
 tags:
 - article
-- lifestyle
+- photo-journalism
 - black-and-white
 - under-covered
 - photography
 - documentary
 - community
 - archipelago
-- differences
-- harmony
-- Pancasila
 - religion
 - Buddhist
 - Christian
@@ -28,7 +25,6 @@ tags:
 - life
 - Lombok
 - Java
-- Gods
 - unity
 - people
 license: CC_BY

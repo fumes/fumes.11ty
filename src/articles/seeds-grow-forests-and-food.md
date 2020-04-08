@@ -10,12 +10,10 @@ tags:
 - educational
 - global-warming
 - lifestyle
-- news
+- balance
 - plants
-- review
 - reflect
 - nature
-- smart
 - sustainability
 - technology
 - under-covered

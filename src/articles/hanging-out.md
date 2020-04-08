@@ -7,14 +7,12 @@ category: photo-journalism
 tags:
 - article
 - fun
+- photo-journalism
 - Indonesia
 - photography
 - community
-- tattoo
-- rites-of-passage
 - hardcore
 - piercing
-- meditation
 - awareness
 - performance
 - ritual

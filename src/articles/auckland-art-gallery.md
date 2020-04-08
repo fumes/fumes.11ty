@@ -18,17 +18,13 @@ tags:
 - conceptual
 - culture
 - design
-- documentary
 - educational
 - fun
 - illustrations
 - New-Zealand
-- people
 - painting
 - photography
 - report
-- review
-- women
 - visual
 license: CC_BY_NC_ND
 thumb: aucklandartgallery.jpg

@@ -16,7 +16,6 @@ tags:
   - lifestyle
   - life
   - Milano
-  - news
   - photography
   - report
   - ritual

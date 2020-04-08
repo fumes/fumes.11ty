@@ -7,8 +7,7 @@ tags:
 - article
 - Africa
 - awareness
-- Congo
-- news
+- photo-journalism
 - educational
 - hardcore
 - pain

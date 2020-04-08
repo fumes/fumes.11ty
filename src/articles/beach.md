@@ -6,12 +6,11 @@ date: 2010-09-15
 category: studies
 tags:
 - article
+- studies
 - fashion
 - personal-works
 - photography
 - beauty
-- glamour
-- editorial
 - water
 license:
 thumb: beach.jpg

@@ -19,7 +19,6 @@ tags:
 - report
 - review
 - visual
-- video
 - Wellington
 license: CC_BY_NC_ND
 thumb: christopher-ulutupu-at-enjoy.jpg

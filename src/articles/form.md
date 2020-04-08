@@ -9,9 +9,9 @@ date: 2016-07-10
 category: studies
 tags:
 - article
+- studies
 - artist
 - beauty
-- form
 - design
 - Italy
 - nature

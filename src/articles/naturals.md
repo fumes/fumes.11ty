@@ -12,7 +12,6 @@ tags:
   - celebration
   - fun
   - life
-  - glamour
   - culture
   - beauty
   - lifestyle

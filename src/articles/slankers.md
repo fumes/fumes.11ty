@@ -6,21 +6,16 @@ date: 2010-09-28
 category: photo-journalism
 tags:
 - article
+- photo-journalism
 - Indonesia
 - personal-works
 - photography
-- Slank
-- vespa
-- Slankers
-- Indonesian-heroes
-- movement
-- youth-campaign
-- injustices
-- corruption
+- music
 - celebration
 - documentary
 - lifestyle
 - report
+- motorcycles
 license:
 thumb: slank.jpg
 description: "Formed in 1983, Slank is an Indonesian superband. By numbers, they are the biggest indie band in the world. Known for their socio-politically driven music, they were censored from TV and Radio during the Suharto years."

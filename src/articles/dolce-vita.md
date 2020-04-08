@@ -17,7 +17,7 @@ tags:
 - documentary
 - Italy
 - reflect
-- Mediterranean
+- studies
 license: CC_BY
 thumb: dolcevita.jpg
 description: "We all stick to habits we have developed while growing up. I doesn't matter if those routines are not appropriate anymore. We also describe things mostly only as we have been told to call them. Genova, an Italian harbour city was once a city state, 700 years later, it is just a forgotten provincial town of little relevance, besides tonnage. Genova decline is still on. Its population, which reached more than 817.000 people in 1971, totals now to 586.000. "

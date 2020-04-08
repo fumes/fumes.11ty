@@ -11,13 +11,12 @@ tags:
 - design
 - educational
 - fun
-- geek
 - global-warming
-- news
+- inspiring
 - open-source
 - review
 - reflect
-- smart
+- inspiring
 - technology
 - under-covered
 - useful

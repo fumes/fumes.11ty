@@ -6,13 +6,13 @@ date: 2014-03-22
 category: studies
 tags:
 - article
+- studies
 - water
 - design
 - nature
 - photography
 - documentary
 - sustainability
-- water-problems
 - archipelago
 - awareness
 - Bali

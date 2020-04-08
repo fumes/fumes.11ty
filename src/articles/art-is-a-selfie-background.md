@@ -12,7 +12,6 @@ tags:
 - Bali
 - educational
 - Indonesia
-- geek
 - life
 - people
 - photography

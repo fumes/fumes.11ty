@@ -14,7 +14,6 @@ module.exports = function(collection) {
           case "template":
             return false;
         }
-
         return true;
       });
 

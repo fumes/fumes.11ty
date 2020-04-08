@@ -8,19 +8,15 @@ tags:
 - article
 - black-and-white
 - city
-- documentary
+- photo-journalism
 - Indonesia
 - photography
 - motorcycles
 - community
 - street-art
 - Yogyakarta
-- Merapi
 - Java
-- volcano
-- eruption
-- animism
-- stunts
+- people
 thumb: yogya.jpg
 description: "The 2010 eruptions of Mount Merapi began in late October 2010 when Mount Merapi in Central Java, Indonesia began an increasingly violent series of eruptions that continued into November, culminating in repeated outbursts of lava and ashes."
 ---

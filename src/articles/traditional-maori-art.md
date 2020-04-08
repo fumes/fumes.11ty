@@ -14,7 +14,6 @@ tags:
 - culture
 - educational
 - New-Zealand
-- tribal
 - report
 - review
 - visual

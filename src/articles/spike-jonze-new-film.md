@@ -6,13 +6,12 @@ category: inspiring
 tags:
 - article
 - review
-- news
-- movie
+- inspiring
 - under-covered
 - documentary
 - preventable
+- people
 - Africa
-- hiv-aids
 license:
 thumb: lazzarus.jpg
 description: "'The Lazarus Effect' by director Lance Bangs and executive producer Spike Jonze premieres on HBO, YouTube and Channel 4 UK. The 30 minute film illustrates the transformative effect of life-saving antiretroviral medicine through the stories of four HIV+ people in Zambia - Connie, Paul, Constance and Bwalya."

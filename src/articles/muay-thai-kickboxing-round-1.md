@@ -6,11 +6,10 @@ date: 2011-04-23
 category: photo-journalism
 tags:
 - article
+- photo-journalism
 - fun
 - photography
 - black-and-white
-- sport
-- show
 - pain
 - hardcore
 - Thailand

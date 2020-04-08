@@ -7,20 +7,16 @@ category: art
 tags:
 - Indonesia
 - personal-works
-- clever
-- surf
 - H2O
 - reflect
 - photography
-- artist
+- art
 - archipelago
 - aqua
 - water
-- waves
-- underwater
 - hardcore
 - nature
-license: 
+license:
 thumb: consider.jpg
 description: "Consider the sea and oceans of the world as a jelly, and the surface of this jelly medium as a skin and lets think of this as our idealized world where we can make generalisations."
 ---

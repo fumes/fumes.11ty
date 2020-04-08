@@ -9,9 +9,7 @@ tags:
 - fun
 - useful
 - reflect
-- community
 - visual
-- transparency
 - non-profit
 - awareness
 - open-source

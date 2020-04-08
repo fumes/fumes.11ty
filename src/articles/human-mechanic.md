@@ -8,9 +8,7 @@ tags:
 - article
 - photography
 - Java
-- massage
-- Urut
-- healer
+- photo-journalism
 - pain
 - documentary
 - black-and-white

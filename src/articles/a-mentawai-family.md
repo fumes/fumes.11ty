@@ -8,14 +8,11 @@ tags:
 - article
 - Indonesia
 - photography
-- documentary
 - Mentawai
-- alaia
-- shaman
 - Sumatra
 - water
 - hardcore
-- lifestyle
+- photo-journalism
 - rural
 - life
 - report

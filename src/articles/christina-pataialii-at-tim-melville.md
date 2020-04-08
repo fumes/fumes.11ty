@@ -9,7 +9,6 @@ tags:
 - article
 - art
 - artist
-- awareness
 - Auckland
 - beauty
 - city
@@ -20,7 +19,6 @@ tags:
 - New-Zealand
 - contemporary-art
 - people
-- photography
 - report
 - review
 - woman

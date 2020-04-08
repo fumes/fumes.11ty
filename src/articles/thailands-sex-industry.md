@@ -6,13 +6,11 @@ date: 2011-05-02
 category: photo-journalism
 tags:
 - article
-- expat
+- photo-journalism
 - hardcore
 - life
 - lifestyle
 - photography
-- prostitution
-- plastic-surgery
 - Phuket
 - Thailand
 - tourism
