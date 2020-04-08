@@ -5,6 +5,7 @@ date: 2017-10-13
 category: inspiring
 tags:
 - article
+- inspiring
 - clever
 - news
 - reflect
@@ -17,6 +18,7 @@ tags:
 - under-covered
 license:
 thumb: better-conversation.jpg
+description: "Buddha said, and I'm paraphrasing, 'If your mouth is open, you're not learning'. And Calvin Coolidge said 'No man ever listened his way out of a job'. I came to realise that conversational competence might be the single most overlooked skill we fail to teach. Kids spend hours each day engaging with ideas and each other through screens, but rarely do they have an opportunity to hone their interpersonal communications skills."
 image: "/assets/p/.jpg"
 ---
 
@@ -53,7 +55,7 @@ Headlee has worked in public radio since 1999, as a reporter, host and correspon
 
 Headlee holds multiple degrees in music and still performs as a professional opera singer. She appears on the album “Classically Blue” from gospel artist Lea Gilmore. She's the granddaughter of composer William Grant Still.
 
-_Know more about Celeste Headlee:_{:class="readmore"}
+_Know more about Celeste Headlee:_
 
 - Follow [Celeste Headlee on twitter](http://twitter.com/celesteheadlee)
 
