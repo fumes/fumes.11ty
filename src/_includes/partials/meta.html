@@ -20,6 +20,20 @@
   </div>
   {% endif %}
 
+  {% if images_author %}
+  <div class="post-meta images_author">
+
+    <div class="ico">{% include partials/svg/use.html, id: "icn--photographer" class: "photographer" %}</div>
+
+    <p class="photog">
+      <span class="hide">Images Author: </span>
+
+      <a title="Photography by: {{ photographer }}" href="/author/{{ images_author | slug }}/">{{ images_author | capitalize }}</a>
+    </p>
+
+  </div>
+  {% endif %}
+
 
 
   {% if text_author %}

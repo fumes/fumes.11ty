@@ -116,3 +116,36 @@ layout: default
   {%- endfor -%}
 </div>
 {%- endif -%}
+
+
+{%- if author == "andrea-capello" -%}
+<div class="home__posts {{ page.fileSlug }}">
+  {%- for post in posts -%}
+    {%- if post.data.photographer == "andrea capello" -%}
+      {% include partials/index_post_block--excerpt.html %}
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+{%- endif -%}
+
+
+{%- if author == "melinda-hegedus" -%}
+<div class="home__posts {{ page.fileSlug }}">
+  {%- for post in posts -%}
+    {%- if post.data.images_author == "melinda hegedus" -%}
+      {% include partials/index_post_block--excerpt.html %}
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+{%- endif -%}
+
+
+{%- if author == "luci-ferrero" -%}
+<div class="home__posts {{ page.fileSlug }}">
+  {%- for post in posts -%}
+    {%- if post.data.photographer == "luci ferrero" -%}
+      {% include partials/index_post_block--excerpt.html %}
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+{%- endif -%}

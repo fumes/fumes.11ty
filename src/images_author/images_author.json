@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/photographer.html",
+  "permalink": "author/{{ page.fileSlug }}/"
+}
