@@ -1,7 +1,7 @@
 ---
 title: Motivations not cash!
 curator: rokma
-date: 2015-03-13 16:55:51 +0200'
+date: 2015-03-13
 category: studies
 tags:
 - article

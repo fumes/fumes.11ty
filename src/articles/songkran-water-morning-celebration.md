@@ -52,4 +52,4 @@ Water from a bowl is poured over family, friends and elders as a show of respect
 
 ### Related post
 
-[Songkran 2555, the Water festival ]({% post_url 2011-04-24-songkran-water-festival %})is Fumes post focused on the Event Festival!
+[Songkran 2555, the Water festival ](/songkran-water-festival/)is Fumes post focused on the Event Festival!

@@ -3,7 +3,7 @@ title: 10,000 Photos...
 curator: alejandro plesch
 photographer: alejandro plesch
 date: 2010-08-14
-category: art
+category: studies
 tags:
 - article
 - Indonesia
