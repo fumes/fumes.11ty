@@ -4,7 +4,7 @@ text_author:
 photographer: rokma
 curator: rokma
 date: 2019-03-08
-categories: photo-journalism
+category: photo-journalism
 tags:
 - article
 - artist

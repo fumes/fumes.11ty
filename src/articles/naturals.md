@@ -4,7 +4,7 @@ text_author:
 photographer: rokma #need lowercase
 curator: rokma
 date: 2019-05-19
-category: photo-journalism #put this one also as first tag
+category: photo-journalism #put this one also as tag
 tags:
   - article
   - photo-journalism

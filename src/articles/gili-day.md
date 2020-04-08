@@ -3,7 +3,7 @@ title: Gili Day
 curator: rokma
 photographer: rokma
 date: 2017-12-12
-categories: studies
+category: studies
 tags:
 - article
 - artist

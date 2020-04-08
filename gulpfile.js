@@ -24,7 +24,7 @@ gulp.task("curatename", function (done) {
 
 // WHAT: adds folder name + index, deleting the original file name.
 // start from 10, top avoid single digit no. to the first 9 jpgs
-var index = 10;
+var index = 0;
 gulp.task("rename", function (done) {
   // put image folders w/ proper name into _images_to_rename
   return gulp.src("./src/uploads/_images_to_rename/**/*.jpg")

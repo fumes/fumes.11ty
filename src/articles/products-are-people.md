@@ -4,7 +4,7 @@ text_author:
 photographer: rokma
 curator: rokma
 date: 2018-10-01
-categories: photo-journalism
+category: photo-journalism
 tags:
 - article
 - awareness

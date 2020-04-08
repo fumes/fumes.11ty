@@ -4,7 +4,7 @@ text_author: rokma
 photographer: rokma
 curator: rokma
 date: 2019-04-10
-categories: art
+category: art
 tags:
 - article
 - art
@@ -25,8 +25,8 @@ tags:
 - visual
 license: CC_BY_NC_ND
 thumb: marti_friedlander_fhe.jpg
-description: In the panorama of the Auckland art scene FHE galleries definitely sticks out. Perfect attention for detail and an excellent presentational refinement are their trademarks. Currently showing Images from the life of photographer Marti Friedlander.
-image: "/assets/p/.jpg"
+description: "In the panorama of the Auckland art scene FHE galleries definitely sticks out. Perfect attention for detail and an excellent presentational refinement are their trademarks. Currently showing Images from the life of photographer Marti Friedlander."
+image: "/assets/p/marti-friedlander-at-fhe-galleries/marti-friedlander-at-fhe-galleries.jpg"
 ---
 
 **FHE GALLERIES** (Fogarty, Hojsgaard, Entwistle) is a private dealer gallery established in 1995.
@@ -39,7 +39,7 @@ The gallery presents individual works of excellence from New Zealand, the Pacifi
 
  _Images from the life of photographer Marti Friedlander._ is one of the current show.
 
-{% include partials/image.html, name: "190410_photo_rokma_marti_friedlander_fhe_01" %}
+{% include partials/image.html, name: "-0" %}
 
 
 >"In New Zealand I became a photographer by chance. Perhaps there’s truth in Susan Sontag’s comment that people robbed of their past become the most fervent photographers. It was like that for me… somehow photography made New Zealand more coherent for me. I didn’t want to see the landscape through a viewfinder, but the camera allowed me to come to terms with New Zealanders through their faces." _Marti Friedlander, 2011_
@@ -48,13 +48,13 @@ Throughout her remarkable sixty year long career, **Marti Friedlander** has been
 
 She was the first photographer to celebrate the extent to which visual and literary creativity contributes to New Zealand culture.
 
-{% include partials/image.html, name: "190410_photo_rokma_marti_friedlander_fhe_02" %}
+{% include partials/image.html, name: "-1" %}
 
 >"That is all I want my images to do - to touch people and make them think." - _Marti Friedlander_
 
 _Moko:_ Maori Tattooing in the 20th Century (with Michael King) has been continuously in print since it was first published in 1972, and is arguably one of the most important photo essays produced in post-war New Zealand. All 47 original prints in the Moko suite were gifted to Te Papa: Museum of New Zealand.
 
-{% include partials/image.html, name: "190410_photo_rokma_marti_friedlander_fhe_03" %}
+{% include partials/image.html, name: "-2" %}
 
 
 Friedlander has documented her adopted country from within her personal experience of diaspora, as a Jewish artist. This experience has also informed her insight into the way New Zealand has established a more complex and compelling identity within two generations.

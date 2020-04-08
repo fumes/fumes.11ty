@@ -4,33 +4,33 @@ text_author: rokma
 photographer: rokma
 curator: rokma
 date: 2019-04-28
-categories: art
+category: art
 tags:
-- article
-- art
-- artist
-- Auckland
-- beauty
-- city
-- culture
-- educational
-- New-Zealand
-- contemporary-art
-- painting
-- report
-- review
-- visual
+  - article
+  - art
+  - artist
+  - Auckland
+  - beauty
+  - city
+  - culture
+  - educational
+  - New-Zealand
+  - contemporary-art
+  - painting
+  - report
+  - review
+  - visual
 license: CC_BY_NC_ND
 thumb: jack-trolove-at-whitespace.jpg
 description: "Jack Trolove s practice, spans 20 years of working with the body, as political site and poetic substance. For many years he created articulate work using moving image, performance and collective practice, but he s clearly found his home in painting which he refers to as his first love."
-image: "/assets/p/jack-trolove-at-whitespace/jack-trolove-at-whitespace.jpg"
+image: "/assets/p/jack-trolove-at-whitespace/190428-jack-trolove-at-whitespace.jpg"
 ---
 
 **Jack Trolove**’s practice, spans 20 years of working with the body, as political site and poetic substance.
 
 For many years he created articulate work using moving image, performance and collective practice, but he’s clearly found his home in painting which he refers to as his ‘first love’.
 
-{% include partials/image.html, name: "-01" %}
+{% include partials/image.html, name: "" %}
 
 While the social and theoretical influences in **Trolove**’s work have long been weighty (inter generational trauma and healing, queer-trans feminisms, de-colonisation and critical whiteness studies) these days his work looks, and lands, more like poetry than politics.
 

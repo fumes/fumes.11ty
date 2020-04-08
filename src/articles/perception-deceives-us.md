@@ -4,7 +4,7 @@ text_author: james fullwood #need lowercase
 photographer: rokma
 curator: rokma
 date: 2017-07-01
-categories: inspiring
+category: inspiring
 tags:
 - article
 - inspiring

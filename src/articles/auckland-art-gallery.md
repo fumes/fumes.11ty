@@ -4,7 +4,7 @@ text_author: rokma
 photographer: rokma
 curator: rokma
 date: 2019-04-07
-categories: art
+category: art
 tags:
 - article
 - art
@@ -33,7 +33,7 @@ tags:
 license: CC_BY_NC_ND
 thumb: aucklandartgallery.jpg
 description: "Auckland Art Gallery, Toi o Tāmaki, is New Zealand’s largest and most inspiring visual arts experience. Four floors of exhibitions, right in the heart of Auckland city. The perfect place to discover New Zealand art."
-image: "/assets/p/.jpg"
+image: "/assets/p/auckland-art-gallery/190407_photo_rokma_aucklandartgallery.jpg"
 ---
 
 AUCKLAND ART GALLERY, TOI O TĀMAKI, is New Zealand’s largest and most inspiring visual arts experience.
@@ -41,22 +41,22 @@ AUCKLAND ART GALLERY, TOI O TĀMAKI, is New Zealand’s largest and most inspiri
 Explore four floors of exhibitions, many centuries of art and one of Auckland's most iconic buildings. Located right in the heart of Auckland city, the gallery is the perfect place to discover some of the best in New Zealand and international art.
 
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_01" %}
+{% include partials/image.html, name: "_01" %}
 
 **Pati Solomona Tyrell**, born 1992, Sāmoa, New Zealand. _Masculine Me Tender._ 2014-2018 Printed photographs.
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_02" %}
+{% include partials/image.html, name: "_02" %}
 
 Pati Solomona Tyrell Masculine Me Tender challenges viewer expectations about the reality of gender diversity. Concentrating on ideas about what gender shifts might look like Tyrell shows us that it is possible to inhabit a non-binary gender identity.
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_03" %}
+{% include partials/image.html, name: "_03" %}
 
 While knowledgeable about the history of Samoan _fa'afafine_, Tyrell's investigation goes beyond traditional notions surrounding 'the third sex. Describing his work, Tyrell has said:
 
 > My art helps me to understand and get through my own journey but there's definitely more to it than that. There's an advocacy about what it means to be young, queer and Pacific. People just assume that Pacific parents don't support their queer children but my parents do. I feel like when people are able to navigate both their femininity and their masculinity without any hang-ups about it, they free themselves.
 
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_04" %}
+{% include partials/image.html, name: "_04" %}
 
 **Sopolemalama Filipe Tohi**, born 1959, Tonga, New Zealand.
 
@@ -68,7 +68,7 @@ complex weaving processes in the world. **Tohi** is considered to be a prominent
 Art historian **Karen Stevenson** noted that **Tohi** is one of a few artists who look to the traditional/cultural aesthetic of the Pacific as a foundation for his contemporary art practice. This is a powerful and expressive sculpture which, although physically small, has a monumental and intense presence.
 
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_05" %}
+{% include partials/image.html, name: "_05" %}
 
 SEEING MOANA OCEANIA
 
@@ -88,7 +88,7 @@ In the generations since their pioneering work, this city has become home to man
 Seeing _Moana Oceania_ presents key works by artists who affirm their diverse _'Moana Oceania'_ cultures within contemporary art practice. These artists look forward in time to a culturally rich, diverse Aotearoa New Zealand.
 
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_06" %}
+{% include partials/image.html, name: "_06" %}
 
 _Left to right:_ **Arnold Manaaki Wilson** (1928-2012) Head (1958) + **Arnold Manaaki Wilson** Mask (1955) + **Selwyn Muru** (born 1937) Untitled (1975).
 
@@ -104,7 +104,7 @@ This influence is evident in the pared-back simplicity of the human form and in 
 
 Today, we appreciate these artists' forthright artworks as the radical beginnings of contemporary _Māori_ art.
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_07" %}
+{% include partials/image.html, name: "_07" %}
 
 **Arnold Manaaki Wilson** (1928-2012) Ngai Tuhoe, Ngāti Tarawhai, New Zealand.
 
@@ -115,7 +115,7 @@ As with the sculptural works by **Arnold Manaaki Wilson**, his painting practice
 With the _'hei tiki'_ (pendant) form at its centre, this very expressive painting honours women of _'mana'_ (fortitude) both past and present.
 
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_08" %}
+{% include partials/image.html, name: "_08" %}
 
 **Jan Nigro** (1920-2012), New Zealand, _Sunbather_ 1973, oil on canvas.
 
@@ -125,7 +125,7 @@ For seven decades, Nigro used the nude to explore social mores within a range of
 
 The presence of the groovy, scantily clad figure on the beach towel, with swinging necklace and dangling earrings, contrasts the serenity of the sunbather, while also heightening her nakedness.
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_09" %}
+{% include partials/image.html, name: "_09" %}
 
 **Judy Millar**, _Rock drop_, wood, digital print on vinyl synthetic rope, 2017.
 
@@ -145,7 +145,7 @@ A hallmark of her practice is a process of erasure, wiping or scraping paint off
 
 Millar's recent scaling up and translating of the painted surface through digital photography, as seen in Rock Drop and in her New Zealand pavilion work at the Biennale Arte 2009 in Venice, has arresting new sculptural possibilities.
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_10" %}
+{% include partials/image.html, name: "_10" %}
 
 TWO STEPS FORWARD, ONE STEP BACK.
 
@@ -157,7 +157,7 @@ Inequality and discrimination still afflict art galleries, politics, the music i
 
 There has been some progress. Instead of convincing people and institutions that the situation is wrong, the **Guerrilla Girls** say that they are now, for the most part reminding people who want to change the system that they need to break out of old habits.
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_11" %}
+{% include partials/image.html, name: "_11" %}
 
 The **Guerrilla Girls** continue to question, reveal and challenge buoyed by the knowledge that their work has empowered artists and students to question the power mechanisms governing society.
 
@@ -165,7 +165,7 @@ Through working with and being the target of the **Guerrilla Girls**, art instit
 
 The **Guerrilla Girls** are one of many collectives fighting for equality and transparency. They encourage everyone to pick their own crazy, creative way to be a feminist and _'go bananas'_
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_12" %}
+{% include partials/image.html, name: "_12" %}
 
 >We were trying to find a voice within a society that did not want to recognise
 us, or didn't know how to recognise us. **_Rosanna Raymond_**, 2014
@@ -185,7 +185,7 @@ PACIFIC SISTERS 1991, NZ
 **Nephi/Niwhai Tupaea**, Ngati Katoa iwi, NZ
 **Feeonaa Wall** 1972, Sämoa/Sweden/Germany/NZ
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_13" %}
+{% include partials/image.html, name: "_13" %}
 
 LIVING PORTRAITS, RANGI KIPA
 
@@ -200,7 +200,7 @@ Today, _'ta moko'_ practitioners like **Kipa** are reviving and extending upon t
 In this image we see the living connection to cultural practices and traditions that continue to have meaning and resonance for _Māori_ society in the 21st century.
 
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_14" %}
+{% include partials/image.html, name: "_14" %}
 
 
 _BURTON BROTHERS AND THE CREATION OF A PHOTOGRAPHIC WONDERLAND_
@@ -220,7 +220,7 @@ In so doing, the Wonderland album extols New Zealand as a land of sublime natura
 This is a reproduced selection of photographs from the album, which have been arranged to recreate the chronology of the album as faithfully as possible.
 
 
-{% include partials/image.html, name: "/190407_photo_rokma_aucklandartgallery_15" %}
+{% include partials/image.html, name: "_15" %}
 
 
 **Gottfried Lindauer** (1839-1926), New Zealand, Bohemia, **Renata Kawepo**, Tama ki Hikurangi 1885.

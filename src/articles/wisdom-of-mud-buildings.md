@@ -2,7 +2,7 @@
 title: Wisdom of mud buildings
 curator: rokma
 date: 2017-10-03
-categories: inspiring
+category: inspiring
 tags:
 - article
 - awareness
@@ -33,7 +33,7 @@ image: "/assets/p/.jpg"
 
 Heringer uses low-tech materials like mud and bamboo to create structures from China to Switzerland, Bangladesh and beyond. Visit an awe-inspiring school, an elegant office and cozy social spaces, all built from natural materials, in this delightful talk.
 
-{% include video.html url="https://embed.ted.com/talks/anna_heringer_the_warmth_and_wisdom_of_mud_buildings" width="740" height="416" %}
+{% include partials/video.html url="https://embed.ted.com/talks/anna_heringer_the_warmth_and_wisdom_of_mud_buildings" width="740" height="416" %}
 
 "When I was an architecture student about 13 years ago, I went to Bangladesh to a remote village called Rudrapur with the aim to design and build a school as my thesis project. I had lived in that village before when I was 19 and a volunteer at Dipshikha, a Bangladeshi NGO for rural development. And what I had learned from them was that the most sustainable strategy for sustainable development is to cherish and to use your very own resources and potential, and not get dependent on external factors. And this is what I tried to do with my architecture as well."
 

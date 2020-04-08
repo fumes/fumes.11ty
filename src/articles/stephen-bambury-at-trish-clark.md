@@ -4,7 +4,7 @@ text_author: rokma
 photographer: rokma
 curator: rokma
 date: 2019-04-14
-categories: art
+category: art
 tags:
 - article
 - art
@@ -25,7 +25,7 @@ tags:
 license: CC_BY_NC_ND
 thumb: stephen_bambury_at_trish_clark.jpg
 description: Now splitting his time between New Zealand and Europe, Stephen Bambury presents a solo exhibition of new works that incorporate his thinking and material approaches across his nearly five decades of practice while referencing the centenary of the founding of the Bauhaus.
-image: "/assets/p/.jpg"
+image: "/assets/p/stephen_bambury_at_trish_clark/190414-stephen-bambury-at-trish-clark.jpg"
 ---
 **Trish Clark Gallery** opened its central Auckland, New Zealand, location at 1 Bowen Avenue in April 2014, marking 30 years since owner Trish Clark opened her original gallery in Auckland’s High Street, then representing artists including Gordon Walters, Billy Apple, Milan Mrkusich, Max Gimblett, Stephen Bambury, Julia Morison, Christine Webster and Julian Dashper.
 
@@ -36,7 +36,7 @@ Trish Clark complements work by gallery artists with curated guest artists/artwo
 Currently on display until MAY 18, 2019 is a Christchurch-born, Auckland-based abstract painter **Stephen Bambury**, born 1951.
 
 
-{% include partials/image.html, name: "190414-stephen-bambury-at-trish-clark-01" %}
+{% include partials/image.html, name: "-01" %}
 _“Time Is Out Of Joint”_ (For Colin), 2017/19  
 Acrylic on sheet and honeycomb aluminium  
 300 x 665 mm  
@@ -47,7 +47,7 @@ Stephen Bambury’s productive preoccupation for over forty years with the squar
 The central importance of materiality to Bambury’s practice is underpinned by comprehensive technical investigation; he has mastered the use of copper, aluminium, paper, resin, graphite, precious metal gilding, chemical patinas and rust.
 
 
-{% include partials/image.html, name: "190414-stephen-bambury-at-trish-clark-02" %}
+{% include partials/image.html, name: "-02" %}
 _"Being Present"_, 2018/19  
 Acrylic on multi aluminium panels  
 810 x 470 mm
@@ -58,7 +58,7 @@ Sculptural elements comprised of steel, oil and burnt timbers expand the notions
 Now splitting his time between New Zealand and Europe, **Stephen Bambury** presents a solo exhibition of new works that incorporate his thinking and material approaches across his nearly five decades of practice while referencing the centenary of the founding of the Bauhaus.
 
 
-{% include partials/image.html, name: "190414-stephen-bambury-at-trish-clark-03" %}
+{% include partials/image.html, name: "-03" %}
 _"Van Doesburg’s Donkey"_, 2017/19  
 Acrylic on sheet and honeycomb aluminium  
 Five part, each approx. 300 x 250 mm  
@@ -69,7 +69,7 @@ Long an admirer of the Bauhaus, this exhibition includes specific reference to t
 Oddly reminiscent of early constructivist paintings from a century earlier, but thoroughly contemporary in their materiality, are Bambury’s remarkably complex and powerful new works, developed since 2016.
 
 
-{% include partials/image.html, name: "190414-stephen-bambury-at-trish-clark-04" %}
+{% include partials/image.html, name: "-04" %}
 _"Step Out of Yourself"_, 2017/19  
 Acrylic on multi aluminium panels  
 830 x 900 mm

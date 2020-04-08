@@ -3,7 +3,7 @@ title: Bali Chinese rooster
 curator: rokma
 photographer: rokma
 date: 2017-01-29
-categories: photo-journalism
+category: photo-journalism
 tags:
 - article
 - people

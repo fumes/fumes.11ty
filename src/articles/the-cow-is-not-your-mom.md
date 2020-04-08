@@ -3,7 +3,7 @@ title: The cow is not your mom
 images_author: melinda
 curator: rokma
 date: 2017-06-01
-categories: art
+category: art
 tags:
 - article
 - design

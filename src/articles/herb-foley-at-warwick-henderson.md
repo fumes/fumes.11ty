@@ -4,7 +4,7 @@ text_author: rokma
 photographer: rokma
 curator: rokma
 date: 2019-05-15
-categories: art
+category: art
 tags:
   - article
   - art

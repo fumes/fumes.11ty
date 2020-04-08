@@ -2,7 +2,7 @@
 title: Understanding emotions
 curator: rokma
 date: 2018-03-11
-categories: studies
+category: studies
 tags:
 - article
 - clever
@@ -30,7 +30,7 @@ image: "/assets/p/.jpg"
 
 "And so the lesson here is that emotions which seem to happen to you are actually made by you. "
 
-{% include video.html url="https://embed.ted.com/talks/lang/en/lisa_feldman_barrett_you_aren_t_at_the_mercy_of_your_emotions_your_brain_creates_them" width="740" height="416" %}
+{% include partials/video.html url="https://embed.ted.com/talks/lang/en/lisa_feldman_barrett_you_aren_t_at_the_mercy_of_your_emotions_your_brain_creates_them" width="740" height="416" %}
 
 "When a jury has to make the decision between life in prison and the death penalty, they base their decision largely on whether or not the defendant feels remorseful for his actions. [...]As a scientist, I have to tell you that jurors do not and cannot detect remorse or any other emotion in anybody ever. Neither can I, and neither can you, and that's because emotions are not what we think they are. They are not universally expressed and recognized. They are not hardwired brain reactions that are uncontrollable. We have misunderstood the nature of emotion for a very long time, and understanding what emotions really are has important consequences for all of us."
 

@@ -3,7 +3,7 @@ title: Women, flowers and dances
 curator: rokma
 photographer: rokma
 date: 2017-01-01
-categories: photo-journalism
+category: photo-journalism
 tags:
 - article
 - Bali

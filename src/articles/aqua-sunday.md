@@ -4,9 +4,10 @@ text_author:
 photographer: rokma
 curator: rokma
 date: 2019-02-05
-categories: art
+category: art
 tags:
 - article
+- art
 - black-and-white
 - personal-works
 - H2O
@@ -19,36 +20,30 @@ tags:
 - fine-art-prints
 license: CC_BY
 thumb: aquasunday.jpg
-description: Perception is what reality reflects. What we know about the world has come to us bouncing his way into our senses.
+description: "Perception is what reality reflects. What we know about the world has come to us bouncing his way into our senses."
 offwhite: true # true or empty
 fineartprints:
-- 190205-photographer-rokma-aquasunday-01.jpg
-- 190205-photographer-rokma-aquasunday-02.jpg
-- 190205-photographer-rokma-aquasunday-03.jpg
-- 190205-photographer-rokma-aquasunday-04.jpg
-- 190205-photographer-rokma-aquasunday-05.jpg
-- 190205-photographer-rokma-aquasunday-06.jpg
-image: "/assets/p/.jpg"
+image: "/assets/p/aqua-sunday/aqua-sunday-photo-rokma.jpg"
 ---
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-01" %}
+{% include partials/image.html, name: "-0" %}
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-02" %}
+{% include partials/image.html, name: "-3" %}
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-03" %}
+{% include partials/image.html, name: "-2" %}
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-04" %}
+{% include partials/image.html, name: "-4" %}
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-05" %}
+{% include partials/image.html, name: "-5" %}
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-06" %}
+{% include partials/image.html, name: "-6" %}
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-07" %}
+{% include partials/image.html, name: "-7" %}
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-08" %}
+{% include partials/image.html, name: "-8" %}
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-09" %}
+{% include partials/image.html, name: "-9" %}
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-10" %}
+{% include partials/image.html, name: "-10" %}
 
-{% include partials/image.html, name: "190205-photographer-rokma-aquasunday-11" %}
+{% include partials/image.html, name: "-1" %}

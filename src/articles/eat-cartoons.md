@@ -3,7 +3,7 @@ title: Eat Cartoons
 curator: rokma
 photographer: rokma
 date: 2017-05-20
-categories: studies
+category: studies
 tags:
 - article
 - product

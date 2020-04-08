@@ -4,7 +4,7 @@ text_author: james fullwood
 photographer: rokma
 curator: rokma
 date: 2017-07-07
-categories: inspiring
+category: inspiring
 tags:
 - article
 - inspiring

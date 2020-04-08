@@ -4,7 +4,7 @@ text_author: rokma #need lowercase
 photographer: rokma #need lowercase
 curator: rokma
 date: 2019-10-05
-category: art #put this one also as first tag
+category: art #put this one also as tag
 tags:
   - article
   - art   

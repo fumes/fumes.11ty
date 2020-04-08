@@ -4,7 +4,7 @@ text_author: luci ferrero
 photographer: luci ferrero
 curator: rokma
 date: 2019-03-30
-categories: photo-journalism
+category: photo-journalism
 tags:
 - article
 - artist
