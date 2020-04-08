@@ -21,7 +21,7 @@ tags:
 license: CC_BY
 thumb: art-is-a-selfie-background.jpg
 description: "Art, formerly considered an high end cultural extravaganza, is now entering a new perception phase. Forget the eye opening art-critic comment, the interview with author, the art piece title, just click."
-image: "/assets/p/.jpg"
+image: "/assets/p/art-is-a-selfie-background/art-is-a-selfie-background-photo-by-rokma.jpg"
 ---
 
 Art, formerly considered an high end cultural extravaganza, is now entering a new perception phase.
@@ -32,46 +32,46 @@ This is a photo report shot during two recent events “Beyond the Myths” and 
 
 
 
-{% include partials/image.html, name: "181215_photo_by_rokma_165144" %}
+{% include partials/image.html, name: "-0" %}
 
 >**Look my dear, I was there... pretty cool huh?**
 
 
-{% include partials/image.html, name: "181215_photo_by_rokma_161004" %}
+{% include partials/image.html, name: "-1" %}
 
 That's it. We got no time for anything more, lets move on ... but wait, let me shoot and other selfie there, what was the author name... forget it... ok never mind... so much fun... duh!
 
 
-{% include partials/image.html, name: "181215_photo_by_rokma_202839" %}
+{% include partials/image.html, name: "-2" %}
 
 
  I was there...
 
-{% include partials/image.html, name: "181215_photo_by_rokma_203220" %}
+{% include partials/image.html, name: "-3" %}
 
  I was there...
 
-{% include partials/image.html, name: "181215_photo_by_rokma_203457" %}
+{% include partials/image.html, name: "-4" %}
 
  I was there...
 
-{% include partials/image.html, name: "181215_photo_by_rokma_203420" %}
+{% include partials/image.html, name: "-5" %}
 
  I was there...
 
-{% include partials/image.html, name: "181215_photo_by_rokma_202857" %}
+{% include partials/image.html, name: "-6" %}
 
  I was there...
 
-{% include partials/image.html, name: "181215_photo_by_rokma_203449" %}
+{% include partials/image.html, name: "-7" %}
 
  I was there...
 
-{% include partials/image.html, name: "181215_photo_by_rokma_204758" %}
+{% include partials/image.html, name: "-8" %}
 
  I was there...
 
-{% include partials/image.html, name: "181215_photo_by_rokma_160839" %}
+{% include partials/image.html, name: "-9" %}
 
 Where? There...
 

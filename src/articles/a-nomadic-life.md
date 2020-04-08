@@ -18,13 +18,13 @@ tags:
 license: CC_BY
 thumb: nomadic-life.jpg
 description: "As an old tradition, Khampas from all over the Tibetan Plateau come to celebrate The Litang Horse Festival every August in Litang County, Sichuan province, China."
-image: "/assets/p/paradise-garbage/paradise-garbage-photo-andrea-capello.jpg"
+image: "/assets/p/nomadic-life/180903-photo-andrea-capello-nomadic-life.jpg"
 ---
 
 As an old tradition, Khampas from all over the Tibetan Plateau come to trade, celebrate and ride at The Litang Horse Festival every August. A cultural event held in Litang County, Sichuan province, China.
 
 
-{% include partials/image.html, name: "-1" %}
+{% include partials/image.html, name: "-313" %}
 
 _Kham is referred as the "Ethnic Corridor of Southwest China"_
 
@@ -40,14 +40,14 @@ It also boasts markets, entertainments, and competitions to test bravery and hor
 
 
 
-{% include partials/image.html, name: "-2" %}
+{% include partials/image.html, name: "-10" %}
 
 _Kham is a historical region of Tibet covering a land area largely divided between present-day Tibet Autonomous Region and Sichuan_
 
 
 The town of Litang, home to a high proportion of Tibetans, saw a mass protest during the horse-racing festival of 2007, as the area has a long history of fighting under Chinese rule.
 
-{% include partials/image.html, name: "-3" %}
+{% include partials/image.html, name: "-11" %}
 
 _The Khampa living on the mysterious snowy plateau is said to be the offspring of the god of war and the god of beauty_
 
@@ -56,7 +56,7 @@ The standoff began during a festival ceremony Aug. 1, 2007 after police detained
 
 Afterwards the Chinese security forces launched a huge military crackdown in the region, also following the self-immolation protest on March 17 of a monk from Kirti monastery that killed himself.
 
-{% include partials/image.html, name: "-4" %}
+{% include partials/image.html, name: "-29" %}
 
 _The Khampa men can be easily recognized in the crowd with gold or silver accessories_
 
@@ -65,7 +65,7 @@ Exile sources say that authorities have detained more than 300 Tibetan monks at 
 Since the protest, monks at Kirti have resisted a forced campaign of “political re-education” following the protest, sparking clashes between police and local people trying to protect the monks.
 
 
-{% include partials/image.html, name: "-5" %}
+{% include partials/image.html, name: "-38" %}
 
 _The Khampa women also like wearing some gold and silver accessories_
 
@@ -78,7 +78,7 @@ Lithang is home to a high proportion of Tibetans, especially nomads. The town sa
 
 
 
-{% include partials/image.html, name: "-6" %}
+{% include partials/image.html, name: "-45" %}
 
 _Khams Tibetan is the Tibetic language used by the majority of the people in Kham_
 
@@ -90,7 +90,7 @@ Nomads issued three specific demands, including the release of Ronggyal Adrak, w
 
 
 
-{% include partials/image.html, name: "-7" %}
+{% include partials/image.html, name: "-64" %}
 
 _Kham has a rugged terrain characterized by mountain ridges and gorges collectively known as the Hengduan Mountains._
 

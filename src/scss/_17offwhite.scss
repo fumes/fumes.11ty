@@ -1,19 +1,41 @@
 .offwhite .content {
+
+
+  a.externalLink {
+    color: $black;
+    &:hover {
+      color: $grey_color_darker;
+    }
+    &:visited {
+      color: $grey_color_darkest;
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+
+
   padding-bottom: 0;
   background-color: $offwhite;
   color: $black;
   padding-bottom: 10rem;
+
   & > {
     background-color: $offwhite;
     color: $black;
   }
-  strong {color: $black; }
+
+  strong {
+    color: $black;
+  }
 
   .post-metas {
     color: lighten($black, 20);
   }
 
-  .main a { color: $black; }
+  .main a {
+    color: $black;
+  }
 
   .post-meta a {
     border: solid 1px $black;
@@ -21,9 +43,10 @@
     font-size: 100%;
     font-weight: unset;
     color: $black;
-    padding: 1px 10px 1px 10px;
+    padding: 1px 10px;
     display: inline-block;
-    margin: 4px 3px 4px 3px;
+    margin: 4px 3px;
+
     &:hover {
       color: $brand_red;
       border: solid 1px $brand_red;
@@ -36,17 +59,17 @@
     font-size: 100%;
     font-weight: unset;
     color: $black;
-    padding: 1px 10px 1px 10px;
+    padding: 1px 10px;
     display: inline-block;
-    margin: 4px 3px 4px 3px;
+    margin: 4px 3px;
+
     &:before {
       display: none;
     }
+
     &:hover {
       color: lighten($black, 30);
       border: solid 1px lighten($black, 30);
     }
   }
-
-
 }
