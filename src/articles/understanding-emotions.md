@@ -24,12 +24,12 @@ image: "/assets/p/.jpg"
 Well, strap on your seat belt, because ... emotions are guesses. They are guesses that your brain constructs in the moment where billions of brain cells are working together, and you have more control over those guesses than you might imagine that you do.
 
 
->"Predictions are primal. They help us to make sense of the world in a quick and efficient way. So your brain does not react to the world. Using past experience, your brain predicts and constructs your experience of the world." _Lisa Feldman Barrett:_
+>"Predictions are primal. They help us to make sense of the world in a quick and efficient way. So your brain does not react to the world. Using past experience, your brain predicts and constructs your experience of the world." _**Lisa Feldman Barrett**_
 
 
->"And so the lesson here is that emotions which seem to happen to you are actually made by you." _Lisa Feldman Barrett:_
+>"And so the lesson here is that emotions which seem to happen to you are actually made by you." _**Lisa Feldman Barrett**_
 
-{% include partials/video.html url="https://embed.ted.com/talks/lang/en/lisa_feldman_barrett_you_aren_t_at_the_mercy_of_your_emotions_your_brain_creates_them" width="740" height="416" %}
+{% include partials/video.html, url: "https://embed.ted.com/talks/lang/en/lisa_feldman_barrett_you_aren_t_at_the_mercy_of_your_emotions_your_brain_creates_them" width: "740" height: "416" %}
 
 "When a jury has to make the decision between life in prison and the death penalty, they base their decision largely on whether or not the defendant feels remorseful for his actions. [...]As a scientist, I have to tell you that jurors do not and cannot detect remorse or any other emotion in anybody ever.
 
@@ -56,7 +56,7 @@ Embrace that responsibility, because it is the path to a healthier body, a more 
 
 Decoding Our Emotions. We experience powerful emotions all of the time, but what are they exactly? Where do they come from? This hour, TED speakers invoke history, language, science and music to help us think about the way we feel.
 
-Guests include writer John Koenig, cultural historian Tiffany Watt Smith, psychologist Lisa Feldman Barrett, developmental researcher Kang Lee, and conductor Michael Tilson Thomas.
+Guests include writer **John Koenig**, cultural historian **Tiffany Watt Smith**, psychologist **Lisa Feldman Barrett**, developmental researcher **Kang Lee**, and conductor **Michael Tilson Thomas**.
 
 [Listen to an interesting Ted Radio Hour on NPR](https://play.podtrac.com/npr-510298/npr.mc.tritondigital.com/NPR_510298/media/anon.npr-mp3/npr/ted/2018/03/20180308_ted_emotions.mp3?orgId=1&d=3204&p=510298&story=591889022&t=podcast&e=591889022&ft=pod&f=510298)
 
@@ -64,11 +64,11 @@ Guests include writer John Koenig, cultural historian Tiffany Watt Smith, psycho
 
 Can you look at someone's face and know what they're feeling? Does everyone experience happiness, sadness and anxiety the same way? What are emotions anyway?
 
-For the past 25 years, psychology professor Lisa Feldman Barrett has mapped facial expressions, scanned brains and analysed hundreds of physiology studies to understand what emotions really are. She shares the results of her exhaustive research and explains how we may have more control over our emotions than we think.
+For the past 25 years, psychology professor **Lisa Feldman Barrett** has mapped facial expressions, scanned brains and analysed hundreds of physiology studies to understand what emotions really are. She shares the results of her exhaustive research and explains how we may have more control over our emotions than we think.
 
-Lisa Feldman Barrett, PhD is a University Distinguished Professor of Psychology at Northeastern University, with positions in psychiatry and radiology at Massachusetts General Hospital and Harvard Medical School.
+**Lisa Feldman Barrett**, PhD is a University Distinguished Professor of Psychology at Northeastern University, with positions in psychiatry and radiology at Massachusetts General Hospital and Harvard Medical School.
 
-Twenty-five years ago, Lisa Feldman Barrett ran a series of psychology experiments whose conclusions seemed to defy common sense. It turned out common sense was wrong, and has been for 2,000 years. The result is a radical, new theory of how the brain creates emotions and a novel view of human nature.
+Twenty-five years ago, **Lisa Feldman Barrett** ran a series of psychology experiments whose conclusions seemed to defy common sense. It turned out common sense was wrong, and has been for 2,000 years. The result is a radical, new theory of how the brain creates emotions and a novel view of human nature.
 
 
 **_Know more about Lisa Feldman Barrett:_**

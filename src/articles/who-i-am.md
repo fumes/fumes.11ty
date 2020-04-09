@@ -21,17 +21,17 @@ thumb: hetain-patel.jpg
 description: "How do we decide who we are? Hetain Patel's surprising performance plays with identity, language and accent and challenges you to think deeper than surface appearances."
 ---
 
-TEDtalks: Hetain Patel: Who am I? Think again - Hetain Patel / Yuyu Rau (2013)
+TEDtalks: **Hetain Patel**: Who am I? Think again - Hetain Patel / Yuyu Rau (2013)
 
-{% include partials/video.html, url="https://embed.ted.com/talks/hetain_patel_who_am_i_think_again.html" width: "740" height: "416" %}
+{% include partials/video.html, url: "https://embed.ted.com/talks/hetain_patel_who_am_i_think_again.html" width: "740" height: "416" %}
 
-How do we decide who we are? Hetain Patel's surprising performance plays with identity, language and accent and challenges you to think deeper than surface appearances.  
+How do we decide who we are? **Hetain Patel**'s surprising performance plays with identity, language and accent and challenges you to think deeper than surface appearances.  
 
-A delightful meditation on self, with performer Yuyu Rau, and inspired by Bruce Lee.
+A delightful meditation on self, with performer **Yuyu Rau**, and inspired by Bruce Lee.
 
 In his compelling stage works, Hetain Patel uses powerful imagery and storytelling to examine questions of identity. <a href="http://www.ted.com/speakers/hetain_patel.html" title="Hetain Patel uses powerful imagery and storytelling to examine questions of identity. Full bio "  >Full bio &raquo;</a>
 
-Yuyu Rau's dance skills span a wide range, from ballet to contemporary to Chinese classical. <a href="http://www.ted.com/speakers/yuyu_rau.html" title="Yuyu Rau's dance skills span a wide range, from ballet to contemporary to Chinese classical. Full bio "  >Full bio &raquo;</a>
+**Yuyu Rau**'s dance skills span a wide range, from ballet to contemporary to Chinese classical. <a href="http://www.ted.com/speakers/yuyu_rau.html" title="Yuyu Rau's dance skills span a wide range, from ballet to contemporary to Chinese classical. Full bio "  >Full bio &raquo;</a>
 
 
 ## More infos from interesting comments:
@@ -48,7 +48,7 @@ Fornik Tsai, Nov 24 2013
 
 
 
-_Read more:_
+_**Read more:**_
 
 - <a href="http://www.ted.com/"  >about this speaker, find other TEDTalks</a>
 

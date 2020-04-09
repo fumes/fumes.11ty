@@ -24,21 +24,21 @@ thumb: growfreshair.jpg
 description: "Researcher Kamal Meattle shows how an arrangement of three common houseplants, used in specific spots in a home or office building, can result in measurably cleaner indoor air."
 ---
 
-Researcher Kamal Meattle shows how an arrangement of three common houseplants, used in specific spots in a home or office building, can result in measurably cleaner indoor air.
+Researcher **Kamal Meattle** shows how an arrangement of three common houseplants, used in specific spots in a home or office building, can result in measurably cleaner indoor air.
 
-{% include partials/video.html, url="https://embed-ssl.ted.com/talks/kamal_meattle_on_how_to_grow_your_own_fresh_air.html" width: "740" height: "416" %}
+{% include partials/video.html, url: "https://embed-ssl.ted.com/talks/kamal_meattle_on_how_to_grow_your_own_fresh_air.html" width: "740" height: "416" %}
 
 
-With its air-filtering plants and sustainable architecture, Kamal Meattle's office park in New Delhi is a model of green business. Meattle himself is a longtime activist for cleaning up India's air.
+With its air-filtering plants and sustainable architecture, **Kamal Meattle**'s office park in New Delhi is a model of green business. Meattle himself is a longtime activist for cleaning up India's air.
 
 ## Why listen
 
-Kamal Meattle has a vision to reshape commercial building in India using principles of green architecture and sustainable upkeep (including an air-cleaning system that involves massive banks of plants instead of massive banks of HVAC equipment). He started the Paharpur Business Centre and Software Technology Incubator Park (PBC-STIP), in New Delhi, in 1990 to provide "instant office" space to technology companies. PBC-STIP's website publishes its air quality index every day, and tracks its compliance to the 10 principles of the UN Global Compact, a corporate-citizenship initiative.
+**Kamal Meattle** has a vision to reshape commercial building in India using principles of green architecture and sustainable upkeep (including an air-cleaning system that involves massive banks of plants instead of massive banks of HVAC equipment). He started the Paharpur Business Centre and Software Technology Incubator Park (PBC-STIP), in New Delhi, in 1990 to provide "instant office" space to technology companies. PBC-STIP's website publishes its air quality index every day, and tracks its compliance to the 10 principles of the UN Global Compact, a corporate-citizenship initiative.
 
-Meattle has long been a environmental activist in India. In the 1980s he helped India's apple industry develop less-wasteful packaging to help save acres of trees. He then began a campaign to help India's millions of scooter drivers use less oil. His next plan is to develop a larger version of PBC-STIP, making a green office accessible to more businesses in New Delhi and serving as an example of low-cost, low-energy office life.
+**Kamal Meattle** has long been a environmental activist in India. In the 1980s he helped India's apple industry develop less-wasteful packaging to help save acres of trees. He then began a campaign to help India's millions of scooter drivers use less oil. His next plan is to develop a larger version of PBC-STIP, making a green office accessible to more businesses in New Delhi and serving as an example of low-cost, low-energy office life.
 
 
-_Know more about these life saving plants:_
+_**Know more about these life saving plants:**_
 
 - about the author: [Kamal Meattle Full bio](http://www.ted.com/speakers/kamal_meattle)
 

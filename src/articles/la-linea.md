@@ -27,7 +27,7 @@ What strikes about Osvaldo's style is simplicity, minimalism, body language. Les
 
 ## Episode 001
 
-{% include partials/video.html, url="https://www.youtube.com/embed/RglhWkcqolo?list=PLLuPMHgnO6r3QREbtwnyX1zWpGR0eRaGc" width: "740" height: "416" %}
+{% include partials/video.html, url: "https://www.youtube.com/embed/RglhWkcqolo?list=PLLuPMHgnO6r3QREbtwnyX1zWpGR0eRaGc" width: "740" height: "416" %}
 
 The series consists of 90 episodes, each about 2&ndash;3 minutes long and were originally broadcast on the Italian channel RAI between 1971 and 1986.
 
@@ -46,7 +46,7 @@ Uploaded to youtube by Mediagod has some 2,780,000+ views
 
 "Old cartoon used to be on The Great Space Coaster. Silly me, I thought he was French."
 
-{% include partials/video.html, url="https://www.youtube.com/embed/8VWcqILJam4" width: "740" height: "416" %}
+{% include partials/video.html, url: "https://www.youtube.com/embed/8VWcqILJam4" width: "740" height: "416" %}
 
 Even though the episodes are numbered up to 225, there are, in fact, only 90 The 1971 series had 8 (4 min) episodes, the 1978 series had 56 (101-156), and the 1986 series had 26 (200-225).
 

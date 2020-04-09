@@ -19,7 +19,7 @@ description: "A Time Lapse journey from USA to Hong Kong to Indonesia. Shot in f
 
 {% include partials/image.html, name: "2010/08/100814-alejandro-plesch-timelapse" %}
 
-{% include partials/video.html, url="https://www.youtube.com/embed/N2CwAvfJSHs?rel=0?autoplay=1" width: "740" height: "480" %}
+{% include partials/video.html, url: "https://www.youtube.com/embed/N2CwAvfJSHs?rel=0?autoplay=1" width: "740" height: "480" %}
 
 <a   href="https://www.youtube.com/embed/N2CwAvfJSHs?rel=0?autoplay=1">10,000 photos.</a> A Time Lapse Journey from USA to Hong Kong to Indonesia. HD.
 

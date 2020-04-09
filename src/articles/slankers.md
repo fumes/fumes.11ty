@@ -59,7 +59,7 @@ Fumes photographer Alejandro Plesch was invited to tag along with Slank in 2010.
 
 
 
-_know more:_
+_**Read more:**_
 
 - <a   href="https://en.wikipedia.org/wiki/Slank">Slank on wikipedia</a>
 

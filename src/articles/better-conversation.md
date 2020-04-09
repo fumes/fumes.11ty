@@ -29,7 +29,7 @@ Most of us don't converse very well. Honesty, brevity, clarity and a healthy amo
 
 It might sound like a funny question, but we have to ask ourselves: Is there any 21st-century skill more important than being able to sustain coherent, confident conversation?"
 
-{% include partials/video.html url="https://embed.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation" width="740" height="416" %}
+{% include partials/video.html url: "https://embed.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation" width: "740" height: "416" %}
 
 
 "Many of you have already heard a lot of advice on this, things like look the person in the eye, think of interesting topics to discuss in advance, look, nod and smile to show that you're paying attention, repeat back what you just heard or summarize it.

@@ -20,7 +20,7 @@ On May 24th, <a title="see The Lazarus Effect movie on youtube" href="https://ww
 
 The 30 minute film illustrates the transformative effect of life-saving antiretroviral medicine through the stories of four HIV+ people in Zambia - Connie, Paul, Constance and Bwalya. By taking the ARV medicine &ndash; 2 life-saving pills that cost around 40 cents a day &ndash; in as few as 40 days, the medicine can help bring people back to life.
 
-{% include partials/video.html, url="https://www.youtube.com/embed/l16YH6xCN4c?autoplay=1" width: "740" height: "416" %}
+{% include partials/video.html, url: "https://www.youtube.com/embed/l16YH6xCN4c?autoplay=1" width: "740" height: "416" %}
 
 
 HIV/AIDS is a preventable and treatable disease yet it has killed more than 20 million people in Africa. In 2002 only 50,000 people had access to the medication  due to its high cost.  

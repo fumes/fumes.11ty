@@ -28,7 +28,7 @@ Pranav Mistry is a real source of inspirations for his "Thinking out of the box"
 Inventor of SixthSense, Pranav Mistry, here at TedIndia demos several tools that help the physical world interact with the world of data. He works at MIT and published SixthSense as <a title="open source code sixthsense" href="https://code.google.com/p/sixthsense/">open source</a>. In 2014 after 12 million views on <a title="TED Ideas worth spreading" href="http://www.ted.com">Ted</a> and 5 years online, this speech still sounds pretty incredible, check it out...
 
 
-{% include partials/video.html, url="https://embed.ted.com/talks/lang/id/pranav_mistry_the_thrilling_potential_of_sixthsense_technology.html" width: "740" height: "416" %}
+{% include partials/video.html, url: "https://embed.ted.com/talks/lang/id/pranav_mistry_the_thrilling_potential_of_sixthsense_technology.html" width: "740" height: "416" %}
 
 Subtitles available in 41 languages, start the video and change language in the bottom right corner.
 
@@ -75,7 +75,7 @@ Pranav Mistry
 
 
 
-_Read more:_
+_**Read more:**_
 
 - <a title="multi language transcript of this speech on ted.com" href="http://www.ted.com/talks/pranav_mistry_the_thrilling_potential_of_sixthsense_technology/transcript"  >Interactive transcript of this speech (41 languages)</a>
 

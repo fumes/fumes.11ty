@@ -48,7 +48,7 @@ _History_
 Historically, suspension rituals were performed by the Mandan tribe, located along the banks of the Missouri River. The Oh-Kee-Pa type of suspension was derived from this ritual. Modern day suspensions are closely related to the artwork of performance artists that use their own bodies as canvases. Roland Loomis was an artist who specialized in suspension and piercing performance pieces, also starting the Modern Primitivism movement. He helped to bring attention to the suspension &lsquo;scene&rsquo; in the United States. Allen Falkner helped to bring suspensions to people who weren&rsquo;t spiritual, as well as a plethora of different and unique suspensions types.
 
 
-_Read more:_
+_**Read more:**_
 
 - <a href="http://en.wikipedia.org/wiki/Suspension_(body_modification)"  >Read more on suspensions...</a>
 

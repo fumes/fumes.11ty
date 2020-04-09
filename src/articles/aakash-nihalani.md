@@ -45,7 +45,7 @@ I selectively place these graphics around New york to highlight the unexpected c
 
 
 
-_know more:_
+_**Read more:**_
 
 - <a   href="http://aakashnihalani.com/">Aakash Nihilani personal website</a>
 

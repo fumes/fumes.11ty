@@ -28,7 +28,7 @@ I commend the organization for helping young girls and boys lead happy and healt
 
 _Valerie Plesch_
 
-{% include partials/video.html, url="https://www.youtube.com/embed/h8dYtWXCYE8" width: "740" height: "416" %}
+{% include partials/video.html, url: "https://www.youtube.com/embed/h8dYtWXCYE8" width: "740" height: "416" %}
 
 _Check the project's website:_ <a href="https://skateistan.org"> skateistan.org</a>
 

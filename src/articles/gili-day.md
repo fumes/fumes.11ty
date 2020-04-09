@@ -19,10 +19,10 @@ tags:
 license:
 thumb: day-in-gili.jpg
 description: "Gili means island. Near Lombok, in East Indonesia, there are 3 small islands on the Wallace Line channel, called Gilis in short. No car nor motorbikes. Diving and Snorkelling Wonders and Parties. Here some scenes, drawn with a finger on a small mobile phone. Its 2017, call it a visual report."
-image: "/assets/p/gili-day-drawing/gili-day-drawing-by-rokma.jpg"
+image: "/assets/p/gili-day/gili-day-drawing-by-rokma.jpg"
 ---
 
-Gili means island. Near Lombok, in East Indonesia, there are 3 small islands on the [Wallace Line channel](https://en.wikipedia.org/wiki/Wallace_Line), called Gilis in short. No car nor motorbikes. Diving and Snorkelling Wonders and Parties.
+Gili means island. Near Lombok, in East Indonesia, there are 3 small islands on the [Wallace Line channel](https://en.wikipedia.org/wiki/Wallace_Line), Gili Air, Gili Meno, Gili Trawangan, called Gilis in short. No car nor motorbikes. Diving and Snorkelling Wonders and Parties.
 
 Here some scenes, drawn with a finger on a small mobile phone. Its 2017, call it a visual report.
 

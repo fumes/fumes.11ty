@@ -25,7 +25,7 @@ thumb: favela.jpg
 description: "Artists Jeroen Koolhaas and Dre Urhahn create community art by painting entire neighbourhoods, and involving those who live there — from the favelas of Rio to the streets of North Philadelphia."
 ---
 
-{% include partials/video.html, url="https://embed.ted.com/talks/haas_hahn_how_painting_can_transform_communities.html" width: "740" height: "416" %}
+{% include partials/video.html, url: "https://embed.ted.com/talks/haas_hahn_how_painting_can_transform_communities.html" width: "740" height: "416" %}
 
 Artists Jeroen Koolhaas and Dre Urhahn create community art by painting entire neighbourhoods, and involving those who live there — from the favelas of Rio to the streets of North Philadelphia.
 

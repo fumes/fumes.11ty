@@ -32,7 +32,7 @@ Heringer uses low-tech materials like mud and bamboo to create structures from C
 
 Visit an awe-inspiring school, an elegant office and cozy social spaces, all built from natural materials, in this delightful talk.
 
-{% include partials/video.html url="https://embed.ted.com/talks/anna_heringer_the_warmth_and_wisdom_of_mud_buildings" width="740" height="416" %}
+{% include partials/video.html url: "https://embed.ted.com/talks/anna_heringer_the_warmth_and_wisdom_of_mud_buildings" width: "740" height: "416" %}
 
 > "When I was an architecture student about 13 years ago, I went to Bangladesh to a remote village called Rudrapur with the aim to design and build a school as my thesis project. I had lived in that village before when I was 19 and a volunteer at Dipshikha, a Bangladeshi NGO for rural development.
 

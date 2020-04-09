@@ -68,7 +68,7 @@ _More frames from the video_
 
 <br>
 
-{% include partials/video.html, url="https://www.youtube.com/embed/NdbbcO35arw?rel=fumes?autoplay=0" width: "740" height: "480" %}
+{% include partials/video.html, url: "https://www.youtube.com/embed/NdbbcO35arw?rel=fumes?autoplay=0" width: "740" height: "480" %}
 
 <br>
 
