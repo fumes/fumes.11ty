@@ -25,6 +25,7 @@ tags:
 license:
 thumb: vespa.jpg
 description: "The Indonesian Vespa Scooterist Community is a gang of rasta commandos who ride for inter-island brotherhood."
+image: "/assets/p/.jpg"
 ---
 The Indonesian Vespa Scooterist Community is a gang of rasta commandos who ride for inter-island brotherhood.
 

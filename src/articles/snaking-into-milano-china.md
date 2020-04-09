@@ -24,6 +24,7 @@ tags:
 license: "CC_BY"
 thumb: "snaking.jpg"
 description: "2013 Snake year celebration parade is being held in Milano Chinatown. Clean winter sky, a warm shy sun to celebrate cultural identity with ease."
+image: "/assets/p/.jpg"
 ---
 2013 Snake year celebration parade is being held in Milano Chinatown. Clean winter sky, a warm shy sun to celebrate cultural identity with ease.
 

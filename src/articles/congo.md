@@ -19,6 +19,7 @@ tags:
 license:
 thumb: congo.jpg
 description: "In the past ten years, the war in the Democratic Republic of Congo has taken more than 6 million lives. It is a conflict that still has not ended, taking 45,000 lives a month, 1,500 lives a day."
+image: "/assets/p/.jpg"
 ---
 
 

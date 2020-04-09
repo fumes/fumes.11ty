@@ -22,6 +22,7 @@ tags:
 license: CC_BY
 thumb: form.jpg
 description: "In the rugged coast of the north Mediterranean sea lives a man named Francesco. He takes photos for fun and publish them on Facebook. He hit me for his clean compositions and his smooth, fluid photography."
+image: "/assets/p/.jpg"
 ---
 
 

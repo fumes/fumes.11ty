@@ -16,6 +16,7 @@ tags:
 license:
 thumb: muaythai.jpg
 description: "Muay Thai is a combat sport known as the 'Art of Eight Limbs' or the 'Science Of Eight Limbs' because it makes use of punches, kicks, elbows and knee strikes, thus using eight points of contact, as opposed to two points, fists, in boxing and four points, hands and feet, used in sport-oriented martial arts."
+image: "/assets/p/.jpg"
 ---
 
 Muay Thai is a combat sport known as the "Art of Eight Limbs" or the "Science Of Eight Limbs" because it makes use of punches, kicks, elbows and knee strikes, thus using eight "points of contact", as opposed to "two points" (fists) in boxing and "four points" (hands and feet) used in sport-oriented martial arts.

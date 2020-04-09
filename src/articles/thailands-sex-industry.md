@@ -18,6 +18,7 @@ tags:
 license:
 thumb: thai-sex.jpg
 description: "During the Vietnam war, American Soldiers would come to Thailand for R&amp;R.  Since then, Thailand has become known throughout the world as a premier destination for sex tourism."
+image: "/assets/p/.jpg"
 ---
 During the Vietnam war, American Soldiers would come to Thailand for R&amp;R.  Since then, Thailand has become known throughout the world as a premier destination for sex tourism.  
 

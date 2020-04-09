@@ -22,6 +22,7 @@ tags:
 license:
 thumb: building-smart.jpg
 descritpion: "Through his firm, Kéré Architecture, Kéré focuses on using local building materials and techniques in a modern way, to redefine and redesign the enviroment. In Burkina Faso, that means working predominantly with clay, and his innovative approach has seen the creation of remarkably beautiful, modern buildings that are entirely appropriate to the setting."
+image: "/assets/p/.jpg"
 ---
 
 TEDtalks: Diébédo Francis Kéré: How to build with clay... and community (2013)  

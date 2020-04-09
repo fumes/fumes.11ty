@@ -13,6 +13,7 @@ tags:
 license:
 thumb: sepak.jpg
 description: "Sepak Takraw is a sport popular throughout South East Asia, with lots of fans in Thailand and Malaysia. Fumes caught up with some fishermen in an afternoon pickup game in the Thai province of Krabi."
+image: "/assets/p/.jpg"
 ---
 Sepak Takraw is a sport popular throughout South East Asia.  
 

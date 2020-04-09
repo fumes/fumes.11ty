@@ -21,6 +21,7 @@ tags:
 license: CC_BY
 thumb: dead-coral.jpg
 description: "An amazing variety of forms and shapes washed ashore during high tides. Once alive and full of colours, when dead corals slowly turn to white."
+image: "/assets/p/.jpg"
 ---
 
 

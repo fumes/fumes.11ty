@@ -28,6 +28,7 @@ fineartprints:
 - 100517-photographer-rokma-aquacity-5.jpg
 - 100517-photographer-rokma-aquacity-4.jpg
 - 100517-photographer-rokma-aquacity-7.jpg
+image: "/assets/p/.jpg"
 ---
 
 {% include partials/image.html, name: "2010/05/100517-photographer-rokma-aquacity-1" %}

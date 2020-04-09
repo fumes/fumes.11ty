@@ -19,6 +19,7 @@ tags:
 license:
 thumb: numbeo.jpg
 description: "Numbeo is the world's largest database providing current and timely information on world living conditions."
+image: "/assets/p/.jpg"
 ---
 
 {% include partials/image.html, name: "2013/02/130225-numbeo-review-00" %}

@@ -28,6 +28,7 @@ fineartprints:
 - 101215-photographer-rokma-aquamarket-6411.jpg
 - 101215-photographer-rokma-aquamarket-6376.jpg
 - 101215-photographer-rokma-aquamarket-6375.jpg
+image: "/assets/p/.jpg"
 ---
 
 {% include partials/image.html, name: "2010/12/101215-photographer-rokma-aquamarket-6347" %}

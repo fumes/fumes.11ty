@@ -14,6 +14,7 @@ tags:
 license:
 thumb: search.jpg
 description: "Your internet service provider can actually look at what you are searching. Do you want to stop this? Now you can..."
+image: "/assets/p/.jpg"
 ---
 
 {% include partials/image.html, name: "2010/05/100520-geek-tip-01" %}

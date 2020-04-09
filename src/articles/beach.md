@@ -14,6 +14,7 @@ tags:
 license:
 thumb: beach.jpg
 description: "Fashion photography is constant research. It's taming the unseen. Provoke emotions. Here is a study with model Widika Sidmore."
+image: "/assets/p/.jpg"
 ---
 
 {% include partials/image.html, name: "2010/09/100915-photographer-alejandro-plesch-beach-study-01" %}

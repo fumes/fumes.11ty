@@ -28,6 +28,7 @@ fineartprints:
 - 100527-photographer-rokma-aquaisland-03.jpg
 - 100527-photographer-rokma-aquaisland-04.jpg
 - 100527-photographer-rokma-aquaisland-05.jpg
+image: "/assets/p/.jpg"
 ---
 
 

@@ -18,6 +18,7 @@ tags:
 license: CC_BY
 thumb: bloddygourmet.jpg
 descritpion: "What we eat is completely related to the culture in which we grow up. Few reflect on the impact that our diet may have on the planet or on other living creatures, few reflect on the actual impact that our food is having on our body, our performance and the way we feel."
+image: "/assets/p/.jpg"
 ---
 What we eat is completely related to the culture in which we grow up. Few reflect on the impact that our diet may have on the planet or on other living creatures.
 

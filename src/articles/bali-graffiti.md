@@ -23,6 +23,7 @@ tags:
 license:
 thumb: bali-graffiti.jpg
 description: "There are several issues in Bali but lately people have been concerned about land being sold to foreigners and non-Balinese. The argument is that the gods entrusted the people of Bali with a beautiful, fertile land to be taken care of so that the people will always be nourished by that land and they in turn would praise the gods by offering them the produce of the land."
+image: "/assets/p/.jpg"
 ---
 There are several issues in Bali but lately people have been concerned about land being sold to foreigners and non-Balinese. The argument is that the gods entrusted the people of Bali with a beautiful, fertile land to be taken care of so that the people will always be nourished by that land and they in turn would praise the gods by offering them the produce of the land.
 

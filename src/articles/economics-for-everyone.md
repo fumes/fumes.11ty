@@ -18,6 +18,7 @@ tags:
 license:
 thumb: economics.jpg
 description: "Illustrated here by Andrew Park, Ha-Joon Chang explains why every single person can and should get their head around basic economics. He pulls back the curtain on the often mystifying language of derivatives and quantitative easing, and explains how easily."
+image: "/assets/p/.jpg"
 ---
 
 Illustrated here by Andrew Park, **Ha-Joon Chang** explains why every single person can and should get their head around basic economics.

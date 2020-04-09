@@ -19,6 +19,7 @@ tags:
 license: CC_BY
 thumb: royal.jpg
 description: "Many Thai people sincerely love their King. Most houses or shops display at least one photo of King Bhumibol Adulyadej."
+image: "/assets/p/.jpg"
 ---
 Many Thai people sincerely love their King. Most houses or shops display at least one photo of His Majesty. Is it in a inexpensive calendar, inside a well framed photo or in the form of a water-colour portrait, King Bhumibol Adulyadej is there in the everyday life. The Royal celebration peaks on Father's day. December 5th, the King's birthday (currently 84 years old).
 

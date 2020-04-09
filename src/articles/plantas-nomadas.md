@@ -20,6 +20,7 @@ tags:
 license:
 thumb: plantas-nomadas.jpg
 description: "Gilberto Espanza's nomadic plants are a sort of hybrid plant and microorganism robots who feed on polluted water. The robot plant is self sufficient being powered by a microbial fuel cell and small solar panels. It can walk about the contaminated rivers, seek out and suck up polluted water."
+image: "/assets/p/.jpg"
 ---
 
 {% include partials/image.html, name: "2010/05/100521-plantas-nomadas-01" %}

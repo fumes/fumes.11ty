@@ -21,6 +21,7 @@ tags:
 license: CC_BY
 thumb: oldandhappy.jpg
 description: "Why is it that many old people in western societies look all but happy? Has it to do with separation and loneliness? Is it the price to pay for what they call progress? Has it to do with the individualistic imperative"
+image: "/assets/p/.jpg"
 ---
 
 Why is it that many old people in western societies look all but happy? Has it to do with separation and loneliness? Is it the price to pay for what they call progress? Has it to do with the individualistic imperative?
