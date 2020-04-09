@@ -10,8 +10,9 @@ tags:
 - photo-journalism
 - awareness
 - educational
+- packaging
 - marketing
-- life
+- food
 - people
 - reflect
 - under-covered

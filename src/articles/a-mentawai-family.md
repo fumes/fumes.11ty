@@ -9,7 +9,6 @@ tags:
 - Indonesia
 - photography
 - Mentawai
-- Sumatra
 - water
 - hardcore
 - photo-journalism

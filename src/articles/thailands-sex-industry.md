@@ -13,7 +13,7 @@ tags:
 - photography
 - Phuket
 - Thailand
-- tourism
+- people
 - sex
 license:
 thumb: thai-sex.jpg

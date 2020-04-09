@@ -7,7 +7,6 @@ category: art
 tags:
 - art
 - article
-- design
 - drawings
 - food
 - lifestyle
@@ -20,7 +19,6 @@ tags:
 - reflect
 - sustainability
 - vegetarian
-- vegan
 license: CC_BY
 thumb: protein-deficient.jpg
 description: "Rarely you find witty sharp humour, meaningful content and globally important issues all included into an artist work. Melinda has definitely something to say. Her awesome illustrations offer a reflexion about relevant solutions for feeding the world. She has the ability to craft simple ironic memes and the courage to speak out of the box, committing to the message instead of just to the art world."

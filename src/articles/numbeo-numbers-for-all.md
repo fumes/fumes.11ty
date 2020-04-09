@@ -14,6 +14,7 @@ tags:
 - studies
 - life
 - educational
+- non-profit
 - global-warming
 license:
 thumb: numbeo.jpg

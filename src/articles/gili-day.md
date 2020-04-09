@@ -9,13 +9,11 @@ tags:
 - studies
 - artist
 - Lombok
-- design
 - drawings
 - illustrations
 - life
 - people
 - simplicity
-- tourism
 - visual
 - water
 license:

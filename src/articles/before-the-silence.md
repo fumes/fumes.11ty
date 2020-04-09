@@ -17,6 +17,7 @@ tags:
 - Indonesia
 - lifestyle
 - Lombok
+- non-profit
 - photography
 - tradition
 - visual

@@ -19,7 +19,6 @@ tags:
 - New-Zealand
 - contemporary-art
 - people
-- fashion
 - painting
 - review
 - visual

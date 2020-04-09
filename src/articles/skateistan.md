@@ -13,7 +13,6 @@ tags:
 - inspiring
 - under-covered
 - community
-- Afghanistan
 - hardcore
 license:
 thumb: skateistan.jpg

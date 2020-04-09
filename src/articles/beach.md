@@ -7,10 +7,9 @@ category: studies
 tags:
 - article
 - studies
-- fashion
+- beauty
 - personal-works
 - photography
-- beauty
 - water
 license:
 thumb: beach.jpg

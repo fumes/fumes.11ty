@@ -18,6 +18,7 @@ tags:
 - visual
 - report
 - street-art
+- non-profit
 - slum
 - people
 - art

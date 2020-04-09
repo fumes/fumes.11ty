@@ -16,6 +16,7 @@ tags:
 - street-art
 - visual
 - pain
+- non-profit
 - report
 - water
 - city

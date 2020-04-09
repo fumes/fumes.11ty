@@ -17,6 +17,7 @@ tags:
 - Chinese
 - hardcore
 - pain
+- non-profit
 - people
 - documentary
 - report

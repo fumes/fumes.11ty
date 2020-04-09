@@ -13,7 +13,6 @@ tags:
   - culture
   - erotic
   - fun
-  - glamour
   - life
   - lifestyle
   - personal-works

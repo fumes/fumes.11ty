@@ -17,7 +17,6 @@ tags:
 - Buddhist
 - Christian
 - Hindu
-- Muslim
 - culture
 - tradition
 - Indonesia

@@ -5,13 +5,13 @@ date: 2010-11-20
 category: inspiring
 tags:
 - article
+- inspiring
 - personal-works
 - review
 - reflect
 - clever
 - artist
 - educational
-- New-York
 - street-art
 - visual
 - design
@@ -20,7 +20,7 @@ tags:
 license:
 thumb: Aakash-Nihilani.jpg
 description: "My street work consists mostly of isometric rectangles and squares.
-I selectively place these graphics around New york to highlight the unexpected counters and elegant geometry of the city itself."
+I selectively place these graphics around New York to highlight the unexpected counters and elegant geometry of the city itself."
 ---
 ## Aakash Nihilani
 

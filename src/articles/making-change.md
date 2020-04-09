@@ -15,6 +15,7 @@ tags:
 - slum
 - people
 - street-art
+- non-profit
 - visual
 - culture
 - drawings

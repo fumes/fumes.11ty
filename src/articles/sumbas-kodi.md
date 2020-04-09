@@ -1,5 +1,5 @@
 ---
-title: Sumba&rsquo;s Kodi
+title: "Sumba's Kodi"
 curator: rokma
 photographer: alejandro plesch
 date: 2010-05-31
@@ -11,11 +11,9 @@ tags:
 - under-covered
 - photography
 - documentary
-- ritual-warfare
 - hardcore
 - archipelago
-- Sumba
-- lifestyle
+- life
 - ritual
 - people
 - photo-journalism

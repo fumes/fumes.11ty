@@ -13,7 +13,6 @@ tags:
 - advertising
 - marketing
 - drawings
-- fashion
 - food
 - illustrations
 - clever

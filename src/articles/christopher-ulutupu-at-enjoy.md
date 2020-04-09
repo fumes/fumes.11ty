@@ -14,7 +14,6 @@ tags:
 - city
 - culture
 - educational
-- glamour
 - New-Zealand
 - report
 - review

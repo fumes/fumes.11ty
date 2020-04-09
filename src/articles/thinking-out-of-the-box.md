@@ -6,12 +6,9 @@ category: inspiring
 tags:
 - article
 - awareness
-- artist
 - clever
 - design
 - educational
-- fun
-- global-warming
 - inspiring
 - open-source
 - review

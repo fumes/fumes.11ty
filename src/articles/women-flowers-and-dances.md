@@ -23,6 +23,7 @@ tags:
 - photo-journalism
 - ritual
 - rural
+- non-profit
 - tradition
 - religion
 - women

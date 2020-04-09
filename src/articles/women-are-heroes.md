@@ -17,6 +17,7 @@ tags:
 - visual
 - people
 - inspiring
+- non-profit
 - simplicity
 license:
 thumb: jr.jpg

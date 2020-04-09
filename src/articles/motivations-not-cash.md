@@ -16,6 +16,7 @@ tags:
 - review
 - useful
 - visual
+- non-profit
 - animation
 - lifestyle
 - awareness

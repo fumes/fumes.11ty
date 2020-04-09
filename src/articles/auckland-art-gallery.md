@@ -17,7 +17,6 @@ tags:
 - city
 - conceptual
 - culture
-- design
 - educational
 - fun
 - illustrations

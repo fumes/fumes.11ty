@@ -10,13 +10,11 @@ tags:
 - Indonesia
 - Bali
 - documentary
-- Washington-DC
 - Lombok
-- San-Francisco
 - Hongkong
 license:
 thumb: timelapse.jpg
-description: "A Time Lapse journey from USA to Hong Kong to Indonesia. Shot in full HD."
+description: "A Time Lapse journey from USA to Hong Kong to Indonesia. Shot in full HD. Washington-DC, Lombok, San-Francisco, Hongkong, Bali. "
 ---
 
 {% include partials/image.html, name: "2010/08/100814-alejandro-plesch-timelapse" %}

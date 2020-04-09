@@ -21,7 +21,6 @@ tags:
 - photo-journalism
 - photography
 - report
-- Slankers
 - under-covered
 license:
 thumb: vespa.jpg
