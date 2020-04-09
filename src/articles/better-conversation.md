@@ -16,7 +16,7 @@ tags:
 license:
 thumb: better-conversation.jpg
 description: "Buddha said, and I'm paraphrasing, 'If your mouth is open, you're not learning'. And Calvin Coolidge said 'No man ever listened his way out of a job'. I came to realise that conversational competence might be the single most overlooked skill we fail to teach. Kids spend hours each day engaging with ideas and each other through screens, but rarely do they have an opportunity to hone their interpersonal communications skills."
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 
 "Go out, talk to people, listen to people..." [Celeste Headlee](https://www.ted.com/search?q=Celeste+Headlee) says. "And, most importantly, be prepared to be amazed."

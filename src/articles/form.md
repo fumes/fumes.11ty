@@ -22,7 +22,7 @@ tags:
 license: CC_BY
 thumb: form.jpg
 description: "In the rugged coast of the north Mediterranean sea lives a man named Francesco. He takes photos for fun and publish them on Facebook. He hit me for his clean compositions and his smooth, fluid photography."
-image: "/assets/p/.jpg"
+image: /assets/p/form/160710-photographer-francesco-mancini.jpg
 ---
 
 
@@ -30,31 +30,31 @@ In the rugged coast of the north Mediterranean sea lives a man named Francesco. 
 
 Check out a selection of his works on forms.
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-01" %}
+{% include partials/image.html, name: "" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-02" %}
+{% include partials/image.html, name: "-02" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-03" %}
+{% include partials/image.html, name: "-03" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-04" %}
+{% include partials/image.html, name: "-04" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-05" %}
+{% include partials/image.html, name: "-05" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-06" %}
+{% include partials/image.html, name: "-06" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-07" %}
+{% include partials/image.html, name: "-07" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-08" %}
+{% include partials/image.html, name: "-08" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-09" %}
+{% include partials/image.html, name: "-09" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-10" %}
+{% include partials/image.html, name: "-10" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-11" %}
+{% include partials/image.html, name: "-11" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-12" %}
+{% include partials/image.html, name: "-12" %}
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-13" %}
+{% include partials/image.html, name: "-13" %}
 
 
-{% include partials/image.html, name: "2016/07/160710-photographer-francesco-mancini-14" %}
+{% include partials/image.html, name: "-14" %}

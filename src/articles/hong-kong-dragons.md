@@ -25,45 +25,45 @@ tags:
 license: CC_BY
 thumb: dragons.jpg
 description: "2012 year of the Dragon. Here is a visual journey of the new year's celebrations in Hongkong. A big Parade and massive fireworks which is hard to miss."
-image: "/assets/p/.jpg"
+image: /assets/p/hong-kong-dragons/120105-photo-rokma-hongkong__MG.jpg
 ---
 
 2012 year of the dragon. Here is a visual journey of the new year's celebrations in Hongkong.
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8016" %}
+{% include partials/image.html, name: "_8016" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8162" %}
+{% include partials/image.html, name: "_8162" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8517" %}
+{% include partials/image.html, name: "_8517" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_7523" %}
+{% include partials/image.html, name: "_7523" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8568" %}
+{% include partials/image.html, name: "_8568" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_7846" %}
+{% include partials/image.html, name: "_7846" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8195" %}
+{% include partials/image.html, name: "_8195" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8504" %}
+{% include partials/image.html, name: "_8504" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_7908" %}
+{% include partials/image.html, name: "_7908" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8533" %}
+{% include partials/image.html, name: "_8533" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8238" %}
+{% include partials/image.html, name: "_8238" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8591" %}
+{% include partials/image.html, name: "_8591" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8198" %}
+{% include partials/image.html, name: "_8198" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8030" %}
+{% include partials/image.html, name: "_8030" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8552" %}
+{% include partials/image.html, name: "_8552" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8003" %}
+{% include partials/image.html, name: "_8003" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8634" %}
+{% include partials/image.html, name: "_8634" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8165" %}
+{% include partials/image.html, name: "_8165" %}
 
-{% include partials/image.html, name: "2012/02/120105-photo-rokma-hongkong__MG_8584" %}
+{% include partials/image.html, name: "_8584" %}

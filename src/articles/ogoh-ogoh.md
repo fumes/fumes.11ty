@@ -24,7 +24,7 @@ tags:
 license: CC_BY_NC_ND
 thumb: ogoh.jpg
 description: "The main purpose of the making of Ogoh-ogoh is the purification of the natural environment of any spiritual pollutants emitted from the activities of living beings, especially humans."
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 
 

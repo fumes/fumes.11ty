@@ -22,19 +22,19 @@ tags:
 license:
 thumb: building-smart.jpg
 descritpion: "Through his firm, Kéré Architecture, Kéré focuses on using local building materials and techniques in a modern way, to redefine and redesign the enviroment. In Burkina Faso, that means working predominantly with clay, and his innovative approach has seen the creation of remarkably beautiful, modern buildings that are entirely appropriate to the setting."
-image: "/assets/p/.jpg"
+image: /assets/p/building-smart/140310-building-smart.jpg
 ---
 
 TEDtalks: Diébédo Francis Kéré: How to build with clay... and community (2013)  
 Diébédo Francis Kéré design buildings that are good for the environment and those who use them.
 
-{% include partials/video.html, url="https://embed.ted.com/talks/diebedo_francis_kere_how_to_build_with_clay_and_community.html" width: "740" height: "416" %}
+{% include partials/video.html, url: "https://embed.ted.com/talks/diebedo_francis_kere_how_to_build_with_clay_and_community.html" width: "740" height: "416" %}
 
 _Why you should listen_
 
 Diébédo Francis Kéré grew up in Gando, a small village in Burkina Faso. He studied at the Technische Universität in Berlin, Germany.
 
-Through his firm, Kéré Architecture, Kéré focuses on using local building materials and techniques in a modern way, to redefine and redesign the enviroment. In Burkina Faso, that means working predominantly with clay, and his innovative approach has seen the creation of remarkably beautiful, modern buildings that are entirely appropriate to the setting.
+Through his firm, Kéré Architecture, Kéré focuses on using local building materials and techniques in a modern way, to redefine and redesign the environment. In Burkina Faso, that means working predominantly with clay, and his innovative approach has seen the creation of remarkably beautiful, modern buildings that are entirely appropriate to the setting.
 
 His first building, a primary school in Gando, was completed in 2001 and received the Aga Khan Award for Architecture. Since then, he has designed other structures for the village; his other work there has also won multiple awards, including the Global Award, the BSI Swiss Architectural Award, the Marcus Prize and the Global Holcim Award Gold 2012.
 
@@ -44,23 +44,23 @@ Kéré also teaches architecture; he has lectured at colleges including the Univ
 _Frames from the video_
 
 
-{% include partials/image.html, name: "2014/03/140310-building-smart-03" %}
+{% include partials/image.html, name: "-03" %}
 
-{% include partials/image.html, name: "2014/03/140310-building-smart-02" %}
+{% include partials/image.html, name: "-02" %}
 
-{% include partials/image.html, name: "2014/03/140310-building-smart-04" %}
+{% include partials/image.html, name: "-04" %}
 
-{% include partials/image.html, name: "2014/03/140310-building-smart-05" %}
+{% include partials/image.html, name: "-05" %}
 
-{% include partials/image.html, name: "2014/03/140310-building-smart-06" %}
+{% include partials/image.html, name: "-06" %}
 
-{% include partials/image.html, name: "2014/03/140310-building-smart-07" %}
+{% include partials/image.html, name: "-07" %}
 
-{% include partials/image.html, name: "2014/03/140310-building-smart-08" %}
+{% include partials/image.html, name: "-08" %}
 
-{% include partials/image.html, name: "2014/03/140310-building-smart-09" %}
+{% include partials/image.html, name: "-09" %}
 
-{% include partials/image.html, name: "2014/03/140310-building-smart-01" %}
+{% include partials/image.html, name: "" %}
 
 _What people say_
 

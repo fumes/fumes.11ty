@@ -29,7 +29,7 @@ tags:
 license: CC_BY
 thumb: unity.jpg
 description: "Indonesia's experience in pushing harmony and acceptance of differences lays his roots in the Pancasila principles."
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 Indonesia's experience in pushing harmony and acceptance of differences lays his roots in the [Pancasila principles](https://en.wikipedia.org/wiki/Pancasila_(politics)).   
 

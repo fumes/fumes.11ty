@@ -21,7 +21,7 @@ tags:
 license:
 thumb: seeds.jpg
 description: "How big is yourself? In these 3 projects the concept of togetherness and self is fully blended. The following 3 examples, on food and the ecosystem topic, show a new social math!"
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 
 How big is yourself? In these 3 projects the concept of togetherness and self is fully blended.

@@ -20,7 +20,7 @@ tags:
 - pain
 thumb: hanging-out.jpg
 description: "A suspension is the act of suspending a human body from hooks that have been put through body piercings. These piercings are temporary and are performed just prior to the actual suspension."
-image: "/assets/p/.jpg"v
+image: /assets/p/.jpgv
 ---
 A suspension is the act of suspending a human body from hooks that have been put through body piercings. These piercings are temporary and are performed just prior to the actual suspension.
 

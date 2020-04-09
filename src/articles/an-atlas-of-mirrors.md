@@ -21,12 +21,12 @@ tags:
 license: CC_BY
 thumb: atlasofmirrors.jpg
 description: "Part of Singapore Biennale 2016, An Atlas of Mirrors presents contemporary artworks by more than 60 artists and art collectives from Southeast Asia, and East and South Asia."
-image: "/assets/p/atlas-of-mirrors/161127-atlas-of-mirrors-by-rokma.jpg"
+image: /assets/p/atlas-of-mirrors/161127-atlas-of-mirrors-by-rokma.jpg
 ---
 
 Part of Singapore Biennale 2016, An Atlas of Mirrors presents contemporary artworks by more than 60 artists and art collectives from Southeast Asia, and East and South Asia.
 
-"FROM WHERE WE ARE, HOW DO WE PICTURE THE WORLD AND OURSELVES?"
+## "FROM WHERE WE ARE, HOW DO WE PICTURE THE WORLD AND OURSELVES?"
 
 In charting our way around the world, humankind has relied on instruments of vision as well as navigation. Atlases map and mirror our journeys of discovery and often make visible more than just physical terrain; driven by our needs and desires, they embolden us to venture into the unknown.
 
@@ -37,7 +37,7 @@ _**KATHY LAI - CEO**, National Arts Council, Singapore_
 
 {% include partials/image.html, name: "" %}
 
-Paracosmos, 2016  
+## Paracosmos, 2016  
 Glass mirrors  
 Site-specific installation, dimensions variable  
 Collection of the Artist  
@@ -59,7 +59,7 @@ The mirror reveals itself as a paradoxical device: able to hold every other imag
 
 {% include partials/image.html, name: "-02" %}
 
-Rubbish, 2016  
+## Rubbish, 2016  
 Colour pencil on paper (8 pieces)  
 Various dimensions  
 Collection of the Artist  
@@ -79,7 +79,7 @@ Each piece takes up to four days to create, and Hiroki’s execution is simultan
 
 {% include partials/image.html, name: "-03" %}
 
-The Hunters Enter the Woods, 2016  
+## The Hunters Enter the Woods, 2016  
 Oil on aluminium  
 300 × 540 cm (installed width of diptych)  
 Collection of the Artist  
@@ -101,7 +101,7 @@ The left side portrays the Paphiopedilum fowler, an endangered wild orchid that 
 
 {% include partials/image.html, name: "-05" %}
 
-One Has to Wander through All the Outer Worlds to Reach the Innermost Shrine at the End, 2016  
+## One Has to Wander through All the Outer Worlds to Reach the Innermost Shrine at the End, 2016  
 Ink on paper, glass and stone  
 Dimensions variable  
 Collection of the Artist  
@@ -123,7 +123,7 @@ Qiu’s installation features a handblown glass bestiary of fantastical monsters
 
 {% include partials/image.html, name: "-06" %}
 
-Karagatan (The Breadth of Oceans), 2016  
+## Karagatan (The Breadth of Oceans), 2016  
 Oil on mother-of-pearl shell and oil on pearl (set of 50)  
 Diameter 2.54–5 cm (each); installation dimensions variable  
 Collection of the Artist    
@@ -145,7 +145,7 @@ Halili pays homage to people whose fates and fortunes are bound to the ocean, li
 {% include partials/image.html, name: "-07" %}
 
 
-Aftermath, 2016  
+## Aftermath, 2016  
 Mixed media: found objects, artist-made icons, concrete and paint  
 Site-specific installation, 300 × 1600 cm  
 Collection of the Artist  
@@ -163,7 +163,7 @@ The artist argues that our persistent striving for development and progress ulti
 
 {% include partials/image.html, name: "-08" %}
 
-Noah’s Garden II, 2016  
+## Noah’s Garden II, 2016  
 Aluminium alloy steel frame, mirror glass, LED lighting, real and artificial plants and rocks   
 1160 × 650 × 320 cm  
 Collection of the Artist  
@@ -186,7 +186,7 @@ By evoking scepticism and uncertainty, his work raises doubt about the validity 
 
 {% include partials/image.html, name: "-10" %}
 
-History, 2013–2015  
+## History, 2013–2015  
 Cotton fabric appliqué on cotton fabric (5 pieces)  
 118 × 107 cm (each)  
 Collection of the Artist
@@ -204,7 +204,7 @@ Lao’s History series is a rudimentary chronicle of his Hmong clan. Each panel 
 {% include partials/image.html, name: "-11" %}
 
 
-Locus Amoenus, 2016  
+## Locus Amoenus, 2016  
 Paper (replica maps) and felt  
 Dimensions variable  
 Collection of the Artist  
@@ -226,7 +226,7 @@ It is situated in the Singapore Art Museum in the only space where a section of 
 
 {% include partials/image.html, name: "-12" %}
 
-Mardijker Photo Studio, 2015  
+## Mardijker Photo Studio, 2015  
 Installation with framed photographs (digital C print on paper)  
 Various dimensions  
 Collection of Axton Salim and the Artist  
@@ -249,7 +249,7 @@ These images also comment on colonial photography, which often eroticised its su
 
 {% include partials/image.html, name: "-13" %}
 
-The Name, 2008–ongoing  
+## The Name, 2008–ongoing  
 Video projection, books and musical score   
 Dimensions variable  
 Collection of the Artists  
@@ -271,7 +271,7 @@ The series includes photographic images of figures such as King Thibaw, U Wisara
 
 {% include partials/image.html, name: "-14" %}
 
-Black Forest 2016, 2016  
+## Black Forest 2016, 2016  
 Wood and charcoal  
 Dimensions variable  
 Collection of the Artist  
@@ -290,7 +290,7 @@ This presentation is different: we see a destroyed ‘forest’ of charcoal logs
 
 {% include partials/image.html, name: "-15" %}
 
-THE SKELETON OF MAKARA (THE MYTH OF A MYTH), 2016  
+## THE SKELETON OF MAKARA (THE MYTH OF A MYTH), 2016  
 Fibreglass and metal  
 220 × 425 × 115 cm  
 Collection of the Artist  
@@ -310,7 +310,7 @@ The artist shows how the dissemination of an icon such as the makara has influen
 {% include partials/image.html, name: "-16" %}
 
 
-Enter the Parallel World, 2001, 2016  
+## Enter the Parallel World, 2001, 2016  
 2-channel video  
 Dimensions variable  
 Collection of the Artist  
@@ -320,7 +320,7 @@ H.H. LIM
 BORN 1954, KEDAH, MALAYSIA  
 LIVES AND WORKS IN ROME, ITALY AND PENANG, MALAYSIA  
 
-This installation comprises two video works. The first, About 60 kilos of wisdom, recalls a favorite saying of Lim’s mother, that wisdom is nothing more than the ability to keep a balanced state.
+This installation comprises two video works. The first, About 60 kilos of wisdom, recalls a favourite saying of Lim’s mother, that wisdom is nothing more than the ability to keep a balanced state.
 
 In this video, we see the artist dressed in a dark-coloured suit, balancing on a basketball for an almost unbelievable 30 minutes (the title of the piece refers to how much Lim weighed at the time).
 
@@ -334,7 +334,7 @@ Enter the Parallel World juxtaposes two diametrically opposed outcomes that quie
 
 
 
-Desert Islands, 2009, 2016  
+## Desert Islands, 2009, 2016  
 Engraved mirrors, cardboard, aquarium and media player with sound
 Dimensions variable  
 Collection of the Artists  
@@ -356,7 +356,7 @@ Domesticated Island is also a vantage point from which to view the 100 islands.
 
 {% include partials/image.html, name: "-18" %}
 
-Behind the Light, 2016  
+## Behind the Light, 2016  
 Durational performance and installation   
 Dimensions variable  
 Collection of the Artist  
@@ -377,7 +377,7 @@ Behind the Light proposes an exchange between the two sides of a mirror, illumin
 
 {% include partials/image.html, name: "-19" %}
 
-Other Map Series, 2016  
+## Other Map Series, 2016  
 Archival digital print, acrylic, ink, pencil on paper and canvas (20 pieces)   
 Various dimensions  
 Collection of the Artist  
@@ -397,7 +397,7 @@ The maps he refers to range from Ptolemy’s maps of Ceylon to current maps of S
 
 {% include partials/image.html, name: "-20" %}
 
-Treasure Islands, 2012  
+## Treasure Islands, 2012  
 Raw buffalo leather, mirrors and nails  
 Various dimensions  
 Collection of the Artist  
@@ -417,7 +417,7 @@ Treasure Islands is inspired by a desire to recover these submerged historical r
 
 {% include partials/image.html, name: "-21" %}
 
-The Journey of Panji, 2016  
+## The Journey of Panji, 2016  
 Ink on canvas, acrylic and wood  
 300 x 500 x 300 cm  
 Collection of the Artist  

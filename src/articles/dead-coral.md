@@ -21,13 +21,13 @@ tags:
 license: CC_BY
 thumb: dead-coral.jpg
 description: "An amazing variety of forms and shapes washed ashore during high tides. Once alive and full of colours, when dead corals slowly turn to white."
-image: "/assets/p/.jpg"
+image: /assets/p/dead-coral/dead-coral-photo-rokma-.jpg
 ---
 
 
 An amazing variety of forms and shapes washed ashore during high tides.
 
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5850" %}
+{% include partials/image.html, name: "0" %}
 
 Once alive and full of colors, when dead corals slowly turn to white.
 
@@ -44,31 +44,31 @@ All the pieces of coral shown here have been collected in the Tuban beach near t
 
 Here people sometimes use big chunk of coral to build walls. Its a free locally available stone-like hard material mainly composed of calcium carbonate.
 
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5847" %}
+{% include partials/image.html, name: "1" %}
 
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5855" %}
+{% include partials/image.html, name: "2" %}
 
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5861" %}
+{% include partials/image.html, name: "3" %}
 
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5865" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5868" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5871" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5874" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5875" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5883" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5889" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5896" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5899" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5909" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5912" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5917" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5921" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5928" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5932" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5942" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5946" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5956" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5957" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5967" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5982" %}
-{% include partials/image.html, name: "2014/03/140322-photographer-rokma-5984" %}
+{% include partials/image.html, name: "4" %}
+{% include partials/image.html, name: "5" %}
+{% include partials/image.html, name: "6" %}
+{% include partials/image.html, name: "7" %}
+{% include partials/image.html, name: "8" %}
+{% include partials/image.html, name: "9" %}
+{% include partials/image.html, name: "10" %}
+{% include partials/image.html, name: "11" %}
+{% include partials/image.html, name: "12" %}
+{% include partials/image.html, name: "13" %}
+{% include partials/image.html, name: "14" %}
+{% include partials/image.html, name: "15" %}
+{% include partials/image.html, name: "16" %}
+{% include partials/image.html, name: "17" %}
+{% include partials/image.html, name: "18" %}
+{% include partials/image.html, name: "19" %}
+{% include partials/image.html, name: "20" %}
+{% include partials/image.html, name: "21" %}
+{% include partials/image.html, name: "22" %}
+{% include partials/image.html, name: "23" %}
+{% include partials/image.html, name: "24" %}
+{% include partials/image.html, name: "25" %}

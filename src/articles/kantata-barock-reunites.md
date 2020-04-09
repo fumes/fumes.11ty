@@ -19,7 +19,7 @@ tags:
 license:
 thumb: kantata.jpg
 description: "Comprising the former members of Kantata Takwa, this new music collaboration continues in their tradition of writing socially charged music for which they are so revered for in Indonesia."
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 
 <strong>Kantata Barock</strong> reunites Indonesian legends<strong> Iwan Fals</strong>, <strong>Sawung Jabo</strong>, and <strong>Setiawan Djody</strong>.

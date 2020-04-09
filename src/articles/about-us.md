@@ -16,7 +16,7 @@ tags:
 license: CC_BY
 thumb: hello-world.jpg
 description: "Fumes started as an art project. Two photographers searching for new ways to communicate ideas, Fumes, through visual media. A metaphor to play with, delivering ideas via images."
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 
 {% include partials/image.html, name: "2010/05/100516-hello-fumes-world" %}

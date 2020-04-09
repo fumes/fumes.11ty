@@ -26,7 +26,7 @@ tags:
 license: CC_BY
 thumb: songkran-festival.jpg
 description: "Songkran is the traditional New Year Day in Thailand. It is a time for spiritual cleansing and renewal. Typically the day starts with a visit to the temple where people will collect the water used for bathing the statues of Buddha."
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 
 {% include partials/image.html, name: "2011/04/110424-photographer-rokma-songkran-water-8811" %}

@@ -26,7 +26,7 @@ fineartprints:
 - 100508-photographer-rokma-aquaprovince-05.jpg
 - 100508-photographer-rokma-aquaprovince-06.jpg
 description: "Aqua province - Perception is what reality reflects. What we know about the world has come to us bouncing his way into our senses."
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 
 

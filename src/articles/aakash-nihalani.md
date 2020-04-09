@@ -21,7 +21,7 @@ license:
 thumb: Aakash-Nihilani.jpg
 description: "My street work consists mostly of isometric rectangles and squares.
 I selectively place these graphics around New York to highlight the unexpected counters and elegant geometry of the city itself."
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 ## Aakash Nihilani
 

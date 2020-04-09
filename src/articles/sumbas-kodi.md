@@ -20,7 +20,7 @@ tags:
 license:
 thumb: sumba.jpg
 description: "For 350 years, the Dutch colonised the vast archipelago of Indonesia but never even managed to set up an administrative post on the island of Sumba."
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 For 350 years, the Dutch colonised the vast archipelago of Indonesia but never even managed to set up an administrative post on the island of Sumba.
 

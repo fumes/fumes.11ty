@@ -19,7 +19,7 @@ tags:
 license:
 thumb: slank.jpg
 description: "Formed in 1983, Slank is an Indonesian superband. By numbers, they are the biggest indie band in the world. Known for their socio-politically driven music, they were censored from TV and Radio during the Suharto years."
-image: "/assets/p/.jpg"
+image: /assets/p/.jpg
 ---
 
 Formed in 1983, Slank is an Indonesian superband. By numbers, they are the biggest indie band in the world. Known for their socio-politically driven music, they were censored from TV and Radio during the Suharto years.
