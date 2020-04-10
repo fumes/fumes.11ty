@@ -1,15 +1,35 @@
 <!-- post-looper home-->
 <div class="looper looper_home" >
+
   <label>posts</label>
+
   <div class="looper__ico" title="posts">
     {% include partials/svg/use.html, id: "icn--posts" class: "posts" %}
   </div>
 
-  {%- assign lower_nav_posts = collections.article  -%}
-  {%- for post in lower_nav_posts offset:15 -%}
-  <a class="looper__link {{ category }}" href="{{ post.url }}">
-    {{ post.data.title }}
-  </a>
-  {%- endfor -%}
+  <div class="looper__links">
+    {%- assign lower_nav_posts = collections.article  -%}
+    {%- for post in lower_nav_posts offset:15 -%}
+    <a class="looper__link {{ post.data.category }}" href="{{ post.url }}">
+
+      <div class="small category hidden">{{ post.data.category }}</div>
+
+      <div class="small thumb">
+
+        {% if post.data.thumb %}
+        <img loading="lazy" src="/assets/i/tt/{{ post.data.thumb }}" alt="{{ post.data.title }}">
+        {% else %}
+        <img loading="lazy" class="nothumb" src="/assets/i/tt/fumesyousuck_thumb.svg" alt="{{ post.data.title }}">
+        {% endif %}
+
+      </div>
+
+      <div class="small title">{{ post.data.title }}</div>
+
+    </a>
+    {%- endfor -%}
+  </div>
+
+
 
 </div>

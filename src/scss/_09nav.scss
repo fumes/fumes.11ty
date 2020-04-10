@@ -90,12 +90,23 @@ nav {
       overflow-x: hidden;
     }
   }
+  .category {
+    line-height: 1;
+    visibility: hidden!important;
+  }
+
+  .thumb {
+    overflow: hidden;
+  }
 
   &:hover {
     color: $alert_color;
     border: 1px solid $alert_color;
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
+    .category {
+      visibility: visible!important;
+    }
   }
   &.active {
     color: $brand_red;
@@ -106,6 +117,8 @@ nav {
       color: $brand_red;
     }
   }
+
+
 }
 
 .looper__links {
@@ -116,7 +129,10 @@ nav {
   justify-content: center;
 
   a {
-    max-width: calc(160px + 1.5rem);
+    max-width: calc(145px + 1.25rem);
+    @include media("screen", ">minWidth") {
+      max-width: calc(200px + 1.5rem);
+    }
   }
 }
 
@@ -174,6 +190,8 @@ nav {
     width: 60px;
     height: 60px;
   }
+
+
 }
 //BEM MODIFIERS
 .nav__link--left {
