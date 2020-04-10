@@ -25,9 +25,8 @@ image: /assets/p/thai-election/110630-photographer-rokma-thai-election.jpg
 
 After six years of often bloody political protests, Thai citizens are going to vote this weekend.
 
-{% include partials/image.html, name: "-1642" %}
+{% include partials/image.html, name: "-1642" caption: "Some Thailand election posters are as big as this unfinished 20 storey hotel." %}
 
-Some Thailand election posters are as big as this unfinished skyscraper.
 
 Fumes is offering a glimpse of the styles and subjects used in campaigns during this general election. Fumes attempts to translate the various campaign slogans that reveal candidates' platforms and agendas.
 

@@ -23,8 +23,6 @@ It'd be very convenient as to write the caption you have to go see the image any
                {{ f[0] | relative_url }}{{ name }}-880.{{ f[1] }} 880w,
                {{ f[0] | relative_url }}{{ name }}-1024.{{ f[1] }} 1024w,
                {{ f[0] | relative_url }}{{ name }}-1920.{{ f[1] }} 1920w"
-       sizes="100vw" alt="{{ page.data.name }} - {{ page.data.subtitle }}" />
-
-      {% if dida %}<figcaption>{{- dida }}</figcaption>{% endif %}
+       sizes="100vw" alt="{{ site.title }} - {{ title }} {% if photographer %}- photo by {{ photographer | upcase }}{% endif %}" />{% if caption %}<figcaption><strong>{{ caption }}</strong></figcaption>{% endif %}
 
  </figure>

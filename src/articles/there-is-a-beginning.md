@@ -22,9 +22,44 @@ thumb: there-is-a-beginning.jpg
 description: "Zhuang Zhou, often written Chuang Tzu, known for Zhuangzi was an influential Chinese philosopher who lived around the 4th century BC. He is credited with writing the Zhuangzi book, which expresses a philosophy of skepticism."
 ---
 
-<p data-height: "800" data-theme-id="9840" data-slug-hash="yYgaZa" data-default-tab="result" data-user="rokma" class='codepen'>See the Pen <a href='http://codepen.io/rokma/pen/yYgaZa/'>Ancient Chinese Wisdom</a> by rokma (<a href='http://codepen.io/rokma'>@rokma</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+## Ancient Chinese Wisdom:
 
+>"There is a beginning. "
+
+>"There is a... not yet beginning... to be... a beginning."
+
+>"There is a... not yet beginning... to be... a not yet beginning... to be a beginning."
+
+>"There is being."
+
+>"There is nonbeing."
+
+>"There is a... not yet beginning... to be nonbeing."
+
+>"Suddenly..."
+
+>"there is being and nonbeing."
+
+>"But, between this being and nonbeing..."
+
+>"I don't really know... which is being and... which is nonbeing."
+
+>"Now I have just said something."
+
+>"But..."
+
+>"I don't know... whether what I have said... has really said something"
+
+>"or whether it hasn't said something."
+
+**Zhuang Zhou**
+
+<p class="codepen" data-height="178" data-theme-id="light" data-default-tab="html,result" data-user="rokma" data-slug-hash="yYgaZa" data-preview="true" style="height: 178px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Ancient Chinese Wisdom">
+  <span>See the Pen <a href="https://codepen.io/rokma/pen/yYgaZa">
+  Ancient Chinese Wisdom</a> by rokma (<a href="https://codepen.io/rokma">@rokma</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Zhuang Zhou, often written Chuang Tzu, known for Zhuangzi ("Master Zhuang")[1] was an influential Chinese philosopher who lived around the 4th century BC.
 
