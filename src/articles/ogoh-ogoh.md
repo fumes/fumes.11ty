@@ -24,27 +24,35 @@ tags:
 license: CC_BY_NC_ND
 thumb: ogoh.jpg
 description: "The main purpose of the making of Ogoh-ogoh is the purification of the natural environment of any spiritual pollutants emitted from the activities of living beings, especially humans."
-image: /assets/p/.jpg
+image: /assets/p/ogoh-ogoh/100924-rokma_photo.jpg
 ---
 
 
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2008__MG_2618" %}
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2008__MG_2697" %}
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2008__MG_2727" %}
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2008__MG_2780" %}
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2008__MG_2836" %}
+{% include partials/image.html, name: "-2618" %}
 
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2008__MG_2876" %}
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2010__MG_3675" %}
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2010__MG_3707" %}
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2010__MG_3788" %}
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2010__MG_3929" %}
+{% include partials/image.html, name: "-2697" %}
 
-{% include partials/image.html, name: "2010/09/100924-rokma_photo_2010__MG_4037" %}
+{% include partials/image.html, name: "-2727" %}
 
-_Read on Ogoh Ogoh:_
+{% include partials/image.html, name: "-2780" %}
 
-The main purpose of the making of Ogoh-ogoh is the purification of the natural environment of any spiritual pollutants emitted from the activities of living beings (especially humans).  from <a   href="http://en.wikipedia.org/wiki/Ogoh-ogoh" rel="nofollow">Wikipedia</a>
+{% include partials/image.html, name: "-2836" %}
+
+{% include partials/image.html, name: "-2876" %}
+
+{% include partials/image.html, name: "-3675" %}
+
+{% include partials/image.html, name: "-3707" %}
+
+{% include partials/image.html, name: "-3788" %}
+
+{% include partials/image.html, name: "-3929" %}
+
+{% include partials/image.html, name: "-4037" %}
+
+_**Read on Ogoh Ogoh:**_
+
+The main purpose of the making of Ogoh-ogoh is the purification of the natural environment of any spiritual pollutants emitted from the activities of living beings (especially humans). _From [Wikipedia](http://en.wikipedia.org/wiki/Ogoh-ogoh)_
 
 <a href="http://books.google.com/books?id=zZ_Zk_E1lG0C&lpg=PA243&dq=ogoh%20ogoh&pg=PA243#v=onepage&q=ogoh%20ogoh&f=false"  >&lt;Djoged&gt;</a>&gt; from &lt;Dance &amp; drama in Bali&gt; by Walter Spies, Beryl De Zoete
 
@@ -60,7 +68,7 @@ The main purpose of the making of Ogoh-ogoh is the purification of the natural e
 
 
 
-_Read on Nyepi day:_
+_**Read on Nyepi day:**_
 
 <a   href="http://www.nytimes.com/2011/03/07/world/asia/07indonesia.html?_r=1" rel="nofollow">&lt;Introspective Silence Befalls Bali, but Only for a Day&gt;</a> by <a href="http://topics.nytimes.com/topics/reference/timestopics/people/o/norimitsu_onishi/index.html?inline=nyt-per"   rel="nofollow">Norimitsu Onishi</a> (The New York Times: March 7, 2011)
 

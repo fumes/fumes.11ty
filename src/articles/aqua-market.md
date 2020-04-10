@@ -28,19 +28,19 @@ fineartprints:
 - 101215-photographer-rokma-aquamarket-6411.jpg
 - 101215-photographer-rokma-aquamarket-6376.jpg
 - 101215-photographer-rokma-aquamarket-6375.jpg
-image: /assets/p/.jpg
+image: /assets/p/aquamarket/101215-photographer-rokma-aquamarket.jpg
 ---
 
-{% include partials/image.html, name: "2010/12/101215-photographer-rokma-aquamarket-6347" %}
+{% include partials/image.html, name: "-6347" %}
 
-{% include partials/image.html, name: "2010/12/101215-photographer-rokma-aquamarket-6424" %}
+{% include partials/image.html, name: "-6424" %}
 
-{% include partials/image.html, name: "2010/12/101215-photographer-rokma-aquamarket-6411" %}
+{% include partials/image.html, name: "-6411" %}
 
-{% include partials/image.html, name: "2010/12/101215-photographer-rokma-aquamarket-6391" %}
+{% include partials/image.html, name: "-6391" %}
 
-{% include partials/image.html, name: "2010/12/101215-photographer-rokma-aquamarket-6377" %}
+{% include partials/image.html, name: "-6377" %}
 
-{% include partials/image.html, name: "2010/12/101215-photographer-rokma-aquamarket-6376" %}
+{% include partials/image.html, name: "-6376" %}
 
-{% include partials/image.html, name: "2010/12/101215-photographer-rokma-aquamarket-6375" %}
+{% include partials/image.html, name: "-6375" %}

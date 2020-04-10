@@ -29,24 +29,24 @@ tags:
 license: CC_BY
 thumb: unity.jpg
 description: "Indonesia's experience in pushing harmony and acceptance of differences lays his roots in the Pancasila principles."
-image: /assets/p/.jpg
+image: /assets/p/unity-in-diversity/unity-in-diversity-photo-by-rokma.jpg
 ---
 Indonesia's experience in pushing harmony and acceptance of differences lays his roots in the [Pancasila principles](https://en.wikipedia.org/wiki/Pancasila_(politics)).   
 
-{% include partials/image.html, name: "2010/08/100817-rokma_photo_2008__MG_0901" %}
+{% include partials/image.html, name: "-0" %}
 
-{% include partials/image.html, name: "2010/08/100817-rokma_photo_2010__MG_8526" %}
+{% include partials/image.html, name: "-1" %}
 
-{% include partials/image.html, name: "2010/08/100817-rokma_photo_2010__MG_8779" %}
+{% include partials/image.html, name: "-2" %}
 
-{% include partials/image.html, name: "2010/08/100817-rokma_photo_2010__MG_8309" %}
+{% include partials/image.html, name: "-3" %}
 
-{% include partials/image.html, name: "2010/08/100817-rokma_photo_2010__MG_7475" %}
+{% include partials/image.html, name: "-4" %}
 
-{% include partials/image.html, name: "2010/08/100817-rokma_photo_2010__MG_3468" %}
+{% include partials/image.html, name: "-5" %}
 
-{% include partials/image.html, name: "2010/08/100817-rokma_photo_2008__MG_1039" %}
+{% include partials/image.html, name: "-6" %}
 
-{% include partials/image.html, name: "2010/08/100817-rokma_photo_2008__MG_0970" %}
+{% include partials/image.html, name: "-7" %}
 
-{% include partials/image.html, name: "2010/08/100817-rokma_photo_2008__MG_0515" %}
+{% include partials/image.html, name: "-8" %}

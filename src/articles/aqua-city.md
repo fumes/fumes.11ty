@@ -28,22 +28,22 @@ fineartprints:
 - 100517-photographer-rokma-aquacity-5.jpg
 - 100517-photographer-rokma-aquacity-4.jpg
 - 100517-photographer-rokma-aquacity-7.jpg
-image: /assets/p/.jpg
+image: /assets/p/aquacity/100517-photographer-rokma-aquacity.jpg
 ---
 
-{% include partials/image.html, name: "2010/05/100517-photographer-rokma-aquacity-1" %}
+{% include partials/image.html, name: "-1" %}
 
-{% include partials/image.html, name: "2010/05/100517-photographer-rokma-aquacity-2" %}
+{% include partials/image.html, name: "-2" %}
 
-{% include partials/image.html, name: "2010/05/100517-photographer-rokma-aquacity-3" %}
+{% include partials/image.html, name: "-3" %}
 
-{% include partials/image.html, name: "2010/05/100517-photographer-rokma-aquacity-4" %}
+{% include partials/image.html, name: "-4" %}
 
-{% include partials/image.html, name: "2010/05/100517-photographer-rokma-aquacity-5" %}
+{% include partials/image.html, name: "-5" %}
 
-{% include partials/image.html, name: "2010/05/100517-photographer-rokma-aquacity-6" %}
+{% include partials/image.html, name: "-6" %}
 
-{% include partials/image.html, name: "2010/05/100517-photographer-rokma-aquacity-7" %}
+{% include partials/image.html, name: "-7" %}
 
 
 

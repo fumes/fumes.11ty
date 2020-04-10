@@ -15,9 +15,9 @@ tags:
 - people
 thumb: urut.jpg
 description: "Urut massage is perhaps the most sophisticated of all the Indonesian healing arts and can only be found in Bali and in Java, where the Majapahit Kingdom flourished and was influenced from Arab, Chinese and Indian traders."
-image: /assets/p/.jpg
+image: /assets/p/urut/110318-alejandro-plesch-urut.jpg
 ---
-Pak Mat Djabin is a traditional javanese healer specializing in "Urut" massage.
+Pak Mat Djabin is a traditional Javanese healer specialising in **Urut massage**.
 
 Urut massage is perhaps the most sophisticated of all the Indonesian healing arts and can only be found in Bali and in Java, where the Majapahit Kingdom flourished and was influenced from Arab, Chinese and Indian traders.
 
@@ -25,14 +25,18 @@ It is certainly the most painful as it focuses on nerve pathways, pressure point
 
 Urut can be used to treat everything from soft tissue damage to even bone fractures.
 
-{% include partials/image.html, name: "2011/03/110318-alejandro-plesch-urut-01" %}
+{% include partials/image.html, name: "-01" %}
+
 Pressure point healing along the knee cap.
 
-{% include partials/image.html, name: "2011/03/110318-alejandro-plesch-urut-02" %}
+{% include partials/image.html, name: "-02" %}
+
 Using candles to heat bronze suction cups that suck the bad wind out of the body.
 
-{% include partials/image.html, name: "2011/03/110318-alejandro-plesch-urut-03" %}
-Urut massage is very precise and technical, but to endure the discomfort of a treatment is usually beneficial, as the feeling of well-being is quickly restored after a treatment.
+{% include partials/image.html, name: "-03" %}
 
-{% include partials/image.html, name: "2011/03/110318-alejandro-plesch-urut-04" %}
+Urut massage is very precise and technical, but to endure the discomfort of a treatment is usually beneficial, as the feeling of well-being is quickly restored after the session.
+
+{% include partials/image.html, name: "-04" %}
+
 If you like Pak Mat will massage you with his wooden dildo.

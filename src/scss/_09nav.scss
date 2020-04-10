@@ -48,7 +48,7 @@ nav {
   overflow: hidden;
 
   .nav--tags & {
-    font-size: 85%;
+    font-size: 90%;
     @include media("screen", ">minWidth") {
       font-size: 95%;
     }
