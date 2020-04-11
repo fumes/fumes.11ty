@@ -11,6 +11,14 @@ module.exports = function(eleventyConfig) {
   //TESTING: list of posts per tag - candy
   eleventyConfig.addCollection("tagListPosts", require("./src/_11ty/tagListPosts"));
 
+  //test
+  eleventyConfig.addCollection("articles",
+  collection => collection
+    .getAllSorted()
+    .filter(item => item.url
+                // && ! item.inputPath.includes('post.html')
+                 && item.inputPath.startsWith('./src/articles/')))
+
   // sass
   eleventyConfig.addPlugin(pluginSass, {
     watch: "./src/scss/*.scss" // "single quotes" here do NOT work ?!

@@ -1,15 +1,15 @@
 <nav class="nav--horizontal" role="navigation" aria-label="Primary">
   <div class="wrapper group">
-  {% if page.previous.url %}
-    <a class="nav__link nav__link--left group" rel="prev" href="{{ page.previous.url | prepend: site.baseurl }}" title="previous">
-      {% include partials/svg/use.html id="icn--previous" class="previous" %}
+  {% if pagination.href.previous %}
+    <a class="nav__link nav__link--left group" rel="prev" href="{{ ppagination.href.previous }}" title="previous">
+      {% include partials/svg/use.html id: "icn--previous" class: "previous" %}
     </a>
     <span class="nav__posttitle nav__posttitle--left">{{page.previous.title}}</span>
   {% endif %}
 
-  {% if page.next.url %}
-    <a class="nav__link nav__link--right group" rel="next" href="{{ page.next.url | prepend: site.baseurl }}" title="next">
-      {% include partials/svg/use.html id="icn--next" class="next" %}
+  {% if pagination.href.next %}
+    <a class="nav__link nav__link--right group" rel="next" href="{{ pagination.href.next }}" title="next">
+      {% include partials/svg/use.html id: "icn--next" class: "next" %}
     </a>
     <span class="nav__posttitle nav__posttitle--right">{{page.next.title}}</span>
   {% endif %}
