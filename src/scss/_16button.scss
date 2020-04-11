@@ -10,9 +10,16 @@
 
 .button {
   //a
-  border: solid 3px $alert_blue;
+  border: solid 3px $brand_red;
   border-radius: $border_radius;
   font-size: 140%;
   font-weight: 500;
-  color: $alert_blue;
+  color: $brand_red!important;
+  &:hover {
+    color: white!important;
+    background-color: $brand_red;
+  }
+  &:visited {
+    color: $brand_red!important;
+  }
 }

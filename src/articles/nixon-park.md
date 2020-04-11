@@ -22,6 +22,13 @@ license: CC_BY_NC_ND
 thumb: nixon-park.jpg
 description: "The bowly cement patch, you can see from Google Earth, in Nixon Park in Auckland, is every kid daily Skatepark. Went there, shot some action... Check it out!"
 offwhite: offwhite
+fineartprints:
+  - 190526_photo_rokma__MG_4467.jpg
+  - 190526_photo_rokma__MG_4477.jpg
+  - 190526_photo_rokma__MG_4556.jpg
+  - 190526_photo_rokma__MG_4535.jpg
+  - 190526_photo_rokma__MG_4564.jpg
+  - 190526_photo_rokma__MG_4497.jpg
 image: /assets/p/nixon-park/nixon-park-photo-by-rokma.jpg
 ---
 The bowly cement patch, you can see from Google Earth, in Nixon Park in Auckland, is every kid daily Skatepark. Went there, shot some action... Check it out!

@@ -22,6 +22,13 @@ license: CC_BY
 thumb: our-perception.jpg
 description: "Our perception deceives us. We awake in the morning feeling still, as we look out the window to see a tiny looking sun rising in the sky. We walk outside and the ground looks flat. And as we walk into the night beneath a moonlit sky, it looks as though the moon is strolling along with us. But our planet is not still, it is spinning furiously. The sun is unimaginably large. It is us who are in fact rising with respect to the sun, and the surface of our planet is curved, not flat. All the while the moon strolls around us. Our perception is crude."
 offwhite: true # true or empty
+fineartprints:
+  - 111207_photo_rokma_6672.jpg
+  - 060119_photo_rokma_3922.jpg
+  - 121024_photo_rokma_1432.jpg
+  - 110515_photo_rokma_0991.jpg
+  - 110604_photo_rokma_1143.jpg
+  - 110515_photo_rokma_0672.jpg
 image: /assets/p/perception-deceives-us/perception-deceives-us.jpg
 ---
 

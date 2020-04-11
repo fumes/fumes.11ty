@@ -19,12 +19,12 @@ license: CC_BY
 thumb: aquaprovince.jpg
 offwhite: true # true or empty
 fineartprints:
-- 100508-photographer-rokma-aquaprovince-01.jpg
-- 100508-photographer-rokma-aquaprovince-04.jpg
-- 100508-photographer-rokma-aquaprovince-03.jpg
-- 100508-photographer-rokma-aquaprovince-02.jpg
-- 100508-photographer-rokma-aquaprovince-05.jpg
-- 100508-photographer-rokma-aquaprovince-06.jpg
+  - 100508-photographer-rokma-aquaprovince-01.jpg
+  - 100508-photographer-rokma-aquaprovince-04.jpg
+  - 100508-photographer-rokma-aquaprovince-03.jpg
+  - 100508-photographer-rokma-aquaprovince-02.jpg
+  - 100508-photographer-rokma-aquaprovince-05.jpg
+  - 100508-photographer-rokma-aquaprovince-06.jpg
 description: "Aqua province - Perception is what reality reflects. What we know about the world has come to us bouncing his way into our senses."
 image: /assets/p/aquaprovince/100508-photographer-rokma-aquaprovince.jpg
 ---

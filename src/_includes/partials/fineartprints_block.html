@@ -2,10 +2,10 @@
   <div class="fineartprint_block">
 
     <div class="fineartprint_images top">
-      {% if page.fineartprints %}
-        {% for print in page.fineartprints limit:3 %}
+      {% if fineartprints %}
+        {% for print in fineartprints limit:3 %}
           <div class="fineartprint_image_block">
-            <img class="fineartprint_image" src="/assets/i/480/{{ print }}" alt="{{ page.title }}">
+            <img class="fineartprint_image" src="/assets/fap/{{ print }}" alt="{{ page.title }}">
           </div>
         {% endfor %}
       {% endif %}
@@ -13,7 +13,7 @@
 
     <div class="wrapper">
 
-      <div class="fineartprint_block_border">
+      <div class="fineartprint_block_center">
 
         <div class="fineartprint_block_title">Fine Art Prints</div>
 
@@ -35,10 +35,10 @@
     </div>
 
     <div class="fineartprint_images bottom">
-      {% if page.fineartprints %}
-        {% for print in page.fineartprints offset:3 %}
+      {% if fineartprints %}
+        {% for print in fineartprints offset:3 %}
           <div class="fineartprint_image_block">
-            <img class="fineartprint_image" src="/assets/i/480/{{ print }}" alt="{{ page.title }}">
+            <img class="fineartprint_image" src="/assets/fap/{{ print }}" alt="{{ page.title }}">
           </div>
         {% endfor %}
       {% endif %}

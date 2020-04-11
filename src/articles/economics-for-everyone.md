@@ -18,48 +18,48 @@ tags:
 license:
 thumb: economics.jpg
 description: "Illustrated here by Andrew Park, Ha-Joon Chang explains why every single person can and should get their head around basic economics. He pulls back the curtain on the often mystifying language of derivatives and quantitative easing, and explains how easily."
-image: /assets/p/.jpg
+image: /assets/p/economics-for-everyone/RSAeconomics-for-everyone.jpg
 ---
 
 Illustrated here by Andrew Park, **Ha-Joon Chang** explains why every single person can and should get their head around basic economics.
 
 
 
-{% include partials/image.html, name: "2016/07/RSAeconomics-for-everyone-01" %}
+{% include partials/image.html, name: "-01" %}
 
 
 
-{% include partials/image.html, name: "2016/07/RSAeconomics-for-everyone-02" %}
+{% include partials/image.html, name: "-02" %}
 
 
 
 He pulls back the curtain on the often mystifying language of derivatives and quantitative easing, and explains how easily.
 
 
-{% include partials/image.html, name: "2016/07/RSAeconomics-for-everyone-03" %}
+{% include partials/image.html, name: "-03" %}
 
 
-_Why you should watch_
+## Why you should watch
 
 The illustrated talk is a good way for visual minds to get a high understanding of what economist [Ha-Joon Chang](http://hajoonchang.net/) is telling us.
 
 
-_More frames from the video_
+## More frames from the video
 
 
-{% include partials/image.html, name: "2016/07/RSAeconomics-for-everyone-04" %}
+{% include partials/image.html, name: "-04" %}
 
-{% include partials/image.html, name: "2016/07/RSAeconomics-for-everyone-05" %}
+{% include partials/image.html, name: "-05" %}
 
-{% include partials/image.html, name: "2016/07/RSAeconomics-for-everyone-06" %}
+{% include partials/image.html, name: "-06" %}
 
-{% include partials/image.html, name: "2016/07/RSAeconomics-for-everyone-07" %}
+{% include partials/image.html, name: "-07" %}
 
-{% include partials/image.html, name: "2016/07/RSAeconomics-for-everyone-08" %}
+{% include partials/image.html, name: "-08" %}
 
-{% include partials/image.html, name: "2016/07/RSAeconomics-for-everyone-09" %}
+{% include partials/image.html, name: "-09" %}
 
-{% include partials/image.html, name: "2016/07/RSAeconomics-for-everyone-10" %}
+{% include partials/image.html, name: "-10" %}
 
 
 
@@ -87,7 +87,7 @@ Here is a quote from his website:
 >I am afraid many of you may be disappointed. I don’t do extreme sports, I am not a hi-tech buff, I am not a secret expert on 18th-century maps, and I don’t even do gardening.
 
 
-_more links:_
+_**more links:**_
 
 - [Ha-Joon_Chang website](http://hajoonchang.net/)
 

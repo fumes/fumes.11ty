@@ -55,6 +55,10 @@ nav {
   }
 }
 
+.looper_all {
+  padding-top: 100px;
+}
+
 .looper__ico {
   position: relative;
   width: 100%;
@@ -81,7 +85,7 @@ nav {
   margin-right: 1px;
   border: 1px solid transparent;
   border-radius: 3px;
-  line-height: 48px;
+  line-height: 20px;
   @include media("screen", ">bp1Width") {
     text-align: justify;
     white-space: nowrap;

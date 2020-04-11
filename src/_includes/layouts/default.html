@@ -3,7 +3,7 @@
 
   {% include partials/head.html %}
 
-  <body {% if role != "home" %}class="has_default_license"{% endif %}>
+  <body class="{% if role != "home" %}has_default_license{% endif %} {% if fineartprints %}has_fineartprints{% endif %}">
 
     <div class="body_wrapper">
 
