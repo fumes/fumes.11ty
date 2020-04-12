@@ -110,7 +110,7 @@ layout: default
 {% capture author %}{{ page.fileSlug }}{% endcapture %}
 
 {%- if author == "rokma" -%}
-<div class="home__posts {{ page.fileSlug }}">
+<div class="post_cards {{ page.fileSlug }}">
   {%- for post in posts -%}
     {%- if post.data.text_author == "rokma" -%}
       {% include partials/index_post_block--excerpt.html %}
@@ -121,7 +121,7 @@ layout: default
 
 
 {%- if author == 'james-fullwood' -%}
-<div class="home__posts">
+<div class="post_cards">
   {%- for post in posts -%}
     {%- if post.data.text_author == 'james fullwood' -%}
       {%- include partials/index_post_block--excerpt.html -%}
@@ -132,7 +132,7 @@ layout: default
 
 
 {% if author == 'andrea' %}
-<div class="home__posts">
+<div class="post_cards">
   {% for post in posts %}
     {% if post.data.text_author == 'andrea' %}
       {% include partials/index_post_block--excerpt.html %}
@@ -143,7 +143,7 @@ layout: default
 
 
 {%- if author == 'jean-couteau' -%}
-<div class="home__posts">
+<div class="post_cards">
   {%- for post in posts -%}
     {%- if post.data.text_author == 'jean couteau' -%}
     {%- include partials/index_post_block--excerpt.html -%}

@@ -10,11 +10,11 @@ layout: default
 
 </div>
 
-<div class="tagpage home__posts">
+<div class="tagpage post_cards">
   {% for post in page.posts %}
     {% unless post.publish %}
 
-    <div class="home__post" >
+    <div class="post_card" >
 
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
 

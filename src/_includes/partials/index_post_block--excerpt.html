@@ -1,4 +1,4 @@
-<div class="home__post html">
+<div class="post_card html">
 
   <a class="post-link" href="{{ post.url }}">
 
@@ -12,13 +12,13 @@
       <img loading="lazy" class="nothumb" src="/assets/i/t/fumesyousuck_thumb.svg" alt="{{ post.data.title }}">
       {% endif %}
 
-      <div class="reading_time">
+    </div>
 
-        {% capture time %}{{ post | readingTime |  replace: "min", ""}}{% endcapture %}
+    <div class="reading_time">
 
-        <em>Read in {{ time }} {% if time contains "1" %}minute{% else %}minutes{% endif %}</em>
-      </div>
+      {% capture time %}{{ post | readingTime |  replace: "min", ""}}{% endcapture %}
 
+      <em>Read in {{ time }} {% if time contains "1" %}minute{% else %}minutes{% endif %}</em>
     </div>
 
     {% if post.data.description %}

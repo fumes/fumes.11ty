@@ -98,7 +98,7 @@ layout: default
 {% capture author %}{{ page.fileSlug }}{% endcapture %}
 
 {%- if author == "rokma" -%}
-<div class="home__posts {{ page.fileSlug }}">
+<div class="post_cards {{ page.fileSlug }}">
   {%- for post in posts -%}
     {%- if post.data.photographer == "rokma" -%}
       {% include partials/index_post_block--excerpt.html %}
@@ -108,7 +108,7 @@ layout: default
 {%- endif -%}
 
 {%- if author == "alejandro-plesch" -%}
-<div class="home__posts {{ page.fileSlug }}">
+<div class="post_cards {{ page.fileSlug }}">
   {%- for post in posts -%}
     {%- if post.data.photographer == "alejandro plesch" -%}
       {% include partials/index_post_block--excerpt.html %}
@@ -119,7 +119,7 @@ layout: default
 
 
 {%- if author == "andrea-capello" -%}
-<div class="home__posts {{ page.fileSlug }}">
+<div class="post_cards {{ page.fileSlug }}">
   {%- for post in posts -%}
     {%- if post.data.photographer == "andrea capello" -%}
       {% include partials/index_post_block--excerpt.html %}
@@ -130,7 +130,7 @@ layout: default
 
 
 {%- if author == "melinda-hegedus" -%}
-<div class="home__posts {{ page.fileSlug }}">
+<div class="post_cards {{ page.fileSlug }}">
   {%- for post in posts -%}
     {%- if post.data.images_author == "melinda hegedus" -%}
       {% include partials/index_post_block--excerpt.html %}
@@ -141,7 +141,7 @@ layout: default
 
 
 {%- if author == "luci-ferrero" -%}
-<div class="home__posts {{ page.fileSlug }}">
+<div class="post_cards {{ page.fileSlug }}">
   {%- for post in posts -%}
     {%- if post.data.photographer == "luci ferrero" -%}
       {% include partials/index_post_block--excerpt.html %}
