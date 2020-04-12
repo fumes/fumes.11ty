@@ -1,5 +1,5 @@
 ---
-title: "Music for a Peace: Kantata Barock"
+title: "Kantata Barock, music for peace"
 curator: alejandro plesch
 photographer: alejandro plesch
 date: 2011-07-11
