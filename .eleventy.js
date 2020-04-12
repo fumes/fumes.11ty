@@ -1,61 +1,65 @@
-const pluginSass = require("eleventy-plugin-sass");
+const pluginSass = require('eleventy-plugin-sass');
+const readingTime = require('./src/_11ty/reading-time');
+
 
 module.exports = function(eleventyConfig) {
 
+  eleventyConfig.addLiquidFilter('readingTime', readingTime);
+
   //tags as in 11ty base repo
-  eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
+  eleventyConfig.addCollection('tagList', require('./src/_11ty/getTagList'));
 
-  //TESTING: list of tags with count per tag - candy
-  eleventyConfig.addCollection("tagCount", require("./src/_11ty/tagCounter"));
+  // //TESTING: list of tags with count per tag - candy
+  // eleventyConfig.addCollection('tagCount', require('./src/_11ty/tagCounter'));
+  //
+  // //TESTING: list of posts per tag - candy
+  // eleventyConfig.addCollection('tagListPosts', require('./src/_11ty/tagListPosts'));
 
-  //TESTING: list of posts per tag - candy
-  eleventyConfig.addCollection("tagListPosts", require("./src/_11ty/tagListPosts"));
+    // //test to enable pagination and prev/next navigation
+    // // temporarily suspended
+    // eleventyConfig.addCollection('articles', function(collection) {
+    //   return collection.getFilteredByGlob('src/articles/*.md').sort((a, b) => {
+    //     return a.data.display_order - b.data.display_order;
+    //   });
+    // });
 
-  //test
-  eleventyConfig.addCollection("articles",
-  collection => collection
-    .getAllSorted()
-    .filter(item => item.url
-                // && ! item.inputPath.includes('post.html')
-                 && item.inputPath.startsWith('./src/articles/')))
 
   // sass
   eleventyConfig.addPlugin(pluginSass, {
-    watch: "./src/scss/*.scss" // "single quotes" here do NOT work ?!
+    watch: './src/scss/*.scss'
   });
 
   // pass some assets right through
-  eleventyConfig.addPassthroughCopy("./src/assets");
+  eleventyConfig.addPassthroughCopy('./src/assets');
 
   // Aliases are in relation to the _includes folder
-  eleventyConfig.addLayoutAlias("tag_page", "layouts/tag_page.html");
-  eleventyConfig.addLayoutAlias("default", "layouts/default.html");
-  eleventyConfig.addLayoutAlias("home", "layouts/home.html");
-  eleventyConfig.addLayoutAlias("images_author", "layouts/images_author.html");
-  eleventyConfig.addLayoutAlias("page", "layouts/page.html");
-  eleventyConfig.addLayoutAlias("photographer", "layouts/photographer.html");
-  eleventyConfig.addLayoutAlias("post_index_tag", "layouts/post_index_tag.html");
-  eleventyConfig.addLayoutAlias("post", "layouts/post.html");
-  eleventyConfig.addLayoutAlias("text_author", "layouts/text_author.html");
+  eleventyConfig.addLayoutAlias('tag_page', 'layouts/tag_page.html');
+  eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
+  eleventyConfig.addLayoutAlias('home', 'layouts/home.html');
+  eleventyConfig.addLayoutAlias('images_author', 'layouts/images_author.html');
+  eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
+  eleventyConfig.addLayoutAlias('photographer', 'layouts/photographer.html');
+  eleventyConfig.addLayoutAlias('post_index_tag', 'layouts/post_index_tag.html');
+  eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
+  eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.html');
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
     root: [
-      "_includes",
-      "."
+      '_includes',
+      '.'
     ]
   });
 
   return {
     dir: {
-      input: "src",
-      includes: "_includes", //default
-      data: "_data", //default
-      output: "_site" //default
-    }
-    ,
-    templateFormats : ["njk", "md", "liquid", "html"],
-    markdownTemplateEngine: "liquid",
-    htmlTemplateEngine : "liquid"
+      input: 'src',
+      includes: '_includes', //default
+      data: '_data', //default
+      output: '_site' //default
+    },
+    templateFormats : ['njk', 'md', 'liquid', 'html'],
+    markdownTemplateEngine: 'liquid',
+    htmlTemplateEngine : 'liquid'
   };
 }

@@ -12,10 +12,12 @@
       <img loading="lazy" class="nothumb" src="/assets/i/t/fumesyousuck_thumb.svg" alt="{{ post.data.title }}">
       {% endif %}
 
-      <!-- {% capture time %}{{ post.content | reading_time }}{% endcapture %}
       <div class="reading_time">
-        <em>Read in {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}</em>
-      </div> -->
+
+        {% capture time %}{{ post | readingTime |  replace: "min", ""}}{% endcapture %}
+
+        <em>Read in {{ time }} {% if time contains "1" %}minute{% else %}minutes{% endif %}</em>
+      </div>
 
     </div>
 
