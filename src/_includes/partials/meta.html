@@ -85,6 +85,16 @@
   {% endif %}
 
 
+
+
+
+  <div class="post-meta readingtime">
+    <div class="ico">{% include partials/svg/use.html, id: "icn--clock" class: "clock" %}</div>
+    {% capture readingtime %}{{ content | readingTime | replace: "min", "" }}{% endcapture %}
+    <p class="clock">Read in {{ readingtime }} {% if time contains "1" %}minute{% else %}minutes{% endif %}</p>
+  </div>
+
+
   <div class="post-meta tags">
     <div class="ico">
       {% include partials/svg/use.html, id: "icn--tags" class: "tag" %}

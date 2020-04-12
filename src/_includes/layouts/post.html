@@ -3,12 +3,10 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post__header"> {% include partials/meta.html %} </header>
+  <header class="post__header">{% include partials/meta.html %}</header>
 
-  <p>About {{ content | readingTime }} reading time.</p>
+  <article class="post__content">{{ content | safe }}</article>
 
-  <article class="post__content"> {{ content | safe }} </article>
-
-  <section class="post__license" title="license"> {% include partials/license.html %} </section>
+  <section class="post__license" title="license">{% include partials/license.html %}</section>
 
 </div>
