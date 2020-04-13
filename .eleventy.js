@@ -12,8 +12,8 @@ module.exports = function(eleventyConfig) {
   // //TESTING: list of tags with count per tag - candy
   // eleventyConfig.addCollection('tagCount', require('./src/_11ty/tagCounter'));
   //
-  // //TESTING: list of posts per tag - candy
-  // eleventyConfig.addCollection('tagListPosts', require('./src/_11ty/tagListPosts'));
+  //TESTING: list of posts per tag - candy
+  eleventyConfig.addCollection('tagListPosts', require('./src/_11ty/tagListPosts'));
 
     // //test to enable pagination and prev/next navigation
     // // temporarily suspended

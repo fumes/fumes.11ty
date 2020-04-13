@@ -1,0 +1,17 @@
+---
+eleventyExcludeFromCollections: true
+permalink: /tag-cloud/
+layout: default
+---
+<nav class="nav--tags njk">
+  <div class="wrapper">
+    <div class="looper">
+    {% for tagKey, tagVal in collections.tagListPosts %}
+    {% set tagUrl %}/{{ tagKey }}{% endset %}
+
+        <a class="looper__link {{ tagKey }}" href="{{ tagUrl | url }}" style="font-size: calc({{ tagVal.length * 3 }}% + .75rem) ">{{ tagKey }}</a>
+
+    {% endfor %}
+    </div>
+  </div>
+</nav>
