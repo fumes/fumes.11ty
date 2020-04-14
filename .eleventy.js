@@ -34,6 +34,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/assets');
 
   // Aliases are in relation to the _includes folder
+  eleventyConfig.addLayoutAlias('base', 'layouts/base.html');
   eleventyConfig.addLayoutAlias('tag_page', 'layouts/tag_page.html');
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
   eleventyConfig.addLayoutAlias('home', 'layouts/home.html');

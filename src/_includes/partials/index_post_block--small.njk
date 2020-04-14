@@ -1,0 +1,19 @@
+<div class="post_card post_card--small njk_template">
+
+  <a class="post-link" href="{{ post.url | url }}">
+
+    <h2>{{ post.data.title }}</h2>
+
+    <div class="thumb">
+
+      {% if post.data.thumb %}
+      <img loading="lazy" src="/assets/i/tt/{{ post.data.thumb }}" alt="{{ post.data.title }}">
+      {% else %}
+      <img loading="lazy" class="nothumb" src="/assets/i/tt/fumesyousuck_thumb.svg" alt="{{ post.data.title }}">
+      {% endif %}
+
+    </div>
+
+  </a>
+
+</div>
