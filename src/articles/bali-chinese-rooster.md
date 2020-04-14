@@ -23,6 +23,7 @@ tags:
 - Chinese
 license: CC_BY
 thumb: bali-chinese-rooster.jpg
+description: "The year of the Rooster just started with the traditional festivities that the Balinese Chinese community celebrate with lots of incenses and the Barongsai dance. This is the beautiful Benoa Chinese temple built in Bali in 2012. "
 image: "/assets/p/bali-chinese-rooster/bali-chinese-rooster-photo-by-rokma.jpg"
 ---
 

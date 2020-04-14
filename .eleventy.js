@@ -5,6 +5,7 @@ const readingTime = require('./src/_11ty/reading-time');
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
+  eleventyConfig.addNunjucksFilter('readingTime', readingTime);
 
   //tags as in 11ty base repo
   eleventyConfig.addCollection('tagList', require('./src/_11ty/getTagList'));

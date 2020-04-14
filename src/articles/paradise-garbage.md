@@ -22,7 +22,7 @@ tags:
 - trash
 license: CC_BY
 thumb: paradise-garbage.jpg
-description: ""
+description: "In Bali, as tourism grown more and more every year, the trash at the Suwung Waste Disposal Area is a mountain of rubbish that dominates the landscape. 30 Hectares site, with some hills reaching an high of 30 meters. Water gets contaminated and rivers of rubbish and waste eventually reach the sea. While tourist comes and go, remaining clueless as to where their waste ends up, this corner of Bali represents a worldwide problem of our insatiable appetite for consumerism."
 image: "/assets/p/paradise-garbage/paradise-garbage-photo-andrea-capello.jpg"
 ---
 
@@ -34,11 +34,11 @@ According to World Bank researchers, the world generates at least 3.5 million to
 
 The increase in the world population and growth of many economies also made this problem a worldwide emergency especially with dumps, as they release methane, a potent greenhouse gas that traps heat in the atmosphere.
 
-In Bali, as tourism grown more and more every year, the trash at the Suwung Waste Disposal Area made mountains of rubbish that dominate the landscape. It’s a 30 Hectare Trash Mountain Site, with some of this garbage hills up to 30 meters high.
+In Bali, as tourism grown more and more every year, the trash at the Suwung Waste Disposal Area is a mountain of rubbish that dominates the landscape. 30 Hectares site, with some hills reaching an high of 30 meters.
 
 Excavators, bulldozers and green trucks dump, move and bury more than 5000 tons of rubbish every day. Suwung is where all the tourist rubbish ends up.
 
-As these mountains grown, water gets contaminated and rivers of rubbish and waste eventually reach the sea. While tourist comes and go, remaining clueless as to where their waste ends up, this corner of Bali represents a worldwide problem of our insatiable appetite for consumerism.
+As these mountains grow, water gets contaminated and rivers of rubbish and waste eventually reach the sea. While tourist comes and go, remaining clueless as to where their waste ends up, this corner of Bali represents a worldwide problem of our insatiable appetite for consumerism.
 
 
 {% include partials/image.html, name: "-1" %}
