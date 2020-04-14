@@ -1,5 +1,4 @@
 ---
-templateEngineOverride: njk
 eleventyExcludeFromCollections: true
 pagination:
   data: collections
@@ -25,3 +24,5 @@ permalink: /{{ tag }}/
     {% include "partials/index_post_block--excerpt.njk" %}
 
   {% endfor %}
+
+  {% include "partials/nav_tag_cloud.njk" %}

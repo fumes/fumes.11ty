@@ -1,12 +1,20 @@
-<nav class="nav--tags">
+<nav class="nav--tags njk">
   <div class="wrapper">
     <div class="looper">
-    {% for tagKey, tagVal in collections.tagListPosts %}
-    {% set tagUrl %}/{{ tagKey }}{% endset %}
 
-        <a class="looper__link {{ tagKey }}" href="{{ tagUrl | url }}" style="font-size: calc({{ tagVal.length * 3 }}% + .75rem) ">{{ tagKey }}</a>
+      <label>tags</label>
+      <div class="looper__ico" title="tags">
+        {% set id = "icn--tags" %}
+        {% include "partials/svg/use.html" %}
+      </div>
 
-    {% endfor %}
+      {% for tagKey, tagVal in collections.tagListPosts %}
+      {% set tagUrl %}/{{ tagKey }}{% endset %}
+
+          <a class="looper__link {{ tagKey }}" href="{{ tagUrl | url }}" style="font-size: calc({{ tagVal.length * 3 }}% + .75rem) ">{{ tagKey }}</a>
+
+      {% endfor %}
+
     </div>
   </div>
 </nav>

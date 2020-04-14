@@ -3,6 +3,9 @@ module.exports = function(collection) {
   collection.getAll().forEach(function(item) {
     if( "tags" in item.data ) {
       let tags = item.data.tags;
+      if( typeof tags === "string" ) {
+          tags = [tags];
+        }
 
       tags = tags.filter(function(item) {
         switch(item) {
@@ -17,12 +20,15 @@ module.exports = function(collection) {
         return true;
       });
 
-      for (const tag of tags) {
-        tagSet.add(tag);
-      }
-    }
-  });
 
-  // returning an array in addCollection works in Eleventy 0.5.3
-  return [...tagSet];
+      for (const tag of tags) {
+            if (!tagSet.has(tag)) {
+                tagSet.set(tag, collection.getFilteredByTag(tag).reverse());
+            }
+        }
+      }
+    });
+    //key sort asc
+    return new Set([...tagSet.entries()].sort());
+
 };
