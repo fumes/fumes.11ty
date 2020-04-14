@@ -1,6 +1,6 @@
 <div class="looper looper_home njk_template" >
 
-  {# <label>posts</label> #}
+  <label>posts</label>
   <div class="looper__ico" title="posts">
     {% set id = "icn--posts" %}
     {% include "partials/svg/use.html" %}
@@ -26,7 +26,7 @@
 
       </div>
 
-      <div class="small title">{{ post.data.title   }}</div>
+      <div class="small title">{{ post.data.title | truncate(24)  }}</div>
 
     </a>
     {%- endfor -%}
