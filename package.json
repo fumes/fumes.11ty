@@ -1,12 +1,16 @@
 {
   "name": "fumes11ty",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "test porting Fumes from Jekyll to 11ty",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fumes/fumes11ty.git"
   },
   "author": "rokma",
   "keywords": [],
@@ -19,6 +23,7 @@
     "eleventy-plugin-sass": "^1.0.0",
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
-    "gulp-responsive": "^2.14.0"
+    "gulp-responsive": "^2.14.0",
+    "acorn": ">=5.7.4"
   }
 }
