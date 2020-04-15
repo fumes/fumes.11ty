@@ -103,7 +103,7 @@ When this happens the energy re-orders itself backwards into the centre of the d
 
 The waves that make up the energy packets or wave envelopes consist of combination waves, within the transverse waves are oscillating compression waves.
 
-{% include partials/image.html, name: "10" %}
+{% include partials/image.html, name: "-10" %}
 
 As the energy packet moving through the skin of the jelly medium approaches the beach, it senses (because it's aware) the solid mass or denser immovable medium of the earth below, and changes it's shape according to the varying environments it encounters.
 
@@ -127,6 +127,6 @@ It's the release that kicks everything in.
 
 _**Read more:**_
 
-- [about "consider the weight of air"](http://es.worldphoto.org/profile/lanceslabbert/){: }
+[Lance Slabbert on Surfers Journal](https://www.surfersjournal.com/photographer/lance-slabbert/)
 
-- [surfersjournal](http://www.surfersjournal.com/pdf_article/jelly-theory){: }
+[Jelly theory on Surfers Journal](http://www.surfersjournal.com/pdf_article/jelly-theory)

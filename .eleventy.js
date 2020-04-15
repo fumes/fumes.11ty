@@ -4,7 +4,19 @@ const pluginDate = require("eleventy-plugin-date");
 
 module.exports = function(eleventyConfig) {
 
-  eleventyConfig.addPlugin(pluginDate);
+
+  eleventyConfig.addPlugin(pluginDate, {
+    // Specify custom date formats
+    formats: {
+      // Change the readableDate filter to use abbreviated months.
+      readableDate: { year: "numeric", month: "short", day: "numeric" },
+      // Add a new filter to format a Date to just the month and year.
+      readableMonth: { year: "numeric", month: "long" },
+      // Add a new filter using formatting tokens.
+      readableYear: { year: "numeric" },
+    }
+  });
+
 
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
   eleventyConfig.addNunjucksFilter('readingTime', readingTime);

@@ -1,0 +1,83 @@
+{% if license != null and photographer != null %}
+
+  <div class="ico {{page.licence}}">{% set id = "icn--info" %}{% include "partials/svg/use.html" %}</div>
+
+  <div class="license_details">
+
+    <h5>All images copyright &#169; {{ page.date | readableYear }} - {{ site.now_year }}&nbsp;{{ photographer | title }}. {% if text_author %}
+      <br>
+      Text copyright &#169; {{ page.date | readableYear }} - {{ site.now_year }}&nbsp;{{ text_author | title}}.{% endif %}
+      <br>
+      <a href="http://creativecommons.org/licenses/" target="_blank" class="license_info" title="More infos about copyright and licenses">Infos on copyright, licenses, Creative Commons</a>
+      <br>
+      Released under {{ license }} license.
+    </h5>
+
+  </div>
+
+{% endif %}
+
+{% if license != null and images_author != null %}
+
+  <div class="ico {{page.licence}}">{% set id = "icn--info" %}{% include "partials/svg/use.html" %}</div>
+
+  <div class="license_details">
+
+    <h5>All illustrations copyright &#169; {{ page.date | readableYear }} - {{ site.now_year }}&nbsp;{{ images_author | title}}.
+      <a href="http://creativecommons.org/licenses/" target="_blank" class="license_info" title="More infos about copyright and licenses">More infos on copyright, licenses, Creative Commons</a>
+      <br>
+      Released under {{ license }} license.
+    </h5>
+
+  </div>
+
+  {% endif %}
+
+  {% if license == null and photographer != null %}
+
+  <div class="ico {{page.licence}}">{% set id = "icn--info" %}{% include "partials/svg/use.html" %}</div>
+
+  <div class="license_details">
+
+    <h5>All images copyright &#169; {{ page.date | readableYear }} - {{ site.now_year }}&nbsp;{{ photographer | title }}.
+      <br>
+      <a href="http://creativecommons.org/licenses/" target="_blank" class="license_info" title="More infos about copyright and licenses">More infos on copyright, licenses, Creative Commons</a>
+      <br>
+      All rights reserved.
+    </h5>
+
+  </div>
+
+  {% endif %}
+
+  {% if license == null and images_author != null %}
+
+  <div class="ico {{page.licence}}">{% set id = "icn--info" %}{% include "partials/svg/use.html" %}</div>
+
+  <div class="license_details">
+    <h5>All illustrations copyright &#169; {{ page.date | readableYear }} - {{ site.now_year }}&nbsp;{{ images_author | title }}.
+      <br>
+      <a href="http://creativecommons.org/licenses/" target="_blank" class="license_info" title="More infos about copyright and licenses">More infos on copyright, licenses, Creative Commons</a>
+      <br>
+      All rights reserved.
+    </h5>
+
+
+  </div>
+  {% endif %}
+
+  {% if license == null and photographer == null and images_author == null %}
+
+  <div class="ico {{page.licence}}">{% set id = "icn--info" %}{% include "partials/svg/use.html" %}</div>
+
+  <div class="license_details">
+    <h5>This Fumes article is released under {{ site.license }} license.
+      <br>
+      <a href="http://creativecommons.org/licenses/" target="_blank" class="license_info" title="More infos about copyright and licenses">More infos on copyright, licenses, Creative Commons</a>
+      <br>
+      Reviewed intellectual property might have a different copyright policy.
+    </h5>
+
+
+  </div>
+  {% endif %}
