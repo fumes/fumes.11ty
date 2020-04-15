@@ -8,7 +8,7 @@
     </div>
 
     {% for tagKey, tagVal in collections.tagListPosts %}
-    {% set tagUrl %}/{{ tagKey }}{% endset %}
+    {% set tagUrl %}/{{ tagKey }}/{% endset %}
 
         <a class="looper__link {{ tagKey }}" href="{{ tagUrl | url }}" style="font-size: calc({{ tagVal.length * 5 }}% + .75rem) ">{{ tagKey }}</a>
 
