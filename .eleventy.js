@@ -1,8 +1,10 @@
 const pluginSass = require('eleventy-plugin-sass');
 const readingTime = require('./src/_11ty/reading-time');
-
+const pluginDate = require("eleventy-plugin-date");
 
 module.exports = function(eleventyConfig) {
+
+  eleventyConfig.addPlugin(pluginDate);
 
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
   eleventyConfig.addNunjucksFilter('readingTime', readingTime);
