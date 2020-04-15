@@ -1,0 +1,103 @@
+<div class="post-metas">
+
+  <div class="post-meta title">
+    <div class="ico">{% set id = "icn--post" %}{% include "partials/svg/use.html" %}</div>
+
+    <h1 class="post-title">{{ title | title }}</h1>
+  </div>
+
+
+  {% if photographer %}
+  <div class="post-meta photographer">
+
+    <div class="ico">{% set id = "icn--photographer" %}{% include "partials/svg/use.html" %}</div>
+
+    <p class="photog">
+      <span class="hide">Photography: </span>
+
+      <a title="Photography by: {{ photographer }}" href="/photographer/{{ photographer | slug }}/">{{ photographer | title }}</a>
+    </p>
+
+  </div>
+  {% endif %}
+
+  {% if images_author %}
+  <div class="post-meta images_author">
+
+    <div class="ico">{% set id = "icn--photographer" %}{% include "partials/svg/use.html" %}</div>
+
+    <p class="photog">
+      <span class="hide">Images Author: </span>
+
+      <a title="Photography by: {{ photographer }}" href="/author/{{ images_author | slug }}/">{{ images_author | title }}</a>
+    </p>
+
+  </div>
+  {% endif %}
+
+
+
+  {% if text_author %}
+  <div class="post-meta author">
+
+    <div class="ico">{% set id = "icn--speech" %}{% include "partials/svg/use.html" %}</div>
+
+    <p class="photog">
+      <span class="hide">Text Author: </span>
+
+      <a title="text author:{{ text_author }}" href="/author/{{ text_author | replace(' ', '-') }}/">{{ text_author | title }}</a>
+    </p>
+
+  </div>
+  {% endif %}
+
+
+  <div class="post-meta date">
+    <div class="ico">
+      {% set id = "icn--date" %}{% include "partials/svg/use.html" %}
+    </div>
+    <p class="date">
+      <meta itemprop="datePublished" content="{{ page.date }}">
+      <span class="hide">Published: </span>{{ page.date.toDateString() }}</p>
+  </div>
+
+  {% if category %}
+  <div class="post-meta categories">
+    <div class="ico">{% set id = "icn--categories" %}{% include "partials/svg/use.html" %}</div>
+    <p class="categories"><span class="hide">Filed under: </span>
+      <a title="Filed under: {{ category | title }}" href="/{{ category }}/">{{ category }}</a>
+    </p>
+  </div>
+  {% endif %}
+
+  {% if curator %}
+  <div class="post-meta curator">
+    <div class="ico">{% set id = "icn--curator" %}{% include "partials/svg/use.html" %}</div>
+    <p class="curator"><span class="hide">Curated by: </span> {{ curator | title }}</p>
+  </div>
+  {% endif %}
+
+
+
+
+
+  <div class="post-meta readingtime">
+    <div class="ico">{% set id = "icn--clock" %}{% include "partials/svg/use.html" %}</div>
+    <p class="clock">Read in {{ content | readingTime }}</p>
+  </div>
+
+
+  <div class="post-meta tags">
+    <div class="ico">
+      {% set id = "icn--tags" %}{% include "partials/svg/use.html" %}
+    </div>
+    <p class="tags">
+      <span class="hide">Keywords: </span>
+      {% for tag in tags %}
+        <a href="/{{tag}}/">{{tag}}</a>
+      {% endfor %}
+    </p>
+  </div>
+
+
+</div>

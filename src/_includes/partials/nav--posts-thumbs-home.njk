@@ -16,7 +16,7 @@
         {% set older_articles = collections.article | reverse %}
 
         {% for post in older_articles.slice(16,length) %}
-      
+
 
         <a class="looper__link {{ post.data.category }}" href="{{ post.url | url }}">
 
