@@ -1,10 +1,9 @@
 ---
 eleventyExcludeFromCollections: true
 layout: base
-role: "home"
 permalink: /
 ---
-<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %}">
+<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} index_njk_template">
 
   <div class="wrapper">
 
@@ -20,10 +19,10 @@ permalink: /
 
     </div>
 
-    {% include "partials/loop_posts--home.njk" %}
-
-    {% include "partials/nav_tag_cloud.njk" %}
-
   </div>
 
 </div>
+
+{% include "partials/nav--posts-thumbs-home.njk" %}
+
+{% include "partials/nav--tag-cloud.njk" %}

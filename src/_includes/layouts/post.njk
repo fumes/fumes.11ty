@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} post_njk_template">
+
+  <div class="wrapper">
+
+    <div class="post ">
+
+      {# <header class="post__header">{%- include "partials/meta.html" -%}</header> #}
+
+      <article class="post__content">{{ content | safe }}</article>
+
+      {# <section class="post__license" title="license">{%- include "partials/license.html" -%}</section> #}
+
+    </div>
+
+  </div>
+
+</div>
+
+{% include "partials/nav--posts-thumbs-all.njk" %}
+
+{% include "partials/nav--tag-cloud.njk" %}

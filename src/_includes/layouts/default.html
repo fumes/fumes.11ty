@@ -13,7 +13,7 @@
 
       {% include partials/svg/defs.html %}
 
-      <div class="main {% if offwhite %}offwhite{% endif %}" role="main" id="main">
+      <div role="main" id="main" class="main {% if offwhite %}offwhite{% endif %} default_html_template">
 
         <div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %}">
 
@@ -33,18 +33,7 @@
           {% include partials/nav--posts-home.html %}
         {% endif %}
 
-        {%comment%}
-        <!-- {% include partials/nav--tags.html %} -->
-        {%endcomment%}
-
       </div>
-
-      {%comment%}
-      not yet implemented pagination and prev next navigation...
-      {% if layout == 'post' %}
-        {% include partials/nav--horizzo-titled.html %}
-      {% endif %}
-      {%endcomment%}
 
     </div>
 

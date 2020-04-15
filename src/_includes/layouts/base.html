@@ -13,13 +13,9 @@
 
       {% include partials/svg/defs.html %}
 
-      <div class="main {% if offwhite %}offwhite{% endif %}" role="main" id="main">
-
+      <div role="main" id="main" class="main {% if offwhite %}offwhite{% endif %} base_html_template">
         {{ content | safe }}
-        
       </div>
-
-
 
     </div>
 

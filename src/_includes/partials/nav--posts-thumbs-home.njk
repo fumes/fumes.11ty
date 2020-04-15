@@ -1,0 +1,47 @@
+<nav role="navigation" aria-label="Secondary" class="nav--posts nav--posts-home_njk_template" >
+
+  <div class="wrapper">
+
+    <div class="looper looper_home" >
+
+      <label>posts</label>
+
+      <div class="looper__ico" title="posts">
+        {% set id = "icn--posts" %}
+        {% include "partials/svg/use.html" %}
+      </div>
+
+      <div class="looper__links without_the_latest_15posts">
+
+        {% set older_articles = collections.article | reverse %}
+
+        {% for post in older_articles.slice(16,length) %}
+      
+
+        <a class="looper__link {{ post.data.category }}" href="{{ post.url | url }}">
+
+          <div class="small category hidden">{{ post.data.category }}</div>
+
+          <div class="small thumb">
+
+            {% if post.data.thumb %}
+            <img loading="lazy" src="/assets/i/tt/{{ post.data.thumb }}" alt="{{ post.data.title }}">
+            {% else %}
+            <img loading="lazy" class="nothumb" src="/assets/i/tt/fumesyousuck_thumb.svg" alt="{{ post.data.title }}">
+            {% endif %}
+
+          </div>
+
+          <div class="small title">{{ post.data.title | truncate(24)  }}</div>
+
+        </a>
+
+        {%- endfor -%}
+
+      </div>
+
+    </div>
+
+  </div>
+
+</nav>

@@ -33,17 +33,17 @@ module.exports = function(eleventyConfig) {
   // pass some assets right through
   eleventyConfig.addPassthroughCopy('./src/assets');
 
-  // Aliases are in relation to the _includes folder
+  // Aliases are in relation to the _includes folder HTML
   eleventyConfig.addLayoutAlias('base', 'layouts/base.html');
-  eleventyConfig.addLayoutAlias('tag_page', 'layouts/tag_page.html');
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
   eleventyConfig.addLayoutAlias('home', 'layouts/home.html');
   eleventyConfig.addLayoutAlias('images_author', 'layouts/images_author.html');
-  eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
   eleventyConfig.addLayoutAlias('photographer', 'layouts/photographer.html');
+  eleventyConfig.addLayoutAlias('tag_page', 'layouts/tag_page.html');
   eleventyConfig.addLayoutAlias('post_index_tag', 'layouts/post_index_tag.html');
-  eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
   eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.html');
+  // Aliases are in relation to the _includes folder NUNJUCKS
+  eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
