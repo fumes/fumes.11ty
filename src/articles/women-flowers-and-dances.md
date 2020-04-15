@@ -109,4 +109,4 @@ The whole village is present to the ceremony and they do check out the display.
 
 {% include partials/image.html, name: "7692" %}
 
-While the girls laps slowly till past sunset.
+While the girls laps graciously slowly till past sunset.

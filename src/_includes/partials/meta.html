@@ -14,7 +14,15 @@
     <p class="photog">
       <span class="hide">Photography: </span>
 
-      <a title="Photography by: {{ photographer }}" href="/photographer/{{ photographer | slug }}/">{{ photographer | capitalize }}</a>
+      <a title="Photography by: {{ photographer }}" href="/photographer/{{ photographer | slug }}/">
+        {%- capture name -%}
+          {{ photographer }}
+        {%- endcapture -%}
+        {%- assign words = name | split: " " -%}
+        {%- capture namefixed -%}
+          {%- for word in words %}{{ word | capitalize }} {% endfor -%}
+        {%- endcapture -%}
+        {{ namefixed }}</a>
     </p>
 
   </div>
@@ -28,7 +36,15 @@
     <p class="photog">
       <span class="hide">Images Author: </span>
 
-      <a title="Photography by: {{ photographer }}" href="/author/{{ images_author | slug }}/">{{ images_author | capitalize }}</a>
+      <a title="Photography by: {{ photographer }}" href="/author/{{ images_author | slug }}/">
+        {%- capture name -%}
+          {{ images_author }}
+        {%- endcapture -%}
+        {%- assign words = name | split: " " -%}
+        {%- capture namefixed -%}
+          {%- for word in words %}{{ word | capitalize }} {% endfor -%}
+        {%- endcapture -%}
+        {{ namefixed }}</a>
     </p>
 
   </div>
@@ -44,7 +60,7 @@
     <p class="photog">
       <span class="hide">Text Author: </span>
 
-      <a title="text author:{{ text_author.name }}" href="/author/{{ text_author | downcase | replace: ' ', '-' }}/">
+      <a title="text author:{{ text_author }}" href="/author/{{ text_author | downcase | replace: ' ', '-' }}/">
         {%- capture name -%}
           {{ text_author }}
         {%- endcapture -%}
@@ -64,7 +80,7 @@
       {% include partials/svg/use.html, id: "icn--date" class: "date" %}
     </div>
     <p class="date">
-      <meta itemprop="datePublished" content="{{ page.date| date: "%F"}}">
+      <meta itemprop="datePublished" content="{{ page.date | date: "%F"}}">
       <span class="hide">Published: </span>{{ page.date | date: "%B %d, %Y" }}</p>
   </div>
 
@@ -72,7 +88,7 @@
   <div class="post-meta categories">
     <div class="ico">{% include partials/svg/use.html, id: "icn--categories" class: "categories" %}</div>
     <p class="categories"><span class="hide">Filed under: </span>
-      <a title="Filed under: {{ category | titlecase }}" href="/{{ category | titlecase }}/">{{ category }}</a>
+      <a title="Filed under: {{ category | capitalize }}" href="/{{ category }}/">{{ category | capitalize }}</a>
     </p>
   </div>
   {% endif %}
