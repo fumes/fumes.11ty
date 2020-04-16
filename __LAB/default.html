@@ -13,7 +13,7 @@
 
       {% include partials/svg/defs.html %}
 
-      <main role="main" id="main" class="main {% if offwhite %}offwhite{% endif %} ">
+      <main id="main" class="main {% if offwhite %}offwhite{% endif %} ">
 
         <div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %}">
 
@@ -21,17 +21,7 @@
             {{ content | safe }}
           </div>
 
-          {% if fineartprints %}
-           {% include partials/fineartprints_block.html %}
-          {% endif %}
-
         </div>
-
-        {% if role != 'home' %}
-          {% include partials/nav--posts-all.html %}
-        {% else %}
-          {% include partials/nav--posts-home.html %}
-        {% endif %}
 
       </main>
 

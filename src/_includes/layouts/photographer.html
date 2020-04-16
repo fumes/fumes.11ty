@@ -1,151 +1,160 @@
 ---
-layout: default
+layout: base
 ---
-<div class="tagpage tagpage__title">
 
-  <span class="tagpage__ico" title="photographer">
-    {% include partials/svg/use.html, id: "icn--photographer" %}
-  </span>
+<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} text_photographer_html_template">
 
-  <h1 class="page__title">
-    {%- capture name -%}
-      {{ name }}
-    {%- endcapture -%}
-    {%- assign words = name | split: " " -%}
-    {%- capture namefixed -%}
-      {%- for word in words %}{{ word | capitalize }} {% endfor -%}
-    {%- endcapture -%}
-    {{ namefixed }}
-  </h1>
+  <div class="wrapper">
 
-  <div class="photographer__metas">
+    <div class="tagpage tagpage__title">
 
-    {% if twitter %}
-    <div class="photographer__meta">
-      <a href="https://twitter.com/{{ twitter }}" title="{{ page.fileSlug }}'s Twitter" target="_blank" rel="noopener">
-        <div class="ico photographer">{% include partials/svg/use.html id: "icn--twitter" class: "twitter" %}</div>
-        <span class="destination">{{ twitter }}</span>
-      </a>
+      <span class="tagpage__ico" title="photographer">
+        {% include partials/svg/use.html, id: "icn--photographer" %}
+      </span>
+
+      <h1 class="page__title">
+        {%- capture name -%}
+          {{ name }}
+        {%- endcapture -%}
+        {%- assign words = name | split: " " -%}
+        {%- capture namefixed -%}
+          {%- for word in words %}{{ word | capitalize }} {% endfor -%}
+        {%- endcapture -%}
+        {{ namefixed }}
+      </h1>
+
+      <div class="photographer__metas">
+
+        {% if twitter %}
+        <div class="photographer__meta">
+          <a href="https://twitter.com/{{ twitter }}" title="{{ page.fileSlug }}'s Twitter" target="_blank" rel="noopener">
+            <div class="ico photographer">{% include partials/svg/use.html id: "icn--twitter" class: "twitter" %}</div>
+            <span class="destination">{{ twitter }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if instagram %}
+        <div class="photographer__meta">
+          <a href="https://instagram.com/{{ instagram }}" title="{{ page.fileSlug }}'s Instagram" target="_blank" rel="noopener">
+            <div class="ico photographer">{% include partials/svg/use.html id: "icn--instagram" class: "instagram" %}</div>
+            <span class="destination">{{ instagram }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if fbPage %}
+        <div class="photographer__meta">
+          <a href="https://facebook.com/{{ fbPage }}" title="{{ page.fileSlug }}'s Facebook page" target="_blank" rel="noopener">
+            <div class="ico photographer">{% include partials/svg/use.html id: "icn--facebook" class: "facebook" %}</div>
+            <span class="destination">{{ fbPage }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if fbProfile %}
+        <div class="photographer__meta">
+          <a href="https://facebook.com/{{ fbProfile }}" title="{{ page.fileSlug }}'s Facebook profile" target="_blank" rel="noopener">
+            <div class="ico photographer">{% include partials/svg/use.html id: "icn--facebook" class: "facebook" %}</div>
+            <span class="destination">{{ fbProfile }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if tumblr %}
+        <div class="photographer__meta">
+          <a href="http://{{ tumblr }}.tumblr.com/" title="{{ page.fileSlug }}'s Tumblr" target="_blank" rel="noopener">
+            <div class="ico tumblr">{% include partials/svg/use.html id: "icn--tumblr" class: "tumblr" %}</div>
+            <span class="destination">{{ tumblr }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if github %}
+        <div class="photographer__meta">
+          <a href="https://github.com/{{ github }}" title="{{ page.fileSlug }}'s Github" target="_blank" rel="noopener">
+            <div class="ico github">{% include partials/svg/use.html id: "icn--github" class: "github" %}</div>
+            <span class="destination">{{ github }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if web %}
+        <div class="photographer__meta">
+          <a rel="author" href="{{ web }}" title="{{ page.fileSlug }}'s website" target="_blank" rel="noopener">
+            <div class="ico link">{% include partials/svg/use.html id: "icn--link" class: "link" %}</div>
+            <span class="destination">{{ web }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if email %}
+        <div class="author__meta">
+          <a rel="author" href="mailto:{{ email }}" title="{{ page.fileSlug }}'s email" target="_blank" rel="noopener">
+            <div class="ico link">{% include partials/svg/use.html id: "icn--email" class: "email" %}</div>
+            <span class="destination">{{ email }}</span>
+          </a>
+        </div>
+        {% endif %}
+      </div>
     </div>
-    {% endif %}
 
-    {% if instagram %}
-    <div class="photographer__meta">
-      <a href="https://instagram.com/{{ instagram }}" title="{{ page.fileSlug }}'s Instagram" target="_blank" rel="noopener">
-        <div class="ico photographer">{% include partials/svg/use.html id: "icn--instagram" class: "instagram" %}</div>
-        <span class="destination">{{ instagram }}</span>
-      </a>
-    </div>
-    {% endif %}
+    {%- assign posts = collections.article | reverse -%}
+    {% capture author %}{{ page.fileSlug }}{% endcapture %}
 
-    {% if fbPage %}
-    <div class="photographer__meta">
-      <a href="https://facebook.com/{{ fbPage }}" title="{{ page.fileSlug }}'s Facebook page" target="_blank" rel="noopener">
-        <div class="ico photographer">{% include partials/svg/use.html id: "icn--facebook" class: "facebook" %}</div>
-        <span class="destination">{{ fbPage }}</span>
-      </a>
+    {%- if author == "rokma" -%}
+    <div class="post_cards {{ page.fileSlug }}">
+      {%- for post in posts -%}
+        {%- if post.data.photographer == "rokma" -%}
+          {% include partials/index_post_block--excerpt.html %}
+        {%- endif -%}
+      {%- endfor -%}
     </div>
-    {% endif %}
+    {%- endif -%}
 
-    {% if fbProfile %}
-    <div class="photographer__meta">
-      <a href="https://facebook.com/{{ fbProfile }}" title="{{ page.fileSlug }}'s Facebook profile" target="_blank" rel="noopener">
-        <div class="ico photographer">{% include partials/svg/use.html id: "icn--facebook" class: "facebook" %}</div>
-        <span class="destination">{{ fbProfile }}</span>
-      </a>
+    {%- if author == "alejandro-plesch" -%}
+    <div class="post_cards {{ page.fileSlug }}">
+      {%- for post in posts -%}
+        {%- if post.data.photographer == "alejandro plesch" -%}
+          {% include partials/index_post_block--excerpt.html %}
+        {%- endif -%}
+      {%- endfor -%}
     </div>
-    {% endif %}
+    {%- endif -%}
 
-    {% if tumblr %}
-    <div class="photographer__meta">
-      <a href="http://{{ tumblr }}.tumblr.com/" title="{{ page.fileSlug }}'s Tumblr" target="_blank" rel="noopener">
-        <div class="ico tumblr">{% include partials/svg/use.html id: "icn--tumblr" class: "tumblr" %}</div>
-        <span class="destination">{{ tumblr }}</span>
-      </a>
-    </div>
-    {% endif %}
 
-    {% if github %}
-    <div class="photographer__meta">
-      <a href="https://github.com/{{ github }}" title="{{ page.fileSlug }}'s Github" target="_blank" rel="noopener">
-        <div class="ico github">{% include partials/svg/use.html id: "icn--github" class: "github" %}</div>
-        <span class="destination">{{ github }}</span>
-      </a>
+    {%- if author == "andrea-capello" -%}
+    <div class="post_cards {{ page.fileSlug }}">
+      {%- for post in posts -%}
+        {%- if post.data.photographer == "andrea capello" -%}
+          {% include partials/index_post_block--excerpt.html %}
+        {%- endif -%}
+      {%- endfor -%}
     </div>
-    {% endif %}
+    {%- endif -%}
 
-    {% if web %}
-    <div class="photographer__meta">
-      <a rel="author" href="{{ web }}" title="{{ page.fileSlug }}'s website" target="_blank" rel="noopener">
-        <div class="ico link">{% include partials/svg/use.html id: "icn--link" class: "link" %}</div>
-        <span class="destination">{{ web }}</span>
-      </a>
-    </div>
-    {% endif %}
 
-    {% if email %}
-    <div class="author__meta">
-      <a rel="author" href="mailto:{{ email }}" title="{{ page.fileSlug }}'s email" target="_blank" rel="noopener">
-        <div class="ico link">{% include partials/svg/use.html id: "icn--email" class: "email" %}</div>
-        <span class="destination">{{ email }}</span>
-      </a>
+    {%- if author == "melinda-hegedus" -%}
+    <div class="post_cards {{ page.fileSlug }}">
+      {%- for post in posts -%}
+        {%- if post.data.images_author == "melinda hegedus" -%}
+          {% include partials/index_post_block--excerpt.html %}
+        {%- endif -%}
+      {%- endfor -%}
     </div>
-    {% endif %}
+    {%- endif -%}
+
+
+    {%- if author == "luci-ferrero" -%}
+    <div class="post_cards {{ page.fileSlug }}">
+      {%- for post in posts -%}
+        {%- if post.data.photographer == "luci ferrero" -%}
+          {% include partials/index_post_block--excerpt.html %}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
   </div>
+
 </div>
-
-{%- assign posts = collections.article | reverse -%}
-{% capture author %}{{ page.fileSlug }}{% endcapture %}
-
-{%- if author == "rokma" -%}
-<div class="post_cards {{ page.fileSlug }}">
-  {%- for post in posts -%}
-    {%- if post.data.photographer == "rokma" -%}
-      {% include partials/index_post_block--excerpt.html %}
-    {%- endif -%}
-  {%- endfor -%}
-</div>
-{%- endif -%}
-
-{%- if author == "alejandro-plesch" -%}
-<div class="post_cards {{ page.fileSlug }}">
-  {%- for post in posts -%}
-    {%- if post.data.photographer == "alejandro plesch" -%}
-      {% include partials/index_post_block--excerpt.html %}
-    {%- endif -%}
-  {%- endfor -%}
-</div>
-{%- endif -%}
-
-
-{%- if author == "andrea-capello" -%}
-<div class="post_cards {{ page.fileSlug }}">
-  {%- for post in posts -%}
-    {%- if post.data.photographer == "andrea capello" -%}
-      {% include partials/index_post_block--excerpt.html %}
-    {%- endif -%}
-  {%- endfor -%}
-</div>
-{%- endif -%}
-
-
-{%- if author == "melinda-hegedus" -%}
-<div class="post_cards {{ page.fileSlug }}">
-  {%- for post in posts -%}
-    {%- if post.data.images_author == "melinda hegedus" -%}
-      {% include partials/index_post_block--excerpt.html %}
-    {%- endif -%}
-  {%- endfor -%}
-</div>
-{%- endif -%}
-
-
-{%- if author == "luci-ferrero" -%}
-<div class="post_cards {{ page.fileSlug }}">
-  {%- for post in posts -%}
-    {%- if post.data.photographer == "luci ferrero" -%}
-      {% include partials/index_post_block--excerpt.html %}
-    {%- endif -%}
-  {%- endfor -%}
-</div>
-{%- endif -%}

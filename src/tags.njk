@@ -11,27 +11,35 @@ pagination:
     - photographer
     - template
   addAllPagesToCollections: true
-layout: default
+layout: base
 renderData:
   title: Tagged “{{ tag }}”
 permalink: /{{ tag }}/
 ---
-<div class="tagpage tagpage__title">
+<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} tags_njk_template">
 
-  <span class="tagpage__ico">{% set id = "icn--tag" %}{% include "partials/svg/use.html" %}</span>
+  <div class="wrapper">
 
-  <h1 class="page__title">{{ tag | capitalize }}</h1>
+    <div class="tagpage tagpage__title">
 
-</div>
+      <span class="tagpage__ico">{% set id = "icn--tag" %}{% include "partials/svg/use.html" %}</span>
 
-<div class="tagpage post_cards">
-  {% set postslist = collections[ tag ] %}
+      <h1 class="page__title">{{ tag | capitalize }}</h1>
 
-  {% for post in postslist | reverse %}
+    </div>
 
-    {% include "partials/index_post_block--excerpt.njk" %}
+    <div class="tagpage post_cards">
+      {% set postslist = collections[ tag ] %}
 
-  {% endfor %}
+      {% for post in postslist | reverse %}
 
-  {% include "partials/nav--tag-cloud.njk" %}
+        {% include "partials/index_post_block--excerpt.njk" %}
+
+      {% endfor %}
+
+      {% include "partials/nav--tag-cloud.njk" %}
+    </div>
+
+  </div>
+
 </div>
