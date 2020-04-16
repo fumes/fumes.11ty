@@ -3,7 +3,7 @@
   "title": "Fumes",
   "subtitle": "Art. Photography. Ideas.",
   "photography_subtitle": "The Camera as a Microphone",
-  "description": "Online Art magazine covering mostly Asia Pacific. Fumes project was started by two photographers in 2010. Non-profit.",
+  "description": "Online Art magazine covering South East Asia and Asia Pacific. Fumes project was started by two photographers in 2010. Non-profit.",
   "projectimage": "assets/i/t/fumesyousuck_thumb.png",
   "license": "CC0",
   "qr": "yes",
@@ -15,7 +15,7 @@
     "facebook": "https://web.facebook.com/fumesmagazine",
     "github": "https://github.com/fumes",
     "google": {
-      "analytics": "",
+      "analytics": "UA-16659805-1",
       "verify": "google32e66f1a5601ec40"
     }
   },
