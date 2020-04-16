@@ -3,7 +3,7 @@
 
   {% include partials/head.html %}
 
-  <body class="{% if role != "home" %}has_default_license{% endif %} {% if fineartprints %}has_fineartprints{% endif %}">
+  <body class="{% if role != "home" %}has_default_license{% endif %} {% if fineartprints %}has_fineartprints{% endif %} layout_base_html">
 
     <div class="body_wrapper">
 
@@ -13,7 +13,7 @@
 
       {% include partials/svg/defs.html %}
 
-      <main id="main" class="main {% if offwhite %}offwhite{% endif %} base_html_template">
+      <main id="main" class="main {% if offwhite %}offwhite{% endif %}">
         {{ content | safe }}
       </main>
 

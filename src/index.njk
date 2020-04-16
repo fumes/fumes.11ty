@@ -1,9 +1,10 @@
 ---
 eleventyExcludeFromCollections: true
 layout: base
+footer_copyright: true
 permalink: /
 ---
-<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} index_njk_template">
+<nav aria-label="Primary" class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} index_njk_template">
 
   <div class="wrapper">
 
@@ -21,7 +22,7 @@ permalink: /
 
   </div>
 
-</div>
+</nav>
 
 {% include "partials/nav--posts-thumbs-home.njk" %}
 

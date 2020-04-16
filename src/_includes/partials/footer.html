@@ -8,7 +8,9 @@
 
       <p class="center">Established by two photographers in 2010, Fumes is an Online Art Magazine covering mostly South East Asia and Asia Pacific. There are currently 100 Fumes articles.</p>
 
-      <p class="center">{% if page.data.role == index %}Copyright © 2010 - {{ "now" | date: "%Y" }} <a href="https://junglestar.org">Junglestar</a> {% endif %}</p>
+      {% if layout != "post" %}
+      <p class="center">Copyright © 2010 - {{ site.now_year }} <a href="https://junglestar.org">Junglestar</a> </p>
+      {% endif %}
 
     </div>
 
@@ -25,7 +27,7 @@
 
       {% if site.owner.github %}
       <div class="footer_icon github">
-        <a class="menu_item" role="menuitem" href="{{site.owner.github}}" title="{{site.owner.github}} Github">
+        <a class="menu_item" role="menuitem" href="{{site.owner.github}}" title="{{site.owner.github | replace: "https://github.com/", "" }} is our Github name">
           <span>
             {% include partials/svg/use.html id: "icn--github" class: "github" %}
           </span>
@@ -37,7 +39,7 @@
 
       {% if site.owner.facebook %}
       <div class="footer_icon facebook">
-        <a class="menu_item" role="menuitem" href="{{site.owner.facebook}}" title="{{site.owner.facebook}} Facebook page">
+        <a class="menu_item" role="menuitem" href="{{site.owner.facebook}}" title="{{site.owner.facebook | replace: "https://web.facebook.com/", "" }} is our Facebook page name">
           <span>
             {% include partials/svg/use.html id: "icn--facebook" class: "facebook" %}
           </span>
@@ -48,7 +50,7 @@
 
       {% if site.owner.twitter %}
       <div class="footer_icon twitter">
-        <a class="menu_item" role="menuitem" href="{{site.owner.twitter}}" title="{{site.owner.twitter}} at twitter">
+        <a class="menu_item" role="menuitem" href="{{site.owner.twitter}}" title="{{site.owner.twitter | replace: "https://twitter.com/", "" }} is our twitter handle">
           <span>
             {% include partials/svg/use.html id: "icn--twitter" class: "twitter" %}
           </span>
@@ -59,7 +61,7 @@
 
       {% if site.owner.email %}
       <div class="footer_icon email">
-        <a class="menu_item" role="menuitem" class="" href="mailto:{{site.owner.email}}" title="{{site.owner.email}}">
+        <a class="menu_item" role="menuitem" class="" href="mailto:{{site.owner.email}}" title="our email">
           <span>
             {% include partials/svg/use.html id: "icn--email" class: "email" %}
           </span>
@@ -71,7 +73,7 @@
 
       {% if site.owner.instagram %}
       <div class="footer_icon instagram">
-        <a class="menu_item" role="menuitem" href="{{site.owner.instagram}}" title="{{site.owner.instagram}} on Instagram">
+        <a class="menu_item" role="menuitem" href="{{site.owner.instagram}}" title="{{site.owner.instagram | replace: "https://www.instagram.com/", "" }} on Instagram">
           <span>
             {% include partials/svg/use.html id: "icn--instagram" class: "instagram" %}
           </span>
