@@ -4,7 +4,7 @@ nav {
   @extend %no_select;
   padding: $spacing_unit 0;
   background-color: $background_color;
-  line-height: $base_line_height * 2;
+  line-height: $base_line_height * 1.2;
 
   label {
     display: none;
