@@ -54,6 +54,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.html');
   // Aliases are in relation to the _includes folder NUNJUCKS
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
+  eleventyConfig.addLayoutAlias('index', 'layouts/index.njk');
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
