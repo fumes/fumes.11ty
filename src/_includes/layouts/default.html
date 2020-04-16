@@ -7,13 +7,13 @@
 
     <div class="body_wrapper">
 
-      <div class="header">
+      <header class="header">
         {% include partials/logo.html %}
-      </div>
+      </header>
 
       {% include partials/svg/defs.html %}
 
-      <div role="main" id="main" class="main {% if offwhite %}offwhite{% endif %} default_html_template">
+      <main role="main" id="main" class="main {% if offwhite %}offwhite{% endif %} default_html_template">
 
         <div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %}">
 
@@ -33,7 +33,7 @@
           {% include partials/nav--posts-home.html %}
         {% endif %}
 
-      </div>
+      </main>
 
     </div>
 

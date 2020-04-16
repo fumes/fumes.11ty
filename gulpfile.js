@@ -137,7 +137,7 @@ gulp.task('delete_images_to_rename_dir_content', function(done) {
 // Rename all to lowercase + del
 gulp.task('lower', gulp.series(['lowercase', 'delete_images_to_lowercase_dir_content']));
 
-// Produce all the different sizes imags + del
+// Produce all the different sizes images + del
 gulp.task('sizes', gulp.series(['size_images', 'delete_images_to_size_dir_content']));
 
 // Rename images with dir name and progressive index + del
