@@ -49,7 +49,6 @@ module.exports = function(eleventyConfig) {
 
   // Aliases are in relation to the _includes folder HTML
   eleventyConfig.addLayoutAlias('base', 'layouts/base.html');
-  eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
   eleventyConfig.addLayoutAlias('images_author', 'layouts/images_author.html');
   eleventyConfig.addLayoutAlias('photographer', 'layouts/photographer.html');
   eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.html');

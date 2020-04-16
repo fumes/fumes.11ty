@@ -1,0 +1,32 @@
+<div class="post_card liquid_template">
+
+  <a class="post-link" href="{{ post.url }}">
+
+    <h2>{{ post.data.title}}</h2>
+
+    <div class="thumb">
+
+      {% if post.data.thumb %}
+      <img loading="lazy" src="/assets/i/t/{{ post.data.thumb }}" alt="{{ post.data.title }}">
+      {% else %}
+      <img loading="lazy" class="nothumb" src="/assets/i/t/fumesyousuck_thumb.svg" alt="{{ post.data.title }}">
+      {% endif %}
+
+    </div>
+
+    <div class="reading_time">
+
+      {% capture time %}{{ post | readingTime |  replace: "min", ""}}{% endcapture %}
+
+      <em>Read in {{ time }} {% if time contains "1" %}minute{% else %}minutes{% endif %}</em>
+    </div>
+
+    {% if post.data.description %}
+    <div class="excerpt">
+      {{ post.data.description | truncate: 188 }} <small>>>></small>
+    </div>
+    {% endif %}
+
+  </a>
+
+</div>

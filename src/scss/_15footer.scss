@@ -81,10 +81,11 @@
     color:  $black;
 
     &:hover {
-      color:  $background_color;
-      svg {
-        fill:  $background_color;
-      }
+      opacity: .65;
+      // color:  $background_color;
+      // svg {
+      //   fill:  $background_color;
+      // }
     }
 
   }
