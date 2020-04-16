@@ -52,8 +52,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
   eleventyConfig.addLayoutAlias('images_author', 'layouts/images_author.html');
   eleventyConfig.addLayoutAlias('photographer', 'layouts/photographer.html');
-  eleventyConfig.addLayoutAlias('tag_page', 'layouts/tag_page.html');
-  eleventyConfig.addLayoutAlias('post_index_tag', 'layouts/post_index_tag.html');
   eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.html');
   // Aliases are in relation to the _includes folder NUNJUCKS
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');

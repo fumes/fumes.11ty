@@ -12,13 +12,24 @@ $bg_shadow: rgba(135,128,135,1);
 
 .fineartprint_block_wrap {
   position: relative;
-  padding-top: 7rem;
+  padding-top: 0;
   padding-bottom: 0;
+  margin-bottom: 0;
+  @include media("screen", ">bp1Width") {
+    padding-top: 3rem;
+  }
+}
+
+.fineartprint_block_bottom_padding {
+  background-color: $background_color;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 8rem;
   @include media("screen", ">minWidth") {
-   padding-bottom: 7rem;
+   padding-bottom: 14rem;
   }
   @include media("screen", ">bp1Width") {
-   padding-bottom: 0;
+
   }
 }
 
@@ -45,7 +56,7 @@ $bg_shadow: rgba(135,128,135,1);
 }
 
 .fineartprint_block_center {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .fineartprint_block_title {
@@ -62,7 +73,7 @@ $bg_shadow: rgba(135,128,135,1);
 .fineartprint_image_block {
   &:nth-child(1){
     .fineartprint_image {
-      max-width: 40vw;
+      max-width: 42vw;
       transform: rotate(-32deg);
       left: 1rem;
 
@@ -71,12 +82,12 @@ $bg_shadow: rgba(135,128,135,1);
 
       @include media("screen", ">minWidth") {
 
-        max-width: 35vw;
+        max-width: 37vw;
         transform: rotate(-28deg);
       }
       @include media("screen", ">bp1Width") {
         left: auto;
-        max-width: 50vw;
+        max-width: 52vw;
         .bottom & {bottom: -3rem;}
       }
     }
@@ -86,7 +97,7 @@ $bg_shadow: rgba(135,128,135,1);
       z-index: 1;
       max-width: 50vw;
       transform: rotate(-15deg);
-      outline: 10px white solid;
+      outline: 8px white solid;
       -webkit-box-shadow: -21px 20px 21px 2px rgba(135,128,135,1);
       -moz-box-shadow: -21px 20px 21px 2px rgba(135,128,135,1);
       box-shadow: -21px 20px 21px 2px rgba(135,128,135,1);

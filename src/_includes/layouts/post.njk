@@ -18,6 +18,10 @@ layout: base
 
   </div>
 
+  {% if fineartprints != "" %}
+   {% include "partials/fineartprints_block.njk" %}
+  {% endif %}
+
 </div>
 
 {% include "partials/nav--posts-thumbs-all.njk" %}

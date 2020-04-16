@@ -11,12 +11,20 @@ pagination:
     - photographer
     - template
   addAllPagesToCollections: true
-layout: tag_page
+layout: default
 renderData:
   title: Tagged “{{ tag }}”
 permalink: /{{ tag }}/
 ---
+<div class="tagpage tagpage__title">
 
+  <span class="tagpage__ico">{% set id = "icn--tag" %}{% include "partials/svg/use.html" %}</span>
+
+  <h1 class="page__title">{{ tag | capitalize }}</h1>
+
+</div>
+
+<div class="tagpage post_cards">
   {% set postslist = collections[ tag ] %}
 
   {% for post in postslist | reverse %}
@@ -26,3 +34,4 @@ permalink: /{{ tag }}/
   {% endfor %}
 
   {% include "partials/nav--tag-cloud.njk" %}
+</div>

@@ -17,9 +17,6 @@
   background-color: $offwhite;
   color: $black;
   padding-bottom: 0;
-  @include media("screen", ">bp1Width") {
-    padding-bottom: 5rem;
-  }
 
   & > {
     background-color: $offwhite;
