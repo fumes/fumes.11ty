@@ -27,7 +27,7 @@
 
       {% if site.owner.github %}
       <div class="footer_icon github">
-        <a class="menu_item" role="menuitem" href="{{site.owner.github}}" title="{{site.owner.github | replace: "https://github.com/", "" }} is our Github name">
+        <a class="menu_item" role="menuitem" href="{{site.owner.github}}" aria-label="{{site.owner.github | replace: "https://github.com/", "" }} is our Github name" title="{{site.owner.github | replace: "https://github.com/", "" }} is our Github name">
           <span>
             {% include partials/svg/use.html id: "icn--github" class: "github" alt: "this website code is open source on Github" %}
           </span>
@@ -39,7 +39,7 @@
 
       {% if site.owner.facebook %}
       <div class="footer_icon facebook">
-        <a class="menu_item" role="menuitem" href="{{site.owner.facebook}}" title="{{site.owner.facebook | replace: "https://web.facebook.com/", "" }} is our Facebook page name">
+        <a class="menu_item" role="menuitem" href="{{site.owner.facebook}}" aria-label="{{site.owner.facebook | replace: "https://web.facebook.com/", "" }} is our Facebook page name" title="{{site.owner.facebook | replace: "https://web.facebook.com/", "" }} is our Facebook page name">
           <span>
 
             {% include partials/svg/use.html id: "icn--facebook" class: "facebook" alt: "fumesmagazine is our Facebook page name"%}
@@ -51,7 +51,7 @@
 
       {% if site.owner.twitter %}
       <div class="footer_icon twitter">
-        <a class="menu_item" role="menuitem" href="{{site.owner.twitter}}" title="{{site.owner.twitter | replace: "https://twitter.com/", "" }} is our twitter handle">
+        <a class="menu_item" role="menuitem" href="{{site.owner.twitter}}" aria-label="{{site.owner.twitter | replace: "https://twitter.com/", "" }} is our Twitter handle" title="{{site.owner.twitter | replace: "https://twitter.com/", "" }} is our Twitter handle">
           <span>
             {% include partials/svg/use.html id: "icn--twitter" class: "twitter" alt: "fumesvoice is our twitter name"%}
           </span>
@@ -62,7 +62,7 @@
 
       {% if site.owner.email %}
       <div class="footer_icon email">
-        <a class="menu_item" role="menuitem" class="" href="mailto:{{site.owner.email}}" title="our email">
+        <a class="menu_item" role="menuitem" class="" href="mailto:{{site.owner.email}}" aria-label="this is our email, write some feedback!" title="our email">
           <span>
             {% include partials/svg/use.html id: "icn--email" class: "email" alt: " use our preferred contact method, that is email!"%}
           </span>
@@ -74,7 +74,7 @@
 
       {% if site.owner.instagram %}
       <div class="footer_icon instagram">
-        <a class="menu_item" role="menuitem" href="{{site.owner.instagram}}" title="{{site.owner.instagram | replace: "https://www.instagram.com/", "" }} on Instagram">
+        <a class="menu_item" role="menuitem" href="{{site.owner.instagram}}" aria-label="{{site.owner.instagram | replace: "https://www.instagram.com/", "" }} on Instagram"  title="{{site.owner.instagram | replace: "https://www.instagram.com/", "" }} on Instagram" >
           <span>
             {% include partials/svg/use.html id: "icn--instagram" class: "instagram" alt: "Instagram" %}
           </span>
