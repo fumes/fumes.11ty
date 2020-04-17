@@ -19,7 +19,7 @@
       {% if site.qr %}
       <div class="footer_icon qr">
           <span>
-            {% include partials/svg/use.html id: "icn--qr" class: "qr" %}
+            {% include partials/svg/use.html id: "icn--qr" class: "qr" alt: "Fumes website QR code, pass it on!"%}
           </span>
           <span class="hide_on_phones">&nbsp;</span>
       </div>
@@ -29,7 +29,7 @@
       <div class="footer_icon github">
         <a class="menu_item" role="menuitem" href="{{site.owner.github}}" title="{{site.owner.github | replace: "https://github.com/", "" }} is our Github name">
           <span>
-            {% include partials/svg/use.html id: "icn--github" class: "github" %}
+            {% include partials/svg/use.html id: "icn--github" class: "github" alt: "this website code is open source on Github" %}
           </span>
           <span class="hide_on_phones">{{site.owner.github | replace: "https://github.com/", "" }}</span>
         </a>
@@ -41,7 +41,8 @@
       <div class="footer_icon facebook">
         <a class="menu_item" role="menuitem" href="{{site.owner.facebook}}" title="{{site.owner.facebook | replace: "https://web.facebook.com/", "" }} is our Facebook page name">
           <span>
-            {% include partials/svg/use.html id: "icn--facebook" class: "facebook" %}
+
+            {% include partials/svg/use.html id: "icn--facebook" class: "facebook" alt: "fumesmagazine is our Facebook page name"%}
           </span>
           <span class="hide_on_phones">{{site.owner.facebook | replace: "https://web.facebook.com/", "" }}</span>
         </a>
@@ -52,7 +53,7 @@
       <div class="footer_icon twitter">
         <a class="menu_item" role="menuitem" href="{{site.owner.twitter}}" title="{{site.owner.twitter | replace: "https://twitter.com/", "" }} is our twitter handle">
           <span>
-            {% include partials/svg/use.html id: "icn--twitter" class: "twitter" %}
+            {% include partials/svg/use.html id: "icn--twitter" class: "twitter" alt: "fumesvoice is our twitter name"%}
           </span>
           <span class="hide_on_phones">{{site.owner.twitter | replace: "https://twitter.com/", "" }}</span>
         </a>
@@ -63,7 +64,7 @@
       <div class="footer_icon email">
         <a class="menu_item" role="menuitem" class="" href="mailto:{{site.owner.email}}" title="our email">
           <span>
-            {% include partials/svg/use.html id: "icn--email" class: "email" %}
+            {% include partials/svg/use.html id: "icn--email" class: "email" alt: " use our preferred contact method, that is email!"%}
           </span>
           <span itemprop="email">
             <span class="hide_on_phones">{{site.owner.email}}</span></span>
@@ -75,7 +76,7 @@
       <div class="footer_icon instagram">
         <a class="menu_item" role="menuitem" href="{{site.owner.instagram}}" title="{{site.owner.instagram | replace: "https://www.instagram.com/", "" }} on Instagram">
           <span>
-            {% include partials/svg/use.html id: "icn--instagram" class: "instagram" %}
+            {% include partials/svg/use.html id: "icn--instagram" class: "instagram" alt: "Instagram" %}
           </span>
           <span class="hide_on_phones">{{site.owner.instagram | replace: "https://www.instagram.com/", "" }}</span>
         </a>
