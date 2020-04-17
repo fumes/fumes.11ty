@@ -8,7 +8,7 @@ layout: base
     <div class="tagpage tagpage__title">
 
       <span class="tagpage__ico" title="text author">
-        {% include partials/svg/use.html id: "icn--speech" %}
+        {% set id = "icn--speech" %}{% include "partials/svg/use.html" %}
       </span>
 
       <h1 class="page__title">{{ name | title }}</h1>
