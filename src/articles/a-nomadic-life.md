@@ -1,7 +1,7 @@
 ---
 title: A nomadic Life
-text_author:
-photographer: andrea
+text_author: andrea capello
+photographer: andrea capello
 curator: rokma
 date: 2018-11-01
 category: photo-journalism

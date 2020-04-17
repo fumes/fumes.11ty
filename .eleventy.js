@@ -1,4 +1,4 @@
-const pluginSass = require('eleventy-plugin-sass');
+const pluginSass = require('./src/_11ty/sass');
 const readingTime = require('./src/_11ty/reading-time');
 const pluginDate = require("eleventy-plugin-date");
 
@@ -41,7 +41,8 @@ module.exports = function(eleventyConfig) {
 
   // sass
   eleventyConfig.addPlugin(pluginSass, {
-    watch: './src/scss/*.scss'
+    watch: './src/scss/*.scss',
+    outputDir: './src/_includes/css/'
   });
 
   // pass some assets right through
@@ -72,6 +73,7 @@ module.exports = function(eleventyConfig) {
     },
     templateFormats : ['njk', 'md', 'liquid', 'html'],
     markdownTemplateEngine: 'liquid',
-    htmlTemplateEngine : 'liquid'
+    htmlTemplateEngine : 'liquid',
+    passthroughFileCopy: true,
   };
 }
