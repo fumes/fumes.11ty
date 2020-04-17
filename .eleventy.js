@@ -49,10 +49,9 @@ module.exports = function(eleventyConfig) {
 
   // Aliases are in relation to the _includes folder HTML
   eleventyConfig.addLayoutAlias('base', 'layouts/base.html');
-  eleventyConfig.addLayoutAlias('images_author', 'layouts/images_author.html');
-  eleventyConfig.addLayoutAlias('photographer', 'layouts/photographer.html');
-  eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.html');
   // Aliases are in relation to the _includes folder NUNJUCKS
+  eleventyConfig.addLayoutAlias('photographer', 'layouts/photographer.njk');
+  eleventyConfig.addLayoutAlias('text_author', 'layouts/text_author.njk');
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
   eleventyConfig.addLayoutAlias('index', 'layouts/index.njk');
 

@@ -1,0 +1,114 @@
+---
+layout: base
+---
+<div class="content {% if category %}{{ category }}{% else %}index{% endif %} {% if offwhite %}offwhite_content{% endif %} text_author_html_template">
+
+  <div class="wrapper">
+
+    <div class="tagpage tagpage__title">
+
+      <span class="tagpage__ico" title="text author">
+        {% include partials/svg/use.html id: "icn--speech" %}
+      </span>
+
+      <h1 class="page__title">{{ name | title }}</h1>
+
+      <div class="author__metas">
+
+        {% if twitter %}
+        <div class="author__meta">
+          <a href="https://twitter.com/{{ twitter }}" title="{{ name }}'s Twitter" target="_blank" rel="noopener">
+            <div class="ico photographer">{% set id = "icn--twitter" %}{% include "partials/svg/use.html" %}</div>
+            <span class="destination">{{ twitter }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if instagram %}
+        <div class="author__meta">
+          <a href="https://instagram.com/{{ instagram }}" title="{{ name }}'s Instagram" target="_blank" rel="noopener">
+            <div class="ico photographer">{% set id = "icn--instagram" %}{% include "partials/svg/use.html" %}</div>
+            <span class="destination">{{ instagram }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if fbPage %}
+        <div class="author__meta">
+          <a href="https://facebook.com/{{ fbPage }}" title="{{ name }}'s Facebook page" target="_blank" rel="noopener">
+            <div class="ico photographer">{% set id = "icn--facebook" %}{% include "partials/svg/use.html" %}</div>
+            <span class="destination">{{ fbPage }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if fbProfile %}
+        <div class="author__meta">
+          <a href="https://facebook.com/{{ fbProfile }}" title="{{ name }}'s Facebook profile" target="_blank" rel="noopener">
+            <div class="ico photographer">{% set id = "icn--facebook" %}{% include "partials/svg/use.html" %}</div>
+            <span class="destination">{{ fbProfile }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if tumblr %}
+        <div class="author__meta">
+          <a href="http://{{ tumblr }}.tumblr.com/" title="{{ name }}'s Tumblr" target="_blank" rel="noopener">
+            <div class="ico tumblr">{% set id = "icn--tumblr" %}{% include "partials/svg/use.html" %}</div>
+            <span class="destination">{{ tumblr }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if soundcloud %}
+        <div class="author__meta">
+          <a href="http://soundcloud.com/{{ soundcloud }}" title="{{ name }}'s Soundcloud" target="_blank" rel="noopener">
+            <div class="ico soundcloud">{% set id = "icn--soundcloud" %}{% include "partials/svg/use.html" %}</div>
+            <span class="destination">{{ soundcloud }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if github %}
+        <div class="author__meta">
+          <a href="https://github.com/{{ github }}" title="{{ name }}'s Github" target="_blank" rel="noopener">
+            <div class="ico github">{% set id = "icn--github" %}{% include "partials/svg/use.html" %}</div>
+            <span class="destination">{{ github }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if web %}
+        <div class="author__meta">
+          <a rel="author" href="{{ web }}" title="{{ name }}'s website" target="_blank" rel="noopener">
+            <div class="ico link">{% set id = "icn--link" %}{% include "partials/svg/use.html" %}</div>
+            <span class="destination">{{ web }}</span>
+          </a>
+        </div>
+        {% endif %}
+
+        {% if email %}
+        <div class="author__meta">
+          <a rel="author" href="mailto:{{ email }}" title="{{ name }}'s email" target="_blank" rel="noopener">
+            <div class="ico link">{% set id = "icn--email" %}{% include "partials/svg/use.html" %}</div>
+            <span class="destination">{{ email }}</span>
+          </a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+
+
+    {%- set posts = collections.article | reverse -%}
+    {%- set authorpage -%}{{ name }}{%- endset -%}
+    <div class="post_cards {{ authorpage }}">
+      {%- for post in posts -%}
+        {%- if post.data.text_author == authorpage -%}
+          {% include "partials/index_post_block--excerpt.njk" %}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+  </div>
+
+</div>
