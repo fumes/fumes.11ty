@@ -47,6 +47,8 @@ module.exports = function(eleventyConfig) {
 
   // pass some assets right through
   eleventyConfig.addPassthroughCopy('./src/assets');
+  eleventyConfig.addPassthroughCopy('./src/robots.txt');
+
 
   // Aliases are in relation to the _includes folder HTML
   eleventyConfig.addLayoutAlias('base', 'layouts/base.html');

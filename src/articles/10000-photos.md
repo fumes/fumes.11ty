@@ -16,6 +16,7 @@ license:
 thumb: timelapse.jpg
 description: "A Time Lapse journey from USA to Hong Kong to Indonesia. Shot in full HD. Washington-DC, Lombok, San-Francisco, Hongkong, Bali. "
 image: /assets/p/timelapse/100814-alejandro-plesch-timelapse.jpg
+changeFreq: never
 ---
 
 {% include partials/image.html, name: "" %}

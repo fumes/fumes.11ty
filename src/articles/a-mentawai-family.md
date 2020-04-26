@@ -20,6 +20,7 @@ license:
 thumb: mentawaii.jpg
 description: "The Mentawai people are an indigenous tribe of hunters who live deep in the jungle of Siberut Island, off the coast of western Sumatra. They live in isolation by choice, rejecting modernity, religion and government pressures to assimilate into Indonesian society."
 image: /assets/p/alaia/110410-alejandro-plesch-alaia.jpg
+changeFreq: never
 ---
 
 The Mentawai people are an indigenous tribe of hunters who live deep in the jungle of Siberut Island, off the coast of western Sumatra.  
