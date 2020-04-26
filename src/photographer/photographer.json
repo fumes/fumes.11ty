@@ -1,4 +1,5 @@
 {
   "layout": "layouts/photographer.njk",
-  "permalink": "photographer/{{ page.fileSlug }}/"
+  "permalink": "photographer/{{ page.fileSlug }}/",
+  "changeFreq": "montly"
 }
