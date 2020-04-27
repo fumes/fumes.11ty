@@ -1,5 +1,4 @@
 {
   "layout": "post",
-  "permalink": "{{category}}/{{ title | slug }}/",
-  "changeFreq": "yearly"
+  "permalink": "{{category}}/{{ title | slug }}/"
 }
