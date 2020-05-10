@@ -1,7 +1,7 @@
 {
   "name": "fumes11ty",
   "version": "1.2.0",
-  "description": "test porting Fumes from Jekyll to 11ty",
+  "description": "Fumes - from Jekyll to 11ty",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",

@@ -35,7 +35,7 @@ _Fumes project was started by two photographers. A metaphor to play with, delive
 - [x] Reading time estimates. Using this plugin [eleventy-plugin-reading-time](https://github.com/johanbrook/eleventy-plugin-reading-time) by Johan Brook.
 
 
-### Fumes development technologies
+## Fumes development technologies
 
 Stuff for development. Its happens in [Source branch](https://github.com/fumes/fumes11ty/):
 
@@ -45,36 +45,38 @@ Stuff for development. Its happens in [Source branch](https://github.com/fumes/f
 
 - Bundler
 
+- 11ty
+
 - plus various code clips & techniques taken here and there...  
 
 - Netlify CND and SSL/https.
 
 
-#### Prerequisites, first setup:
+## Prerequisites, first setup:
 
-##### A. Get started with bundler. Install it globally!
+### A. Get started with bundler. Install it globally!
 
 ```sh
 gem install bundler
 ```
 
-#### Dev prerequisites:
+## Dev prerequisites:
 
-##### 1. Install node dependencies into project's local dir
+### 1. Install node dependencies into project's local dir
 
 ```sh
 npm install
 ```
 
-#### Dev time:
+## Dev time:
 
-##### 1. Run 11ty
+### 1. Run 11ty
 
 ```sh
 npx @11ty/eleventy --serve
 ```
 
-##### 2. Run gulp to produce images
+### 2. Run gulp to produce images
 
 Open a new terminal window and
 
@@ -105,8 +107,6 @@ gulp curate
 
 ## To do
 
-##### Urgent:
-
 - [ ] licenses management: use licenses.yml
 
 - [ ] post count in footer
@@ -122,7 +122,7 @@ gulp curate
 - [ ] [Google Author Rich Snippets](http://davidensinger.com/2013/05/setting-up-google-author-rich-snippets/)  
 
 
-##### One day:
+## One day:
 
 - [ ] install service workers
 
@@ -137,21 +137,9 @@ gulp curate
 
 Having the source files of the Fumes project website, the core of the project, out in the open will allow other people or organisations that want to produce journalism to get a head-start on their own sites and see some practices and methods that have worked well for Fumes.
 
-## Reasons for using Jekyll (or any other static site generator)
+## Reasons for moving form Jekyll to 11ty
 
-This project creates static HTML files using [Jekyll](http://jekyllrb.com/). There are many main reasons for using a static site generator this way:
-
-1. The site will hold up to **high load** without requiring any special caching techniques. It's just HTML.
-
-2. Since the site is just static files without a CMS it **can sit for years without needing any software updates or security patches**, which is important for reference websites like Fumes that will sit without content changes for a long time.
-
-3. Since it's all text files controlled by a Git repository, **collaboration is made easy.**
-
-4. **Stories can be produced extremely quickly.** To produce the stories, just edit text files.
-
-5. **Fast and Secure.** All static files so drastically reduced vulnerabilities compared to popular php CMS like WP.
-
-6. Hosted on Netlify. World class hosting CDN + https.
+This project has been happily using [Jekyll](http://jekyllrb.com/) for many years. It became way to slow, even using --incremental, to the point that was painful. he discovery of [11ty](https://www.11ty.dev/) was a pleasant surprise for its elasticity and javascript base that allows many customisations.
 
 
 ## Warning

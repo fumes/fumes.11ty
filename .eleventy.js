@@ -48,6 +48,7 @@ module.exports = function(eleventyConfig) {
   // pass some assets right through
   eleventyConfig.addPassthroughCopy('./src/assets');
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
+  eleventyConfig.addPassthroughCopy('./src/android-chrome-192x192.png');
 
 
   // Aliases are in relation to the _includes folder HTML
