@@ -137,9 +137,9 @@ gulp curate
 
 Having the source files of the Fumes project website, the core of the project, out in the open will allow other people or organisations that want to produce journalism to get a head-start on their own sites and see some practices and methods that have worked well for Fumes.
 
-## Reasons for moving form Jekyll to 11ty
+## Reasons for moving from Jekyll to 11ty
 
-This project has been happily using [Jekyll](http://jekyllrb.com/) for many years. It became way to slow, even using --incremental, to the point that was painful. he discovery of [11ty](https://www.11ty.dev/) was a pleasant surprise for its elasticity and javascript base that allows many customisations.
+This project has been happily using [Jekyll](http://jekyllrb.com/) for many years. till it became way to slow, even using --incremental, to the point that was painful. The discovery of [11ty](https://www.11ty.dev/) was a pleasant surprise for its elasticity, speed and javascript base which allows many customisations.
 
 
 ## Warning
