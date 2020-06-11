@@ -18,11 +18,11 @@
         {% for post in older_articles.slice(16,length) %}
 
 
-        <a class="looper__link {{ post.data.category }}" href="{{ post.url | url }}">
+        <a class="looper__link small_card {{ post.data.category }}" href="{{ post.url | url }}">
 
-          <div class="small category hidden">{{ post.data.category }}</div>
+          <div class="category hidden">{{ post.data.category }}</div>
 
-          <div class="small thumb">
+          <div class="thumb">
 
             {% if post.data.thumb %}
             <img loading="lazy" src="/assets/i/tt/{{ post.data.thumb }}" alt="{{ post.data.title }}">
@@ -32,7 +32,12 @@
 
           </div>
 
-          <div class="small title">{{ post.data.title | truncate(24)  }}</div>
+          <div class="small title">
+            <h5>{{ post.data.title | truncate(40)  }}</h5>
+            <div class="reading_time">
+              <em>Read in {{ post | readingTime }}</em>
+            </div>
+          </div>
 
         </a>
 

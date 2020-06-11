@@ -1,4 +1,4 @@
-<nav role="navigation" class="nav--tags  nav_tag_cloud_njk_template">
+<nav role="navigation" class="nav--tags  tagcloud_block  nav_tag_cloud_njk_template">
 
   <div class="wrapper">
 
@@ -14,7 +14,7 @@
       {% for tagKey, tagVal in collections.tagListPosts %}
       {% set tagUrl %}/{{ tagKey }}/{% endset %}
 
-          <a class="looper__link {{ tagKey }}" href="{{ tagUrl | url }}" style="font-size: calc({{ tagVal.length * 5 }}% + .75rem) ">{{ tagKey }}</a>
+          <a class="looper__link {{ tagKey }} size-{{ tagVal.length }}" href="{{ tagUrl | url }}" style="font-size: calc({{ tagVal.length * 5 }}% + .75rem) ">{{ tagKey }}</a>
 
       {% endfor %}
 

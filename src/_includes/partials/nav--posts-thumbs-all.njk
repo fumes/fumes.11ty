@@ -1,4 +1,4 @@
-<nav role="navigation" aria-label="Secondary" class="nav--posts nav--posts-home_njk_template" >
+<nav role="navigation" aria-label="Secondary" class="nav--posts nav--posts-all_njk_template" >
 
   <div class="wrapper">
 
@@ -17,7 +17,7 @@
 
         {% for post in articles %}
 
-        <a class="looper__link {{ post.data.category }}" href="{{ post.url | url }}">
+        <a class="looper__link small_card {{ post.data.category }} " href="{{ post.url | url }}">
 
           <div class="small category hidden">{{ post.data.category }}</div>
 
@@ -31,7 +31,12 @@
 
           </div>
 
-          <div class="small title">{{ post.data.title | truncate(24)  }}</div>
+          <div class="small title">
+            <h5>{{ post.data.title | truncate(40)  }}</h5>
+            <div class="reading_time">
+              <em>Read in {{ post | readingTime }}</em>
+            </div>
+          </div>
 
         </a>
 
