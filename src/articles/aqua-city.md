@@ -20,6 +20,7 @@ tags:
 license: CC_BY
 thumb: aquacity.jpg
 description: "Aqua city - Perception is what reality reflects. What we know about the world has come to us bouncing his way into our senses."
+image: /assets/p/aquacity/100517-photographer-rokma-aquacity.jpg
 offwhite: true # true or empty
 fineartprints:
 - 100517-photographer-rokma-aquacity-1.jpg
@@ -28,7 +29,6 @@ fineartprints:
 - 100517-photographer-rokma-aquacity-5.jpg
 - 100517-photographer-rokma-aquacity-4.jpg
 - 100517-photographer-rokma-aquacity-7.jpg
-image: /assets/p/aquacity/100517-photographer-rokma-aquacity.jpg
 ---
 
 {% include partials/image.html, name: "-1" %}
