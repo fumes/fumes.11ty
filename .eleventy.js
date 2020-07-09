@@ -1,6 +1,20 @@
 const pluginSass = require('./src/_11ty/sass');
 const readingTime = require('./src/_11ty/reading-time');
 const pluginDate = require("eleventy-plugin-date");
+const CaptureTag = require('./src/_11ty/nunjucks-capture');
+
+let Nunjucks = require("nunjucks");
+
+module.exports = function(eleventyConfig) {
+  let nunjucksEnvironment = new Nunjucks.Environment(
+    new Nunjucks.addExtension('CaptureTag', new CaptureTag())
+  );
+
+  eleventyConfig.setLibrary("njk", nunjucksEnvironment);
+};
+
+// var env = new nunjucks.Environment();
+// env.addExtension('CaptureTag', new CaptureTag());
 
 module.exports = function(eleventyConfig) {
 
