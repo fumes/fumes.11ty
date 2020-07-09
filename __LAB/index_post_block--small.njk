@@ -1,4 +1,4 @@
-<div class="post_card post_card--small njk_template">
+<div class="post_card post_card--small index_post_block--small_njk_template">
 
   <a class="post-link" href="{{ post.url | url }}">
 
@@ -10,6 +10,9 @@
 
 
       <img loading="lazy" src="/assets/i/t/{{ post.data.thumb }}" alt="{{ post.data.title }}">
+
+      {% capture as="image" -%}{{ post.data.thumb }}{%- endcapture %}
+      <p>{{ image }}</p>
 
       {% comment %}
       <figure class="">

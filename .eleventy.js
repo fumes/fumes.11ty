@@ -62,6 +62,7 @@ module.exports = function(eleventyConfig) {
   // pass some assets right through
   eleventyConfig.addPassthroughCopy('./src/assets');
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
+  eleventyConfig.addPassthroughCopy('./src/android-chrome-144x144.png');
   eleventyConfig.addPassthroughCopy('./src/android-chrome-192x192.png');
 
 
