@@ -5,28 +5,28 @@
 _Fumes is an online photography magazine broadcasting human interest stories mainly from South East Asia._
 _Fumes project was started by two photographers. A metaphor to play with, delivering ideas via images._
 
-♡ Fumes website is now refactored using 11ty.  
+♡ Fumes website is now refactored using 11ty.
 
 
 ## Fumes website features
 
-- [x] microformats. [example test here](https://search.google.com/structured-data/testing-tool#url=http%3A%2F%2Ffumes.junglestar.org%2Fstudies%2Fform)  
+- [x] microformats. [example test here](https://search.google.com/structured-data/testing-tool#url=http%3A%2F%2Ffumes.junglestar.org%2Fstudies%2Fform)
 
-- [x] ultra simple [codepen-geek](http://codepen.io/rokma/full/pJBXbg/) responsive logo.  
+- [x] ultra simple [codepen-geek](http://codepen.io/rokma/full/pJBXbg/) responsive logo.
 
-- [x] smart [inline svg icons](https://github.com/eduardoboucas/eduardoboucas.github.io/tree/master/_includes/svg).  
+- [x] smart [inline svg icons](https://github.com/eduardoboucas/eduardoboucas.github.io/tree/master/_includes/svg).
 
-- [x] post thumbs. Front-matter declared.  
+- [x] post thumbs. Front-matter declared.
 
-- [x] chrome standalone web app functionality (android only :().  
+- [x] chrome standalone web app functionality (android only :().
 
-- [x] photographer indexes and navigation.   
+- [x] photographer indexes and navigation.
 
-- [x] open graph.  
+- [x] open graph.
 
-- [x] attribution footnotes ["APPEND to copy action"](https://www.jitbit.com/alexblog/230-javascript-injecting-extra-info-to-copy-pasted-text/) via inlined vanilla js.  
+- [x] attribution footnotes ["APPEND to copy action"](https://www.jitbit.com/alexblog/230-javascript-injecting-extra-info-to-copy-pasted-text/) via inlined vanilla js.
 
-- [x] twitter [cards](https://github.com/merlos/jekyll-auto-image#example-using-twitter-cards) ([tested here..](https://cards-dev.twitter.com/validator)).   
+- [x] twitter [cards](https://github.com/merlos/jekyll-auto-image#example-using-twitter-cards) ([tested here..](https://cards-dev.twitter.com/validator)).
 
 - [x] SSL/https thanks to Netlify.
 
@@ -47,7 +47,7 @@ Stuff for development. Its happens in [Source branch](https://github.com/fumes/f
 
 - 11ty
 
-- plus various code clips & techniques taken here and there...  
+- plus various code clips & techniques taken here and there...
 
 - Netlify CND and SSL/https.
 
@@ -104,6 +104,10 @@ Rename images adding dir name and progressive index + del
 gulp curate
 ```
 
+Or to produce all the different sizes images without deleting originals
+```sh
+gulp size_images
+```
 
 ## To do
 
@@ -115,11 +119,11 @@ gulp curate
 
 - [ ] handy prev / next articles navigation.
 
-- [ ] print.css  
+- [ ] print.css
 
-- [ ] [google authors](http://milanaryal.com/2015/integrating-social-meta-tags-into-jekyll/#integrating-google-authorship-into-jekyll)  
+- [ ] [google authors](http://milanaryal.com/2015/integrating-social-meta-tags-into-jekyll/#integrating-google-authorship-into-jekyll)
 
-- [ ] [Google Author Rich Snippets](http://davidensinger.com/2013/05/setting-up-google-author-rich-snippets/)  
+- [ ] [Google Author Rich Snippets](http://davidensinger.com/2013/05/setting-up-google-author-rich-snippets/)
 
 
 ## One day:
@@ -154,6 +158,6 @@ Thanks, Junglestar team.
 ## Photo rights
 
 
-All photos © the Authors. All photos rights reserved. Except as indicated on a per article basis.  
+All photos © the Authors. All photos rights reserved. Except as indicated on a per article basis.
 
 In some Fumes Articles, photos are released under CC-BY Creative Commons license. Some other Fumes photos are CC0. Everything else is GPL.

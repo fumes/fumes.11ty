@@ -11,6 +11,7 @@
 }
 
 .post_card {
+  content-visibility: auto;
   position: relative;
   float: left;
   margin: 0 0 1.5rem;
@@ -62,7 +63,7 @@
       user-select: none;
       pointer-events: none;
 
-      transition: transform 0.25s ease-in-out;
+      transition: transform .25s ease-in-out;
     }
 
     .compact & {
@@ -108,7 +109,6 @@
     width: 100%;
   }
 }
-
 
 .index {
   h1.page__title {
@@ -177,7 +177,6 @@
     float: left;
   }
 }
-
 
 .small.title {
   font-size: 16px;
