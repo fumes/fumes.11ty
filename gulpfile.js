@@ -6,14 +6,17 @@ var rename       = require('gulp-rename');
 var responsive   = require('gulp-responsive');
 var del          = require('del');
 
-var imagesConvert = require('gulp-images-convert');
 
-gulp.task('convert', function () {
-  return gulp.src('./src/uploads/_images_converted/**/*.jpg')
-      .pipe(imagesConvert({targetType: 'png'}))
-      .pipe(rename({extname: ".png"}))
-      .pipe(gulp.dest('./src/uploads/_images_to_convert/'));
-})
+// disabled to solve gulp / sharp hanging problem - try find subsitute!
+
+// var imagesConvert = require('gulp-images-convert');
+//
+// gulp.task('convert', function () {
+//   return gulp.src('./src/uploads/_images_converted/**/*.jpg')
+//       .pipe(imagesConvert({targetType: 'png'}))
+//       .pipe(rename({extname: ".png"}))
+//       .pipe(gulp.dest('./src/uploads/_images_to_convert/'));
+// })
 
 // WHAT: adds folder name + index, lowercasing the original file name.
 // starts from 10, to avoid single digit no. to the first 9 jpgs
