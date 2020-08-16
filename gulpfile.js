@@ -1,6 +1,6 @@
 'use strict';
 // GULP tasks to SIZE AND RENAME images.
-var changeCase   = require('change-case');
+var changeCase   = require('change-case-all');
 var gulp         = require('gulp');
 var rename       = require('gulp-rename');
 var responsive   = require('gulp-responsive');

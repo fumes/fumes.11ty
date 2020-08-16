@@ -1,7 +1,7 @@
 {
   "name": "fumes11ty",
-  "version": "1.4.0",
-  "description": "Fumes - from Jekyll to 11ty",
+  "version": "5.6.0",
+  "description": "Fumes using 11ty",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -18,14 +18,14 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
     "acorn": ">=7.3.1",
-    "change-case": "^4.1.1",
-    "del": "^5.1.0",
+    "nunjucks-capture": "^1.0.4",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-reading-time": "0.0.1",
     "eleventy-plugin-sass": "^1.0.0",
     "gulp": "^4.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-responsive": "^3.0.1",
-    "nunjucks-capture": "^1.0.4"
+    "change-case-all": "^1.0.12",
+    "del": "^5.1.0"
   }
 }
