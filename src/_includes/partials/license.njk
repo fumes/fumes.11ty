@@ -1,6 +1,7 @@
+
 {% if license != null and photographer != null %}
 
-  <div class="ico {{page.licence}}">{% set id = "icn--copyright" %}{% include "partials/svg/use.html" %}</div>
+  <div class="ico {{page.licence}} licence_njk_template">{% set id = "icn--copyright" %}{% include "partials/svg/use.html" %}</div>
 
   <div class="license_details">
 
@@ -80,4 +81,4 @@
 
 
   </div>
-  {% endif %}
+{% endif %}

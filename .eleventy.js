@@ -31,8 +31,52 @@ module.exports = function(eleventyConfig) {
     }
   });
 
-
+  //LiquidFilter
   eleventyConfig.addLiquidFilter('readingTime', readingTime);
+  //full-width massive, from https://github.com/eduardoboucas/buildtimes
+  eleventyConfig.addLiquidFilter("feature_title", title => {
+    const MIN_LENGTH = 10;
+    const MAX_LENGTH = 20;
+
+    if (!title) return "";
+
+    let currentLine = "";
+    let lines = [];
+    let words = title.split(" ");
+
+    words.forEach(word => {
+      if (currentLine.length + word.length <= MAX_LENGTH) {
+        currentLine += word + " ";
+      } else {
+        lines.push(currentLine);
+
+        currentLine = word + " ";
+      }
+    });
+
+    if (currentLine.length < MIN_LENGTH) {
+      lines[lines.length - 1] += currentLine;
+    } else {
+      lines.push(currentLine);
+    }
+
+    return `
+      <span class="feature-title__full">${title}</span>
+
+      ${lines
+        .map(
+          line => `
+        <span aria-hidden="true" class="feature-title__part">${line.slice(
+          0,
+          -1
+        )}</span>
+      `
+        )
+        .join("")}
+    `;
+  });
+
+  //NunjucksFilter
   eleventyConfig.addNunjucksFilter('readingTime', readingTime);
 
   //tags as in 11ty base repo

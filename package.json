@@ -1,12 +1,13 @@
 {
   "name": "fumes11ty",
-  "version": "5.6.0",
-  "description": "Fumes using 11ty",
+  "version": "5.6.2",
+  "description": "Fumes at 11ty",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "debug": "DEBUG=* eleventy",
+    "start": "npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",
