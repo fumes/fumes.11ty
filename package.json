@@ -1,6 +1,6 @@
 {
   "name": "fumes11ty",
-  "version": "5.6.2",
+  "version": "5.7.0",
   "description": "Fumes at 11ty",
   "scripts": {
     "build": "eleventy",
