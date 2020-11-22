@@ -5,23 +5,23 @@ photographer: rokma
 date: 2012-01-25
 category: photo-journalism
 tags:
-- article
-- photo-journalism
-- report
-- photography
-- community
-- advertising
-- visual
-- tradition
-- performance
-- celebration
-- ritual
-- culture
-- Hongkong
-- Chinese
-- fun
-- lifestyle
-- city
+  - article
+  - photo-journalism
+  - report
+  - photography
+  - community
+  - advertising
+  - visual
+  - tradition
+  - performance
+  - celebration
+  - ritual
+  - culture
+  - Hongkong
+  - Chinese
+  - fun
+  - lifestyle
+  - city
 license: CC_BY
 thumb: dragons.jpg
 description: "2012 year of the Dragon. Here is a visual journey of the new year's celebrations in Hongkong. A big Parade and massive fireworks which is hard to miss."

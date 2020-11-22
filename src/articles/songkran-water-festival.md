@@ -5,24 +5,24 @@ photographer: rokma
 date: 2011-04-24
 category: photo-journalism
 tags:
-- article
-- Buddhist
-- community
-- celebration
-- culture
-- documentary
-- festival
-- fun
-- photo-journalism
-- motorcycles
-- Phuket
-- photography
-- ritual
-- report
-- Songkran
-- Thailand
-- tradition
-- water
+  - article
+  - photo-journalism
+  - Buddhist
+  - community
+  - celebration
+  - culture
+  - documentary
+  - festival
+  - fun
+  - motorcycles
+  - Phuket
+  - photography
+  - ritual
+  - report
+  - Songkran
+  - Thailand
+  - tradition
+  - water
 license: CC_BY
 thumb: songkran-festival.jpg
 description: "Songkran is the traditional New Year Day in Thailand. It is a time for spiritual cleansing and renewal. Typically the day starts with a visit to the temple where people will collect the water used for bathing the statues of Buddha."

@@ -5,19 +5,19 @@ photographer: alejandro plesch
 date: 2010-11-25
 category: photo-journalism
 tags:
-- article
-- fun
-- photo-journalism
-- Indonesia
-- photography
-- community
-- hardcore
-- piercing
-- awareness
-- performance
-- ritual
-- people
-- pain
+  - article
+  - photo-journalism
+  - fun
+  - Indonesia
+  - photography
+  - community
+  - hardcore
+  - piercing
+  - awareness
+  - performance
+  - ritual
+  - people
+  - pain
 thumb: hanging-out.jpg
 description: "A suspension is the act of suspending a human body from hooks that have been put through body piercings. These piercings are temporary and are performed just prior to the actual suspension."
 image: /assets/p/hanging-out/101125-alejandro-plesch-hanging-out.jpg

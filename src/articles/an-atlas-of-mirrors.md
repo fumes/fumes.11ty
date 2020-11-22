@@ -6,6 +6,7 @@ date: 2016-11-27
 category: studies
 tags:
   - article
+  - studies
   - review
   - art
   - photography
@@ -32,19 +33,19 @@ In charting our way around the world, humankind has relied on instruments of vis
 
 "Singapore Biennale 2016, centred on Southeast Asia, investigates the intangible wells of identity and nationhood and other states of invisibility in the make-up of the region’s histories and cultures. Titled ‘An Atlas of Mirrors’, this Biennale’s vantage points are East Asia, South Asia, and Southeast Asia, and stellar artworks were selected or commissioned by an organising curatorial mind, working like a navigational tool that maps and mirrors regions within and around us. Artists from across Asia, from Bangladesh and Brunei, Cambodia and China, to Singapore and South Korea conjure visual worlds where the real, surreal, abstract and imaginary migrate and intertwine, and each communicates – from vastly different perspectives and national locations and by different media – similar yearnings. For something better, more humanity."  _**JANE ITTOGI** - Chair, Singapore Art Museum_
 
-"The fifth edition of the Singapore Biennale marks a decade-long journey of establishing itself as Singapore’s pre-eminent showcase of contemporary art. Today, the Biennale is a much-anticipated event that inspires meaningful dialogue and exchange of ideas between art communities in our region. We are happy that it has become a critical platform for the unique practices, concerns and perspectives of artists from Southeast Asia, and acts as a springboard for featured artists to be noticed and invited to other global platforms."  
+"The fifth edition of the Singapore Biennale marks a decade-long journey of establishing itself as Singapore’s pre-eminent showcase of contemporary art. Today, the Biennale is a much-anticipated event that inspires meaningful dialogue and exchange of ideas between art communities in our region. We are happy that it has become a critical platform for the unique practices, concerns and perspectives of artists from Southeast Asia, and acts as a springboard for featured artists to be noticed and invited to other global platforms."
 _**KATHY LAI - CEO**, National Arts Council, Singapore_
 
 {% include partials/image.html, name: "" %}
 
-## Paracosmos, 2016  
-Glass mirrors  
-Site-specific installation, dimensions variable  
-Collection of the Artist  
-Singapore Biennale 2016 commission  
+## Paracosmos, 2016
+Glass mirrors
+Site-specific installation, dimensions variable
+Collection of the Artist
+Singapore Biennale 2016 commission
 
-HARUMI YUKUTAKE   
-BORN 1966, TOKYO, JAPAN.   
+HARUMI YUKUTAKE
+BORN 1966, TOKYO, JAPAN.
 LIVES AND WORKS IN TOKYO.
 
 Paracosmos propels the viewer into a parallel world – a space of otherness that is recognisable but unfamiliar. Shaped by Shinto ideas of interconnectivity, the site-responsive work is situated in the circular stairwell of the Singapore Art Museum, a central transition space that connects two floors.
@@ -59,15 +60,15 @@ The mirror reveals itself as a paradoxical device: able to hold every other imag
 
 {% include partials/image.html, name: "-02" %}
 
-## Rubbish, 2016  
-Colour pencil on paper (8 pieces)  
-Various dimensions  
-Collection of the Artist  
-Singapore Biennale 2016 Commission  
+## Rubbish, 2016
+Colour pencil on paper (8 pieces)
+Various dimensions
+Collection of the Artist
+Singapore Biennale 2016 Commission
 
-KENTARO HIROKI  
-BORN 1976, OSAKA, JAPAN.    
-LIVES AND WORKS IN BANGKOK, THAILAND.   
+KENTARO HIROKI
+BORN 1976, OSAKA, JAPAN.
+LIVES AND WORKS IN BANGKOK, THAILAND.
 
 Working with a strict methodology and set of criteria, Kentaro Hiroki handpicks everyday objects discarded on the streets to form the basis for his works. The things he chooses are intended to be reflective of time and space: unique to the localities in which he finds them, each object has its own story to tell of the communities it was found in.
 
@@ -79,15 +80,15 @@ Each piece takes up to four days to create, and Hiroki’s execution is simultan
 
 {% include partials/image.html, name: "-03" %}
 
-## The Hunters Enter the Woods, 2016  
-Oil on aluminium  
-300 × 540 cm (installed width of diptych)  
-Collection of the Artist  
-Singapore Biennale 2016 commission  
+## The Hunters Enter the Woods, 2016
+Oil on aluminium
+300 × 540 cm (installed width of diptych)
+Collection of the Artist
+Singapore Biennale 2016 commission
 
-PATRICIA PEREZ EUSTAQUIO  
-BORN 1977, CEBU, THE PHILIPPINES.   
-LIVES AND WORKS IN MANILA, THE PHILIPPINES.  
+PATRICIA PEREZ EUSTAQUIO
+BORN 1977, CEBU, THE PHILIPPINES.
+LIVES AND WORKS IN MANILA, THE PHILIPPINES.
 
 Rendered with hyper-realist precision, Eustaquio’s painting reflects on our contradictory attitude towards the world – both manmade and natural – through the metaphor of the Orchidaceae, asking what drives our quest for the unique, even as we seek to manipulate and replicate the object of our desire.
 
@@ -101,15 +102,15 @@ The left side portrays the Paphiopedilum fowler, an endangered wild orchid that 
 
 {% include partials/image.html, name: "-05" %}
 
-## One Has to Wander through All the Outer Worlds to Reach the Innermost Shrine at the End, 2016  
-Ink on paper, glass and stone  
-Dimensions variable  
-Collection of the Artist  
-Singapore Biennale 2016 commission  
+## One Has to Wander through All the Outer Worlds to Reach the Innermost Shrine at the End, 2016
+Ink on paper, glass and stone
+Dimensions variable
+Collection of the Artist
+Singapore Biennale 2016 commission
 
-QIU ZHIJIE  
-BORN 1969, FUJIAN, CHINA  
-LIVES AND WORKS IN BEIJING AND HANGZHOU, CHINA  
+QIU ZHIJIE
+BORN 1969, FUJIAN, CHINA
+LIVES AND WORKS IN BEIJING AND HANGZHOU, CHINA
 
 In his creation of maps, Qiu adopts a methodology that incorporates daily experience as well as a philosophical approach to thinking with graphics, and organising relationships and systems of knowledge. This map series presents Qiu’s investigation into cartographic history.
 
@@ -123,15 +124,15 @@ Qiu’s installation features a handblown glass bestiary of fantastical monsters
 
 {% include partials/image.html, name: "-06" %}
 
-## Karagatan (The Breadth of Oceans), 2016  
-Oil on mother-of-pearl shell and oil on pearl (set of 50)  
-Diameter 2.54–5 cm (each); installation dimensions variable  
-Collection of the Artist    
-Singapore Biennale 2016 commission  
+## Karagatan (The Breadth of Oceans), 2016
+Oil on mother-of-pearl shell and oil on pearl (set of 50)
+Diameter 2.54–5 cm (each); installation dimensions variable
+Collection of the Artist
+Singapore Biennale 2016 commission
 
-GREGORY HALILI  
-BORN 1975, MANILA, THE PHILIPPINES  
-LIVES AND WORKS IN CAVITE, THE PHILIPPINES  
+GREGORY HALILI
+BORN 1975, MANILA, THE PHILIPPINES
+LIVES AND WORKS IN CAVITE, THE PHILIPPINES
 
 Echoing the mystery of the mirror, this evocative installation does a poetic turn: in looking at the work, the work unnervingly looks back at you.
 
@@ -145,15 +146,15 @@ Halili pays homage to people whose fates and fortunes are bound to the ocean, li
 {% include partials/image.html, name: "-07" %}
 
 
-## Aftermath, 2016  
-Mixed media: found objects, artist-made icons, concrete and paint  
-Site-specific installation, 300 × 1600 cm  
-Collection of the Artist  
-Singapore Biennale 2016 commission  
+## Aftermath, 2016
+Mixed media: found objects, artist-made icons, concrete and paint
+Site-specific installation, 300 × 1600 cm
+Collection of the Artist
+Singapore Biennale 2016 commission
 
-PANNAPHAN YODMANEE  
-BORN 1988, NAKHON SI THAMMARAT, THAILAND  
-LIVES AND WORKS IN BANGKOK, THAILAND  
+PANNAPHAN YODMANEE
+BORN 1988, NAKHON SI THAMMARAT, THAILAND
+LIVES AND WORKS IN BANGKOK, THAILAND
 
 In a titanic mural, Pannaphan presents a mapping of the Buddhist cosmos that resembles a landscape painting. Using materials raw and natural, as well as the new and mass-produced, her amalgamation of contemporary and traditional Thai art creates a unified cartography of the heavens and the earth that chronicles Southeast Asian history.
 
@@ -163,15 +164,15 @@ The artist argues that our persistent striving for development and progress ulti
 
 {% include partials/image.html, name: "-08" %}
 
-## Noah’s Garden II, 2016  
-Aluminium alloy steel frame, mirror glass, LED lighting, real and artificial plants and rocks   
-1160 × 650 × 320 cm  
-Collection of the Artist  
-Singapore Biennale 2016 commission  
+## Noah’s Garden II, 2016
+Aluminium alloy steel frame, mirror glass, LED lighting, real and artificial plants and rocks
+1160 × 650 × 320 cm
+Collection of the Artist
+Singapore Biennale 2016 commission
 
-DENG GUOYUAN   
-BORN 1957, TIANJIN, CHINA  
-LIVES AND WORKS IN TIANJIN, CHINA  
+DENG GUOYUAN
+BORN 1957, TIANJIN, CHINA
+LIVES AND WORKS IN TIANJIN, CHINA
 
 This site-specific work is at once a garden of artificial flora and a labyrinth of mirrors. Entering the installation, viewers find themselves inside a kaleidoscope, where the surrounding infinite mirror images create a feeling of the loss of subjectivity.
 
@@ -186,14 +187,14 @@ By evoking scepticism and uncertainty, his work raises doubt about the validity 
 
 {% include partials/image.html, name: "-10" %}
 
-## History, 2013–2015  
-Cotton fabric appliqué on cotton fabric (5 pieces)  
-118 × 107 cm (each)  
+## History, 2013–2015
+Cotton fabric appliqué on cotton fabric (5 pieces)
+118 × 107 cm (each)
 Collection of the Artist
 
-PHASAO LAO  
-BORN 1948, LAOS  
-LIVES AND WORK IN LUANG PRABANG, LAOS  
+PHASAO LAO
+BORN 1948, LAOS
+LIVES AND WORK IN LUANG PRABANG, LAOS
 
 Lao and Siong are a husband-and-wife couple of Hmong ethnicity, who produce textile artworks that speak about universal concepts of genealogy, movement and migration, and symbolism and representation.
 
@@ -204,15 +205,15 @@ Lao’s History series is a rudimentary chronicle of his Hmong clan. Each panel 
 {% include partials/image.html, name: "-11" %}
 
 
-## Locus Amoenus, 2016  
-Paper (replica maps) and felt  
-Dimensions variable  
-Collection of the Artist  
-Singapore Biennale 2016 commission  
+## Locus Amoenus, 2016
+Paper (replica maps) and felt
+Dimensions variable
+Collection of the Artist
+Singapore Biennale 2016 commission
 
-RYAN VILLAMAEL  
-BORN 1987, LAGUNA, THE PHILIPPINES  
-LIVES AND WORKS IN QUEZON CITY, THE PHILIPPINES  
+RYAN VILLAMAEL
+BORN 1987, LAGUNA, THE PHILIPPINES
+LIVES AND WORKS IN QUEZON CITY, THE PHILIPPINES
 
 Latin for a “pleasant place”, the phrase Locus Amoenus also evokes the notion of an escape into an ideal landscape. In this instance, the pastoral paradise has been sited within a house of glass – the greenhouse – an engineered Eden for flora uprooted from its native soil. Indeed, Villamael’s ‘greenhouse’ houses unusual foliage: intricate cut-outs created from archaic and contemporary Philippine maps.
 
@@ -226,15 +227,15 @@ It is situated in the Singapore Art Museum in the only space where a section of 
 
 {% include partials/image.html, name: "-12" %}
 
-## Mardijker Photo Studio, 2015  
-Installation with framed photographs (digital C print on paper)  
-Various dimensions  
-Collection of Axton Salim and the Artist  
+## Mardijker Photo Studio, 2015
+Installation with framed photographs (digital C print on paper)
+Various dimensions
+Collection of Axton Salim and the Artist
 
 
-AGAN HARAHAP  
-BORN 1980, JAKARTA, INDONESIA  
-LIVES AND WORKS IN YOGYAKARTA, INDONESIA  
+AGAN HARAHAP
+BORN 1980, JAKARTA, INDONESIA
+LIVES AND WORKS IN YOGYAKARTA, INDONESIA
 
 
 Harahap reworks archival photographs to present fictive portraits of the Mardijkers, a community of descendants of freed slaves found in major cities in the East Indies (present-day Indonesia).
@@ -249,16 +250,16 @@ These images also comment on colonial photography, which often eroticised its su
 
 {% include partials/image.html, name: "-13" %}
 
-## The Name, 2008–ongoing  
-Video projection, books and musical score   
-Dimensions variable  
-Collection of the Artists  
+## The Name, 2008–ongoing
+Video projection, books and musical score
+Dimensions variable
+Collection of the Artists
 
 
-TUN WIN AUNG & WAH NU   
-TUN WIN AUNG: BORN 1975, YWALUT, MYANMAR   
-WAH NU: BORN 1977, YANGON, MYANMAR   
-LIVE AND WORK IN YANGON, MYANMAR   
+TUN WIN AUNG & WAH NU
+TUN WIN AUNG: BORN 1975, YWALUT, MYANMAR
+WAH NU: BORN 1977, YANGON, MYANMAR
+LIVE AND WORK IN YANGON, MYANMAR
 
 
 The Name revisits established accounts of Myanmar’s past by intervening in its ideologically-driven gaps. The husband-and-wife artist duo have resurrected figures from the nineteenth-century Anglo-Burmese Wars and beyond, recuperating an autochthonous historical voice against what they perceive as a colonial narrative.
@@ -271,15 +272,15 @@ The series includes photographic images of figures such as King Thibaw, U Wisara
 
 {% include partials/image.html, name: "-14" %}
 
-## Black Forest 2016, 2016  
-Wood and charcoal  
-Dimensions variable  
-Collection of the Artist  
-Singapore Biennale 2016 commission  
+## Black Forest 2016, 2016
+Wood and charcoal
+Dimensions variable
+Collection of the Artist
+Singapore Biennale 2016 commission
 
-HAN SAI POR   
-BORN 1943, SINGAPORE   
-LIVES AND WORKS IN SINGAPORE   
+HAN SAI POR
+BORN 1943, SINGAPORE
+LIVES AND WORKS IN SINGAPORE
 
 Han has been recognized for her investigations into the impact of human activities on the natural world. Since 2011 she has been working on the ‘Black Forest’ series, which takes the form of installations comprising black or blackened wood logs lying on beds of charcoal.
 
@@ -290,15 +291,15 @@ This presentation is different: we see a destroyed ‘forest’ of charcoal logs
 
 {% include partials/image.html, name: "-15" %}
 
-## THE SKELETON OF MAKARA (THE MYTH OF A MYTH), 2016  
-Fibreglass and metal  
-220 × 425 × 115 cm  
-Collection of the Artist  
-Singapore Biennale 2016 commission  
+## THE SKELETON OF MAKARA (THE MYTH OF A MYTH), 2016
+Fibreglass and metal
+220 × 425 × 115 cm
+Collection of the Artist
+Singapore Biennale 2016 commission
 
-AN ZI HAO  
-BORN 1989, KUALA LUMPUR, MALAYSIA  
-LIVES AND WORKS IN SERDANG AND THE KLANG VALLEY, MALAYSIA   
+AN ZI HAO
+BORN 1989, KUALA LUMPUR, MALAYSIA
+LIVES AND WORKS IN SERDANG AND THE KLANG VALLEY, MALAYSIA
 
 One of the most prevalent mythological icons in Southeast Asia is the makara, which originated in Hinduism. Depicted as a hybrid of different animals, typically half-mammal and half-fish, it has penetrated cultural, religious and philosophical discourses.
 
@@ -310,15 +311,15 @@ The artist shows how the dissemination of an icon such as the makara has influen
 {% include partials/image.html, name: "-16" %}
 
 
-## Enter the Parallel World, 2001, 2016  
-2-channel video  
-Dimensions variable  
-Collection of the Artist  
+## Enter the Parallel World, 2001, 2016
+2-channel video
+Dimensions variable
+Collection of the Artist
 Singapore Biennale 2016 commission
 
-H.H. LIM  
-BORN 1954, KEDAH, MALAYSIA  
-LIVES AND WORKS IN ROME, ITALY AND PENANG, MALAYSIA  
+H.H. LIM
+BORN 1954, KEDAH, MALAYSIA
+LIVES AND WORKS IN ROME, ITALY AND PENANG, MALAYSIA
 
 This installation comprises two video works. The first, About 60 kilos of wisdom, recalls a favourite saying of Lim’s mother, that wisdom is nothing more than the ability to keep a balanced state.
 
@@ -334,14 +335,14 @@ Enter the Parallel World juxtaposes two diametrically opposed outcomes that quie
 
 
 
-## Desert Islands, 2009, 2016  
+## Desert Islands, 2009, 2016
 Engraved mirrors, cardboard, aquarium and media player with sound
-Dimensions variable  
-Collection of the Artists  
+Dimensions variable
+Collection of the Artists
 
-MAP OFFICE   
-ESTABLISHED 1996, HONG KONG   
-LIVE AND WORK IN HONG KONG   
+MAP OFFICE
+ESTABLISHED 1996, HONG KONG
+LIVE AND WORK IN HONG KONG
 
 Reflected from the surfaces of 100 engraved mirrors, each bearing an island and its coordinates, a familiar topographical seascape is fractured.
 
@@ -356,15 +357,15 @@ Domesticated Island is also a vantage point from which to view the 100 islands.
 
 {% include partials/image.html, name: "-18" %}
 
-## Behind the Light, 2016  
-Durational performance and installation   
-Dimensions variable  
-Collection of the Artist  
-Singapore Biennale 2016 commission  
+## Behind the Light, 2016
+Durational performance and installation
+Dimensions variable
+Collection of the Artist
+Singapore Biennale 2016 commission
 
-MELATI SURYODARMO  
-BORN 1969, SOLO, INDONESIA  
-LIVES AND WORKS IN SOLO, INDONESIA  
+MELATI SURYODARMO
+BORN 1969, SOLO, INDONESIA
+LIVES AND WORKS IN SOLO, INDONESIA
 
 In literature and art, mirrors have been revered as instruments that reveal the truth or essential nature of things and beings, as a means of scrying or obliquely surveying, and as portals to parallel worlds.
 
@@ -377,15 +378,15 @@ Behind the Light proposes an exchange between the two sides of a mirror, illumin
 
 {% include partials/image.html, name: "-19" %}
 
-## Other Map Series, 2016  
-Archival digital print, acrylic, ink, pencil on paper and canvas (20 pieces)   
-Various dimensions  
-Collection of the Artist  
+## Other Map Series, 2016
+Archival digital print, acrylic, ink, pencil on paper and canvas (20 pieces)
+Various dimensions
+Collection of the Artist
 Singapore Biennale 2016 commission
 
-PALA POTHUPITIYE   
-BORN 1972, DENIYAYA, SRI LANKA   
-LIVES AND WORKS IN MULLEGAMA, SRI LANKA   
+PALA POTHUPITIYE
+BORN 1972, DENIYAYA, SRI LANKA
+LIVES AND WORKS IN MULLEGAMA, SRI LANKA
 
 Cartography is an act of history-making; history is created and interpreted by the act of mapping. Is it possible for an artist to look beyond officially constructed maps, and imagine a different past or an alternate future? Pothupitiye attempts to do so in this series, where he re-crafts the official version of maps to tell a different story.
 
@@ -397,14 +398,14 @@ The maps he refers to range from Ptolemy’s maps of Ceylon to current maps of S
 
 {% include partials/image.html, name: "-20" %}
 
-## Treasure Islands, 2012  
-Raw buffalo leather, mirrors and nails  
-Various dimensions  
-Collection of the Artist  
+## Treasure Islands, 2012
+Raw buffalo leather, mirrors and nails
+Various dimensions
+Collection of the Artist
 
-MADE WIANTA   
-BORN 1949, BALI, INDONESIA   
-LIVES AND WORKS IN BALI, INDONESIA   
+MADE WIANTA
+BORN 1949, BALI, INDONESIA
+LIVES AND WORKS IN BALI, INDONESIA
 
 Treasure Islands delves into overlooked chapters of Indonesia’s colonial past, threading together geographies as disparate as the tiny spice island of Rhun in Maluku, Indonesia, and the metropolis of Manhattan in New York.
 
@@ -417,16 +418,16 @@ Treasure Islands is inspired by a desire to recover these submerged historical r
 
 {% include partials/image.html, name: "-21" %}
 
-## The Journey of Panji, 2016  
-Ink on canvas, acrylic and wood  
-300 x 500 x 300 cm  
-Collection of the Artist  
-Singapore Biennale 2016 commission  
+## The Journey of Panji, 2016
+Ink on canvas, acrylic and wood
+300 x 500 x 300 cm
+Collection of the Artist
+Singapore Biennale 2016 commission
 
 
-EDDY SUSANTO   
-BORN 1975, JAKARTA, INDONESIA   
-LIVES AND WORKS IN YOGYAKARTA, INDONESIA   
+EDDY SUSANTO
+BORN 1975, JAKARTA, INDONESIA
+LIVES AND WORKS IN YOGYAKARTA, INDONESIA
 
 The Panji cycle is a collection of stories revolving around the legendary Prince Panji, which originated in Java around the fourteenth century and spread to what is now modern-day Malaysia, Cambodia, Myanmar, the Philippines and Thailand. It was only in the last century that these stories were gathered into a single volume, the Wangling Wideya, by S.O. Robson.
 

@@ -7,8 +7,8 @@ date: 2019-03-08
 category: photo-journalism
 tags:
 - article
-- artist
 - photo-journalism
+- artist
 - Bali
 - celebration
 - documentary

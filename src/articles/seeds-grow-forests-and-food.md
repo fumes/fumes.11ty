@@ -4,20 +4,21 @@ curator: rokma
 date: 2014-09-05
 category: balance
 tags:
-- article
-- awareness
-- clever
-- educational
-- global-warming
-- lifestyle
-- balance
-- plants
-- reflect
-- nature
-- sustainability
-- technology
-- under-covered
-- useful
+  - article
+  - balance
+  - awareness
+  - clever
+  - educational
+  - global-warming
+  - lifestyle
+  - balance
+  - plants
+  - reflect
+  - nature
+  - sustainability
+  - technology
+  - under-covered
+  - useful
 license:
 thumb: seeds.jpg
 description: "How big is yourself? In these 3 projects the concept of togetherness and self is fully blended. The following 3 examples, on food and the ecosystem topic, show a new social math!"

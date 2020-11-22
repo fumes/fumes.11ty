@@ -4,18 +4,18 @@ curator: rokma
 date: 2014-01-12
 category: inspiring
 tags:
-- article
-- fun
-- reflect
-- under-covered
-- community
-- clever
-- educational
-- artist
-- performance
-- people
-- inspiring
-- review
+  - article
+  - inspiring
+  - fun
+  - reflect
+  - under-covered
+  - community
+  - clever
+  - educational
+  - artist
+  - performance
+  - people
+  - review
 license:
 thumb: hetain-patel.jpg
 description: "How do we decide who we are? Hetain Patel's surprising performance plays with identity, language and accent and challenges you to think deeper than surface appearances."
@@ -25,7 +25,7 @@ TEDtalks: **Hetain Patel**: Who am I? Think again - Hetain Patel / Yuyu Rau (201
 
 {% include partials/video.html, url: "https://embed.ted.com/talks/hetain_patel_who_am_i_think_again.html" width: "740" height: "416" %}
 
-How do we decide who we are? **Hetain Patel**'s surprising performance plays with identity, language and accent and challenges you to think deeper than surface appearances.  
+How do we decide who we are? **Hetain Patel**'s surprising performance plays with identity, language and accent and challenges you to think deeper than surface appearances.
 
 A delightful meditation on self, with performer **Yuyu Rau**, and inspired by Bruce Lee.
 
@@ -39,7 +39,7 @@ In his compelling stage works, Hetain Patel uses powerful imagery and storytelli
 Ben Wang, Dec 5 2013
 <blockquote>The speech is great, but as a Chinese, I have to inform the audience of the irony fact that the speecher was not really talking in Chinese. His so called "Chinese" was just repeating some certain Chinese words, and it could not be well understood. And the girl was not "interpreting" at all, namely, there's not much logical connections between the "talks" of the two speechers. Actually, they were performing very well.</blockquote>
 
-Taylor Richards Jan 1 2014  
+Taylor Richards Jan 1 2014
 <blockquote> No offense intended, the so-called "translator" act was just for a humorous effect. He told the audience that he wasn't actually saying all that in Chinese.</blockquote>
 
 Fornik Tsai, Nov 24 2013

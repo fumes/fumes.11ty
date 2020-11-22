@@ -8,17 +8,17 @@ photographer: francesco mancini
 date: 2016-07-10
 category: studies
 tags:
-- article
-- studies
-- artist
-- beauty
-- design
-- Italy
-- nature
-- photography
-- shape
-- simplicity
-- under-covered
+  - article
+  - studies
+  - artist
+  - beauty
+  - design
+  - Italy
+  - nature
+  - photography
+  - shape
+  - simplicity
+  - under-covered
 license: CC_BY
 thumb: form.jpg
 description: "In the rugged coast of the north Mediterranean sea lives a man named Francesco. He takes photos for fun and publish them on Facebook. He hit me for his clean compositions and his smooth, fluid photography."

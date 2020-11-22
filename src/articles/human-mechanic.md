@@ -5,14 +5,14 @@ photographer: alejandro plesch
 date: 2011-03-18
 category: photo-journalism
 tags:
-- article
-- photography
-- Java
-- photo-journalism
-- pain
-- documentary
-- black-and-white
-- people
+  - article
+  - photo-journalism
+  - photography
+  - Java
+  - pain
+  - documentary
+  - black-and-white
+  - people
 thumb: urut.jpg
 description: "Urut massage is perhaps the most sophisticated of all the Indonesian healing arts and can only be found in Bali and in Java, where the Majapahit Kingdom flourished and was influenced from Arab, Chinese and Indian traders."
 image: /assets/p/urut/110318-alejandro-plesch-urut.jpg

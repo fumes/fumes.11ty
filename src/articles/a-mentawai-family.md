@@ -6,12 +6,12 @@ date: 2011-04-10
 category: photo-journalism
 tags:
 - article
+- photo-journalism
 - Indonesia
 - photography
 - Mentawai
 - water
 - hardcore
-- photo-journalism
 - rural
 - life
 - report
@@ -23,7 +23,7 @@ image: /assets/p/alaia/110410-alejandro-plesch-alaia.jpg
 changeFreq: never
 ---
 
-The Mentawai people are an indigenous tribe of hunters who live deep in the jungle of Siberut Island, off the coast of western Sumatra.  
+The Mentawai people are an indigenous tribe of hunters who live deep in the jungle of Siberut Island, off the coast of western Sumatra.
 
 {% include partials/image.html, name: "-01" %}
 They live in isolation by choice, rejecting modernity, religion and government pressures to assimilate into Indonesian society.

@@ -6,22 +6,22 @@ curator: rokma
 date: 2019-04-14
 category: art
 tags:
-- article
-- art
-- artist
-- abstract
-- Auckland
-- beauty
-- contemporary-art
-- city
-- culture
-- conceptual
-- educational
-- New-Zealand
-- photography
-- report
-- review
-- visual
+  - article
+  - art
+  - artist
+  - abstract
+  - Auckland
+  - beauty
+  - contemporary-art
+  - city
+  - culture
+  - conceptual
+  - educational
+  - New-Zealand
+  - photography
+  - report
+  - review
+  - visual
 license: CC_BY_NC_ND
 thumb: stephen_bambury_at_trish_clark.jpg
 description: Now splitting his time between New Zealand and Europe, Stephen Bambury presents a solo exhibition of new works that incorporate his thinking and material approaches across his nearly five decades of practice while referencing the centenary of the founding of the Bauhaus.
@@ -37,9 +37,9 @@ Currently on display until MAY 18, 2019 is a Christchurch-born, Auckland-based a
 
 
 {% include partials/image.html, name: "-01" %}
-_“Time Is Out Of Joint”_ (For Colin), 2017/19  
-Acrylic on sheet and honeycomb aluminium  
-300 x 665 mm  
+_“Time Is Out Of Joint”_ (For Colin), 2017/19
+Acrylic on sheet and honeycomb aluminium
+300 x 665 mm
 
 
 Stephen Bambury’s productive preoccupation for over forty years with the square, circle and cross has yielded a body of work that mines rich seams. Unlike the rigid formalism adopted by some other artists of the same period, Bambury’s work fuses intellectual and emotional content with material form.
@@ -48,8 +48,8 @@ The central importance of materiality to Bambury’s practice is underpinned by 
 
 
 {% include partials/image.html, name: "-02" %}
-_"Being Present"_, 2018/19  
-Acrylic on multi aluminium panels  
+_"Being Present"_, 2018/19
+Acrylic on multi aluminium panels
 810 x 470 mm
 
 
@@ -59,9 +59,9 @@ Now splitting his time between New Zealand and Europe, **Stephen Bambury** prese
 
 
 {% include partials/image.html, name: "-03" %}
-_"Van Doesburg’s Donkey"_, 2017/19  
-Acrylic on sheet and honeycomb aluminium  
-Five part, each approx. 300 x 250 mm  
+_"Van Doesburg’s Donkey"_, 2017/19
+Acrylic on sheet and honeycomb aluminium
+Five part, each approx. 300 x 250 mm
 
 
 Long an admirer of the Bauhaus, this exhibition includes specific reference to the school in Bambury’s new large-scale photograph.
@@ -70,8 +70,8 @@ Oddly reminiscent of early constructivist paintings from a century earlier, but 
 
 
 {% include partials/image.html, name: "-04" %}
-_"Step Out of Yourself"_, 2017/19  
-Acrylic on multi aluminium panels  
+_"Step Out of Yourself"_, 2017/19
+Acrylic on multi aluminium panels
 830 x 900 mm
 
 As ever, the artist explores and delivers fusion of deeply personal and emotional content with substantively researched materiality.

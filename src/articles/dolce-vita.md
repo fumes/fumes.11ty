@@ -6,6 +6,7 @@ date: 2016-07-13
 category: studies
 tags:
 - article
+- studies
 - people
 - lifestyle
 - nature

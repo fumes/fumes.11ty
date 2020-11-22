@@ -4,22 +4,22 @@ curator: rokma
 date: 2017-10-03
 category: inspiring
 tags:
-- article
-- inspiring
-- awareness
-- architecture
-- clever
-- educational
-- design
-- nature
-- reflect
-- rural
-- shape
-- simplicity
-- sustainability
-- technology
-- under-covered
-- useful
+  - article
+  - inspiring
+  - awareness
+  - architecture
+  - clever
+  - educational
+  - design
+  - nature
+  - reflect
+  - rural
+  - shape
+  - simplicity
+  - sustainability
+  - technology
+  - under-covered
+  - useful
 license:
 thumb: mud-wisdom.jpg
 description: "There are a lot of resources given by nature for free, all we need is our sensitivity to see them and our creativity to use them. Heringer uses low-tech materials like mud and bamboo to create structures from China to Switzerland, Bangladesh and beyond. Visit an awe-inspiring school, an elegant office and cozy social spaces, all built from natural materials, in this delightful talk."

@@ -6,22 +6,22 @@ curator: rokma
 date: 2019-04-15
 category: art
 tags:
-- article
-- abstract
-- art
-- artist
-- Auckland
-- beauty
-- contemporary-art
-- city
-- conceptual
-- culture
-- educational
-- New-Zealand
-- painting
-- report
-- review
-- visual
+  - article
+  - art
+  - abstract
+  - artist
+  - Auckland
+  - beauty
+  - contemporary-art
+  - city
+  - conceptual
+  - culture
+  - educational
+  - New-Zealand
+  - painting
+  - report
+  - review
+  - visual
 license: CC_BY_NC_ND
 thumb: gretchen-albrecht-at-two-rooms.jpg
 description: "Two Rooms, is a contemporary art gallery located in a converted warehouse in Central Auckland. When we visited, Gretchen Albrecht latest work -Between gesture and geometry- was on."

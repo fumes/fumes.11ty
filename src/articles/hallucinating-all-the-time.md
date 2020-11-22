@@ -4,16 +4,16 @@ curator: rokma
 date: 2017-08-08
 category: inspiring
 tags:
-- article
-- inspiring
-- studies
-- awareness
-- clever
-- educational
-- life
-- reflect
-- review
-- useful
+  - article
+  - inspiring
+  - studies
+  - awareness
+  - clever
+  - educational
+  - life
+  - reflect
+  - review
+  - useful
 license:
 thumb: hallucinating.jpg
 description: "'We're all hallucinating all the time, including right now. It's just that when we agree about our hallucinations, we call that reality.' According to neuroscientist Anil Seth, when we agree about our hallucinations, we call it 'reality'. Check his delightfully disorienting talk that may leave you questioning the very nature of your existence."

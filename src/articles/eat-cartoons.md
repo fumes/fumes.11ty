@@ -6,6 +6,7 @@ date: 2017-05-20
 category: studies
 tags:
 - article
+- studies
 - design
 - packaging
 - studies

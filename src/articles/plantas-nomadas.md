@@ -4,19 +4,20 @@ curator: rokma
 date: 2010-05-21
 category: balance
 tags:
-- article
-- artist
-- clever
-- design
-- nature
-- reflect
-- review
-- balance
-- sustainability
-- technology
-- trash
-- useful
-- water
+  - article
+  - balance
+  - artist
+  - clever
+  - design
+  - nature
+  - reflect
+  - review
+  - balance
+  - sustainability
+  - technology
+  - trash
+  - useful
+  - water
 license:
 thumb: plantas-nomadas.jpg
 description: "Gilberto Espanza's nomadic plants are a sort of hybrid plant and microorganism robots who feed on polluted water. The robot plant is self sufficient being powered by a microbial fuel cell and small solar panels. It can walk about the contaminated rivers, seek out and suck up polluted water."

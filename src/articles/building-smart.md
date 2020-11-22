@@ -5,6 +5,7 @@ date: 2014-03-10
 category: inspiring
 tags:
 - article
+- inspiring
 - Africa
 - architecture
 - clever
@@ -25,7 +26,7 @@ description: "Through his firm, Kéré Architecture, Kéré focuses on using loc
 image: /assets/p/building-smart/140310-building-smart.jpg
 ---
 
-TEDtalks: Diébédo Francis Kéré: How to build with clay... and community (2013)  
+TEDtalks: Diébédo Francis Kéré: How to build with clay... and community (2013)
 Diébédo Francis Kéré design buildings that are good for the environment and those who use them.
 
 {% include partials/video.html, url: "https://embed.ted.com/talks/diebedo_francis_kere_how_to_build_with_clay_and_community.html" width: "740" height: "416" %}

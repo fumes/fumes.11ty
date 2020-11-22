@@ -3,9 +3,10 @@ title: Consider the Weight of air
 curator: lance slabbert
 photographer: lance slabbert
 date: 2012-01-21
-category: photography
+category: photo-journalism
 tags:
 - article
+- photo-journalism
 - Indonesia
 - personal-works
 - H2O

@@ -5,33 +5,33 @@ photographer: alejandro plesch
 date: 2011-05-02
 category: photo-journalism
 tags:
-- article
-- photo-journalism
-- hardcore
-- life
-- lifestyle
-- photography
-- Phuket
-- Thailand
-- people
-- sex
+  - article
+  - photo-journalism
+  - hardcore
+  - life
+  - lifestyle
+  - photography
+  - Phuket
+  - Thailand
+  - people
+  - sex
 license:
 thumb: thai-sex.jpg
 description: "During the Vietnam war, American Soldiers would come to Thailand for R&amp;R.  Since then, Thailand has become known throughout the world as a premier destination for sex tourism."
 image: /assets/p/thailand-sex-industry/110502-alejandro-plesch-thailand-sex-industry.jpg
 ---
-During the Vietnam war, American Soldiers would come to Thailand for R&amp;R.  Since then, Thailand has become known throughout the world as a premier destination for sex tourism.  
+During the Vietnam war, American Soldiers would come to Thailand for R&amp;R.  Since then, Thailand has become known throughout the world as a premier destination for sex tourism.
 
 {% include partials/image.html, name: "-02" %}
 
-Today, prostitution in Thailand is a $4.3 billion industry.  Prostitutes can be found in every city and province throughout the Kingdom.  
+Today, prostitution in Thailand is a $4.3 billion industry.  Prostitutes can be found in every city and province throughout the Kingdom.
 
 Despite the underlying problems of human trafficking and HIV/AIDS, prostitution is more than tolerated. It has become a part of the social fabric of Thai society.
 
 
 {% include partials/image.html, name: "-03" %}
 
-Thailand also has a staggering high population of transsexuals, known as ladyboys or _katoey_.  There are so many _katoey_ in Thailand that they have  been recognised as a third gender.  
+Thailand also has a staggering high population of transsexuals, known as ladyboys or _katoey_.  There are so many _katoey_ in Thailand that they have  been recognised as a third gender.
 
 
 {% include partials/image.html, name: "-04" %}

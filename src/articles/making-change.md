@@ -4,22 +4,22 @@ curator: rokma
 date: 2014-11-08
 category: inspiring
 tags:
-- article
-- artist
-- clever
-- community
-- design
-- inspiring
-- reflect
-- review
-- slum
-- people
-- street-art
-- non-profit
-- visual
-- culture
-- drawings
-- city
+  - article
+  - inspiring
+  - artist
+  - clever
+  - community
+  - design
+  - reflect
+  - review
+  - slum
+  - people
+  - street-art
+  - non-profit
+  - visual
+  - culture
+  - drawings
+  - city
 license:
 thumb: favela.jpg
 description: "Artists Jeroen Koolhaas and Dre Urhahn create community art by painting entire neighbourhoods, and involving those who live there — from the favelas of Rio to the streets of North Philadelphia."

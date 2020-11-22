@@ -5,17 +5,18 @@ photographer: alejandro plesch
 date: 2011-07-11
 category: photo-journalism
 tags:
-- article
-- celebration
-- culture
-- documentary
-- global-warming
-- Indonesia
-- photography
-- music
-- people
-- report
-- Java
+  - article
+  - photo-journalism
+  - celebration
+  - culture
+  - documentary
+  - global-warming
+  - Indonesia
+  - photography
+  - music
+  - people
+  - report
+  - Java
 license:
 thumb: kantata.jpg
 description: "Comprising the former members of Kantata Takwa, this new music collaboration continues in their tradition of writing socially charged music for which they are so revered for in Indonesia."

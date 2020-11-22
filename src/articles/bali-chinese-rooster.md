@@ -6,6 +6,7 @@ date: 2017-01-29
 category: photo-journalism
 tags:
 - article
+- photo-journalism
 - people
 - lifestyle
 - photography
@@ -31,7 +32,7 @@ The year of the Rooster just started with the traditional festivities that the B
 
 {% include partials/image.html, name: "-6" %}
 
-This is the beautiful [Benoa Chinese temple](https://goo.gl/maps/73w2HJNjw2w) built in Bali in 2012.  
+This is the beautiful [Benoa Chinese temple](https://goo.gl/maps/73w2HJNjw2w) built in Bali in 2012.
 After [troubled years](https://en.wikipedia.org/wiki/Indonesian_mass_killings_of_1965%E2%80%931966) ethnic Chinese can now openly celebrate their culture again.
 
 {% include partials/image.html, name: "-9" %}

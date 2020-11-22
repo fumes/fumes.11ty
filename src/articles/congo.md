@@ -5,9 +5,9 @@ date: 2010-09-07
 category: photo-journalism
 tags:
 - article
+- photo-journalism
 - Africa
 - awareness
-- photo-journalism
 - educational
 - hardcore
 - pain

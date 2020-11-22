@@ -5,20 +5,20 @@ photographer: rokma
 date: 2014-02-03
 category: photo-journalism
 tags:
-- article
-- celebration
-- photo-journalism
-- city
-- Chinese
-- culture
-- fun
-- festival
-- lifestyle
-- performance
-- Singapore
-- report
-- ritual
-- tradition
+  - article
+  - photo-journalism
+  - celebration
+  - city
+  - Chinese
+  - culture
+  - fun
+  - festival
+  - lifestyle
+  - performance
+  - Singapore
+  - report
+  - ritual
+  - tradition
 license:
 thumb: good-luck.jpg
 description: "Welcoming the Year of the Horse 2014 the Lunar New Year celebration in Singapore is a whole array of events. In Chinatown 88 illuminated lantern sculptures of horses galloping towards prosperity and countless gold coins suspended along the street. This year light-up, blending traditions and modern design, was conceptualised by Singapore University of Technology and Design."

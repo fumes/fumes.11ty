@@ -5,19 +5,19 @@ photographer: luci
 date: 2016-10-30
 category: photo-journalism
 tags:
-- article
-- people
-- photography
-- community
-- documentary
-- Indonesia
-- Bali
-- Mentawai
-- rural
-- photo-journalism
-- life
-- archipelago
-- reflect
+  - article
+  - photo-journalism
+  - people
+  - photography
+  - community
+  - documentary
+  - Indonesia
+  - Bali
+  - Mentawai
+  - rural
+  - life
+  - archipelago
+  - reflect
 license: CC_BY
 thumb: oldandhappy.jpg
 description: "Why is it that many old people in western societies look all but happy? Has it to do with separation and loneliness? Is it the price to pay for what they call progress? Has it to do with the individualistic imperative"

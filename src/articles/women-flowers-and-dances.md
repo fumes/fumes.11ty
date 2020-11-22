@@ -5,28 +5,28 @@ photographer: rokma
 date: 2017-01-01
 category: photo-journalism
 tags:
-- article
-- Bali
-- black-and-white
-- beauty
-- community
-- culture
-- celebration
-- documentary
-- festival
-- Hindu
-- Indonesia
-- lifestyle
-- life
-- people
-- performance
-- photo-journalism
-- ritual
-- rural
-- non-profit
-- tradition
-- religion
-- women
+  - article
+  - photo-journalism
+  - Bali
+  - black-and-white
+  - beauty
+  - community
+  - culture
+  - celebration
+  - documentary
+  - festival
+  - Hindu
+  - Indonesia
+  - lifestyle
+  - life
+  - people
+  - performance
+  - ritual
+  - rural
+  - non-profit
+  - tradition
+  - religion
+  - women
 license: CC_BY
 thumb: women-flowers-dances.jpg
 description: "An head full of flowers carefully prepared in the shape of an headdress. Once a year the young girls of the village carry it for a whole afternoon performing a slow dance."

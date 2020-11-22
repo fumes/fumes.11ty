@@ -5,23 +5,23 @@ photographer: alejandro plesch
 date: 2010-06-04
 category: photo-journalism
 tags:
-- article
-- black-and-white
-- Bali
-- community
-- celebration
-- documentary
-- festival
-- fun
-- hardcore
-- Indonesia
-- lifestyle
-- motorcycles
-- music
-- photo-journalism
-- photography
-- report
-- under-covered
+  - article
+  - photo-journalism
+  - black-and-white
+  - Bali
+  - community
+  - celebration
+  - documentary
+  - festival
+  - fun
+  - hardcore
+  - Indonesia
+  - lifestyle
+  - motorcycles
+  - music
+  - photography
+  - report
+  - under-covered
 license:
 thumb: vespa.jpg
 description: "The Indonesian Vespa Scooterist Community is a gang of rasta commandos who ride for inter-island brotherhood."

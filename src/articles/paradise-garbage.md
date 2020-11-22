@@ -6,20 +6,20 @@ curator: rokma
 date: 2018-09-03
 category: photo-journalism
 tags:
-- article
-- photo-journalism
-- awareness
-- educational
-- life
-- people
-- reflect
-- slum
-- under-covered
-- preventable
-- Bali
-- Indonesia
-- photography
-- trash
+  - article
+  - photo-journalism
+  - awareness
+  - educational
+  - life
+  - people
+  - reflect
+  - slum
+  - under-covered
+  - preventable
+  - Bali
+  - Indonesia
+  - photography
+  - trash
 license: CC_BY
 thumb: paradise-garbage.jpg
 description: "In Bali, as tourism grown more and more every year, the trash at the Suwung Waste Disposal Area is a mountain of rubbish that dominates the landscape. 30 Hectares site, with some hills reaching an high of 30 meters. Water gets contaminated and rivers of rubbish and waste eventually reach the sea. While tourist comes and go, remaining clueless as to where their waste ends up, this corner of Bali represents a worldwide problem of our insatiable appetite for consumerism."

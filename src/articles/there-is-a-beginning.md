@@ -4,19 +4,19 @@ curator: rokma
 date: 2015-09-29
 category: balance
 tags:
-- article
-- awareness
-- balance
-- clever
-- conceptual
-- educational
-- life
-- lifestyle
-- reflect
-- review
-- simplicity
-- sustainability
-- useful
+  - article
+  - balance
+  - awareness
+  - clever
+  - conceptual
+  - educational
+  - life
+  - lifestyle
+  - reflect
+  - review
+  - simplicity
+  - sustainability
+  - useful
 license:
 thumb: there-is-a-beginning.jpg
 description: "Zhuang Zhou, often written Chuang Tzu, known for Zhuangzi was an influential Chinese philosopher who lived around the 4th century BC. He is credited with writing the Zhuangzi book, which expresses a philosophy of skepticism."

@@ -5,18 +5,18 @@ curator: alejandro plesch
 date: 2011-01-10
 category: photo-journalism
 tags:
-- article
-- black-and-white
-- city
-- photo-journalism
-- Indonesia
-- photography
-- motorcycles
-- community
-- street-art
-- Yogyakarta
-- Java
-- people
+  - article
+  - photo-journalism
+  - black-and-white
+  - city
+  - Indonesia
+  - photography
+  - motorcycles
+  - community
+  - street-art
+  - Yogyakarta
+  - Java
+  - people
 thumb: yogya.jpg
 description: "The 2010 eruptions of Mount Merapi began in late October 2010 when Mount Merapi in Central Java, Indonesia began an increasingly violent series of eruptions that continued into November, culminating in repeated outbursts of lava and ashes."
 image: /assets/p/yogya-before-eruption/110110-alejandro-plesch-yogya.jpg

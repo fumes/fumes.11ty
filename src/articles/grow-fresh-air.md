@@ -4,21 +4,22 @@ curator: rokma
 date: 2015-08-24
 category: balance
 tags:
-- article
-- clever
-- design
-- reflect
-- simplicity
-- educational
-- useful
-- technology
-- sustainability
-- plants
-- lifestyle
-- city
-- awareness
-- nature
-- global-warming
+  - article
+  - balance
+  - clever
+  - design
+  - reflect
+  - simplicity
+  - educational
+  - useful
+  - technology
+  - sustainability
+  - plants
+  - lifestyle
+  - city
+  - awareness
+  - nature
+  - global-warming
 license:
 thumb: growfreshair.jpg
 description: "Researcher Kamal Meattle shows how an arrangement of three common houseplants, used in specific spots in a home or office building, can result in measurably cleaner indoor air."

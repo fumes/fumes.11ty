@@ -4,20 +4,20 @@ curator: rokma
 date: 2014-05-02
 category: inspiring
 tags:
-- article
-- awareness
-- clever
-- design
-- educational
-- inspiring
-- open-source
-- review
-- reflect
-- inspiring
-- technology
-- under-covered
-- useful
-- visual
+  - article
+  - inspiring
+  - awareness
+  - clever
+  - design
+  - educational
+  - open-source
+  - review
+  - reflect
+  - inspiring
+  - technology
+  - under-covered
+  - useful
+  - visual
 license:
 thumb: thinking.jpg
 description: "Pranav Mistry is a real source of inspirations for his 'Thinking out of the box'. Inventor of SixthSense, Pranav Mistry, here at TedIndia demos several tools that help the physical world interact with the world of data."
@@ -49,11 +49,11 @@ Pranav Mistry
 
 <blockquote> So, there are lots of companies -- actually sponsor companies of Media Lab -- interested in taking this ahead in one or another way. Companies like mobile phone operators want to take this in a different way than the NGOs in India, [who] are thinking, "Why can we only have 'Sixth Sense'? We should have a 'Fifth Sense' for missing-sense people who cannot speak. This technology can be used for them to speak out in a different way with maybe a speaker system."</blockquote>
 
-Chris Anderson  
+Chris Anderson
 
 <blockquote> What are your own plans? Are you staying at MIT, or are you going to do something with this?</blockquote>
 
-Pranav Mistry  
+Pranav Mistry
 
 <blockquote> I'm trying to make this more available to people so that anyone can develop their own SixthSense device, because the hardware is actually not that hard to manufacture or hard to make your own. We will provide all the open source software for them, maybe starting next month.</blockquote>
 
@@ -61,7 +61,7 @@ Chris Anderson
 
 <blockquote> Open source? Wow... Are you going to come back to India with some of this, at some point?</blockquote>
 
-Pranav Mistry  
+Pranav Mistry
 
 <blockquote> Yeah. Yes, yes, of course.</blockquote>
 

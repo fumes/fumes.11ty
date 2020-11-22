@@ -5,17 +5,17 @@ photographer:
 date: 2013-02-26
 category: studies
 tags:
-- article
-- useful
-- review
-- community
-- clever
-- technology
-- studies
-- life
-- educational
-- non-profit
-- global-warming
+  - article
+  - studies
+  - useful
+  - review
+  - community
+  - clever
+  - technology
+  - life
+  - educational
+  - non-profit
+  - global-warming
 license:
 thumb: numbeo.jpg
 description: "Numbeo is the world's largest database providing current and timely information on world living conditions."

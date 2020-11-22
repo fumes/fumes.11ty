@@ -6,18 +6,18 @@ curator: rokma
 date: 2018-10-01
 category: photo-journalism
 tags:
-- article
-- photo-journalism
-- awareness
-- educational
-- packaging
-- marketing
-- food
-- people
-- reflect
-- under-covered
-- Singapore
-- design
+  - article
+  - photo-journalism
+  - awareness
+  - educational
+  - packaging
+  - marketing
+  - food
+  - people
+  - reflect
+  - under-covered
+  - Singapore
+  - design
 license: CC_BY
 thumb: products-are-people.jpg
 description: Products are people and they're looking at me. – Anthropomorphism, the innate human tendency to attribute human or human-like characteristics, motives and behaviours to non-human forms, objects, natural phenomena and events, describes human thoughts and actions.
@@ -102,7 +102,7 @@ Brands capitalise on the innate need of humans to create social connections with
 
 Most packages intended for children use visual anthropomorphism accompanied by cues that stimulate children’s interest, like animals.
 
-Indeed, children anthropomorphise more frequently and readily than adults. The desire to explain unknown phenomena or stimuli forces children to assign human qualities to nonhumans in order to reduce uncertainty and increase familiarity and learning.  
+Indeed, children anthropomorphise more frequently and readily than adults. The desire to explain unknown phenomena or stimuli forces children to assign human qualities to nonhumans in order to reduce uncertainty and increase familiarity and learning.
 
 
 

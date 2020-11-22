@@ -5,17 +5,17 @@ photographer: rokma
 date: 2011-12-05
 category: photo-journalism
 tags:
-- article
-- photo-journalism
-- photography
-- Thailand
-- advertising
-- visual
-- culture
-- soft-power
-- celebration
-- documentary
-- report
+  - article
+  - photo-journalism
+  - photography
+  - Thailand
+  - advertising
+  - visual
+  - culture
+  - soft-power
+  - celebration
+  - documentary
+  - report
 license: CC_BY
 thumb: royal.jpg
 description: "Many Thai people sincerely love their King. Most houses or shops display at least one photo of King Bhumibol Adulyadej."

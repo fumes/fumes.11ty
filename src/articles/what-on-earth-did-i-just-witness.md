@@ -4,30 +4,30 @@ curator: rokma
 date: 2013-01-26
 category: inspiring
 tags:
-- article
-- fun
-- lifestyle
-- city
-- review
-- under-covered
-- community
-- clever
-- artist
-- visual
-- Chinese
-- design
-- animation
-- illustrations
-- drawings
-- sustainability
-- awareness
-- life
-- inspiring
+  - article
+  - inspiring
+  - fun
+  - lifestyle
+  - city
+  - review
+  - under-covered
+  - community
+  - clever
+  - artist
+  - visual
+  - Chinese
+  - design
+  - animation
+  - illustrations
+  - drawings
+  - sustainability
+  - awareness
+  - life
 license:
 thumb: big-hands.jpg
 description: "Chinese animation artist Ray Lei, 26-year-old, has already hit International Animation Festival shows few times with his interesting multimedia works."
 ---
-Chinese animation artist <a href="http://vimeo.com/user1260672" title="He's on Vimeo with 16 videos">**Ray Lei**</a>, 26-year-old, has already hit International Animation Festival shows few times with his interesting multimedia works.  
+Chinese animation artist <a href="http://vimeo.com/user1260672" title="He's on Vimeo with 16 videos">**Ray Lei**</a>, 26-year-old, has already hit International Animation Festival shows few times with his interesting multimedia works.
 
 He has founded <a href="http://www.raydesign.cn/" title="see!"  >Raydesign studio</a> when still in school. Master's degree in animation from <a href="http://en.wikipedia.org/wiki/Tsinghua_University" title="what?"  >Tsinghua University</a>, his <a href="http://vimeo.com/4258163" title="check it out on vimeo!"  >"Magic cube and Ping-pong"</a> was shown in <a href="http://www.itfs.de/en/" title="Ya wunderbar!"  >Stuttgart</a>, <a href="http://vimeo.com/12492973" title="watch it!"  >"This is LOVE"</a> in <a href="http://www.animationfestival.ca/" title="YOU CAN&rsquo;T UNSEE THIS STUFF"  >Ottawa</a> won The 2010 Best Narrative Short.
 
@@ -50,7 +50,7 @@ Palm feels like Bouncing Bed
 Big hands oh Big hands
 Apples turn into Gummy Bears
 Nice and swift
-This is made by &ldquo;Big Hands&rdquo;  
+This is made by &ldquo;Big Hands&rdquo;
 
 _**Read more:**_
 

@@ -5,14 +5,14 @@ photographer: alejandro plesch
 date: 2011-04-23
 category: photo-journalism
 tags:
-- article
-- photo-journalism
-- fun
-- photography
-- black-and-white
-- pain
-- hardcore
-- Thailand
+  - article
+  - photo-journalism
+  - fun
+  - photography
+  - black-and-white
+  - pain
+  - hardcore
+  - Thailand
 license:
 thumb: muaythai.jpg
 description: "Muay Thai is a combat sport known as the 'Art of Eight Limbs' or the 'Science Of Eight Limbs' because it makes use of punches, kicks, elbows and knee strikes, thus using eight points of contact, as opposed to two points, fists, in boxing and four points, hands and feet, used in sport-oriented martial arts."
@@ -23,7 +23,7 @@ Muay Thai is a combat sport known as the "Art of Eight Limbs" or the "Science Of
 
 {% include partials/image.html, name: "-01" %}
 
-Heavily rooted in tradition and history, Muay Thai is the national sport of Thailand.   
+Heavily rooted in tradition and history, Muay Thai is the national sport of Thailand.
 
 {% include partials/image.html, name: "-02" %}
 

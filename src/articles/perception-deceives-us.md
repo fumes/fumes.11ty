@@ -6,18 +6,18 @@ curator: rokma
 date: 2017-07-01
 category: inspiring
 tags:
-- article
-- inspiring
-- awareness
-- educational
-- clever
-- culture
-- fine-art-prints
-- life
-- people
-- photography
-- reflect
-- simplicity
+  - article
+  - inspiring
+  - awareness
+  - educational
+  - clever
+  - culture
+  - fine-art-prints
+  - life
+  - people
+  - photography
+  - reflect
+  - simplicity
 license: CC_BY
 thumb: our-perception.jpg
 description: "Our perception deceives us. We awake in the morning feeling still, as we look out the window to see a tiny looking sun rising in the sky. We walk outside and the ground looks flat. And as we walk into the night beneath a moonlit sky, it looks as though the moon is strolling along with us. But our planet is not still, it is spinning furiously. The sun is unimaginably large. It is us who are in fact rising with respect to the sun, and the surface of our planet is curved, not flat. All the while the moon strolls around us. Our perception is crude."

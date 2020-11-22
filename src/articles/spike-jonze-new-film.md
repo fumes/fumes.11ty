@@ -4,14 +4,14 @@ curator: rokma
 date: 2010-05-25
 category: inspiring
 tags:
-- article
-- review
-- inspiring
-- under-covered
-- documentary
-- preventable
-- people
-- Africa
+  - article
+  - inspiring
+  - review
+  - under-covered
+  - documentary
+  - preventable
+  - people
+  - Africa
 license:
 thumb: lazzarus.jpg
 description: "'The Lazarus Effect' by director Lance Bangs and executive producer Spike Jonze premieres on HBO, YouTube and Channel 4 UK. The 30 minute film illustrates the transformative effect of life-saving antiretroviral medicine through the stories of four HIV+ people in Zambia - Connie, Paul, Constance and Bwalya."
@@ -23,7 +23,7 @@ The 30 minute film illustrates the transformative effect of life-saving antiretr
 {% include partials/video.html, url: "https://www.youtube.com/embed/l16YH6xCN4c?autoplay=1" width: "740" height: "416" %}
 
 
-HIV/AIDS is a preventable and treatable disease yet it has killed more than 20 million people in Africa. In 2002 only 50,000 people had access to the medication  due to its high cost.  
+HIV/AIDS is a preventable and treatable disease yet it has killed more than 20 million people in Africa. In 2002 only 50,000 people had access to the medication  due to its high cost.
 
 Today, thanks to reduced costs and increased access, more than 3 million people in Africa are now receiving treatment. Still, 3,800 people die every day in sub-Saharan Africa from AIDS. &ldquo;The Lazarus Effect&rdquo; film shows that this needn't be the case.
 

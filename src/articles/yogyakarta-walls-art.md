@@ -6,26 +6,26 @@ curator: rokma
 date: 2019-03-30
 category: photo-journalism
 tags:
-- article
-- Yogyakarta
-- documentary
-- fun
-- Indonesia
-- lifestyle
-- Java
-- photo-journalism
-- under-covered
-- visual
-- report
-- street-art
-- non-profit
-- slum
-- people
-- art
-- awareness
-- city
-- illustrations
-- unity
+  - article
+  - photo-journalism
+  - Yogyakarta
+  - documentary
+  - fun
+  - Indonesia
+  - lifestyle
+  - Java
+  - under-covered
+  - visual
+  - report
+  - street-art
+  - non-profit
+  - slum
+  - people
+  - art
+  - awareness
+  - city
+  - illustrations
+  - unity
 license: CC_BY_NC_ND
 thumb: yogyakarta-wall-art.jpg
 description: "The strong nationalism and artistic talent of this city’s young people is reflected in these murals that appeared all over the on the eve of the 73 year celebration of Indonesia independence."

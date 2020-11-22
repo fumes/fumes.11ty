@@ -6,6 +6,7 @@ date: 2010-05-16
 category: inspiring
 tags:
 - article
+- inspiring
 - fun
 - useful
 - reflect

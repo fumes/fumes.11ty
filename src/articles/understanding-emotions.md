@@ -4,15 +4,15 @@ curator: rokma
 date: 2018-03-11
 category: studies
 tags:
-- article
-- studies
-- clever
-- reflect
-- review
-- educational
-- useful
-- awareness
-- life
+  - article
+  - studies
+  - clever
+  - reflect
+  - review
+  - educational
+  - useful
+  - awareness
+  - life
 license:
 thumb: emotions.jpg
 description: "So what are emotions, really? Well, strap on your seat belt, because emotions are guesses. They are guesses that your brain constructs in the moment where billions of brain cells are working together, and you have more control over those guesses than you might imagine that you do."

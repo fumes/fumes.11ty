@@ -7,6 +7,7 @@ date: 2018-12-25
 category: photo-journalism
 tags:
 - article
+- photo-journalism
 - art
 - awareness
 - Bali

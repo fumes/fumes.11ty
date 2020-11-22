@@ -5,12 +5,12 @@ date: 2010-12-22
 category: inspiring
 tags:
 - article
+- inspiring
 - fun
 - lifestyle
 - skateboarding
 - useful
 - review
-- inspiring
 - under-covered
 - community
 - hardcore

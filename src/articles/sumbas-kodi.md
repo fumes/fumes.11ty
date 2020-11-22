@@ -5,18 +5,18 @@ photographer: alejandro plesch
 date: 2010-05-31
 category: photo-journalism
 tags:
-- article
-- Indonesia
-- personal-works
-- under-covered
-- photography
-- documentary
-- hardcore
-- archipelago
-- life
-- ritual
-- people
-- photo-journalism
+  - article
+  - photo-journalism
+  - Indonesia
+  - personal-works
+  - under-covered
+  - photography
+  - documentary
+  - hardcore
+  - archipelago
+  - life
+  - ritual
+  - people
 license:
 thumb: sumba.jpg
 description: "For 350 years, the Dutch colonised the vast archipelago of Indonesia but never even managed to set up an administrative post on the island of Sumba."

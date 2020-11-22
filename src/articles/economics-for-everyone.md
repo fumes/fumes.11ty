@@ -5,9 +5,9 @@ date: 2016-07-12
 category: inspiring
 tags:
 - article
+- inspiring
 - clever
 - community
-- inspiring
 - educational
 - culture
 - review

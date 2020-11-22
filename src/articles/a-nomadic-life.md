@@ -7,6 +7,7 @@ date: 2018-11-01
 category: photo-journalism
 tags:
 - article
+- photo-journalism
 - awareness
 - educational
 - life

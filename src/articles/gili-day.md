@@ -5,17 +5,17 @@ photographer: rokma
 date: 2017-12-12
 category: studies
 tags:
-- article
-- studies
-- artist
-- Lombok
-- drawings
-- illustrations
-- life
-- people
-- simplicity
-- visual
-- water
+  - article
+  - studies
+  - artist
+  - Lombok
+  - drawings
+  - illustrations
+  - life
+  - people
+  - simplicity
+  - visual
+  - water
 license:
 thumb: day-in-gili.jpg
 description: "Gili means island. Near Lombok, in East Indonesia, there are 3 small islands on the Wallace Line channel, called Gilis in short. No car nor motorbikes. Diving and Snorkelling Wonders and Parties. Here some scenes, drawn with a finger on a small mobile phone. Its 2017, call it a visual report."

@@ -5,22 +5,22 @@ curator: rokma
 date: 2010-09-18
 category: balance
 tags:
-- article
-- fun
-- balance
-- Indonesia
-- useful
-- Bali
-- reflect
-- under-covered
-- photography
-- community
-- clever
-- trash
-- educational
-- report
-- non-profit
-- sustainability
+  - article
+  - fun
+  - balance
+  - Indonesia
+  - useful
+  - Bali
+  - reflect
+  - under-covered
+  - photography
+  - community
+  - clever
+  - trash
+  - educational
+  - report
+  - non-profit
+  - sustainability
 license: CC_BY
 thumb: red-bag.jpg
 description: "The red bag race is a competition to collect trash. It takes place during surf contests organised by Volcom Indonesia. It aims at educating kids on acting about environmental pollution."
@@ -30,15 +30,15 @@ The red bag race is a competition to collect trash.
 
 {% include partials/image.html, name: "_2170" %}
 
-It takes place during surf contests organised by Volcom Indonesia.  
+It takes place during surf contests organised by Volcom Indonesia.
 
 {% include partials/image.html, name: "_2178" %}
 
-It aims at educating kids on acting about environmental pollution.  
+It aims at educating kids on acting about environmental pollution.
 
 {% include partials/image.html, name: "_2181" %}
 
-Biggest bag wins but there are prizes for everyone participating.  
+Biggest bag wins but there are prizes for everyone participating.
 
 {% include partials/image.html, name: "_2184" %}
 

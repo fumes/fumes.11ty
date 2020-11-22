@@ -5,25 +5,26 @@ photographer: rokma
 date: 2012-06-24
 category: balance
 tags:
-- article
-- lifestyle
-- city
-- useful
-- reflect
-- under-covered
-- documentary
-- photography
-- community
-- people
-- clever
-- street-art
-- Bangkok
-- Thailand
-- water
-- design
-- sustainability
-- simplicity
-- plants
+  - article
+  - balance
+  - lifestyle
+  - city
+  - useful
+  - reflect
+  - under-covered
+  - documentary
+  - photography
+  - community
+  - people
+  - clever
+  - street-art
+  - Bangkok
+  - Thailand
+  - water
+  - design
+  - sustainability
+  - simplicity
+  - plants
 license: CC_BY
 thumb: urban-green.jpg
 description: "The urban need for improved life quality is a driving energy in every big metropolis. Check how good are Bangkok people in painting their everyday life lively green."

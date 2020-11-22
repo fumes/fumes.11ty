@@ -6,22 +6,22 @@ curator: rokma
 date: 2019-04-13
 category: art
 tags:
-- article
-- art
-- artist
-- abstract
-- Auckland
-- beauty
-- city
-- culture
-- conceptual
-- contemporary-art
-- educational
-- painting
-- New-Zealand
-- report
-- review
-- visual
+  - article
+  - art
+  - artist
+  - abstract
+  - Auckland
+  - beauty
+  - city
+  - culture
+  - conceptual
+  - contemporary-art
+  - educational
+  - painting
+  - New-Zealand
+  - report
+  - review
+  - visual
 license: CC_BY_NC_ND
 thumb: matthew_brownie_at_orexart.jpg
 description: "Orexart has been exhibiting emerging, mid-career and established artists from New Zealand, Australia and the Pacific since 1990. The gallery's mission is to build the careers of its established artists and encourage the development of promising newcomers. When we visited they were showing Matthew Browne. The exhibition title, Jouska, takes inspiration from a neologism in John Koenig's recently created Dictionary of Obscure Sorrows."

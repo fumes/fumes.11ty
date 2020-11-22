@@ -4,21 +4,21 @@ curator: rokma
 date: 2010-10-25
 category: inspiring
 tags:
-- article
-- black-and-white
-- review
-- under-covered
-- photography
-- community
-- artist
-- Africa
-- women
-- rural
-- visual
-- people
-- inspiring
-- non-profit
-- simplicity
+  - article
+  - inspiring
+  - black-and-white
+  - review
+  - under-covered
+  - photography
+  - community
+  - artist
+  - Africa
+  - women
+  - rural
+  - visual
+  - people
+  - non-profit
+  - simplicity
 license:
 thumb: jr.jpg
 description: "'Women are Heroes' is a photography project by french photographer JR. This work, which got viral, is about pictures made into huge posters and glued to public spaces."

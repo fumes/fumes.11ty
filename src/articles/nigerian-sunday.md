@@ -5,20 +5,20 @@ photographer: rokma
 date: 2011-02-08
 category: photo-journalism
 tags:
-- article
-- lifestyle
-- photo-journalism
-- city
-- report
-- photography
-- community
-- religion
-- Africa
-- Christian
-- ritual
-- Italy
-- life
-- people
+  - article
+  - photo-journalism
+  - city
+  - photography
+  - community
+  - Africa
+  - Christian
+  - Italy
+  - life
+  - lifestyle
+  - people
+  - religion
+  - report
+  - ritual
 license: CC_BY
 thumb: nigeria.jpg
 description: "A West African community gathers at Sunday for a energetic gospel session. The goal is to build unity, faith and happiness in every man and woman."

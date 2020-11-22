@@ -4,26 +4,26 @@ curator: rokma
 date: 2012-05-09
 category: inspiring
 tags:
-- article
-- fun
-- inspiring
-- reflect
-- clever
-- artist
-- life
-- visual
-- design
-- simplicity
-- animation
-- illustrations
-- drawings
+  - article
+  - inspiring
+  - fun
+  - reflect
+  - clever
+  - artist
+  - life
+  - visual
+  - design
+  - simplicity
+  - animation
+  - illustrations
+  - drawings
 license:
 thumb: the-line.jpg
 description: "La Linea is an Italian animated series created by the Italian cartoonist Osvaldo Cavandoli. What strikes about Osvaldo's style is simplicity, minimalism, body language. Less was more already 40 years ago!  "
 ---
 La Linea ("The Line") is an Italian animated series created by the Italian cartoonist Osvaldo Cavandoli.
 
-What strikes about Osvaldo's style is simplicity, minimalism, body language. Less was more already 40 years ago!  
+What strikes about Osvaldo's style is simplicity, minimalism, body language. Less was more already 40 years ago!
 
 ## Episode 001
 
@@ -31,7 +31,7 @@ What strikes about Osvaldo's style is simplicity, minimalism, body language. Les
 
 The series consists of 90 episodes, each about 2&ndash;3 minutes long and were originally broadcast on the Italian channel RAI between 1971 and 1986.
 
-Over the years the series aired in more than 40 countries around the world.  
+Over the years the series aired in more than 40 countries around the world.
 The show is known by different names around the world, including:
 
 "Aghaaye Khat" / "آقای خط" (Mr. Line) in Iran, "Linus p&aring; linjen" (Linus on the line) in Sweden, "Linus linjalla" (Linus on the line) in Finland, "Badum badum" in Slovenia, "Badum badum" and sometimes, "Złośniczek" in Poland, "Menő Man&oacute;" in Hungary, "Mar Kav" / "מר קו" (Mr. Line) in Israel, "Bajram" in Albania, "Streken" in Norway, "Stregen" in Denmark, "L&iacute;nan" in Iceland, "Baljum Baljum" in Republic of Macedonia, "Bay Meraklı" (Mr. Curious) in Turkey, "Барум Барум" / "Barum Barum" or "Абаракандиши Ди Фјури" / "Abarakandi&scaron;i Di Fjuri" in Serbia, "Lineman" in the United States ,"La Lin&eacute;a" in France, "A Linha" in Brazil, "Lijntje" in the Netherlands, "Abelardo" in Argentina.

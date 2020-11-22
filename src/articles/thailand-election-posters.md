@@ -5,18 +5,19 @@ photographer: rokma
 date: 2011-06-30
 category: photo-journalism
 tags:
-- article
-- advertising
-- Bangkok
-- city
-- documentary
-- educational
-- Phuket
-- photography
-- report
-- Thailand
-- technology
-- visual
+  - article
+  - photo-journalism
+  - advertising
+  - Bangkok
+  - city
+  - documentary
+  - educational
+  - Phuket
+  - photography
+  - report
+  - Thailand
+  - technology
+  - visual
 license: CC_BY
 thumb: thai-elections.jpg
 description: "Fumes is offering a glimpse of the styles and subjects used in campaigns during this general election. Fumes attempts to translate the various campaign slogans that reveal candidates platforms and agendas."

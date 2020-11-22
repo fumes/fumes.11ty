@@ -4,13 +4,13 @@ curator: rokma
 date: 2010-05-20
 category: studies
 tags:
-- article
-- useful
-- studies
-- educational
-- clever
-- awareness
-- technology
+  - article
+  - studies
+  - educational
+  - clever
+  - awareness
+  - technology
+  - useful
 license:
 thumb: search.jpg
 description: "Your internet service provider can actually look at what you are searching. Do you want to stop this? Now you can..."

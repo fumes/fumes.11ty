@@ -6,6 +6,7 @@ date: 2013-08-14
 category: art
 tags:
 - article
+- art
 - fun
 - lifestyle
 - Bali

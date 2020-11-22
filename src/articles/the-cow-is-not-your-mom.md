@@ -5,20 +5,20 @@ curator: rokma
 date: 2017-06-01
 category: art
 tags:
-- art
-- article
-- drawings
-- food
-- lifestyle
-- illustrations
-- visual
-- artist
-- awareness
-- educational
-- culture
-- reflect
-- sustainability
-- vegetarian
+  - art
+  - article
+  - drawings
+  - food
+  - lifestyle
+  - illustrations
+  - visual
+  - artist
+  - awareness
+  - educational
+  - culture
+  - reflect
+  - sustainability
+  - vegetarian
 license: CC_BY
 thumb: protein-deficient.jpg
 description: "Rarely you find witty sharp humour, meaningful content and globally important issues all included into an artist work. Melinda has definitely something to say. Her awesome illustrations offer a reflexion about relevant solutions for feeding the world. She has the ability to craft simple ironic memes and the courage to speak out of the box, committing to the message instead of just to the art world."

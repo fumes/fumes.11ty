@@ -4,23 +4,23 @@ curator: rokma
 date: 2015-03-13
 category: studies
 tags:
-- article
-- clever
-- design
-- drawings
-- fun
-- illustrations
-- educational
-- studies
-- reflect
-- review
-- useful
-- visual
-- non-profit
-- animation
-- lifestyle
-- awareness
-- technology
+  - article
+  - studies
+  - clever
+  - design
+  - drawings
+  - fun
+  - illustrations
+  - educational
+  - reflect
+  - review
+  - useful
+  - visual
+  - non-profit
+  - animation
+  - lifestyle
+  - awareness
+  - technology
 license:
 thumb: motivations.jpg
 description: "What motivate us? This inspiring illustrated talk inquiries how motivations drive our everyday actions and work. Adapted from Dan Pink's talk at the RSA, this video illustrates some hidden truths behind what really motivates us at home and in the workplace. Animation by Cognitive Media. Produced by RSA Animate."
