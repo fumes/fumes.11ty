@@ -1,4 +1,4 @@
-const pluginSass = require('./src/_11ty/sass');
+//const pluginSass = require('./src/_11ty/sass');
 const readingTime = require('./src/_11ty/reading-time');
 const pluginDate = require("eleventy-plugin-date");
 const CaptureTag = require('./src/_11ty/nunjucks-capture');
@@ -17,6 +17,9 @@ module.exports = function(eleventyConfig) {
 // env.addExtension('CaptureTag', new CaptureTag());
 
 module.exports = function(eleventyConfig) {
+
+  // needed fot node-sass
+  eleventyConfig.setUseGitIgnore(false);
 
 
   eleventyConfig.addPlugin(pluginDate, {
@@ -98,10 +101,10 @@ module.exports = function(eleventyConfig) {
 
 
   // sass
-  eleventyConfig.addPlugin(pluginSass, {
-    watch: './src/scss/*.scss',
-    outputDir: './src/_includes/css/'
-  });
+  // eleventyConfig.addPlugin(pluginSass, {
+  //   watch: './src/scss/*.scss',
+  //   outputDir: './src/_includes/css/'
+  // });
 
   // pass some assets right through
   eleventyConfig.addPassthroughCopy('./src/assets');

@@ -97,8 +97,8 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: $spacing_unit * 2 ;
-  margin-bottom: $spacing_unit * 2 ;
+  margin-top: $spacing_unit * 2;
+  margin-bottom: $spacing_unit * 2;
   position: relative;
   margin-right: auto;
   margin-left: auto;
@@ -129,7 +129,7 @@
 
     .ico {
       margin-bottom: 0;
-      margin-right: 0.5rem;
+      margin-right: .5rem;
     }
   }
 
@@ -236,9 +236,8 @@
   font-size: 1rem;
   color: $grey_color;
   line-height: 1;
-  margin-top: 3rem;
+  //margin-top: 3rem;
 }
-
 
 .post-meta a,
 .post__license a {
@@ -247,10 +246,11 @@
   font-size: 100%;
   font-weight: unset;
   color: $text_color;
-  padding: 1px 10px 1px 10px;
+  padding: 1px 10px;
   display: inline-block;
-  margin: 4px 3px 4px 3px;
+  margin: 4px 3px;
   line-height: 2;
+
   &:hover {
     opacity: .85;
   }

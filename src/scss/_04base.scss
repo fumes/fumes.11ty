@@ -31,6 +31,7 @@ ul {
 html {
   font-size: $base_font_size;
   background-color: red;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -80,7 +81,7 @@ ul {
 
 img {
   vertical-align: middle;
-  margin-top:  $spacing_unit / 2;
+  margin-top: $spacing_unit / 2;
   margin-bottom: $spacing_unit / 2;
   // chrome improved images
   image-rendering: -webkit-optimize-contrast;
@@ -189,28 +190,24 @@ pre {
   }
 }
 
-
 .main {
-  overflow: hidden;
+  //overflow: hidden;
   position: relative;
   z-index: 1;
 
   .fade {
-    -webkit-transition: opacity 0.3s ease-out;
-    transition: opacity 0.3s ease-out;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-    opacity: 0.2;
+    -webkit-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+    opacity: .2;
   }
 }
-
 
 strong {
   font-weight: 500;
   color: white;
 }
-
-
 
 .show_on_phones {
   @media (min-width: 600px) {
@@ -229,4 +226,12 @@ strong {
   background-color: $background_color;
   position: relative;
   z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.margin_bottom_small {
+  margin-bottom: $vertical_rhythm--small/2;
 }

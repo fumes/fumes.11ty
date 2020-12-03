@@ -1,13 +1,14 @@
 {
   "name": "fumes11ty",
-  "version": "5.8.0",
+  "version": "5.9.0",
   "description": "Fumes at 11ty",
   "scripts": {
-    "build": "eleventy",
-    "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
+    "build": "npm run sass && eleventy",
     "debug": "DEBUG=* eleventy",
-    "start": "npx @11ty/eleventy --serve"
+    "sass": "sass --style=compressed src/scss/main.scss src/_includes/css/main.css",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "npm run sass -- --watch",
+    "start": "npm-run-all sass --parallel watch:*"
   },
   "repository": {
     "type": "git",
@@ -17,16 +18,19 @@
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy": "^0.11.1",
     "acorn": ">=7.3.1",
-    "nunjucks-capture": "^1.0.4",
+    "change-case-all": "^1.0.12",
+    "del": "^5.1.0",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-reading-time": "0.0.1",
-    "eleventy-plugin-sass": "^1.0.0",
     "gulp": "^4.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-responsive": "^3.0.1",
-    "change-case-all": "^1.0.12",
-    "del": "^5.1.0"
+    "npm-run-all": "^4.1.5",
+    "nunjucks-capture": "^1.0.4"
+  },
+  "dependencies": {
+    "sass": "^1.29.0"
   }
 }

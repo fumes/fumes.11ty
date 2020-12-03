@@ -1,4 +1,5 @@
 {
+  "version": "5.9.0",
   "now_year": "2020",
   "title": "Fumes",
   "subtitle": "Art. Photography. Ideas.",
@@ -18,6 +19,5 @@
       "analytics": "UA-16659805-1",
       "verify": "google32e66f1a5601ec40"
     }
-  },
-  "version": "5.8.0"
+  }
 }

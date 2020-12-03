@@ -1,0 +1,48 @@
+.thumb {
+  user-select: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  position: relative;
+  //top: 2.15rem;
+  z-index: 1;
+  overflow: hidden;
+
+  img {
+    // display: block; NO! it breaks thumbs, :((
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    user-select: none;
+    pointer-events: none;
+
+    @include media("screen", ">minWidth") {
+      transform: scale(1.15);
+      transform-origin: center center;
+      transition: transform .25s ease-in-out;
+    }
+
+    .post_card:active & {
+      transform: scale(1);
+    }
+  }
+
+  .small_card & {
+    padding-right: $vertical_rhythm--small;
+    width: 50%;
+    @include media("screen", ">minWidth") {
+      width: 100%;
+      padding-right: 0;
+    }
+
+    img {
+      margin: 0;
+      transform: none;
+    }
+  }
+
+  .compact & {
+    top: 2.15rem;
+    left: 0;
+    max-height: 150px;
+  }
+}

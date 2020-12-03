@@ -31,7 +31,8 @@ nav {
     [style="font-size: 86%"],
     [style="font-size: 85%"],
     [style="font-size: 91%"],
-    [style="font-size: 97%"], {
+    [style="font-size: 97%"],
+     {
       display: none;
     }
   }
@@ -45,7 +46,7 @@ nav {
 
 .looper {
   @extend %no_select;
-  overflow: hidden;
+  //overflow: hidden;
 
   .nav--tags & {
     font-size: 90%;
@@ -63,8 +64,8 @@ nav {
   position: relative;
   width: 100%;
   height: $icon_size;
-  margin-top: 3.5rem;
-  margin-bottom: 1rem;
+  margin-top: $vertical_rhythm*2;
+  margin-bottom: $vertical_rhythm--small*3;
 
   svg {
     position: absolute;
@@ -78,75 +79,61 @@ nav {
 
 .looper__link {
   @extend %no_select;
-  display: inline-block;
   background-color: transparent;
-  padding: 0.75rem;
+  padding: $vertical_rhythm--small/2;
   margin-left: 1px;
   margin-right: 1px;
   border: 1px solid transparent;
   border-radius: 3px;
   line-height: .8;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: flex-start;
 
   max-width: calc(145px + 1.25rem);
-  @include media("screen", ">minWidth") {
-    max-width: calc(200px + 1.5rem);
-  }
-
-
 
   &.small_card {
+    max-width: unset;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+
+    @include media("screen", ">minWidth") {
+      max-width: calc(145px + 1.25rem);
+      padding: $vertical_rhythm--small/2;
+    }
+
+    .title {
+      text-align: left;
+      max-width: 50%;
+      overflow: hidden;
+      white-space: normal;
+      @include media("screen", ">minWidth") {
+        max-width: none;
+        padding-bottom: $vertical_rhythm--small/2;
+      }
+    }
 
     h5 {
       margin-bottom: 5px;
-    }
-    .reading_time {
-      margin-top: 0;
-      font-size: 90%;
-
-    }
-
-    @include media("screen", "<minWidth") {
-      max-width: unset;
-      width: 100%;
-      //background-color: rgba(255,255,255,0.1);
-      display: flex;
-      flex-direction: row;
-      margin-left: 0;
-      padding-left: 0;
-      justify-content: stretch;
-      align-items: flex-start;
-
-      img {
-        margin: 0;
-      }
-      .thumb {
-        min-width: 50%;
-        max-width: 50%;
-        margin-right: 1rem;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      .small.title {
-        text-align: left;
-        max-width: none;
-      }
-      .category.hidden{
-        display: none;
-      }
-
-
-    }
-
-    @include media("screen", ">bp1Width") {
-      h5 {
+      @include media("screen", ">bp1Width") {
         white-space: normal;
         text-align: left;
       }
     }
+
+    .reading_time {
+      margin-top: 0;
+      font-size: 90%;
+    }
   }
 
-
+  @include media("screen", ">minWidth") {
+    display: inline-block;
+    max-width: calc(200px + 1.5rem);
+  }
 
   @include media("screen", ">bp1Width") {
     text-align: justify;
@@ -156,35 +143,33 @@ nav {
       overflow-x: hidden;
     }
   }
+
   .category {
     line-height: 1;
     visibility: hidden!important;
   }
 
-  .thumb {
-    overflow: hidden;
-  }
-
   &:hover {
     color: $alert_color;
     border: 1px solid $alert_color;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+
     .category {
       visibility: visible!important;
     }
   }
+
   &.active {
     color: $brand_red;
     border: 1px solid $brand_red;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+
     &:hover {
       color: $brand_red;
     }
   }
-
-
 }
 
 .looper__links {
@@ -204,8 +189,8 @@ nav {
 .nav__posttitle {
   font-size: $base_font_size*1.2;
   color: white;
-  -webkit-transition: opacity 0.3s ease-out;
-  transition: opacity 0.3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  transition: opacity .3s ease-out;
   position: absolute;
   @include media("screen", ">maxWidth") {
     position: fixed;
@@ -256,7 +241,6 @@ nav {
     height: 60px;
   }
 
-
 }
 //BEM MODIFIERS
 .nav__link--left {
@@ -266,8 +250,8 @@ nav {
   @include media("screen", ">minWidth") {
     &:hover + .nav__posttitle--left {
       opacity: 1;
-      -webkit-transition-delay: 0.1s;
-      transition-delay: 0.1s;
+      -webkit-transition-delay: .1s;
+      transition-delay: .1s;
       padding-left: 1rem;
       padding-right: 1rem;
       background-color: $black;
@@ -287,8 +271,8 @@ nav {
   @include media("screen", ">minWidth") {
     &:hover + .nav__posttitle--right {
       opacity: 1;
-      -webkit-transition-delay: 0.1s;
-      transition-delay: 0.1s;
+      -webkit-transition-delay: .1s;
+      transition-delay: .1s;
       padding-left: 1rem;
       padding-right: 1rem;
       background-color: $black;

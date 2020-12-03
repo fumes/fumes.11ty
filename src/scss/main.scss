@@ -1,40 +1,40 @@
 @charset "utf-8";
 
 // Our variables
-$base_font_family : Helvetica, Arial, sans-serif;
-$base_font_size   : 18px;
-$small_font_size  : $base_font_size * 0.875;
-$base_line_height : 1.5;
+$base_font_family: Helvetica, Arial, sans-serif;
+$base_font_size: 18px;
+$small_font_size: $base_font_size * 0.875;
+$base_line_height: 1.5;
 $small_line_height: 1.15;
-$spacing_unit     : $base_font_size * 2; //36px
+$spacing_unit: $base_font_size * 2; //36px
 
-$alert_color:      white;
-$alert_blue:       hsla(220, 100%, 50%, 1);
-$brand_blue:       $alert_blue;
-$brand_red:        red;
-$brand_color:      #555;
+$alert_color: white;
+$alert_blue: hsla(220, 100%, 50%, 1);
+$brand_blue: $alert_blue;
+$brand_red: red;
+$brand_color: #555;
 
-$offwhite:         rgba(247, 245, 243, 1); // #f7f5f3
-$border-radius:    5px;
+$offwhite: rgba(247, 245, 243, 1); // #f7f5f3
+$border-radius: 5px;
 
-$text_color:       darken(white, 20%);
+$text_color: darken(white, 20%);
 $background_color: #161616; // = rgba(22,22,22,1) or hsla(0, 0%, 9%, 1)
 $grey_color_light: darken(white, 30%);
-$grey_color:       darken(white, 40%);
-$grey_color_dark:  darken(white, 50%);
-$grey_color_darker:  darken(white, 60%);
-$grey_color_darkest:  darken(white, 70%);
+$grey_color: darken(white, 40%);
+$grey_color_dark: darken(white, 50%);
+$grey_color_darker: darken(white, 60%);
+$grey_color_darkest: darken(white, 70%);
 
-$tblack50:         rgba(0,0,0,.5);
-$twhite50:         rgba(255,255,255,.5);
-$black:            #000;
-$white:            #FFF;
+$tblack50: rgba(0,0,0,.5);
+$twhite50: rgba(255,255,255,.5);
+$black: #000;
+$white: #FFF;
 
 // Max width of the content area
-$content_width:    1400px;
+$content_width: 1400px;
 // lets have uniform icons
-$icon_size:        4rem;
-$icon_color:  darken(white, 60%);
+$icon_size: 4rem;
+$icon_color: darken(white, 60%);
 
 $vertical_rhythm: 2rem;
 $vertical_rhythm--small: 1rem;
@@ -45,24 +45,4 @@ $mediaBp1Width: 960px;
 $mediaMaxWidth: 1260px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "01normalize",
-        "02mixins",
-        "03cmq",
-        "04base",
-        "05headings",
-        "06links",
-        "07layout",
-        "08logo",
-        "09nav",
-        "10header",
-        "11index",
-        "12post",
-        "13video",
-        "14progress",
-        "15footer",
-        "16button",
-        "17offwhite",
-        "18fineartprints",
-        "19tagcloud"
-;
+@import "01normalize", "02mixins", "03cmq", "04base", "05headings", "06links", "07layout", "08logo", "09nav", "10header", "11index", "12post", "13video", "14progress", "15footer", "16button", "17offwhite", "18fineartprints", "19tagcloud", "_thumb.scss";

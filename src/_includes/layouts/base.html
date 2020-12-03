@@ -5,10 +5,12 @@
 
   <body class="{% if role != "home" %}has_default_license{% endif %} {% if fineartprints %}has_fineartprints{% endif %} layout_base_html">
 
+    <a id="top"></a>
+
     <div class="body_wrapper">
 
       <header class="header">
-        {% include partials/logo.html %}
+        {% include partials/logo_block.html %}
       </header>
 
       {% include partials/svg/defs.html %}
