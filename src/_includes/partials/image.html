@@ -10,13 +10,15 @@ or
 {% include image.html, name: "-04", caption: "test" %}
 this will grab the 4th image
 {% endcomment %}
+
 {% comment %}
 2do:
 Write the caption into a file with same name as image (image.md)
 Develop the code to suck it here as caption (as kirby does!)
 It'd be very convenient as to write the caption you have to go see the image anyway...
-(180604 - tried w/ Jekyll, but it looks impossible, maybe can using 11ty js...)
+(tried w/ Jekyll, but seems impossible, maybe can using 11ty...)
 {% endcomment %}
+
 <figure class="post_content_image">
   {% comment %} assign the page image and split at the extension dot{% endcomment %}{% assign f = image | split: '.' %}<img loading="lazy" src="{{ f[0] | relative_url }}{{ name }}-640.{{ f[1] }}"
        srcset="{{ f[0] | relative_url }}{{ name }}-640.{{ f[1] }} 640w,
