@@ -67,7 +67,7 @@ Besides the inherent historical and current cultural, religious and political id
 In discussion with the artist we have kept the work in the show. Our heartfelt sadness and sympathy is however, with the families and Muslim community in Christchurch and a portion of proceeds from the sale of this work will be donated by the artist and Melanie Roger Gallery to the Christchurch Victims Support Fund.
 
 
-**More infos**
+## More infos
 
 [Melanie Roger gallery - website](https://melanierogergallery.com/)
 

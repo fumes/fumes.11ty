@@ -7,7 +7,7 @@ date: 2019-04-20
 category: art
 tags:
 - article
-- art   
+- art
 - artist
 - beauty
 - contemporary-art
@@ -58,7 +58,7 @@ This pairing begins to play with the filmic construction of what is presented to
 
 
 
-**More infos**
+## More infos
 
 [Enjoy Contemporary Art Space - website](http://enjoy.org.nz)
 

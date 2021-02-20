@@ -87,7 +87,7 @@ Here is a quote from his website:
 >I am afraid many of you may be disappointed. I don’t do extreme sports, I am not a hi-tech buff, I am not a secret expert on 18th-century maps, and I don’t even do gardening.
 
 
-_**more links:**_
+## more info
 
 - [Ha-Joon_Chang website](http://hajoonchang.net/)
 

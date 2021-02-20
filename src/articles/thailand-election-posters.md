@@ -103,7 +103,7 @@ Extreme poverty is still rife, especially in big cities like Bangkok.
 
 
 
-_read more about Thailand's general election:_
+## read more about Thailand's general election
 
 - Bbc <a href="http://www.bbc.co.uk/news/world-asia-pacific-14000629"  >"Thailand election: Final rallies ahead of Sunday vote"</a>
 

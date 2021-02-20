@@ -68,7 +68,7 @@ The ‘Toy Show’ toured NZ public Institutions including the Auckland Museum f
 
 Every year the Gallery exhibits a group show of Gallery and other leading NZ Artists and a catalogue of New Zealand Fine Art.
 
-**More infos**
+## More infos
 
 [Warwick Henderson - website](http://www.warwickhenderson.co.nz/herb-foley--among-trees--2019.html)
 

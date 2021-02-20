@@ -128,7 +128,7 @@ Anthropomorphism can access consumers’ inner worlds and contribute to the achi
 
 
 
-_**Check out these studies:**_
+## Check out these studies
 
 [Anthropomorphic Packaging: Is There Life on Mars?](http://eprints.whiterose.ac.uk/87337/2/AnthropomorphicPackagingThereMars%5B1%5D.pdf)
 

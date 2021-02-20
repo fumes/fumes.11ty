@@ -98,3 +98,16 @@ River Hongbao main stage.
 
 {% include partials/image.html, name: "-5299" %}
 A very modest fireworks show culminated the countdown to welcome the new year.
+
+
+## More infos
+
+Read about [Barongsai, the Lion dance](https://en.wikipedia.org/wiki/Lion_dance)
+
+Wiki on [Chinese New Year](https://simple.wikipedia.org/wiki/Chinese_New_Year)
+
+Talk [恭喜發財 - Chinese New Year greetings](https://en.wiktionary.org/wiki/%E6%81%AD%E5%96%9C%E7%99%BC%E8%B2%A1)
+
+More about [Rituals and Customs To Celebrate Chinese New Year](https://theculturetrip.com/asia/china/articles/10-chinese-new-year-traditions/)
+
+Check [How dragons might have potentially existed](https://www.directpackages.com/entertainment-blog/how-could-a-tv-dragon-exist/)

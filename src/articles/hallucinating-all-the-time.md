@@ -43,7 +43,7 @@ He has also worked extensively with playwrights, dancers and other artists to sh
 His forthcoming book The Presence Chamber develops his unique theories of conscious selfhood within the rich historical context of the mind and brain sciences.
 
 
-_**Know more about Anil Seth:**_
+## More infos
 
 - Follow [Anil Seth on twitter](https://twitter.com/anilkseth)
 

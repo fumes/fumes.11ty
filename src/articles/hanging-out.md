@@ -63,7 +63,7 @@ Roland Loomis was an artist who specialized in suspension and piercing performan
 **Allen Falkner** helped to bring suspensions to people who weren't spiritual, as well as a plethora of different and unique suspensions types.
 
 
-_**Read more:**_
+## More infos
 
 [Read more on suspensions...](http://en.wikipedia.org/wiki/Suspension_(body_modification)
 

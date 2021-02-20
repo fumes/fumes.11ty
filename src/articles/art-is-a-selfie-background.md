@@ -75,7 +75,7 @@ That's it. We got no time for anything more, lets move on ... but wait, let me s
 
 Where? There...
 
-**More infos**
+## More infos
 
 [Art Bali - twitter account](https://twitter.com/art_bali_id)
 

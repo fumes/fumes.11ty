@@ -55,11 +55,17 @@ The goal is to build unity, faith and happiness in every man and woman.
 
 
 {% include partials/image.html, name: "-6782" %}
+
 {% include partials/image.html, name: "-6945" %}
+
 {% include partials/image.html, name: "-6942" %}
+
 {% include partials/image.html, name: "-6870" %}
+
 {% include partials/image.html, name: "-6839" %}
+
 {% include partials/image.html, name: "-6775" %}
 
 {% include partials/image.html, name: "-6952" %}
+
 {% include partials/image.html, name: "-6910" %}

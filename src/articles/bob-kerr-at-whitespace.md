@@ -68,7 +68,7 @@ At the gallery we met NZ artist [Davina Stephens](https://davinastephens.com) an
 
 
 
-**More infos**
+## More infos
 
 [Whitespace location](https://goo.gl/maps/RN46pXDvexT2)
 

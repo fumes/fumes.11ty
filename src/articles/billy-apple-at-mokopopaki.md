@@ -65,7 +65,7 @@ The surface is unblemished by signature. It is present but hidden. So, perhaps, 
 
 
 
-**More infos**
+## More infos
 
 [Mokopopaki on website](http://mokopopaki.co.nz/)
 

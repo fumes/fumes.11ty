@@ -7,7 +7,7 @@ date: 2019-10-05
 category: art #put this one also as tag
 tags:
   - article
-  - art   
+  - art
   - love
   - Bali
   - culture
@@ -98,7 +98,7 @@ Here are some photos of the new area which is just opening. Besides the restaura
 
 
 
-**More infos**
+## More infos
 
 [Tony Raka Art Gallery](http://www.tonyrakaartgallery.com/contemporary-art/)
 

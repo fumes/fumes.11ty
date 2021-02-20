@@ -52,6 +52,6 @@ I selectively place these graphics around New York to highlight the unexpected c
 
 
 
-_**Read more:**_
+## Read more
 
 [Aakash Nihilani personal website](http://aakashnihalani.com/)

@@ -60,7 +60,7 @@ As a member of **Pacific Sisters**, **Ani O'Neill** travelled, exhibited and per
 
 With colourful, crochet materials, **Ani O'Neill**’s work reconciles the influences of cultural traditions of the Cook Islands, Rastafarian and American Pop Art.
 
-**More infos**
+## More infos
 
 [Starkwhite website](http://www.starkwhite.co.nz/)
 

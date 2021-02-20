@@ -75,7 +75,7 @@ Pranav Mistry
 
 
 
-_**Read more:**_
+## Read more
 
 - <a title="multi language transcript of this speech on ted.com" href="http://www.ted.com/talks/pranav_mistry_the_thrilling_potential_of_sixthsense_technology/transcript"  >Interactive transcript of this speech (41 languages)</a>
 

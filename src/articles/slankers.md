@@ -26,14 +26,14 @@ Formed in 1983, Slank is an Indonesian superband. By numbers, they are the bigge
 
 {% include partials/image.html, name: "-0" %}
 
-Slank's loyal following are known as "Slankers". Considering that over 50% of Indonesia's population is under the age of 25, and that the arrival of democracy and overthrow of Suhatro's dictatorship fell at the hands of a student led youth campaign, Slank is a powerful force in the Indonesian socio-political landscape.  
+Slank's loyal following are known as "Slankers". Considering that over 50% of Indonesia's population is under the age of 25, and that the arrival of democracy and overthrow of Suhatro's dictatorship fell at the hands of a student led youth campaign, Slank is a powerful force in the Indonesian socio-political landscape.
 
 
 {% include partials/image.html, name: "-2" %}
 
 Slank concerts have a feeling of a grassroots jam session combined with a passionate political demonstration.
 
-{% include partials/image.html, name: "-13" %}  
+{% include partials/image.html, name: "-13" %}
 
 Slankers often lobby for their regional causes, from corruption to human injustices, at Slank shows. Riot police are often on standby.
 
@@ -65,7 +65,7 @@ Fumes photographer Alejandro Plesch was invited to tag along with Slank in 2010.
 
 
 
-_**Read more:**_
+## Read more
 
 [Slank on wikipedia](https://en.wikipedia.org/wiki/Slank)
 

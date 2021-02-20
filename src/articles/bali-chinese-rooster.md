@@ -79,4 +79,9 @@ The architecture is really well thought, with big openings to let air and light 
 
 While all celebrations here are omen of good luck for the coming year, for these little Roosters 2017 is not really starting well. They got coloured and sold as souvenirs. Maybe they will have a chance and wont be eaten. Maybe the kid who is going to receive this gift will get attached to the little creature and keep it as pet. Maybe...
 
+
+## More infos
+
 Read about [Barongsai, the Lion dance](https://en.wikipedia.org/wiki/Lion_dance)
+
+Check [How dragons might have potentially existed](https://www.directpackages.com/entertainment-blog/how-could-a-tv-dragon-exist/)

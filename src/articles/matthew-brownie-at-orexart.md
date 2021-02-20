@@ -64,7 +64,7 @@ Browne was born in London in 1959. He completed a Bachelor of Fine Arts with Hon
 A committed educator in life drawing, monoprint and colour theory, Browne now teaches the 'Painters Studio' course at Art station. He has held numerous solo and group shows throughout New Zealand, was a finalist in the 2007 Wallace Trust Art Awards, and his work is included in various private collections both in New Zealand and internationally, notably in the permanent collection of the Royal Overseas League,London.
 
 
-**More infos**
+## More infos
 
 [Orexart website](http://orexart.co.nz/)
 

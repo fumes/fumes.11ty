@@ -48,7 +48,7 @@ Fornik Tsai, Nov 24 2013
 
 
 
-_**Read more:**_
+## Read more
 
 - <a href="http://www.ted.com/"  >about this speaker, find other TEDTalks</a>
 

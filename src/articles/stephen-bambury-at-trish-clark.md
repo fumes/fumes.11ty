@@ -81,7 +81,7 @@ As ever, the artist explores and delivers fusion of deeply personal and emotiona
 Employing an exceptional range of scale, Bambury explores and reconnects the apparent dualities of light dark, negative / positive, masculine / feminine, the sea and the land, the intellectual and emotional and the universal and the particular.
 
 
-**More infos**
+## More infos
 
 [Trish Clark website](https://trishclark.co.nz)
 

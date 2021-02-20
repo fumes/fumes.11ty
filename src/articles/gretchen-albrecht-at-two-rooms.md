@@ -59,7 +59,7 @@ As the title of the exhibition suggests, gesture and geometry are the equivalent
 
 
 
-**More infos**
+## More infos
 
 [Two Rooms website](https://tworooms.co.nz/)
 

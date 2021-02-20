@@ -66,7 +66,7 @@ In 2016, Friedlander received her Honorary Doctorate of Literature from the Univ
 
 
 
-**More infos**
+## More infos
 
 [FHE Galleries website](http://www.fhegalleries.com)
 

@@ -71,7 +71,7 @@ For the past 25 years, psychology professor **Lisa Feldman Barrett** has mapped 
 Twenty-five years ago, **Lisa Feldman Barrett** ran a series of psychology experiments whose conclusions seemed to defy common sense. It turned out common sense was wrong, and has been for 2,000 years. The result is a radical, new theory of how the brain creates emotions and a novel view of human nature.
 
 
-**_Know more about Lisa Feldman Barrett:_**
+## Know more about Lisa Feldman Barrett
 
 - Follow [Lisa Feldman Barrett on twitter](https://twitter.com/lfeldmanbarrett)
 

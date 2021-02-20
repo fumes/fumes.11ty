@@ -99,7 +99,7 @@ Before she became an architect, a visit to a small village in Bangladesh immedia
 In the 2014 book, [The Future of Architecture](https://www.amazon.com/reBuilding-Future-Education-Sustainable-architectures/dp/2390332153/), she and her coauthors argue for a future that is low-impact and adaptable.
 
 
-_Know more about Anna Heringer:_
+## Know more about Anna Heringer
 
 - Follow [Anna Heringer on twitter](https://twitter.com/AnnaHeringer)
 

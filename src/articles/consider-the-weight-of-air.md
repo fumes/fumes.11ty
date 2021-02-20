@@ -126,7 +126,7 @@ It's the release that kicks everything in.
 
 
 
-_**Read more:**_
+## Read more
 
 [Lance Slabbert on Surfers Journal](https://www.surfersjournal.com/photographer/lance-slabbert/)
 

@@ -50,6 +50,7 @@ In the Who's Rock opera "Quadrophenia" the dominant Vespa styles were "Rocker" a
 {% include partials/image.html, name: "-23" %}
 
 {% include partials/image.html, name: "-32" %}
+
 Dreadlocked Soldier.
 
 {% include partials/image.html, name: "-01" %}
@@ -86,6 +87,7 @@ Dreadlocked Soldier.
 
 
 {% include partials/image.html, name: "-24" %}
+
 Scooterists are Slankers too.
 
 {% include partials/image.html, name: "-27" %}
@@ -105,4 +107,5 @@ Scooterists are Slankers too.
 {% include partials/image.html, name: "-04" %}
 
 {% include partials/image.html, name: "-03" %}
+
 Camo Low Rider Stretch Mod.

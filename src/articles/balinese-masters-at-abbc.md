@@ -105,6 +105,6 @@ Here’s the complete list of the artists:
 33. Wayan suklu.
 34. I Ketut Muja.
 
-**More infos**
+## More infos
 
 [AB•BC Building](http://abbcbuilding.com)

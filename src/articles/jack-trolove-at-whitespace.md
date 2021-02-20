@@ -55,7 +55,7 @@ It goes without saying he’s a brilliant, generous painter. His new works lunge
 They are materially, like the politics of the artist, layers dragged together, which revel in the agency of showing themselves ‘being made’. Layers which reveal the vibrant life between us.
 
 
-**More infos**
+## More infos
 
 [Jack - Whitespace website](https://www.whitespace.co.nz/artists/jack-trolove)
 

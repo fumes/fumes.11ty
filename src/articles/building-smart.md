@@ -84,8 +84,6 @@ Rayann Sewall
 
 
 
-_**Read more:**_
+## Read more
 
 - <a href="http://www.ted.com/talks/diebedo_francis_kere_how_to_build_with_clay_and_community"  >about this talk and find related TEDTalks.</a>
-
-- &nbsp;

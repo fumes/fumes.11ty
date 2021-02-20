@@ -68,7 +68,7 @@ He is credited with writing the Zhuangzi book, which expresses a philosophy of s
 He made "The Old Fisherman," "The Robber Chih," and "The Cutting open Satchels," to satirize and expose the disciples of Confucius, and clearly exhibit the sentiments of Lao.
 
 
-_**Read more:**_
+## Read more
 
 - [Master Zhuang](https://en.wikipedia.org/wiki/Zhuang_Zhou)
 

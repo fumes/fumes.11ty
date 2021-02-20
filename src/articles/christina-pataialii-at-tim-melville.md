@@ -70,7 +70,7 @@ Colour attracts the eye, but unsettles the viewer with unexpected imagery […] 
 
 Christina Pataialii was born in 1988 in Auckland, graduated with a BFA in 2015 and an MFA in 2018 from Whitecliffe College of Arts and design.
 
-**More infos**
+## More infos
 
 [Tim Melville website](http://www.timmelville.com/)
 

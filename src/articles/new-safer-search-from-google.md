@@ -38,7 +38,7 @@ This secured channel helps protect your search terms and your search results pag
 
 Google will still maintain search data to improve your search quality and to provide better service. Searching over SSL doesn't reduce the data sent to Google &mdash; it only hides that data from third parties who seek it.
 
-_**Read more:**_
+## Read more
 
 [Quick overlook here](http://googleblog.blogspot.com/2010/05/search-more-securely-with-encrypted.html)
 

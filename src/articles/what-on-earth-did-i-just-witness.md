@@ -50,9 +50,9 @@ Palm feels like Bouncing Bed
 Big hands oh Big hands
 Apples turn into Gummy Bears
 Nice and swift
-This is made by &ldquo;Big Hands&rdquo;
+This is made by &ldquo;Big Hands&rdquo;  
 
-_**Read more:**_
+## Read more
 
 - <a href="https://vimeo.com/93575669">This is not a time to lie</a> new 2014 animation from Lei Lei.
 

@@ -52,7 +52,7 @@ Headlee has worked in public radio since 1999, as a reporter, host and correspon
 
 Headlee holds multiple degrees in music and still performs as a professional opera singer. She appears on the album “Classically Blue” from gospel artist Lea Gilmore. She's the granddaughter of composer William Grant Still.
 
-_Know more about Celeste Headlee:_
+## Know more about Celeste Headlee
 
 - Follow [Celeste Headlee on twitter](http://twitter.com/celesteheadlee)
 

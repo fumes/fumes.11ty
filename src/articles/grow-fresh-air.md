@@ -39,7 +39,7 @@ With its air-filtering plants and sustainable architecture, **Kamal Meattle**'s 
 **Kamal Meattle** has long been a environmental activist in India. In the 1980s he helped India's apple industry develop less-wasteful packaging to help save acres of trees. He then began a campaign to help India's millions of scooter drivers use less oil. His next plan is to develop a larger version of PBC-STIP, making a green office accessible to more businesses in New Delhi and serving as an example of low-cost, low-energy office life.
 
 
-_**Know more about these life saving plants:**_
+## Know more about these life saving plants
 
 - about the author: [Kamal Meattle Full bio](http://www.ted.com/speakers/kamal_meattle)
 

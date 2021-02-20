@@ -60,7 +60,7 @@ Don explains his piece.
 
 
 
-**More infos**
+## More infos
 
 [Studio One Toi Tu website](http://www.studioone.org.nz/contact/)
 

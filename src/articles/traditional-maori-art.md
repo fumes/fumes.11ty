@@ -159,6 +159,6 @@ _Haupapa_ 2017, Wood, glue.
 
 
 
-**More infos**
+## More infos
 
 [Te Papa website](https://www.tepapa.govt.nz/)

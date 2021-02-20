@@ -268,7 +268,7 @@ the deep changes operated in Balinese suicide.
 Twenty years ago, love was still a matter of _satmaka / tumblilingan ngisep madu_, 'buzzing bees sipping the honey of a flower'. _Ratih_, the goddess of the Moon, was portrayed at her loom, patiently waiting for Asmara, the handsome god of Love.
 
 Apparently, there must be a correlation between the changes in the language of love and the
-increaser in motor traffic.  
+increaser in motor traffic.
 
 Balinese short stories of the seventies are full of beaus riding a bike with a village petite in tow, rushing to the city. She would come back home, almost invariably pregnant, with tears of regret in her eyes. Eventually, some order was reestablished.
 
@@ -288,7 +288,7 @@ There is a catch though: changing the oil does not guarantee a safe ride anymore
 
 
 
-**More infos**
+## More infos
 
 [Read about Bali’s Myth, Magic and Mystery](https://nowbali.co.id/new-book-launched-myth-magic-and-mystery-in-bali/)
 

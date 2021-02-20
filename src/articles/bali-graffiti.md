@@ -36,6 +36,7 @@ Another issue is the increasing amount of road accidents caused by idiots textin
 
 
 {% include partials/image.html, name: "" %}
+
 One country under the control of a nominal value – Stranger beware this ain’t your home
 
 {% include partials/image.html, name: "-04" %}
@@ -51,17 +52,21 @@ Stop selling Bali or go back to being colonised
 We want your island
 
 {% include partials/image.html, name: "-01" %}
+
 One country under the control of a nominal value
 
 {% include partials/image.html, name: "-07" %}
+
 Whatever your religion wear a helmet for your own safety.
+
 Only idiots read Sms while driving.
+
 Don't make victims of other people.
+
 Don't be selfish.
+
 Stop and read your message, it is wiser.
 
 {% include partials/image.html, name: "-02" %}
-Beware stranger... this ain't your home!
 
-Like it?!
-Check other works from Luci Ferrero on her blog: <a href="http://luciferrero.asia" title="check Luci's works on her blog!"  >luciferrero.asia</a>
+Beware stranger... this ain't your home!
