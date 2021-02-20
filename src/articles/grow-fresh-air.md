@@ -60,3 +60,5 @@ With its air-filtering plants and sustainable architecture, **Kamal Meattle**'s 
 - Plants in offices [increase happiness and productivity ](https://www.theguardian.com/money/2014/aug/31/plants-offices-workers-productive-minimalist-employees)
 
 - PDF: [The Relative Merits of Lean, Enriched, and Empowered Offices](https://adobe99u.files.wordpress.com/2013/07/2010+jep+space+experiments.pdf)
+
+-Read more on [indoor vine plants](https://happydiyhome.com/indoor-vine-plants/) 
