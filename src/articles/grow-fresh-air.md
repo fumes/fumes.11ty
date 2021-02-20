@@ -61,4 +61,4 @@ With its air-filtering plants and sustainable architecture, **Kamal Meattle**'s 
 
 - PDF: [The Relative Merits of Lean, Enriched, and Empowered Offices](https://adobe99u.files.wordpress.com/2013/07/2010+jep+space+experiments.pdf)
 
--Read more on [indoor vine plants](https://happydiyhome.com/indoor-vine-plants/) 
+- Read more on [indoor vine plants](https://happydiyhome.com/indoor-vine-plants/) 
