@@ -29,9 +29,7 @@
 
 Stuff for development. Its happens in [master branch](https://github.com/fumes/fumes11ty/):
 
-- Nmp
-
-- Gulp
+- npm
 
 - 11ty
 
@@ -39,16 +37,19 @@ Stuff for development. Its happens in [master branch](https://github.com/fumes/f
 
 - Netlify CND and SSL/https.
 
-
-## Dev prerequisites:
-
-### 1. Install node dependencies into project's local dir
+## Setup:
 
 ```sh
 npm install
 ```
 
-## Dev times:
+after that, you might need to run also:
+
+```sh
+npm audit fix
+```
+
+## Dev time:
 
 ### A. Run 11ty
 
@@ -62,40 +63,10 @@ npx @11ty/eleventy --serve --port=8081
 ```
 
 
+### B. Produce images
 
+Use [Grinder](https://github.com/toybreaker/grinder) gulp functions to quickly make all the images need for Fumes's responsive layout.
 
-### B. Run gulp to produce images
-
-Open a new terminal window and
-
-Rename all to lowercase + del
-
-```sh
-gulp lower
-```
-
-Produce all the different sizes images + del
-
-```sh
-gulp sizes
-```
-
-Rename images with dir name and progressive index + del
-
-```sh
-gulp rename
-```
-
-Rename images adding dir name and progressive index + del
-
-```sh
-gulp curate
-```
-
-Or to produce all the different sizes images without deleting originals
-```sh
-gulp size_images
-```
 
 ## To do
 
