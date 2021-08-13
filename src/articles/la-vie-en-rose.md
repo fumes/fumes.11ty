@@ -16,7 +16,7 @@ tags:
   - water
 license: CC_BY_NC_ND
 thumb: la-vie-en-rose.jpg
-description: "Eyes which make me lower mine. If you look at the bright side of life, your whole life becomes filled with light. So we can make treasure of La Vie en rose"
+description: "Eyes which make me lower mine. If you look at the bright side of life, your whole life becomes filled with light. So we can make treasure of La Vie En Rose"
 image: "/assets/p/la-vie-en-rose/200718_rokma_photo.jpg"
 ---
 # Eyes which make me lower mine
@@ -25,7 +25,7 @@ If you look at the bright side of life, your whole life becomes filled with ligh
 
 There are a few easy shifts that better take place, in order to create a state of constant awareness of how amazing life is.
 
-Most of the time we only catch a glimpse of how amazing things.
+Most of the time we only catch a glimpse of how amazing things are.
 
 
 {% include partials/image.html, caption: "See the positive things in life", name: "_7193" %}
@@ -35,7 +35,7 @@ Most of the time we only catch a glimpse of how amazing things.
 
 While having a positive attitude doesn’t necessarily make you less stressed, it can give you the tools for an healthy way.
 
-Take a look at the stress, we generate it because we need it.
+Take a look at stress, we generate it because we need it.
 
 A positive attitude is accepting that and going past it in your work and personal life.
 
@@ -48,7 +48,7 @@ Having a positive mindset naturally results in a more optimistic view of life.
 
 Rather than thinking “the grass is greener on the other side,” see the green grass around you.
 
-There ain't no negative events, they are all just lessons.
+There ain't no negative events, all that happpens are just lessons.
 
 {% include partials/image.html, caption: "Vedere il lato positivo della vita", name: "_7171" %}
 
@@ -66,7 +66,7 @@ Rather than jumping to a harmful conclusion, you can empathise with people and c
 
 It’s always important to take care of both your physical and mental health.
 
-Cos really, you mind and you body aint separated.
+Cos really, you mind and your body ain't separated.
 
 {% include partials/image.html, caption: "Wear rose-colored glasses", name: "_7203" %}
 
@@ -75,15 +75,15 @@ Cos really, you mind and you body aint separated.
 
 On a busy day, it can sometimes be difficult to find time for a serious break.
 
-That means leaving the workspace, resign, go to an other contry and start anew, putting away all past information.
+That means leaving the workspace, resign, go to an other country and start anew, putting away all past information.
 
-You are legally allowed to have a break, and you should never feel like that it can happen later.
+You are allowed to have breaks and you should never feel like that it can happen later. There is only the now.
 
 {% include partials/image.html, caption: "Look through rose-tinted glasses", name: "_7254" %}
 
 # He speaks to me softly
 
-Dont jump into defense. You want a good thing.
+Don't jump into defense. You want good things.
 
 No more conflicts in which you partake, no more negativity will surround your life.
 
@@ -91,13 +91,13 @@ No more conflicts in which you partake, no more negativity will surround your li
 
 # See life through rose-coloured glasses
 
-The world can be a messy, exhausting place sometime.
+The world can be a messy, exhausting place sometimes.
 
 The first step is understanding that you are in control of your thoughts and how you act towards things that happen.
 
-It’s about changing your habits around your old way of thinking.
+It’s about changing your habits and your way of thinking.
 
-So we can make treasure of "La Vie en rose" French for '"Life in pink"', the signature song of popular French singer Édith Piaf, written in 1945.
+We can make treasure of "La Vie en rose" French for '"Life in pink"', the signature song of popular French singer Édith Piaf, written in 1945.
 
 
 ## More infos
