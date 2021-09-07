@@ -11,9 +11,6 @@
 
 .post_card {
   will-change: transform;
-  // content-visibility: auto;
-  // position: relative;
-  // float: left;
   margin: 0 0 1.45rem;
   max-width: 100%;
   @include media("screen", ">bp1Width") {
@@ -50,10 +47,7 @@
 
   h2 {
     width: 100%;
-    text-transform: capitalize;
-    //margin-bottom: 0;
-    //position: absolute;
-    //z-index: 3;
+    text-transform: uppercase;
     background-color: $background_color;
 
     .compact & {

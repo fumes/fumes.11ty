@@ -102,6 +102,6 @@ We can make treasure of "La Vie en rose" French for '"Life in pink"', the signat
 
 ## More infos
 
-[La vie en rose - Edith Piaf - You Tube clip](https://youtu.be/rzeLynj1GYM)
+[La vie en rose - Edith Piaf clip](https://youtu.be/rzeLynj1GYM)
 
 [La vie en rose - Wikipedia](https://en.wikipedia.org/wiki/La_Vie_en_rose)
