@@ -1,5 +1,4 @@
 //Headings
-
 .h1,
 .h2,
 .h3,
@@ -19,11 +18,13 @@ h6 {
 .h1,
 h1 {
   font-size: $base_font_size * 1.40;
+  text-transform: uppercase;
 }
 
 .h2,
 h2 {
   font-size: $base_font_size * 1.35;
+  text-transform: uppercase;
 }
 
 .h3,

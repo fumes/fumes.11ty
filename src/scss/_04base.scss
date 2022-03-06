@@ -221,6 +221,7 @@ strong {
   }
 }
 
+
 // necessary for sticky footer
 .body_wrapper {
   background-color: $background_color;
@@ -234,4 +235,8 @@ strong {
 
 .margin_bottom_small {
   margin-bottom: $vertical_rhythm--small/2;
+}
+
+.uppercase {
+  text-transform: uppercase!important;
 }

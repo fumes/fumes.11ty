@@ -1,6 +1,6 @@
 {
   "name": "fumes11ty",
-  "version": "5.11.1",
+  "version": "6.1.0",
   "description": "Fumes at 11ty",
   "scripts": {
     "build": "npm run sass && eleventy",
